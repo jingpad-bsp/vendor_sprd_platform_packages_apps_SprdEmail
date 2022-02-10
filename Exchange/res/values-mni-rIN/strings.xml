@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"লৌরে: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">"লৌ য়াদ্রে: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">"অরেপ্পা নত্তবা: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">"ককথৎলে: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">"অপদেত তৌরে: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">"করম্বা মতমদা: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">"কদায়দা: <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">"করম্বা মতমদা: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (হন্না থোক্লি) "</string>
+<string name="meeting_allday">"করম্বা মতমদা: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>  (নুমিৎ চুপ্পা) "</string>
+<string name="meeting_allday_recurring">"করম্বা মতমদা: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>  (নুমিৎ চুপ্পা, হন্না থোকপা) "</string>
+<string name="app_name">"Exchange সার্ভিসশীং"</string>
+<string name="exception_cancel">"থৌদোক অসি ককথৎখ্রে গী: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="exception_updated">"থৌদোক অসিগী অকুপ্পা ৱারোল হোংখ্রে গী: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="policy_dont_allow_storage_cards">"স্টোরেজ কার্দশীং য়াহনগনু"</string>
+<string name="policy_dont_allow_unsigned_apps">"সাইন তৌদবা এপশীং য়াহনগনু"</string>
+<string name="policy_dont_allow_unsigned_installers">"সাইন তৌদবা এপ ইনস্টোলরশীং য়াহনগনু"</string>
+<string name="policy_dont_allow_wifi">"Wi-Fi য়াহনগনু"</string>
+<string name="policy_dont_allow_text_messaging">"টেকস্ট মেসেজ তৌবা য়াহনগনু"</string>
+<string name="policy_dont_allow_pop_imap">"POP3 নত্ত্রগা IMAP একাওন্টশীং য়াহনগনু"</string>
+<string name="policy_dont_allow_irda">"ইনফ্রারেদ কমুনিকেশন্স য়াহনগনু"</string>
+<string name="policy_dont_allow_html">"HTML ইমেল য়াহনগনু"</string>
+<string name="policy_dont_allow_browser">"ব্রাওজরশীং য়াহনগনু"</string>
+<string name="policy_dont_allow_consumer_email">"কনজ্যুমর ইমেলশীং য়াহনগনু"</string>
+<string name="policy_dont_allow_internet_sharing">"ইন্টরনেট শরুক য়ামিন্নবা য়াহনগনু"</string>
+<string name="policy_require_smime">"SMIME মেসেজশীং দরকার ওই"</string>
+<string name="policy_bluetooth_restricted">"ব্লুটুথ শীজিন্নবদা অথিংবা থম্মু"</string>
+<string name="policy_app_blacklist">"তাংদাংবা এপশীং য়াহনগনু"</string>
+<string name="policy_app_whitelist">"তাংদাংবা এপশীং খক্তং য়াহল্লু"</string>
+<string name="policy_text_truncation">"টেকস্ট ইমেল সাইজদা অথিংবা থম্মু"</string>
+<string name="policy_html_truncation">"HTML ইমেল সাইজদা অথিংবা থম্মু"</string>
+<string name="policy_require_sd_encryption">"SD কার্দ এনক্রিপ্সন দরকার ওই"</string>
+<string name="policy_dont_allow_attachments">"এটেচমেন্টশীং য়াহনগনু"</string>
+<string name="policy_max_attachment_size">"এটেচমেন্ট সাইজদা অথিংবা থম্মু"</string>
+<string name="policy_require_manual_sync_roaming">"রোমিং তৌরিঙৈদা মেনুৱেল সিঙ্ক খক্তং য়াহল্লু"</string>
+<string name="policy_require_encryption">"দিভাইস এনক্রিপ্সন দরকার ওই"</string>
+<string name="account_setup_options_mail_window_auto">"মশা মথন্তা"</string>
+<string name="account_setup_options_mail_window_1day">"নোংমা"</string>
+<string name="account_setup_options_mail_window_3days">"নুমিৎ অহুম"</string>
+<string name="account_setup_options_mail_window_1week">"চয়োল অমা"</string>
+<string name="account_setup_options_mail_window_2weeks">"চয়োল অনি"</string>
+<string name="account_setup_options_mail_window_1month">"থা অমা"</string>
+<string name="account_setup_options_mail_window_all">"লোইনমক"</string>
+<string name="auth_error_notification_title">"ওথেন্টিকেশনদা অশোয়বা"</string>
+<string name="auth_error_notification_text">"একাওন্ট সেটিংশীং এদিত তৌনবা শোকউ গী <xliff:g id="account">%s</xliff:g>"</string>
+<string name="email_settings_not_available">"সেটিংশীং য়েংনবা ইমেল এপ্লিকেশন অদু হন্না য়াহল্লু."</string>
+</resources>

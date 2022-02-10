@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sprd.mail.vip.activity.VipListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:gravity="center_vertical"
+    android:minHeight="48dip"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/contact_icon"
+        android:layout_width="@dimen/contacts_picker_image_size"
+        android:layout_height="@dimen/contacts_picker_image_size"
+        android:layout_marginEnd="@dimen/contacts_picker_image_margin_end"
+        android:layout_marginStart="@dimen/contacts_picker_image_margin_start"
+        android:layout_marginTop="@dimen/contacts_picker_name_margin_top"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_contact_picture" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/contacts_picker_name_margin_top"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@drawable/list_item_font_primary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/email_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/contacts_picker_email_margin_bottom"
+            android:layout_marginTop="@dimen/contacts_picker_email_margin_top"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@drawable/list_item_font_secondary"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <!-- Remove button -->
+
+    <CheckBox
+        android:id="@+id/vip_members_check_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/contacts_picker_checkbox_margin_end"
+        android:layout_marginTop="@dimen/contacts_picker_checkbox_margin_top" />
+
+</com.sprd.mail.vip.activity.VipListItem>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"স্বীকার:<xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">"অস্বীকার: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">"পরীক্ষণ:<xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">"বাতিল: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">"আপডেট:<xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">"যখন: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">"যেখানে: <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">"যখন: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (আবৃত্ত)"</string>
+<string name="meeting_allday">"যখন:<xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (সমস্ত দিন)"</string>
+<string name="meeting_allday_recurring">"যখন: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (সমস্ত দিন, আবৃত্ত)"</string>
+<string name="app_name">বিনিময় সেবা</string>
+<string name="exception_cancel">"এই ইভেন্টটি বাতিল করা হয়েছে: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="exception_updated">"এই ঘটনার বিবরণ পরিবর্তন করা হয়েছে :<xliff:g id="date">%s</xliff:g> "</string>
+<string name="policy_dont_allow_storage_cards">না স্টোরেজ কার্ড করার অনুমতি দেবেন না</string>
+<string name="policy_dont_allow_unsigned_apps">না স্বাক্ষরবিহীন অ্যাপ্লিকেশন করার অনুমতি দেবেন না</string>
+<string name="policy_dont_allow_unsigned_installers">"সাইন না করা অ্যাপইন্সটলার অনুমোদন করবেন না"</string>
+<string name="policy_dont_allow_wifi">ওয়াইফাই না করার অনুমতি দেবেন না</string>
+<string name="policy_dont_allow_text_messaging">না টেক্সট মেসেজিং অনুমতি দেবেন না</string>
+<string name="policy_dont_allow_pop_imap">না POP3 বা IMAP অ্যাকাউন্ট অনুমতি দেবেন না</string>
+<string name="policy_dont_allow_irda">কি ইনফ্রারেড যোগাযোগ অনুমোদন করে না</string>
+<string name="policy_dont_allow_html">না এইচটিএমএল ইমেল করার অনুমতি দেবেন না</string>
+<string name="policy_dont_allow_browser">কি ব্রাউজার অনুমতি দেবেন না</string>
+<string name="policy_dont_allow_consumer_email">না ভোক্তা ইমেল করার অনুমতি দেবেন না</string>
+<string name="policy_dont_allow_internet_sharing">কি ইন্টারনেট শেয়ারিং অনুমতি দেয় না</string>
+<string name="policy_require_smime">SMIME বার্তা প্রয়োজন</string>
+<string name="policy_bluetooth_restricted">পশ্চাদপট তথ্য সীমিত?</string>
+<string name="policy_app_blacklist">অনুমতি না দেওয়া নির্দিষ্ট অ্যাপ্লিকেশন</string>
+<string name="policy_app_whitelist">শুধুমাত্র নির্দিষ্ট অ্যাপ্লিকেশনের মঞ্জুরি</string>
+<string name="policy_text_truncation">টেক্সট ইমেল আকার সীমিত</string>
+<string name="policy_html_truncation">এইচটিএমএল ইমেল আকার সীমিত</string>
+<string name="policy_require_sd_encryption">এসডি কার্ড এনক্রিপশন প্রয়োজন</string>
+<string name="policy_dont_allow_attachments">না সংযুক্তি করার অনুমতি দেবেন না</string>
+<string name="policy_max_attachment_size">সংযুক্তি আকার সীমিত</string>
+<string name="policy_require_manual_sync_roaming">শুধুমাত্র ম্যানুয়াল সিঙ্ক করার অনুমতি দেয় বিচরণ</string>
+<string name="policy_require_encryption">ডিভাইস এনক্রিপশন প্রয়োজন</string>
+<string name="account_setup_options_mail_window_auto">স্বয়ংক্রিয়</string>
+<string name="account_setup_options_mail_window_1day">একদিন</string>
+<string name="account_setup_options_mail_window_3days">তিন দিন</string>
+<string name="account_setup_options_mail_window_1week">এক সপ্তাহ</string>
+<string name="account_setup_options_mail_window_2weeks">দুই সপ্তাহ</string>
+<string name="account_setup_options_mail_window_1month">এক মাস</string>
+<string name="account_setup_options_mail_window_all">সমস্ত</string>
+<string name="auth_error_notification_title">অথেনটিকেশন ত্রুটি।</string>
+<string name="auth_error_notification_text">"<xliff:g id="account">%s</xliff:g> একাউন্ট এডিট করতে স্পর্শ করুন" </string>
+<string name="email_settings_not_available">"সেটিংস দেখতে ইমেল অ্যাপ্লিকেশনটিকে আবার চালু করুন।"</string>
+</resources>

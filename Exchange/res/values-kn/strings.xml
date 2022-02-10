@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"ಒಪ್ಪಿಕೊಳ್ಳಲಾಗಿದೆ: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_declined">"ನಿಪಾತಗೊಳಿಸಲಾಗಿದೆ: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_tentative">"ಪ್ರಾಯೋಗಿಕ: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_canceled">"ರದ್ದುಗೊಳಿಸಲಾಗಿದೆd: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_updated">"ನವೀನಗೊಳಿಸಲಾಗಿದೆ: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_when">"ಯಾವಾಗ: <xliff:g id="when">%s</xliff:g>"</string>
+<string name="meeting_where">"ಎಲ್ಲಿ: <xliff:g id="where">%s</xliff:g>"</string>
+<string name="meeting_recurring">"ಯಾವಾಗ: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (ಮತ್ತೆ ಮತ್ತೆ)"</string>
+<string name="meeting_allday">"ಯಾವಾಗ: <xliff:g id="eventdate" example="Tue, Mar 10, 2010">%s</xliff:g> (ಇಡೀ ದಿನ)"</string>
+<string name="meeting_allday_recurring">"ಯಾವಾಗ: <xliff:g id="eventdate" example="Tue, Mar 10, 2010">%s</xliff:g> (ಇಡೀ ದಿನ, ಮತ್ತೆ ಮತ್ತೆ)"</string>
+<string name="app_name">"ವಿನಿಮಯ ಸರ್ವೀಸ್ಗಳು"</string>
+<string name="exception_cancel">"ಈ ಪ್ರಸಂಗವನ್ನು ಇದಕ್ಕಾಗಿ ರದ್ದು ಮಾಡಲಾಗಿದೆ: <xliff:g id="date">%s</xliff:g>"</string>
+<string name="exception_updated">"ಈ ಪ್ರಸಂಗದ ವಿವರಗಳನ್ನು ಇದಕ್ಕಾಗಿ ಬದಲಾಯಿಸಲಾಗಿದೆ: <xliff:g id="date">%s</xliff:g>"</string>
+<string name="policy_dont_allow_storage_cards">"ಸಹಿಯಿಲ್ಲದ  ಅಪ್ಲಿಕೇಶನ್ ಗಳಿಗೆ ಒಪ್ಪಿಗೆ ನೀಡಬೇಡಿ"</string>
+<string name="policy_dont_allow_unsigned_apps">"ದಾಸ್ತಾನು ಕಾರ್ಡ್ ಗಳಿಗೆ ಒಪ್ಪಿಗೆ ನೀಡಬೇಡಿ"</string>
+<string name="policy_dont_allow_unsigned_installers">"ಸಹಿಯಿಲ್ಲದ ಅಪ್ಲಿಕೇಶನ್ಇನ್ಸ್ತಲ್ಲೆರ್ಸ್ ಒಪ್ಪಿಗೆ ನೀಡಬೇಡಿ"</string>
+<string name="policy_dont_allow_wifi">"Wi-Fiಗೆ ಒಪ್ಪಿಗೆ ನೀಡಬೇಡಿ"</string>
+<string name="policy_dont_allow_text_messaging">"ಪದ ಸಂದೇಶಕ್ಕೆ ಒಪ್ಪಿಗೆ ನೀಡಬೇಡಿ"</string>
+<string name="policy_dont_allow_pop_imap">"POP3 ಅಥವಾ IMAP ಅಕೌಂಟ್ಗಳಿಗೆ ಒಪ್ಪಿಗೆ ನೀಡಬೇಡಿ"</string>
+<string name="policy_dont_allow_irda">"ಕೆಂಪುಕಿರಣ ಸಂವಹನಕ್ಕೆ ಒಪ್ಪಿಗೆ ನೀಡಬೇಡಿ"</string>
+<string name="policy_dont_allow_html">"HTML ಈಮೈಲ್ಗೆ ಒಪ್ಪಿಗೆ ನೀಡಬೇಡಿ"</string>
+<string name="policy_dont_allow_browser">"ಶೋಧಕಗಳಿಗೆ ಒಪ್ಪಿಗೆ ನೀಡಬೇಡಿ"</string>
+<string name="policy_dont_allow_consumer_email">"ಗ್ರಾಹಕ ಈಮೈಲ್ಗಳಿಗೆ ಒಪ್ಪಿಗೆ ನೀಡಬೇಡಿ"</string>
+<string name="policy_dont_allow_internet_sharing">"ಅಂತರ್ಜಾಲ ಹಂಚಿಕೆಗೆ ಒಪ್ಪಿಗೆ ನೀಡಬೇಡಿ"</string>
+<string name="policy_require_smime">"SMIME ಸಂದೆಶಗ:ಳ ಅಗತ್ಯವಿದೆ"</string>
+<string name="policy_bluetooth_restricted">"ಬ್ಲೂಟೂತ್ ಉಪಯೋಗವನ್ನು ಮಿತಗೊಳಿಸಿ"</string>
+<string name="policy_app_blacklist">"ಹೇಳಲ್ಪಟ್ಟ ಅಪ್ಲಿಕೇಶನ್ ಗಳನ್ನು ತಿರಸ್ಕರಸಿ"</string>
+<string name="policy_app_whitelist">"ಕೇವಲ ಹೇಳಲ್ಪಟ್ಟ ಅಪ್ಲಿಕೇಶನ್ ಗಳಿಗೆ ಮಾತ್ರ ಒಪ್ಪಿಗೆ ನೀಡಿ"</string>
+<string name="policy_text_truncation">"ಪದ ಈಮೈಲ್ ಗಾತ್ರವನ್ನು ಮಿತಗೊಳಿಸಿ"</string>
+<string name="policy_html_truncation">"HTML ಈಮೈಲ್ ಗಾತ್ರವನ್ನು ಮಿತಗೊಳಿಸಿ"</string>
+<string name="policy_require_sd_encryption">"SD ಕಾರ್ಡ್ ಎನ್ಕ್ರಿಪ್ಶನ್ ಅಗತ್ಯವಿದೆ"</string>
+<string name="policy_dont_allow_attachments">"ಹೊಂದಿಕೆಗಳಿಗೆ ಒಪ್ಪಿಗೆ ನೀಡಬೇಡಿ"</string>
+<string name="policy_max_attachment_size">"ಹೊಂದಿಕೆಗಳ ಗಾತ್ರವನ್ನು ಮಿತಗೊಳಿಸಿ"</string>
+<string name="policy_require_manual_sync_roaming">"ತಿರುಗಾಟದಲ್ಲಿದ್ದಾಗ ಕೇವಲ ಕೈ ಸಿಂಕ್ಗೆ ಮಾತ್ರ ಒಪ್ಪಿಗೆ ನೀಡಿ"</string>
+<string name="policy_require_encryption">"ಡಿವೈಸ್ ಎನ್ಕ್ರಿಪ್ಶನ್ ಅಗತ್ಯವಿದೆ"</string>
+<string name="account_setup_options_mail_window_auto">"ಸ್ವಯಂಚಾಲಿತ"</string>
+<string name="account_setup_options_mail_window_1day">"ಒಂದು ದಿನ"</string>
+<string name="account_setup_options_mail_window_3days">"ಮೂರು ದಿನಗಳು"</string>
+<string name="account_setup_options_mail_window_1week">"ಒಂದು ವಾರ"</string>
+<string name="account_setup_options_mail_window_2weeks">"ಎರಡು ವಾರಗಳು"</string>
+<string name="account_setup_options_mail_window_1month">"ಒಂದು ತಿಂಗಳು"</string>
+<string name="account_setup_options_mail_window_all">"ಎಲ್ಲ"</string>
+<string name="auth_error_notification_title">"ದೃಢೀಕರಣ ದೋಷ."</string>
+<string name="auth_error_notification_text">"ಇದಕ್ಕಾಗಿ ಅಕೌಂಟ್ ಪರಿಷ್ಕರಣ ಜೋಡಣೆಗಳನ್ನು ಸ್ಪರ್ಶಿಸಿ <xliff:g id="account">%s</xliff:g>"</string>
+<string name="email_settings_not_available">"ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಇಮೇಲ್ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಮರು-ಸಕ್ರಿಯಗೊಳಿಸಿ."</string>
+</resources>

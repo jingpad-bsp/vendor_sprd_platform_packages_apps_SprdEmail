@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="from">"གསར་བ།"</string>
+<string name="to">"ཐོན་པ།"</string>
+<string name="cc">"འབྲི་སྐུར།"</string>
+<string name="bcc">"གསང་སྐུར།"</string>
+<string name="subject_hint">"བརྗོད་བྱ།"</string>
+<string name="body_hint">"སྦྲག་ཡིག་ནང་དོན།"</string>
+<string name="add_file_attachment">"ཟུར་བཏགས་འདོགས།"</string>
+<string name="add_photo_attachment">"ཟུར་བཏགས་པར་རིས།"</string>
+<string name="save_draft">"སྐྱ་བྲིས་ཉར།"</string>
+<string name="discard">དོར་བ།</string>
+<string name="compose">ཆ་འཕྲིན་གསར་བ་འབྲི། </string>
+<string name="compose_title">ཆ་འཕྲིན་གསར་བ་འབྲི། </string>
+<string-array name="compose_modes">
+<item>ཡ་ལན་སློག</item>
+<item>ཚང་མར་ཡ་ལན་སློག</item>
+<item>མདུན་སྐྱོད།</item>
+</string-array>
+<string name="reply_attribution">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> སྟེང་དུ་གཤམ་དུ་ལྟར་བྲིས།"</string>
+<string name="forward_attribution"> ---------- གློག་རྡུལ་སྦྲག་ཡིག ----------&lt;br&gt;སྐུར་མཁན།<xliff:g id="FROM">%1$s</xliff:g>&lt;br&gt;ཚེས་གྲངས།<xliff:g id="DATE">%2$s</xliff:g>&lt;br&gt;གཙོ་བྱང་།<xliff:g id="SUBJECT">%3$s</xliff:g>&lt;br&gt;འབྱོར་ས། <xliff:g id="TO">%4$s</xliff:g>&lt;br&gt;</string>
+<string name="forward_attribution_no_headers">---------- གཞན་སྐུར་གྱི་འཕྲིན་པ། ----------</string>
+<string name="cc_attribution">བཤུས་སྐུར་<xliff:g id="CC">%1$s</xliff:g>&lt;br&gt;</string>
+<string name="select_attachment_type">"ཟུར་བཏགས་ཀྱི་རིགས་སྣ་འདམ།"</string>
+<string name="too_large_to_attach_single">"ཟུར་བཏགས་ཡིག་ཆའི་ཆེ་ཆུང་<xliff:g id="maxSize">%1$s</xliff:g>ལས་བརྒལ་མི་རུང་།"</string>
+<string name="too_large_to_attach_multiple">"ཡིག་ཆ་མང་པོ་སྣོན་མ་ཐུབ། གོང་མཐའ་ནི་<xliff:g id="maxSize">%1$s</xliff:g>"</string>
+<string name="too_large_to_attach_additional">"ཟུར་བཏགས་ཡིག་ཆ་སྣོན་མ་ཐུབ། གོང་མཐའ་<xliff:g id="maxSize">%1$s</xliff:g>ལ་ཐུག་ཟིན།"</string>
+<string name="generic_attachment_problem">"ཟུར་བཏགས་ཡིག་ཆ་སྣོན་ཐབས་མི་འདུག"</string>
+<string name="attachment_permission_denied">ཟུར་བཏགས་སྣོན་པའི་དབང་ཚད་མི་འདུག</string>
+<string name="recipient_needed">"སྦྲག་འཕྲིན་འབྱོར་ས་གཅིག་སྣོན།"</string>
+<string name="confirm_send_message_with_no_subject">"སྦྲག་ཡིག་གི་གཙོ་བྱང་དུ་ཡི་གེ་མི་འདུག"</string>
+<string name="confirm_send_message_with_no_body">"སྦྲག་ཡིག་གི་དཀྱུས་ཡིག་ཏུ་ཡི་གེ་མི་འདུག"</string>
+<string name="confirm_send_message">"སྦྲག་ཡིག་འདི་སྐུར་རྒྱུ་ཡིན་ནམ།"</string>
+<string name="message_discarded">ཆ་འཕྲིན་འདོར་ཟིན།</string>
+<string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+<string name="custom_from_account_label">"གཤམ་གྱི་གནས་སར་སྦྲག་ཡིག་སྐུར་རྒྱུ་ཡིན།"</string>
+<string name="send">"བསྐུར་སྐྱེལ།"</string>
+<string name="mark_read">བཀླགས་ཟིན་རྟགས་འགོད།</string>
+<string name="mark_unread">མ་བཀླགས་པའི་རྟགས་འགོད།</string>
+<string name="toggle_read_unread">བཀླགས་མ་བཀླག་ཏུ་བརྗེ་སྒྱུར་བྱེད།</string>
+<string name="mute">སྒྲ་འཇགས།</string>
+<string name="add_star">སྐར་རྟགས་འགོད།</string>
+<string name="remove_star">སྐར་རྟགས་སུབ།</string>
+<string name="remove_folder">" <xliff:g id="folderName">%1$s</xliff:g>ནས་སུབ།"</string>
+<string name="archive">"ཡིག་ཚགས་སུ་ཉར།"</string>
+<string name="report_spam">"སྙིགས་མའི་སྦྲག་ཡིག་ཐེར་འདོན་བྱེད།"</string>
+<string name="mark_not_spam">"སྙིགས་མའི་སྦྲག་ཡིག་ཐེར་འདོན་མི་བྱེད།"</string>
+<string name="report_phishing">"སླུ་བྲུད་ཐེར་འདོན་བྱེད།"</string>
+<string name="delete">སུབ།</string>
+<string name="discard_drafts">"སྐྱ་བྲིས་འདོར།"</string>
+<string name="discard_failed">སྐུར་མ་ཐུབ་པའི་སྦྲག་ཡིག་སྐྱུར།</string>
+<string name="refresh">"གསར་འདོན།"</string>
+<string name="reply">ཡ་ལན་སློག</string>
+<string name="reply_all">ཚང་མར་ཡ་ལན་སློག</string>
+<string name="resume_draft">རྩོམ་སྒྲིག</string>
+<string name="forward">མདུན་སྐྱོད།</string>
+<string name="menu_compose">ཆ་འཕྲིན་གསར་བ་འབྲི། </string>
+<string name="menu_change_folders">"ཡིག་ཁུག་སྒྱུར།"</string>
+<string name="menu_move_to">སྤོ།</string>
+<string name="menu_move_to_inbox">"འབྱོར་སྒམ་དུ་སྤོར།"</string>
+<string name="menu_manage_folders">"ཡིག་ཁུག་གི་སྒྲིག་འགོད།"</string>
+<string name="menu_show_original">"རང་འགུལ་གྱིས་ཆེ་ཆུང་སླར་སྒྲིག་བྱས་པ་འདོར།"</string>
+<string name="menu_settings">སྒྲིག་འགོད།</string>
+<string name="menu_search">"འཚོལ་བཤེར།"</string>
+<string name="menu_toggle_drawer">འདྲེན་སྒམ་དུ་བརྗེ་སྒྱུར་བྱེད།་</string>
+<string name="drawer_title">དྲ་ངོས་ཕྱོགས་སྟོན།</string>
+<string name="mark_important">"གཙོ་བའི་རྟགས་རིས་འགོད།"</string>
+<string name="mark_not_important">"ཕལ་བའི་རྟགས་རིས་འགོད།"</string>
+<string name="add_cc_label">"འབྱོར་ས་སྣོན/གསང་སྐུར་གནས་ས།"</string>
+<string name="add_bcc_label">"གསང་སྒྲིག་སྐུར་ས་སྣོན།"</string>
+<string name="quoted_text">"འདྲེན་སྤྱོད་ཡི་གེ་འདུས།"</string>
+<string name="quoted_text_label">"འདྲེན་སྤྱོད་ཡི་གེ"</string>
+<string name="respond_inline">"ཐོག་མའི་སྦྲག་འཕྲིན་སྟེང་ནས་ལན་སྐུར།"</string>
+<string name="bytes">"<xliff:g id="count">%s</xliff:g>&amp;amp;amp;#160;B"</string>
+<string name="kilobytes">"<xliff:g id="count">%s</xliff:g>&amp;amp;amp;#160;KB"</string>
+<string name="megabytes">"<xliff:g id="count">%s</xliff:g>&amp;amp;amp;#160;MB"</string>
+<string name="attachment_image">པར་རིས།</string>
+<string name="attachment_video">བརྙན་ཟློས།</string>
+<string name="attachment_audio">སྒྲ་ཟློས།</string>
+<string name="attachment_text">"ཡིག་དེབ།"</string>
+<string name="attachment_application_msword">ཡིག་ཚགས།</string>
+<string name="attachment_application_vnd_ms_powerpoint">"འཕེལ་རིམ་ཟིན་བྲིས།"</string>
+<string name="attachment_application_vnd_ms_excel">"གློག་རྡུལ་རེའུ་མིག"</string>
+<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g>ཡིག་ཆ།"</string>
+<string name="preview_attachment">"སྔོན་ལྟ།"</string>
+<string name="save_attachment">ཉར་ཚགས།</string>
+<string name="download_again">"སླར་འབེབ་ལེན་བྱེད།"</string>
+<string name="remove_attachment_desc"> ཟུར་བཏགས་<xliff:g id="attachmentName">%s</xliff:g>འདོར།</string>
+<string name="more_info_attachment">"ཆ་འཕྲིན།"</string>
+<string name="no_application_found">"ཟུར་བཏགས་དེའི་ཁ་འབྱེད་ཐུབ་པའི་ཉེར་སྤྱོད་མི་འདུག དེ་བས་ལྟ་མི་ཐུབ།"</string>
+<string name="fetching_attachment">"ཟུར་བཏགས་ལེན་བཞིན་འདུག"</string>
+<string name="please_wait">ཕྲན་ཙམ་སྒུག་རོགས།...</string>
+<string name="saved">"ཉར་ཟིན།&amp;amp;amp;#160; <xliff:g id="size">%s</xliff:g> "</string>
+<string name="download_failed">"འབེབ་ལེན་བྱེད་ཐབས་མི་འདུག རེག་ནས་སླར་ཚོད་ལྟ་བྱེད་རོགས།"</string>
+<string name="menu_photo_save_all">"ཚང་མ་ཉར།"</string>
+<string name="menu_photo_share">མཉམ་སྤྱོད།</string>
+<string name="menu_photo_share_all">"ཚང་མ་མཉམ་རོལ་བྱེད།"</string>
+<string name="menu_photo_print">"པར་འདེབས།"</string>
+<string name="saving">"ཉར་བཞིན་འདུག&#8230;"</string>
+<string name="choosertitle_sharevia">"བགོས་རོལ་བྱེད།"</string>
+<string name="contextmenu_openlink">"ལྟ་ཀློག་ཆས་སུ་ཁ་འབྱེད།"</string>
+<string name="contextmenu_copy">བསྐྱར་བཤུས་བྱེད།</string>
+<string name="contextmenu_copylink">"སྦྲེལ་མཐུད་དྲ་གནས་འདྲ་འབེབ་བྱེད།"</string>
+<string name="contextmenu_view_image">"པར་རིས་ལ་ལྟ་བཤེར་བྱེད།"</string>
+<string name="contextmenu_dial_dot">"འབོད…"</string>
+<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+<string name="contextmenu_add_contact">འབྲེལ་གཏུག་པ་ཁ་སྣོན།</string>
+<string name="contextmenu_send_mail">"གློག་རྡུལ་ཡི་གེ་བསྐུར་བ།"</string>
+<string name="contextmenu_map">"ས་ཁྲ།"</string>
+<string name="contextmenu_sharelink">"སྦྲེལ་མཐུད་བགོས་རོལ་བྱེད།"</string>
+<string name="content_description"><xliff:g id="TOHEADER">%1$s</xliff:g><xliff:g id="PARTICIPANT">%2$s</xliff:g>；གཙོ་བྱང་། <xliff:g id="SUBJECT">%3$s</xliff:g>；<xliff:g id="SNIPPET">%4$s</xliff:g>；<xliff:g id="DATE">%5$s</xliff:g>；<xliff:g id="READSTATE">%6$s</xliff:g></string>
+<string name="content_description_today"><xliff:g id="TOHEADER">%1$s</xliff:g><xliff:g id="PARTICIPANT">%2$s</xliff:g>；གཙོ་བྱང་།<xliff:g id="SUBJECT">%3$s</xliff:g>；<xliff:g id="SNIPPET">%4$s</xliff:g>；<xliff:g id="TIME">%5$s</xliff:g>；<xliff:g id="READSTATE">%6$s</xliff:g></string>
+<string name="content_description_with_folders"><xliff:g id="TOHEADER">%1$s</xliff:g><xliff:g id="PARTICIPANT">%2$s</xliff:g> གཙོ་བྱང་།<xliff:g id="SUBJECT">%3$s</xliff:g>，<xliff:g id="SNIPPET">%4$s</xliff:g> དུས་ཚོད<xliff:g id="DATE">%5$s</xliff:g>，<xliff:g id="READSTATE">%6$s</xliff:g>，བྱང་རྟགས<xliff:g id="FOLDERS">%7$s</xliff:g></string>
+<string name="content_description_today_with_folders"><xliff:g id="TOHEADER">%1$s</xliff:g><xliff:g id="PARTICIPANT">%2$s</xliff:g> གཙོ་བྱང <xliff:g id="SUBJECT">%3$s</xliff:g>，<xliff:g id="SNIPPET">%4$s</xliff:g> དུས་ཚོད <xliff:g id="TIME">%5$s</xliff:g>，<xliff:g id="READSTATE">%6$s</xliff:g>，བྱང་རྟགས <xliff:g id="FOLDERS">%7$s</xliff:g></string>
+<string name="read_string">"བཀླགས་ཟིན་པའི་ཁ་བརྡ།"</string>
+<string name="unread_string">"མ་བཀླག་པའི་ཁ་བརྡ།"</string>
+<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="badge_and_subject"><xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+<plurals name="draft">
+<item quantity="one">"མ་ཡིག"</item>
+<item quantity="other">མ་ཡིག</item>
+</plurals>
+<string name="sending">"སྐུར་བཞིན་པ།"</string>
+<string name="message_retrying">སླར་ཚོད་ལྟ་བྱེད་རོགས།…</string>
+<string name="message_failed">"འཚོལ་བཤེར་ཕམ་པ།"</string>
+<string name="send_failed">"འཕྲིན་ཐུང་སྐུར་མ་ཐུབ།"</string>
+<string name="me_object_pronoun">ང་།</string>
+<string name="me_subject_pronoun">ང་།</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">"ཁ་བརྡ་འདི་གསུབ་རྒྱུ་ཡིན་ནམ།"</item>
+<item quantity="other">"ཁ་བརྡ་<xliff:g id="count">%1$d</xliff:g>བོ་གསུབ་རྒྱུ་ཡིན་ནམ།"</item>
+</plurals>
+<plurals name="confirm_archive_conversation">
+<item quantity="one">"ཁ་བརྡ་འདི་ཡིག་ཚགས་སུ་ཉར་རྒྱུ་ཡིན་ནམ།"</item>
+<item quantity="other">"ཁ་བརྡ་<xliff:g id="count">%1$d</xliff:g>བོ་ཡིག་ཚགས་སུ་ཉར་རྒྱུ་ཡིན་ནམ།"</item>
+</plurals>
+<plurals name="confirm_discard_drafts_conversation">
+<item quantity="one">"འཕྲིན་ཐུང་འདི་འདོར་རྒྱུ་ཡིན་ནམ།"</item>
+<item quantity="other">སྦྲག་ཡིག་<xliff:g id="COUNT">%1$d</xliff:g>སྐྱུར་རྒྱུ་ཡིན་ནམ།</item>
+</plurals>
+<string name="confirm_discard_text">"འཕྲིན་ཐུང་འདི་འདོར་རྒྱུ་ཡིན་ནམ།"</string>
+<string name="loading_conversations">ནང་འཇུག་བྱེད་བཞིན་པ།...</string>
+<string name="empty_inbox">ཐག་གཅོད་བྱེད་རྒྱུའི་ཡིག་ཆ་མི་འདུག ངལ་གསོ་བྱེད་རོགས།</string>
+<string name="empty_search">དགོངས་པ་མ་ཚོམ། <xliff:g id="SEARCH_QUERY">%1$s</xliff:g>ཡི་མཇུག་འབྲས་མ་རྙེད།</string>
+<string name="empty_spam_folder">ཡག་པོ་བྲེ་དྲག་རེད། གད་པའི་སྦྲག་ཡིག་གང་ཡང་མི་འདུག</string>
+<string name="empty_trash_folder">བསུབས་ཟིན་པའི་ཡིག་ཆ་གང་ཡང་མི་འདུག འཁོར་སྐྱོད་བྱེད་པར་ཐུགས་རྗེ་ཆེ་ཞུ།</string>
+<string name="empty_folder">ཡིག་ཁུག་འདིའི་ནང་དུ་སྦྲག་ཡིག་གང་ཡང་མི་འདུག</string>
+<string name="getting_messages">ཁྱེད་ཀྱི་ཡིག་ཆ་ལེན་བཞིན་འདུག</string>
+<string name="undo">མེད་པར་བཟོ་བ།</string>
+<plurals name="conversation_unstarred">
+<item quantity="one">"ཁ་བརྡའི་སྐར་རྟགས <xliff:g id="count">%1$d</xliff:g> འདོར་བཞིན་འདུག"</item>
+<item quantity="other">"ཁ་བརྡའི་སྐར་རྟགས  <xliff:g id="count">%1$d</xliff:g> འདོར་བཞིན་འདུག"</item>
+</plurals>
+<plurals name="conversation_muted">
+<item quantity="one">"<b> <xliff:g id="count">%1$d</xliff:g> </b>སྣང་མེད་དུ་སྐྱུར་ཟིན།"</item>
+<item quantity="other">"<b> <xliff:g id="count">%1$d</xliff:g> </b>སྣང་མེད་དུ་སྐྱུར་ཟིན།"</item>
+</plurals>
+<plurals name="conversation_spammed">
+<item quantity="one">"ཁ་བརྡ་<b> <xliff:g id="count">%1$d</xliff:g> </b>སྙིགས་མར་བཀོད་ཟིན།"</item>
+<item quantity="other">"ཁ་བརྡ་<b> <xliff:g id="count">%1$d</xliff:g> </b>སྙིགས་མར་བཀོད་ཟིན།"</item>
+</plurals>
+<plurals name="conversation_not_spam">
+<item quantity="one">"ཁ་བརྡ་<b> <xliff:g id="count">%1$d</xliff:g> </b>སྙིགས་མར་བཀོད་ཟིན།"</item>
+<item quantity="other">"ཁ་བརྡ་<b> <xliff:g id="count">%1$d</xliff:g> </b>སྙིགས་མར་བཀོད་ཟིན།"</item>
+</plurals>
+<plurals name="conversation_not_important">
+<item quantity="one">"གཙོ་རྟགས་<b> <xliff:g id="count">%1$d</xliff:g> </b>བླངས་ཟིན།"</item>
+<item quantity="other">"གཙོ་རྟགས་<b> <xliff:g id="count">%1$d</xliff:g> </b>བླངས་ཟིན།"</item>
+</plurals>
+<plurals name="conversation_phished">
+<item quantity="one">"<b> <xliff:g id="count">%1$d</xliff:g> </b>ནི་དྲ་རྒྱའི་སླུ་བྲིད་དུ་ཐེར་འདོན་སྙན་ཞུ་འབུལ།"</item>
+<item quantity="other">"<b> <xliff:g id="count">%1$d</xliff:g> </b>ནི་དྲ་རྒྱའི་སླུ་བྲིད་དུ་ཐེར་འདོན་སྙན་ཞུ་འབུལ།"</item>
+</plurals>
+<plurals name="conversation_archived">
+<item quantity="one">"<b> <xliff:g id="count">%1$d</xliff:g> </b>ཡིག་ཚགས་སུ་འགོད།"</item>
+<item quantity="other">"<b> <xliff:g id="count">%1$d</xliff:g> </b>ཡིག་ཚགས་སུ་འགོད།"</item>
+</plurals>
+<plurals name="conversation_deleted">
+<item quantity="one">"<b> <xliff:g id="count">%1$d</xliff:g> </b>བསུབས་ཟིན།"</item>
+<item quantity="other">"<b> <xliff:g id="count">%1$d</xliff:g> </b>བསུབས་ཟིན།"</item>
+</plurals>
+<string name="deleted">བསུབས། </string>
+<string name="archived">"ཡིག་ཚགས་སུ་ཉར།"</string>
+<string name="folder_removed">"<xliff:g id="folderName">%1$s</xliff:g>ནས་བསུབས་ཟིན།"</string>
+<plurals name="conversation_folder_changed">
+<item quantity="one">"སྒྱུར་བཅོས་བྱས་པའི་ཡིག་ཁུག"</item>
+<item quantity="other">"སྒྱུར་བཅོས་བྱས་པའི་ཡིག་ཁུག"</item>
+</plurals>
+<string name="conversation_folder_moved">"<xliff:g id="folderName">%1$s</xliff:g>ལ་སྤར་ཟིན།"</string>
+<string name="search_results_header">"མཇུག་འབྲས།"</string>
+<string name="search_unsupported">"རྩིས་ཐོ་འདིས་འཚོལ་བཤེར་ལ་རྒྱབ་སྐྱོར་མི་བྱེད།"</string>
+<string name="search_suggestion_desc">རེ་འདུན།<xliff:g id="SUGGESTION">%s</xliff:g></string>
+<string name="add_label">ཡིག་ཆའི་སྣོད་སྐོགས་གསར་པ་བཟོ་བ།</string>
+<plurals name="new_incoming_messages">
+<item quantity="one">ཡིག་ཆ་གསར་བ་<xliff:g id="COUNT">%1$d</xliff:g>འདུག</item>
+<item quantity="other">"འཕྲིན་ཐུང་གསར་བ<xliff:g id="count">%1$d</xliff:g> "</item>
+</plurals>
+<string name="date_and_view_details"><xliff:g id="DATE">%1$s</xliff:g>&lt;a href=\'http://www.example.com\'&gt;གནས་ཚུལ་ཞིབ་ཕྲ་&lt;/a&gt;རུ་གསལ།</string>
+<string name="hide_details">ཞིབ་ཕྲ་སྦ།</string>
+<string name="to_message_header">འབྱོར་ས་<xliff:g id="RECIPIENTS">%1$s</xliff:g></string>
+<string name="bcc_header_for_recipient_summary">"ལྷན་སྐུར། \u0020"</string>
+<string name="contact_info_string">"<xliff:g id="name">%1$s</xliff:g>ཡི་འབྲེལ་གཏུག་ཆ་འཕྲིན་འཆར།"</string>
+<string name="contact_info_string_default">"འབྲེལ་གཏུག་གི་ཆ་འཕྲིན་འཆར།"</string>
+<plurals name="show_messages_read">
+<item quantity="other">" སྦྲིག་ཡིག་རྙིང་བ་ <xliff:g id="count" example="4">%1$d</xliff:g> ཡི་ཁ་འབྱེད།"</item>
+</plurals>
+<plurals name="super_collapsed_block_accessibility_announcement">
+<item quantity="other">གློག་སྦྲག་རྙིང་བ  <xliff:g id="count" example="4">%1$d</xliff:g>ཡི་ཁ་འགྲེམ།</item>
+</plurals>
+<string name="from_heading">སྐུར་མཁན།</string>
+<string name="replyto_heading">ཨ་ལན།</string>
+<string name="to_heading">"ལེན་མཁན། \u0020"</string>
+<string name="to_heading_no_space">སྡུད་མཁན།</string>
+<string name="cc_heading">"འབྲི་སྐུར།"</string>
+<string name="bcc_heading">"གསང་སྐུར།"</string>
+<string name="date_heading">"ཚེས་གྲངས།"</string>
+<string name="show_images">པར་རིས་འཆར།</string>
+<string name="always_show_images">"རྟག་པར་སྦྲག་ཡིག་སྐུར་མཁན་དེའི་པར་རིས་འཆར།"</string>
+<string name="always_show_images_toast">"སྦྲག་ཡིག་སྐུར་མཁན་ནས་ཐོན་པའི་པར་རིས་རང་འགུལ་གྱིས་འཆར་ངེས་ཡིན།"</string>
+<string name="address_display_format_with_via_domain">"<xliff:g id="via_domain">%3$s</xliff:g> ནས་ཐོན་པའི་<xliff:g id="name">%1$s</xliff:g>  <xliff:g id="email">%2$s</xliff:g> "</string>
+<string name="message_saved">"ཡིག་ཟམ་མ་ཡིག་ཏུ་གསོག་ཉར་བྱས་ཟིན།"</string>
+<string name="sending_message">"སྦྲག་ཡིག་སྐུར་བཞིན་འདུག\u2026"</string>
+<string name="invalid_recipient">"གནས་ས<xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g>ནི་ནུས་མེད་ཡིན།"</string>
+<string name="show_elided">ལུང་འདྲེན་ཡིག་དེབ་འཆར།</string>
+<string name="hide_elided">"\u25BCཡི་གེ་མི་འཆར།"</string>
+<string name="message_invite_title">ཚེས་ཐོའི་གདན་འདྲེན།</string>
+<string name="message_invite_calendar_view">"ཚེས་ཐོའི་ནང་དུ་འཆར།"</string>
+<string name="message_invite_label_attending">ཞུགས་རྒྱུ་ཡིན་ནམ།</string>
+<string name="message_invite_accept">ཡིན།</string>
+<string name="message_invite_tentative">"སྲིད།"</string>
+<string name="message_invite_decline">"མིན།"</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="send_anyway">གང་ལྟར་ཡང་སྐུར།</string>
+<string name="ok">ལགས་སོ།</string>
+<string name="done">ལེགས་འགྲུབ་བྱུང་།</string>
+<string name="cancel">འདོར།</string>
+<string name="clear">"གཙང་སེལ།"</string>
+<string name="next">"ཤོག་ལྷེ་རྗེས་མ།"</string>
+<string name="previous">"ངོས་གོང་མ།"</string>
+<string-array name="sync_status">
+<item>"ལེགས་འགྲུབ་བྱུང་།"</item>
+<item>"སྦྲེལ་མ་ཐུབ།"</item>
+<item>"ཐོ་འགོད་བྱེད་ཐབས་མི་འདུག"</item>
+<item>"བདེ་འཇགས་ནོར་འཛོལ།"</item>
+<item>"འགྲོས་བསྟུན་གནང་མི་ཐུབ།"</item>
+<item>"ནང་རོལ་ནོར་འཁྲུལ།"</item>
+<item>"ཞབས་ཞུ་ཆས་རྟག་པོ་མི་འདུག"</item>
+</string-array>
+<string name="tap_to_configure">"རེག་པ་ན་སྒྲིག་འགོད་བྱེད་ཐུབ།"</string>
+<string name="non_synced_folder_description">"ཁ་བརྡར་ལྟ་རྟོག་བྱེད་ཐུབ། ཡིག་ཆ་འདི་འགྲོས་མཉམ་དུ་གཏོང་།"</string>
+<string name="tap_to_configure_folder_sync">"འགྲོས་མཉམ་ཡིག་ཆ།"</string>
+<string name="large_unseen_count"><xliff:g id="COUNT">%d</xliff:g>+སྦྲག་ཡིག་གསར་བ།</string>
+<string name="unseen_count"><xliff:g id="COUNT">%d</xliff:g>གསར་བ།</string>
+<plurals name="actionbar_unread_messages">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g>མ་བཀླགས།"</item>
+</plurals>
+<string name="view_more_conversations">གྲོས་མོལ་དེ་ལས་མང་བ་གཏང་བ།</string>
+<string name="loading_conversation">ནང་འཇུག་བྱེད་བཞིན་པ།...</string>
+<string name="activity_mailbox_selection">"རྩིས་ཐོ་འདམ།"</string>
+<string name="activity_folder_selection">"ཡིག་ཁུག་འདམ།"</string>
+<string name="folder_shortcut_widget_label">"གློག་རྡུལ་ཡིག་ཁུག"</string>
+<string name="change_folders_selection_dialog_title">"ཡིག་ཁུག་སྒྱུར།"</string>
+<string name="move_to_selection_dialog_title">སྤོ།</string>
+<string name="search_hint">"འཚོལ་བཤེར།"</string>
+<string name="voice_search_not_supported">སྒྲིག་ཆས་འདིས་སྐད་སྒྲའི་འཚོལ་བཤེར་ལ་རྒྱབ་སྐྱོར་མི་བྱེད།</string>
+<string name="search_back_desc">འཚོལ་བཤེར་གྱི་སྒོ་སྟེམ།</string>
+<string name="search_voice_desc">"སྐད་སྒྲའི་འཚོལ་ཞིབ།"</string>
+<string name="search_clear_desc">འཚོལ་བཤེར་ཡིག་དེབ་གཙང་སེལ་བྱེད།</string>
+<string name="network_error">"སྦྲེལ་མ་ཐུབ།"</string>
+<string name="retry">ཡང་བསྐྱར་ཚོད་ལྟ།</string>
+<string name="load_more">"ཁུར་སྣོན་དེ་ལས་མང་།"</string>
+<string name="shortcut_name_title">"ཡིག་ཆའི་མྱུར་ལམ་ལ་མིང་འདོགས།"</string>
+<string name="wait_for_sync_title">"འགྲོས་བསྟུན་ཡོང་བར་སྒུག"</string>
+<string name="not_synced_title">"རྩིས་ཐོ་འགྲོས་བསྟུན་གནང་མེད།"</string>
+<string name="wait_for_manual_sync_body">"རྩིས་ཐོ་འདི་རང་འགུལ་འགྲོས་བསྟུན་དུ་སྒྲིག་འགོད་བྱས་མེད། \nཁྱེད་ཀྱིས་ད་སྐབས་<b>འགྲོས་བསྟུན་ལ་རེག་ནས་དེ་ལས་མང་བ་འགྲོས་</b>བསྟུན་གནང་ཆོག ཡང་ན་<b>སྒྲིག་འགོད་</b>སྒྱུར་ནས་རྩིས་ཐོ་འདི་རང་འགུལ་འགྲོས་བསྟུན་སྦྲག་ཡིག་ཏུ་སྒྲིག་འགོད་བྱས་ཆོག"</string>
+<string name="manual_sync">"འཕྲལ་མར་འགྲོས་བསྟུན་དུ་གཏོང་།"</string>
+<string name="change_sync_settings">"འགྲོས་བསྟུན་དུ་སྒྲིག་འགོད་བྱེད།"</string>
+<string name="photo_load_failed">"པར་རིས་འབེབ་ལེན་བྱེད་ཐབས་མི་འདུག"</string>
+<string name="cant_move_or_change_labels">བདམས་ཟིན་པའི་ནང་དོན་དུ་རྩིས་ཐོ་མང་པོའི་སྦྲག་ཡིག་འདུས་པས་གནས་སྤོ་བྱེད་མི་ཐུབ།</string>
+<string name="multiple_new_message_notification_item">"<b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="ignore_spam_warning">"སྣང་མེད་དུ་སྐྱུར། འཕྲིན་འདིར་ཡིད་ཆེས་ཡོད།"</string>
+<string name="via_domain">" <xliff:g id="viaDomain">%1$s</xliff:g>བརྒྱུད།"</string>
+<string name="signin">"ཐོར་འགོད།"</string>
+<string name="info">"ཆ་འཕྲིན།"</string>
+<string name="report">"སྙན་ཞུ།"</string>
+<string name="show">འཆར།</string>
+<string name="sync_error">"འགྲོས་མཉམ་དུ་གཏོང་ཐབས་མི་འདུག"</string>
+<string name="sync_error_message">"ངའི་སྒྲིག་ཆས་ཀྱི་ཉར་ཚགས་སྟོང་ཆ་མི་འདང་ཞིང་འགྲོས་བསྟུན་གནང་ཐབས་མི་འདུག"</string>
+<string name="storage">"གསོག་ཉར།"</string>
+<string name="senders_split_token">",\u00A0"</string>
+<string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+<string name="all_folders_heading">"ཡིག་ཁུག་མཐའ་དག"</string>
+<string name="recent_folders_heading">"ཉེ་ཆར་གྱི་ཡིག་ཆ།"</string>
+<string name="message_details_title">"ཡིག་ཟམ་ཞིབ་ཕྲའི་གནས་ཚུལ།"</string>
+<string name="preference_advance_to_title">"རང་འགུལ་མཆོངས་འཁོར།"</string>
+<string-array name="prefEntries_autoAdvance">
+<item>"མཐའ་འཇུག་གི་ཁ་བརྡ།"</item>
+<item>སྔ་རུ་འགྲོ།</item>
+<item>"ཁ་བརྡའི་ཟིན་ཐོ།"</item>
+</string-array>
+<string-array name="prefSummaries_autoAdvance">
+<item>"ཁྱེད་ཀྱིས་སུབ་པའི་སྒྲིག་བཀོལ་གནང་རྗེས་ཁ་བརྡ་གསར་བ་རྗེས་མ་འཆར།"</item>
+<item>"ཁྱེད་ཀྱིས་སུབ་པའི་སྒྲིག་བཀོལ་གནང་རྗེས་ཁ་བརྡ་རྙིང་བ་སྔོན་མ་འཆར།"</item>
+<item>"ཁྱེད་ཀྱིས་སུབ་པའི་སྒྲིག་བཀོལ་གནང་རྗེས་ཁ་བརྡའི་སྟར་བྱང་འཆར།"</item>
+</string-array>
+<string name="prefDialogTitle_autoAdvance">"གཤམ་གསལ་དུ་མཆོངས།"</string>
+<string name="clear_display_images_whitelist_title">"པར་རིས་འཆར་བའི་སྒྲིག་འགོད་གཙང་སེལ་བྱེད།"</string>
+<string name="clear_display_images_whitelist_dialog_title">"པར་རིས་འཆར་བའི་སྒྲིག་འགོད་གཙང་སེལ་བྱེད་རྒྱུ་ཡིན་ནམ།"</string>
+<string name="clear_display_images_whitelist_dialog_message">"སྔོན་དུ་སྦྲག་ཡིག་ནང་གི་པར་རིས་འཆར་དུ་འཇུག་པའི་སྐུར་མཁན་གྱི་སྦྲག་ཡིག་ནང་གི་པར་རིས་འཆར་བའི་མཚམས་གཅོད།"</string>
+<string name="sender_whitelist_cleared">"པར་རིས་རང་འགུལ་གྱིས་འཆར་མི་སྲིད།"</string>
+<string name="preferences_signature_title">མིང་འགོད།</string>
+<string name="preferences_signature_dialog_title">མིང་འགོད།</string>
+<string name="preferences_signature_summary_not_set">"སྒྲིག་འགོད་བྱས་མེད།"</string>
+<string name="notification_action_reply">ཡ་ལན་སློག</string>
+<string name="notification_action_reply_all">ཚང་མར་ཡ་ལན་སློག</string>
+<string name="notification_action_archive">"ཡིག་ཚགས་སུ་ཉར།"</string>
+<string name="notification_action_remove_label">"རྟགས་བྱང་སུབ།"</string>
+<string name="notification_action_delete">སུབ།</string>
+<string name="notification_action_undo_archive">"ཡིག་ཚགས་སུ་ཉར།"</string>
+<string name="notification_action_undo_remove_label">"རྟགས་བྱང་བསུབས་ཟིན།"</string>
+<string name="notification_action_undo_delete">བསུབས། </string>
+<string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+<plurals name="new_messages">
+<item quantity="one">ཡིག་ཆ་གསར་བ་<xliff:g id="COUNT">%1$d</xliff:g>འདུག</item>
+<item quantity="other">"འཕྲིན་ཐུང་གསར་བ<xliff:g id="count">%1$d</xliff:g> "</item>
+</plurals>
+<string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="silent_ringtone">སྒྲ་མེད།</string>
+<string name="preference_removal_action_title">"གཏན་འཁེལ་གྱི་བཀོལ་སྤྱོད།"</string>
+<string-array name="prefEntries_removal_action">
+<item>"ཡིག་ཚགས་སུ་ཉར།"</item>
+<item>སུབ།</item>
+</string-array>
+<string-array name="prefSummaries_removal_action_summary">
+<item>"ཡིག་ཚགས་སུ་ཉར།"</item>
+<item>སུབ།</item>
+</string-array>
+<string name="prefDialogTitle_removal_action">"གཏན་འཁེལ་གྱི་བཀོལ་སྤྱོད།"</string>
+<string name="preferences_default_reply_all_title">ཚང་མར་ཡ་ལན་སློག</string>
+<string name="preferences_default_reply_all_summary_impl">"རང་ལེན་གྱི་ཡིག་ཚགས་ཨ་ལན་སྟེར་སྟངས།"</string>
+<string name="preference_swipe_title">འདྲེད་འགུལ་སྒྲིག་བཀོལ།</string>
+<string name="preference_swipe_description">"ཁ་བརྡའི་སྟར་བྱང་།"</string>
+<string name="preference_sender_image_title">"སྐུར་མཁན་གྱི་པར་རིས།"</string>
+<string name="preference_sender_image_description">"ཁ་བརྡའི་སྟར་བྱང་ནང་གི་མིང་གི་འགྲམ་དུ་འཆར།"</string>
+<string name="empty_trash">"སུབ་ཟིན་པའི་སྦྲག་ཡིག་འདམ།"</string>
+<string name="empty_spam">"སྙིགས་མའི་སྦྲག་ཡིག་གཙང་སེལ་བྱེད།"</string>
+<string name="empty_trash_dialog_title">"བསུབས་ཟིན་པ་གཙང་སེལ་བྱེད་རྒྱུ་ཡིན་ནམ།"</string>
+<string name="empty_spam_dialog_title">"སྙིགས་མའི་ཡིག་ཆ་གཙང་སེལ་བྱེད་རྒྱུ་ཡིན་ནམ།"</string>
+<plurals name="empty_folder_dialog_message">
+<item quantity="one">"འཕྲིན་ཐུང་<xliff:g id="count">%1$d</xliff:g>གཏན་ནས་བསུབས་ཟིན།"</item>
+<item quantity="other">"འཕྲིན་ཐུང་<xliff:g id="count">%1$d</xliff:g>གཏན་ནས་བསུབས་ཟིན།"</item>
+</plurals>
+<string name="drawer_open">"འདྲེད་རྣམ་ལམ་འདྲེན་གྱི་སྒོ་འབྱེད།"</string>
+<string name="drawer_close">"འདྲེད་རྣམ་ལམ་འདྲེན་གྱི་སྒོ་སྟེམ།"</string>
+<string name="conversation_photo_welcome_text">"སྐུར་མཁན་གྱི་པར་རིས་ལ་རེག་ནས་ལྟོས་ཟླའི་ཁ་བརྡ་འདམ།"</string>
+<string name="long_press_to_select_tip">རྡེབ་ཅིང་མནན་ནས་བཟུང་ན་གླེང་མོལ་འདམ་ཐུབ་ཅིང་དེ་ནས་རྡེབ་པས་ན་གླེང་མོལ་གཞན་པ་འདམ་ཐུབ།</string>
+<string name="folder_icon_desc">"ཡིག་ཁུག་མཚོན་རྟགས།"</string>
+<string name="add_account">རྩིས་ཐོ་ཁ་སྣོན།</string>
+<string name="dismiss_tip_hover_text">"དྲན་སྐུལ་སྣང་མེད་དུ་འཇོག"</string>
+<string name="auto_sync_off">"རང་འགུལ་འགྲོས་བསྟུན་གྱི་སྒོ་སྟེམ་ཟིན། རྡེབ་པས་ན་སྒུལ་སློང་ཐུབ།"</string>
+<string name="account_sync_off">"འགྲོས་བསྟུན་གྱི་སྒོ་སྟེམ།  &lt;a href=\'http://www.example.com\'&gt;Account\u00A0settings.&lt;/a>རུ་སྒོ་འབྱེད།"</string>
+<string name="unsent_messages_in_outbox">"<xliff:g id="outbox">%2$s</xliff:g>ནང་དུ་<xliff:g id="number">%1$s</xliff:g>བསྐུར།"</string>
+<string name="turn_auto_sync_on_dialog_title">"རང་འགུལ་འགྲོས་བསྟུན་རྩོལ་ནུས་ཀྱི་སྒོ་འབྱེད།"</string>
+<string name="turn_auto_sync_on_dialog_body">"Gmailམ་ཡིན་པའི་ཉེར་སྤྱོད་རྩིས་ཐོ་ཡོངས་རྫོགས་ལ་གནང་བའི་གསར་སྒྱུར་ནི་དྲ་རྒྱ་དང་ཁྱེད་ཀྱི་སྒྲིག་ཆས་གཞན་པ་དང་<xliff:g id="phone_or_tablet">%1$s</xliff:g>ནང་དུ་འགྲོས་བསྟུན་གནང་ངེས།"</string>
+<string name="phone">"ཁ་པར་"</string>
+<string name="tablet">རྩིས་འཕྲུལ་ལེབ་ལེབ།</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">"འབྱེད།"</string>
+<string name="show_n_more_folders">"ཡིག་ཁུག་  <xliff:g id="number">%1$s</xliff:g> འཆར།"</string>
+<string name="hide_folders">"སྦས་པའི་ཡིག་ཁུག"</string>
+<string name="print">"པར་འདེབས།"</string>
+<string name="print_all">ཚང་མ་པར་འདེབས་བྱས།</string>
+<plurals name="num_messages">
+<item quantity="one">སྦྲག་ཡིག་<xliff:g id="COUNT">%1$d</xliff:g></item>
+<item quantity="other">སྦྲག་ཡིག་<xliff:g id="COUNT">%1$d</xliff:g></item>
+</plurals>
+<string name="date_message_received_print"><xliff:g id="DAY_AND_DATE">%1$s</xliff:g>（<xliff:g id="TIME">%2$s</xliff:g>)</string>
+<string name="draft_to_heading">མ་ཡིག་འབྱོར་ས།</string>
+<string name="draft_heading">"མ་ཡིག"</string>
+<string name="quoted_text_hidden_print">ལུང་འདྲེན་ཡི་གེ་སྦ།</string>
+<plurals name="num_attachments">
+<item quantity="one">ཟུར་བཏགས་<xliff:g id="COUNT">%1$d</xliff:g></item>
+<item quantity="other">ཟུར་བཏགས་<xliff:g id="COUNT">%1$d</xliff:g></item>
+</plurals>
+<string name="no_subject">"\'(ཁ་བྱང་མེད་པ།)"</string>
+<string name="vacation_responder">ཕྱི་རོལ་གྱི་ཨ་ལན།</string>
+<string name="preferences_vacation_responder_title">ཕྱི་རོལ་གྱི་ཨ་ལན།</string>
+<string name="vacation_responder_body_hint_text">"ཡིག་ཟམ།"</string>
+<string name="send_to_contacts_text">རང་གི་འབྲེལ་གཏུག་ཁོ་ནར་སྐུར།</string>
+<string name="send_to_domain_text"><xliff:g id="DOMAIN">%1$s</xliff:g>ནང་གི་འབྲེལ་གཏུག་ཁོ་ནར་སྐུར།</string>
+<string name="pick_start_date_title">མགོ་རྩོམ་པའི་དུས་ཚོད།</string>
+<string name="pick_end_date_title">མཇུག་དྲིལ་དུས་ཚོད།(འདམ་ཆོག)</string>
+<string name="date_not_set">"སྒྲིག་འགོད་བྱས་མེད།"</string>
+<string name="set_end_date_dialog_title">མཇུག་དྲིལ་ཚེས་གྲངས།(འདམ་ཆོག)</string>
+<string name="custom_date">རང་བཟོས།</string>
+<string name="date_none">མེད་པ།</string>
+<string name="discard_changes">སྒྱུར་བཅོས་སྐྱུར་རྒྱུ་ཡིན་ནམ།</string>
+<string name="vacation_responder_changes_saved">ཕྱི་རོལ་གྱི་ཨ་ལན་སྒྱུར་བཅོས་བྱས་ཟིན།</string>
+<string name="vacation_responder_changes_discarded">ཕྱི་རོལ་གྱི་ཨ་ལན་སྒྱུར་བཅོས་སྐྱུར།</string>
+<string name="vacation_responder_off">སྒོ་སྟེམ།</string>
+<string name="vacation_responder_on"><xliff:g id="DATE">%1$s</xliff:g>ནས་མགོ་རྩོམ།</string>
+<string name="vacation_responder_on_with_end_date"><xliff:g id="START_DATE">%1$s</xliff:g>ནས་མགོ་རྩོམ་ཞིང་<xliff:g id="END_DATE">%2$s</xliff:g>ལ་སླེབས།</string>
+<string name="vacation_responder_empty_subject_and_body_warning">གཙོ་བྱང་དང་གཞུང་དངོས་སྣོན་རོགས།</string>
+<string name="view_entire_message">སྦྲག་ཡིག་ཧྲིལ་པོར་ལྟ།</string>
+<string name="eml_loader_error_toast">ཡིག་ཆ་འདིའི་ཁ་འབྱེད་མི་ཐུབ།</string>
+<string name="help_and_info">རོགས་རམ།</string>
+<string name="help_and_feedback">རོགས་རམ་དང་ཨ་ལན།</string>
+<string name="feedback">"ལན་སྐུར།"</string>
+<string name="copyright">©<xliff:g id="YEAR">%1$d</xliff:g> Google Inc.</string>
+<string name="version">པར་གཞི་<xliff:g id="APP_NAME">%1$s</xliff:g><xliff:g id="VERSION">%2$s</xliff:g></string>
+<string name="print_dialog">པར་འདེབས…</string>
+<string name="copyright_information">པར་དབང་ཆ་འཕྲིན།…</string>
+<string name="privacy_policy">སྒོས་གསང་སྲིད་ཇུས།</string>
+<string name="open_source_licenses">"ཁུངས་ཀྱི་ཨང་ཚབ་གློད་པའི་ཆོག་མཆན།"</string>
+<string name="reply_choice_yes">ཡིན།</string>
+<string name="reply_choice_no">"མིན།"</string>
+<string name="reply_choice_ok">ལགས་སོ།</string>
+<string name="reply_choice_hehe">ཧ་ཧ།</string>
+<string name="reply_choice_thanks">བཀའ་དྲིན་ཆེ།</string>
+<string name="reply_choice_i_agree">འཐད་པོ་ཡོད།</string>
+<string name="reply_choice_nice">འགྲིག་པོ་རེད།</string>
+<string name="reply_on_my_way">ལམ་དུ་ཡོད།</string>
+<string name="reply_choice_later">ངས་ཁྱེད་ལ་ཨ་ལན་སྦྱིན།</string>
+<string name="preference_header_action_confirmations">སྒྲིག་བཀོལ་དང་ལེན་བྱེད།</string>
+<string name="preference_confirm_before_delete_title">"སུབ་པའི་སྔོན་དུ་འཁེལ་ལེན་བྱེད།"</string>
+<string name="preference_confirm_before_archive_title">ཡིག་ཚགས་སུ་མ་ཉར་གོང་དང་ལེན་བྱེད།</string>
+<string name="preference_confirm_before_send_title">"སྐུར་བའི་སྔོན་དུ་འཁེལ་ལེན་བྱེད།"</string>
+<string name="preferences_conversation_mode_title">རང་འགུལ་གྱིས་སྦྲག་ཡིག་ནང་དོན་ཆུང་སྐུམ་སྡུར་ཚད་སྙོམ་སྒྲིག་བྱེད།</string>
+<string name="preferences_conversation_mode_summary">སྦྲག་ཡིག་ནང་དོན་ཆུང་དུ་སྐུམ་ནས་འཆར་ཡོལ་ལ་འཕྲོད་པ་བྱེད།</string>
+<string name="preferences_disable_snap_headers_title">སྦྲག་ཡིག་སྒྲིག་འགོད།</string>
+<string-array name="prefSummaries_snapHeader">
+<item>རྟག་པར་འཆར་ཡོལ་གྱི་རྩེ་མོར་སྦྲག་ཡིག་སྒྲིག་བཀོལ་འཆར།</item>
+<item>གཞུང་ཕྱོགས་རྣམ་པར་ཁོ་ནར་འཁོར་སྐབས་འཆར་ཤེལ་རྩེ་མོར་སྦྲག་ཡིག་སྒྲིག་བཀོལ་འཆར།</item>
+<item>རྩེ་མོ་ཕུད་པའི་གནས་གཞན་དུ་སྦྲག་ཡིག་སྒྲིག་བཀོལ་འཆར་མི་དགོས།</item>
+</string-array>
+<string-array name="prefEntries_snapHeader">
+<item>"ཐོག་མཐའ་བར་གསུམ།"</item>
+<item>གཞུང་ཕྱོགས་སུ་འཆར།</item>
+<item>མི་འཆར།</item>
+</string-array>
+<string name="clear_history_title">"འཚོལ་བཤེར་ཟིན་ཐོ་སུབ་པ།"</string>
+<string name="search_history_cleared">"འཚོལ་བཤེར་ཟིན་ཐོ་གཙང་སེལ་བྱེད།"</string>
+<string name="clear_history_dialog_title">འཚོལ་བཤེར་གྱི་ཟིན་ཐོ་གསང་སེལ་བྱེད་རྒྱུ་ཡིན་ནམ།</string>
+<string name="clear_history_dialog_message">སྒྲིག་བཀོལ་འདིས་ཁྱེདཀྱི་སྔོན་གྱི་འཚོལ་བཤེར་ཟིན་ཐོ་ཧྲིལ་པོ་གསུབ་ངེས་ཡིན།</string>
+<string name="manage_accounts_menu_item">"དོ་དམ་རྩིས་ཐོ།"</string>
+<string name="general_preferences_title">རྒྱུན་སྲོལ་སྒྲིག་འགོད།</string>
+<string name="activity_preferences">སྒྲིག་འགོད།</string>
+<string name="overflow_description">"འདེམ་སྣ་མང་པོ།"</string>
+<string name="security_hold_required_text"><xliff:g id="EMAIL_ADDRESS">%1$s</xliff:g>ཡི་བདེ་འཇགས་གསར་སྒྱུར་བྱེད་དགོས།</string>
+<string name="update_security_text">འཕྲལ་མར་གསར་སྒྱུར་བྱེད་དགོས།</string>
+<string name="forms_are_disabled">Gmailརེའུ་མིག་གི་སྒོ་སྟེམ།</string>
+    <string name="add_contacts_too_much">"འབྱོར་སའི་གོང་མཐའ་ནི་50ཡིན།"</string>
+     <string name="account_delete_dlg_title">"རྩིས་ཐོ་སུབ།"</string>
+     <string name="account_delete_waiting">"སུབ་བཞིན་འདུག ཅུང་ཙམ་སྒུགས་རོགས…"</string>
+     <string name="filter_all">"ཆ་ཚང།"</string>
+     <string name="filter_receiver">སྡུད་ཆས།</string>
+     <string name="filter_sender">"སྐུར་མཁན།"</string>
+     <string name="filter_subject">"བརྗོད་བྱ།"</string>
+     <string name="filter_content">ནང་དོན།</string>
+     <string name="search_on_server">"ཞབས་ཞུ་ཆས་སུ་འཚོལ།"</string>
+     <string name="download_confirm_msg">"དྲ་རྒྱ་ནི་ WLANམ་ཡིན་ཞིང་ཟུར་བཏགས་ཆེ། མུ་མཐུད་ནས་སྒྲུབ་རྒྱུ་ཡིན་མིན་འཁེལ་ལེན་བྱེད་རོགས།"</string>
+     <string name="download_deny_malware">"ཞེ་ནག་ཉེར་སྤྱོད་ཡིན་སྲིད། འབེབ་ལེན་བྱེད་མི་ཐུབ།"</string>
+     <string name="download_deny_wifionly">" WLANསྐབས་སུ་འབེབ་ལེན་བྱེད་རོགས།"</string>
+     <string name="download_deny_nointent">"ཟུར་བཏགས་དེའི་ཁ་འབྱེད་པའི་ཉེར་སྤྱོད་མི་འདུག འབེབ་ལེན་བྱེད་མི་ཐུབ།"</string>
+     <string name="download_deny_nosideload">"འབྱུང་ཁུངས་མི་གསལ་བའི་ཉེར་སྤྱོད་སྒྲིག་འཇུག་བྱས་རྗེས་སླར་ཚོད་ལྟ་བྱེད་རོགས།"</string>
+     <string name="download_deny_apkinstall">"apkསྒྲིག་འཇུག་བྱེད་དུ་མི་འཇུག འབེབ་ལེན་བྱེད་མི་ཐུབ།"</string>
+     <string name="download_deny_policy">"རྩིས་ཐོའི་སྲིད་ཇུས་སྟབས་ཀྱིས་འབེབ་ལེན་བྱེད་མི་ཐུབ།"</string>
+     <string name="download_att_external">"Downloadརུ་འབེབ་ལེན་བྱེད།"</string>
+     <string name="save_to_where">"ཟུར་བཏགས་གཤམ་གསལ་དུ་འབེབ་ལེན་བྱས་ཟིན།:"</string>
+     <string name="missing_required_permission">"ཁྱེད་ཀྱིས་དགོས་ངེས་ཀྱི་དབང་ཚད་ཅིག་གི་སྒོ་སྟེམ་ཟིན།"</string>
+     <string name="permission_change">"དབང་ཚད་སྒྱུར་བཅོས་བྱས་ཟིན་སྟབས། སླར་ཡིག་ཆ་འདམ་རོགས།"</string>
+     <string name="permission_change_redo">"དབང་ཚད་སྒྱུར་བཅོས་བྱས་ཟིན་སྟབས། སླར་སྒྲིག་བཀོལ་བྱེད་རོགས།"</string>
+     <string name="preference_default_signature_title">མིང་འགོད།</string>
+     <string name="signature_default">"ངའི་ཁ་པར་ནས་སྐུར།"</string>
+     <string name="set_priority_high">"སྔོན་ཐོབ་རིམ་པ་མཐོན་པོར་སྒྲིག་འགོད་བྱེད།"</string>
+     <string name="set_priority_normal">"སྔོན་ཐོབ་རིམ་པ་སྤྱིར་བཏང་བར་སྒྲིག་འགོད་བྱེད།"</string>
+     <string name="set_priority_low">"སྔོན་ཐོབ་རིམ་པ་དམའ་མོར་སྒྲིག་འགོད་བྱེད།"</string>
+     <string name="file_not_exist">"རང་གནས་ཀྱི་ཟུར་བཏགས་མི་འདུག སླར་འབེབ་ལེན་བྱེད་རོགས།"</string>
+     <string name="body_input_more">"ཐུགས་རྒྱལ་མ་བཞེངས། %1$s ཡི་གེ་མ་གཏོགས་ནང་འཇུག་བྱེད་མི་ཐུབ།"</string>
+     <string name="attachment_rename_to_legal">"གདོད་མའི་ཡིག་ཆའི་མིང་དུ་ལུགས་འགལ་གྱི་ཡིག་རྟགས་འདུག ཟུར་བཏགས་ལ་སླར་མིང་བཏགས་ཟིན།"</string>
+
+</resources>

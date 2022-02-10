@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">" स्वीकृत: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">" अस्वीकृत: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">" अस्थाई: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">" रद्द भयो: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">" अपडेट भयो: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">" जब: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">" कहाँ: <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">" जब: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (दोहोरिने) "</string>
+<string name="meeting_allday">" जब: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (पुरा दिन) "</string>
+<string name="meeting_allday_recurring">" जब: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (पुरा दिन, दोहोरिने) "</string>
+<string name="app_name">"साटासाट सेवाहरु"</string>
+<string name="exception_cancel">" यो घटना रद्द गरियो: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="exception_updated">" यो घटनाको विवरण परिवर्तन भयो: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="policy_dont_allow_storage_cards">"भण्डारण कार्डहरु प्रयोग गर्न अनुमति छैन"</string>
+<string name="policy_dont_allow_unsigned_apps">"हस्ताक्षर नगरिएको अनुप्रयोगहरु प्रयोग गर्न अनुमति छैन"</string>
+<string name="policy_dont_allow_unsigned_installers">"हस्ताक्षर नगरिएको अनुप्रयोग स्थापनाकर्ताहरुलाई अनुमति छैन"</string>
+<string name="policy_dont_allow_wifi">"वाईफाई प्रयोग गर्न अनुमति छैन"</string>
+<string name="policy_dont_allow_text_messaging">"सन्देस पाठ पठाउन अनुमति छैन"</string>
+<string name="policy_dont_allow_pop_imap">"POP3 or IMAP खाताहरुलाई अनुमति छैन"</string>
+<string name="policy_dont_allow_irda">"ईन्फारेड संचारहरुलाई अनुमति छैन"</string>
+<string name="policy_dont_allow_html">"HTML इमेललाई अनुमति छैन"</string>
+<string name="policy_dont_allow_browser">"ब्राउजर्हरुलाई अनुमति छैन"</string>
+<string name="policy_dont_allow_consumer_email">"उपभोक्ता इमेललाई अनुमति छैन"</string>
+<string name="policy_dont_allow_internet_sharing">"ईन्टरनेट साझेदारीलाई अनुमति छैन"</string>
+<string name="policy_require_smime">"SMIME सन्देस आवश्यक"</string>
+<string name="policy_bluetooth_restricted">"बलुटुथ प्रयोगमा प्रतिबन्ध"</string>
+<string name="policy_app_blacklist">"तोकिएको अनुप्रयोगहरुलाई अनुमति छैन"</string>
+<string name="policy_app_whitelist">"तोकिएको अनुप्रयोगहरुलाई मात्र अनुमति छ"</string>
+<string name="policy_text_truncation">"प्रतिबन्धित इमेल आकार पाठ"</string>
+<string name="policy_html_truncation">"प्रतिबन्धित HTML इमेल आकार"</string>
+<string name="policy_require_sd_encryption">"SD कार्ड गुप्तिकरण आवश्यक"</string>
+<string name="policy_dont_allow_attachments">"संग्लन सामाग्रीहरुलाई अनुमति छैन"</string>
+<string name="policy_max_attachment_size">"संग्लन सामाग्रीको आकारमा प्रतिबन्ध"</string>
+<string name="policy_require_manual_sync_roaming">"भ्रमणमा भएको बेलामामात्र म्यानुअल सिंकगर्न अनुमति छ"</string>
+<string name="policy_require_encryption">"उपकरणको गुप्तिकरण आवस्यक"</string>
+<string name="account_setup_options_mail_window_auto">"स्वतः"</string>
+<string name="account_setup_options_mail_window_1day">"एक दिन"</string>
+<string name="account_setup_options_mail_window_3days">"तिन दिन"</string>
+<string name="account_setup_options_mail_window_1week">"एक हप्ता"</string>
+<string name="account_setup_options_mail_window_2weeks">"दुई हप्ता"</string>
+<string name="account_setup_options_mail_window_1month">"एक महिना"</string>
+<string name="account_setup_options_mail_window_all">"सबै"</string>
+<string name="auth_error_notification_title">"प्रमाणिकरण त्रुटी"</string>
+<string name="auth_error_notification_text">"खाता सम्पादन सेटिंगहरु गर्नका लागि छुनुहोस<xliff:g id="account">%s</xliff:g>"</string>
+<string name="email_settings_not_available">"सेटिंगहरु हेर्नका लागि ईमेल अनुप्रयोगलाई पुन: सक्षम गर्नुहोस्।"</string>
+</resources>

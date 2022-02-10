@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">" مان لیا گیا: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">" ردّ کردیا گیا: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">" آزمائشی: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">" منسوخ: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">" اپڈیٹیڈ: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">" کب: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">" کہاں: <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">" جب:<xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (متواتر) "</string>
+<string name="meeting_allday">" جب: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (سبھی دن) "</string>
+<string name="meeting_allday_recurring">" جب:  <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (سبھی دن، متواتر) "</string>
+<string name="app_name">"ایکسچینج کی خدمات"</string>
+<string name="exception_cancel">" : <xliff:g id="date">%s</xliff:g>کے لیے یہ وقعہ منسوخ ہوگیا ہے "</string>
+<string name="exception_updated">" : <xliff:g id="date">%s</xliff:g> کے لیے اس وقوعے کی تفصیلات بدل گئی ہیں "</string>
+<string name="policy_dont_allow_storage_cards">"ذخیرہ کارڈز کی اجازت نہ دی جائے"</string>
+<string name="policy_dont_allow_unsigned_apps">"غیر تصدیق شدہ اطلاقات کی اجازتنہ دی جائے"</string>
+<string name="policy_dont_allow_unsigned_installers">"غیر سائن شدہ ایپ انسٹالرس منظوری نہ دیں"</string>
+<string name="policy_dont_allow_wifi">"Wi-Fi کی اجازت نہ دی جائے"</string>
+<string name="policy_dont_allow_text_messaging">" ٹیکسٹ پیغام رسانی کی اجازت نہ دی جائے"</string>
+<string name="policy_dont_allow_pop_imap">" POP3 یا IMAP کھاتوں کی اجازت نہ دی جائے"</string>
+<string name="policy_dont_allow_irda">"زیریں سرخ کی مواصلات کی اجازت نہ دی جائے"</string>
+<string name="policy_dont_allow_html">"HTML ای میل کرنے کی ااجازت نہ دی جائے"</string>
+<string name="policy_dont_allow_browser">" براؤزرز کی اجازت نہ دی جائے"</string>
+<string name="policy_dont_allow_consumer_email">" صارفین کی ای میل کی اجازت نہ دی جائے"</string>
+<string name="policy_dont_allow_internet_sharing">" انٹرنیٹ شیئرنگ کی اجازت نہ دی جائے"</string>
+<string name="policy_require_smime">"SMIME پیغامات کا تقاضا کریں "</string>
+<string name="policy_bluetooth_restricted">"بلوٹوت کے استعمال کو محدود کرنا"</string>
+<string name="policy_app_blacklist">"مخصوص اطلاقات کو اجازت نہ دینا"</string>
+<string name="policy_app_whitelist">"صرف مخصوص اطلاقات کو اجازت دی جائے"</string>
+<string name="policy_text_truncation">"ای میل متن کا سائزکو محدود رکھیں"</string>
+<string name="policy_html_truncation">"HTML ای میل کے سائز کو محدود کریں"</string>
+<string name="policy_require_sd_encryption">"SD کارڈ کی خفیہ کاری کا تقاضا کریں "</string>
+<string name="policy_dont_allow_attachments">"دستاویزات منسلک کرنے کی اجازت نہ دی جائے"</string>
+<string name="policy_max_attachment_size">"منسلکہ دستاویز کا سائز محدود رکھیں"</string>
+<string name="policy_require_manual_sync_roaming">"رومنگ کے دوران  صرف دستی مطابقت پذیری کی اجازت دیں"</string>
+<string name="policy_require_encryption">" آلے کی خفیہ کاری کا تقاضا کریں "</string>
+<string name="account_setup_options_mail_window_auto">"خود کار"</string>
+<string name="account_setup_options_mail_window_1day">"ایک دن"</string>
+<string name="account_setup_options_mail_window_3days">"تین دن"</string>
+<string name="account_setup_options_mail_window_1week">"ایک ہفتہ"</string>
+<string name="account_setup_options_mail_window_2weeks">"دو ہفتے"</string>
+<string name="account_setup_options_mail_window_1month">"ایک ماہ"</string>
+<string name="account_setup_options_mail_window_all">"سبھی"</string>
+<string name="auth_error_notification_title">"توثیق کاری نقص"</string>
+<string name="auth_error_notification_text">"۔<xliff:g id="account">%s</xliff:g> کے لئے اکاؤنٹ کی ترتیبات میں ترمیم کرنے کے لئے ٹچ کریں "</string>
+<string name="email_settings_not_available">" سیٹنگس دیکھنے کے لئے ای میل ایپلی کیشن کو دوبارہ فعال بنائیں۔"</string>
+</resources>

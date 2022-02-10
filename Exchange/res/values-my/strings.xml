@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="meeting_accepted">" လက်ခံလိုက်သည်- <xliff:g id="subject">%s</xliff:g> "</string>
+    <string name="meeting_declined">" ငြင်းလိုက်သည်- <xliff:g id="subject">%s</xliff:g> "</string>
+    <string name="meeting_tentative">" အစမ်း- <xliff:g id="subject">%s</xliff:g> "</string>
+    <string name="meeting_canceled">" ပယ်ဖျက်လိုက်သည်- <xliff:g id="subject">%s</xliff:g> "</string>
+    <string name="meeting_updated">" အပ်ဒိတ်လုပ်ထားသည်- <xliff:g id="subject">%s</xliff:g> "</string>
+    <string name="meeting_when">" အချိန်- <xliff:g id="when">%s</xliff:g> "</string>
+    <string name="meeting_where">" နေရာ- <xliff:g id="where">%s</xliff:g> "</string>
+    <string name="meeting_recurring">" အချိန်- <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (ထပ်တလဲလဲ) "</string>
+    <string name="meeting_allday">" အချိန်- <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (တစ်နေကုန်) "</string>
+    <string name="meeting_allday_recurring">" အချိန်- <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (တစ်နေကုန်၊ ထပ်တလဲလဲ) "</string>
+    <string name="app_name">"ဖလှယ်ထားသည့် ဝန်ဆောင်မှုများ"</string>
+    <string name="exception_cancel">" ဤပွဲကို ဖော်ပြပါအတွက် ပယ်ဖျက်လိုက်သည်- <xliff:g id="date">%s</xliff:g> "</string>
+    <string name="exception_updated">" ပွဲအစီအစဉ် အသေးစိတ် ပြောင်းသွားသည်- <xliff:g id="date">%s</xliff:g> "</string>
+    <string name="policy_dont_allow_storage_cards">"သိုလှောင်မှုကဒ်များကို ခွင့်မပြုပါနှင့်"</string>
+    <string name="policy_dont_allow_unsigned_apps">"မဝင်ရောက်ထားသည့် အေပီပီများကို ခွင့်မပြုပါနှင့်"</string>
+    <string name="policy_dont_allow_unsigned_installers">"လက်မှတ်ထိုးမထားသော အက်ပ်အင်စတောလာများကို ခွင့်မပြုပါနှင့်"</string>
+    <string name="policy_dont_allow_wifi">"Wi-Fi ကို ခွင့်မပြုပါနှင့်"</string>
+    <string name="policy_dont_allow_text_messaging">"စာသားမက်ဆေ့ခ်ျပေးပို့ခြင်းကို ခွင့်မပြုပါနှင့်"</string>
+    <string name="policy_dont_allow_pop_imap">"POP3 သို့မဟုတ် IMAP အကောင့်များကို ခွင့်မပြုပါနှင့်"</string>
+    <string name="policy_dont_allow_irda">"အနီအောက်စနစ်ဖြင့် ဆက်သွယ်ချက်များကို ခွင့်မပြုပါနှင့်"</string>
+    <string name="policy_dont_allow_html">"HTML အီးမေးလ်ကို ခွင့်မပြုပါနှင့်"</string>
+    <string name="policy_dont_allow_browser">"ဘရောက်ဆာများကို ခွင့်မပြုပါနှင့်"</string>
+    <string name="policy_dont_allow_consumer_email">"အသုံးပြုသူအီးမေးလ်ကို ခွင့်မပြုပါနှင့်"</string>
+    <string name="policy_dont_allow_internet_sharing">"အင်တာနက်ဝေမျှခြင်းကို ခွင့်မပြုပါနှင့်"</string>
+    <string name="policy_require_smime">"SMIME မက်ဆေ့ခ်ျများ လိုအပ်သည်"</string>
+    <string name="policy_bluetooth_restricted">"ဘလူးတုသ်အသုံးချမှုပမာဏ ကန့်သတ်ပါ"</string>
+    <string name="policy_app_blacklist">"သတ်မှတ်ထားသည့် အေပီပီများကို ခွင့်မပြုပါနှင့်"</string>
+    <string name="policy_app_whitelist">"သတ်မှတ်ထားသော အေပီပီများကိုသာ ခွင့်ပြုပါ"</string>
+    <string name="policy_text_truncation">"စာသားအီးမေးလ်အရွယ် ချုံ့ပါ"</string>
+    <string name="policy_html_truncation">"HTML အီးမေးလ်အရွယ် ချုံ့ပါ"</string>
+    <string name="policy_require_sd_encryption">"SD ကဒ်အား ကုဒ်ဖြင့်ဖော်ပြချက် လိုအပ်သည်"</string>
+    <string name="policy_dont_allow_attachments">"ပူးတွဲချက်များကို ခွင့်မပြုပါနှင့်"</string>
+    <string name="policy_max_attachment_size">"ပူးတွဲချက်အရွယ်အစားကို ကန့်သတ်ပါ"</string>
+    <string name="policy_require_manual_sync_roaming">"ပြင်ပကွန်ယက်ဒေတာများသို့ ဝင်ရောက်စဉ်တွင်သာ ကိုယ်တိုင်ပြုလုပ်မှု ပူးပေါင်းဆောင်ရွက်ခြင်းကို ခွင့်ပြုပါ"</string>
+    <string name="policy_require_encryption">"ကိရိယာအား ကုဒ်ဖြင့်ဖော်ပြရန် လိုအပ်သည်"</string>
+    <string name="account_setup_options_mail_window_auto">"အလိုအလျောက်"</string>
+    <string name="account_setup_options_mail_window_1day">"တစ်ရက်"</string>
+    <string name="account_setup_options_mail_window_3days">"သုံးရက်"</string>
+    <string name="account_setup_options_mail_window_1week">"တစ်ပတ်"</string>
+    <string name="account_setup_options_mail_window_2weeks">"နှစ်ပတ်"</string>
+    <string name="account_setup_options_mail_window_1month">"တစ်လ"</string>
+    <string name="account_setup_options_mail_window_all">"အားလုံး"</string>
+    <string name="auth_error_notification_title">"အထောက်အထား မှားယွင်း"</string>
+    <string name="auth_error_notification_text">"<xliff:g id="account">%s</xliff:g> အတွက် အကောင့်အပြင်အဆင်များ တည်းဖြတ်ရန် တို့ထိပါ"</string>
+    <string name="email_settings_not_available">"ဆက်တင်ကို ကြည့်ရန် အီးမေးလ်အပလီကေးရှင်းကို ပြန်လည်စတင်ပါ"</string>
+</resources>

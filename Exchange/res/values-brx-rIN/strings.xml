@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"<xliff:g id="subject">%s</xliff:g> आ गनायजाबाय।"</string>
+<string name="meeting_declined">"<xliff:g id="subject">%s</xliff:g> आ नारगार जाबाय।"</string>
+<string name="meeting_tentative">"<xliff:g id="subject">%s</xliff:g> आ सोलायथाव।"</string>
+<string name="meeting_canceled">"<xliff:g id="subject">%s</xliff:g> आ दानजाबाय।"</string>
+<string name="meeting_updated">"<xliff:g id="subject">%s</xliff:g> आ आपदेत जाबाय।"</string>
+<string name="meeting_when">"<xliff:g id="when">%s</xliff:g> आ जेब्ला।"</string>
+<string name="meeting_where">"<xliff:g id="where">%s</xliff:g>आ जेराव।"</string>
+<string name="meeting_recurring">"जेब्ला:<xliff:g id="evendate">%s</xliff:g> नि थाखाय सारभारनि थ्रेस पलदार सायख।"</string>
+<string name="meeting_allday">"<xliff:g id="account">%s</xliff:g> नि थाखाय सारभारनि थ्रेस पलदार सायख।"</string>
+<string name="meeting_allday_recurring">"<xliff:g id="account">%s</xliff:g> नि थाखाय सारभारनि थ्रेस पलदार सायख।"</string>
+<string name="app_name">"एक्सेन्स सारभेसेस"</string>
+<string name="exception_cancel">"<xliff:g id="date">%s</xliff:g> नि थाखाय इभेन्तआ केनसेल जाबाय।"</string>
+<string name="exception_updated">"<xliff:g id="date">%s</xliff:g> नि थाखाय इभेन्तनि गुदि खिथाखौ सोलायबाय।"</string>
+<string name="policy_dont_allow_storage_cards">"सिथरेज कार्डफोरखौ मिमोन्थैई होनांया"</string>
+<string name="policy_dont_allow_unsigned_apps">"साइन खालामि एपफोरखौ मिमोन्थैई होनांया"</string>
+<string name="policy_dont_allow_unsigned_installers">"साइन खालामि एप इनसथलारफोरखौ मिमोन्थैई होनांया"</string>
+<string name="policy_dont_allow_wifi">"Wi-Fi खौ मिमोन्थैई होनांया"</string>
+<string name="policy_dont_allow_text_messaging">"मेसेज गेलेनायखौ मिमोन्थैई होनांया"</string>
+<string name="policy_dont_allow_pop_imap">"POP3 एबा IMAP एकाउन्टफोरखौ मिमोन्थैई होनांया"</string>
+<string name="policy_dont_allow_irda">"इनप्रारेट खमुनिकेसनफोरखौ मिमोन्थैई होनांया"</string>
+<string name="policy_dont_allow_html">"HTML इमैलफोरखौ मिमोन्थैई होनांया"</string>
+<string name="policy_dont_allow_browser">"ब्रावजारफोरखौ मिमोन्थैई होनांया"</string>
+<string name="policy_dont_allow_consumer_email">"बाहायगिरिनि इमैलखौ मिमोन्थैई होनांया"</string>
+<string name="policy_dont_allow_internet_sharing">"इनतारनेदखजों फोसावनायखौ मिमोन्थैई होनांया"</string>
+<string name="policy_require_smime">"SMIMEरादाफोरखौ नांगौ"</string>
+<string name="policy_bluetooth_restricted">"ब्लुथुद बाहायनायखौ हमथा"</string>
+<string name="policy_app_blacklist">"सिफिसिफाइद एपफोरखौ मिमोन्थैई होनांया"</string>
+<string name="policy_app_whitelist">"सिफिसिफाइद एपफोरखौल मिमोन्थैई हो"</string>
+<string name="policy_text_truncation">"इमैल सायस तेक्सखौ हमथा "</string>
+<string name="policy_html_truncation">"इमैल सायस HTML खौ हमथा "</string>
+<string name="policy_require_sd_encryption">"SD कार्ड इनक्रिपसन नांगौ"</string>
+<string name="policy_dont_allow_attachments">"एतासमेन्तफोरखौ मिमोन्थैई होनांया"</string>
+<string name="policy_max_attachment_size">"एतासमेन्त सायसखौ हमथा "</string>
+<string name="policy_require_manual_sync_roaming">"रमिंआव मेनुएल सिंगखौल मिमोन्थाई हो"</string>
+<string name="policy_require_encryption">"आयजेंखौ इनक्रिपसन खलामनांगौ"</string>
+<string name="account_setup_options_mail_window_auto">"गावनो गाव"</string>
+<string name="account_setup_options_mail_window_1day">"सान से"</string>
+<string name="account_setup_options_mail_window_3days">"सान थाम"</string>
+<string name="account_setup_options_mail_window_1week">"हाबथासे"</string>
+<string name="account_setup_options_mail_window_2weeks">"हाबथानै"</string>
+<string name="account_setup_options_mail_window_1month">"दानसे"</string>
+<string name="account_setup_options_mail_window_all">"गासैबो"</string>
+<string name="auth_error_notification_title">"आनजादा गोरोन्थि जाबाय"</string>
+<string name="auth_error_notification_text">"<xliff:g id="account">%s</xliff:g> नि एकाउन्ट सेटिंगखौ सोलायनो थाखाय थुहर।"</string>
+<string name="email_settings_not_available">"सेटिंगफोरखौ नायनो इमैल एपलिकेसनखौ इनेबोल खालामफिन।"</string>
+</resources>

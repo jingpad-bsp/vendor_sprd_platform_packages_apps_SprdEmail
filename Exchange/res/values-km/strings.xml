@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"បានទទួលយក៖ <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">"បានបដិសេធ៖ <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">"ស្ទាក់ស្ទើរ៖ <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">"បានបោះបង់៖ <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">"បានធ្វើបច្ចុប្បន្នភាព៖ <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">" ពេលវេលា៖ <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">"ទីកន្លែង៖ <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">"ពេលវេលា៖ <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (កើតឡើងវិញដដែលៗ) "</string>
+<string name="meeting_allday">"ពេលវេលា៖ <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (ពេញមួយថ្ងៃ) "</string>
+<string name="meeting_allday_recurring">"ពេលវេលា៖ <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (ពេញមួយថ្ងៃ  ការកើតឡើងវិញដដែលៗ) "</string>
+<string name="app_name">"ផ្លាស់ប្ដូរសេវាកម្ម"</string>
+<string name="exception_cancel">"ព្រឹត្តិការណ៍នេះត្រូវបានបោះបង់ដោយសារ៖ <xliff:g id="date">%s</xliff:g> "</string>
+<string name="exception_updated">"ព័ត៌មានលម្អិតអំពីព្រឹត្តិការណ៍នេះត្រូវបានផ្លាស់ប្តូរសម្រាប់៖ <xliff:g id="date">%s</xliff:g> "</string>
+<string name="policy_dont_allow_storage_cards">"មិនអនុញ្ញាតកាតផ្ទុក"</string>
+<string name="policy_dont_allow_unsigned_apps">"មិនអនុញ្ញាតកម្មវិធីដែលមិនបានចុះហត្ថលេខា"</string>
+<string name="policy_dont_allow_unsigned_installers">"មិនអនុញ្ញាតកម្មវិធីដំឡើងកម្មវិធីដែលមិនបានចុះហត្ថលេខា"</string>
+<string name="policy_dont_allow_wifi">"មិនអនុញ្ញាត Wi-Fi"</string>
+<string name="policy_dont_allow_text_messaging">"មិនអនុញ្ញាតការផ្ញើសារជាអក្សរ"</string>
+<string name="policy_dont_allow_pop_imap">"មិនអនុញ្ញាតគណនី POP3 ឬ IMAP"</string>
+<string name="policy_dont_allow_irda">"មិនអនុញ្ញាតការទំនាក់ទំនងតាមអ៊ីនហ្វ្រារ៉េដ"</string>
+<string name="policy_dont_allow_html">"មិនអនុញ្ញាតអ៊ីមែល HTML"</string>
+<string name="policy_dont_allow_browser">"មិនអនុញ្ញាតកម្មវិធីរុករក"</string>
+<string name="policy_dont_allow_consumer_email">"មិនអនុញ្ញាតអ៊ីមែលអតិថិជន"</string>
+<string name="policy_dont_allow_internet_sharing">"មិនអនុញ្ញាតការចែករំលែកអ៊ីនធឺណិត"</string>
+<string name="policy_require_smime">"ទាមទារសារ SMIME"</string>
+<string name="policy_bluetooth_restricted">"រឹតបន្តឹងលើការប្រើប្រាស់ប្ល៊ូធូស"</string>
+<string name="policy_app_blacklist">"មិនអនុញ្ញាតកម្មវិធីដែលបានបញ្ជាក់"</string>
+<string name="policy_app_whitelist">"អនុញ្ញាតតែកម្មវិធីដែលបានបញ្ជាក់ប៉ុណ្ណោះ"</string>
+<string name="policy_text_truncation">"ដាក់កំហិតលើទំហំអ៊ីមែលជាអក្សរ"</string>
+<string name="policy_html_truncation">"ដាក់កំហិតលើទំហំអ៊ីមែល HTML"</string>
+<string name="policy_require_sd_encryption">"តម្រូវឲ្យមានការអ៊ិនគ្រីបកាត SD"</string>
+<string name="policy_dont_allow_attachments">"មិនអនុញ្ញាតឯកសារភ្ជាប់"</string>
+<string name="policy_max_attachment_size">"ដាក់កំហិតលើទំហំឯកសារភ្ជាប់"</string>
+<string name="policy_require_manual_sync_roaming">"អនុញ្ញាតតែការធ្វើសមកាលកម្មដោយដៃប៉ុណ្ណោះ ខណៈពេលកំពុងរ៉ូមីង"</string>
+<string name="policy_require_encryption">"តម្រូវឲ្យមានការអ៊ិនគ្រីបឧបករណ៍"</string>
+<string name="account_setup_options_mail_window_auto">"ស្វ័យប្រវត្តិ"</string>
+<string name="account_setup_options_mail_window_1day">"មួយថ្ងៃ"</string>
+<string name="account_setup_options_mail_window_3days">"បីថ្ងៃ"</string>
+<string name="account_setup_options_mail_window_1week">"មួយសប្តាហ៍"</string>
+<string name="account_setup_options_mail_window_2weeks">"ពីរសប្តាហ៍"</string>
+<string name="account_setup_options_mail_window_1month">"មួយខែ"</string>
+<string name="account_setup_options_mail_window_all">"ទាំងអស់"</string>
+<string name="auth_error_notification_title">ការបញ្ជាក់ការពិតមានកំហុស</string>
+<string name="auth_error_notification_text">"ប៉ះដើម្បីកែសម្រួលការកំណត់របស់គណនេយ្យ<xliff:g id="account">%s</xliff:g>"</string>
+<string name="email_settings_not_available">"បើកកម្មវិធីអ៊ីមែលឡើងវិញ ដើម្បីមើលការកំណត់។"</string>
+</resources>

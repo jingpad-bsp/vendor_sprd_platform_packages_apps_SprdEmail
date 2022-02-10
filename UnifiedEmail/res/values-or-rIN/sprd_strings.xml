@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="drm_protected_file">"* DRM ସୁରକ୍ଷିତ ଫାଇଲ *"</string>
+<string name="not_add_drm_file">"drm ଫାଇଲ ଗୁଡିକୁ ଯୋଗ କରିହେବ ନାହିଁ |"</string>
+<string name="not_support_open_drm">"ଫାଇଲଟି ଖୋଲିବାକୁ ସମର୍ଥିତ ନାହିଁ, ଦୟାକରି ଏହାକୁ ଲୋକାଲ୍‌ରେ ସେଭ୍‌ କରନ୍ତୁ ଯେଉଁଠାରେ ଆପଣ ଏହାକୁ ଖୋଲିପାରିବେ |"</string>
+</resources>

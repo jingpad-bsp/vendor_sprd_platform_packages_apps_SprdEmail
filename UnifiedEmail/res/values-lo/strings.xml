@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="to">"ເຖິງ"</string>
+    <string name="cc">"Cc"</string>
+    <string name="bcc">"Bcc"</string>
+    <string name="subject_hint">"ຫົວຂໍ້"</string>
+    <string name="body_hint">"ຂຽນອີເມວ"</string>
+    <string name="add_file_attachment">"ແນບໄຟລ"</string>
+    <string name="add_photo_attachment">"ແນບຮູບພາບ"</string>
+    <string name="save_draft">"ບັນທຶກຮ່າງ"</string>
+    <string name="discard">"ຍົກເລີກ"</string>
+    <string name="compose">"ຂຽນ"</string>
+    <string-array name="compose_modes">
+        <item>"ຕອບ"</item>
+        <item>"ຕອບກັບທັງໝົດ"</item>
+        <item>"ສົ່ງຕໍ່"</item>
+    </string-array>
+    <string name="reply_attribution">"ໃນ <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> ໄດ້ຂຽນວ່າ:"</string>
+    <string name="forward_attribution">"---------- ຂໍ້ຄວາມທີ່ສົ່ງຕໍ່ ----------&lt;br&gt;ຈາກ: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;ວັນທີ: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;ຫົວຂໍ້: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;ເຖິງ: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;"</string>
+    <string name="forward_attribution_no_headers">"---------- ຂໍ້ຄວາມທີ່ສົ່ງຕໍ່ ----------"</string>
+    <string name="cc_attribution">"Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;"</string>
+    <string name="select_attachment_type">"ເລືອກປະເພດໄຟລຄັດຕິດ"</string>
+    <string name="too_large_to_attach_single">"ບໍ່ສາມາດແນບໄຟລຜ່ານ <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+    <string name="too_large_to_attach_multiple">"ບໍ່ໄດ້ແນບໜຶ່ງ ຫຼື ຫຼາຍໄຟລ. ຈໍາກັດ <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+    <string name="too_large_to_attach_additional">"ບໍ່ໄດ້ແນບໄຟລ. ຮອດ <xliff:g id="maxSize">%1$s</xliff:g> ຂີດຈໍາກັດແລ້ວ."</string>
+    <string name="generic_attachment_problem">"ບໍ່ສາມາດແນບໄຟລ."</string>
+    <string name="attachment_permission_denied">"ການອະນຸຍາດຖືກປະຕິເສດສໍາລັບໄຟລຄັດຕິດ."</string>
+    <string name="recipient_needed">"ເພີ່ມຢ່າງໜ້ອຍໜຶ່ງຜູ້ຮັບ."</string>
+    <string name="confirm_send_message_with_no_subject">"ບໍ່ມີຂໍ້ຄວາມໃນຫົວຂໍ້ຂອງຂໍ້ຄວາມ."</string>
+    <string name="confirm_send_message_with_no_body">"ບໍ່ມີຂໍ້ຄວາມໃນເນື້ອໃນຂອງຂໍ້ຄວາມ."</string>
+    <string name="confirm_send_message">"ສົ່ງຂໍ້ຄວາມນີ້ບໍ?"</string>
+    <string name="message_discarded">"ຍົກເລີກຂໍ້ຄວາມແລ້ວ."</string>
+    <string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+    <string name="custom_from_account_label">"ສົ່ງເມວເປັນ:"</string>
+    <string name="send">"ສົ່ງ"</string>
+    <string name="mark_read">"ໝາຍວ່າອ່ານແລ້ວ"</string>
+    <string name="mark_unread">"ໝາຍວ່າຍັງບໍ່ໄດ້ອ່ານ"</string>
+    <string name="toggle_read_unread">"ສະຫຼັບການອ່ານທີ່ຍັງບໍ່ໄດ້ອ່ານ"</string>
+    <string name="mute">"ປິດສຽງ"</string>
+    <string name="add_star">"ເພີ່ມດາວໃສ່"</string>
+    <string name="remove_star">"ລຶບດາວອອກ"</string>
+    <string name="remove_folder">"ລຶບອອກຈາກ <xliff:g id="folderName">%1$s</xliff:g>"</string>
+    <string name="archive">"ສຳເນົາເອກະສານ"</string>
+    <string name="report_spam">"ລາຍງານສະແປມ"</string>
+    <string name="mark_not_spam">"ລາຍງານວ່າບໍ່ແມ່ນສະແປມ"</string>
+    <string name="report_phishing">"ລາຍງານຟິດຊິ້ງ"</string>
+    <string name="delete">"ລຶບ"</string>
+    <string name="discard_drafts">"ຍົກເລີກຮ່າງ"</string>
+    <string name="discard_failed">"ຍົກເລີກບໍ່ສໍາເລັດ"</string>
+    <string name="refresh">"ດຶງຂໍ້ມູນໃໝ່"</string>
+    <string name="reply">"ຕອບ"</string>
+    <string name="resume_draft">"ແກ້ໄຂ"</string>
+    <string name="forward">"ສົ່ງຕໍ່"</string>
+    <string name="menu_compose">"Compose"</string>
+    <string name="menu_change_folders">"ປ່ຽນໂຟລເດີ"</string>
+    <string name="menu_move_to">"ຍ້າຍໄປຫາ"</string>
+    <string name="menu_move_to_inbox">"ຍ້າຍໄປກ່ອງຂາເຂົ້າ"</string>
+    <string name="menu_manage_folders">"ການຕັ້ງຄ່າໂຟລເດີ"</string>
+    <string name="menu_show_original">"ກັບຄືນສູ່ຂະໜາດອັດຕະໂນມັດ"</string>
+    <string name="menu_settings">"ການ​ຕັ້ງ​ຄ່າ"</string>
+    <string name="menu_search">"ຊອກຫາ"</string>
+    <string name="menu_toggle_drawer">"ສະຫຼັບລິ້ນຊັກ"</string>
+    <string name="drawer_title">"ການກໍານົດທິດທາງ"</string>
+    <string name="mark_important">"ໝາຍວ່າສໍາຄັນ"</string>
+    <string name="mark_not_important">"ໝາຍວ່າບໍ່ສໍາຄັນ"</string>
+    <string name="add_cc_label">"ເພີ່ມ Cc/Bcc"</string>
+    <string name="add_bcc_label">"ເພີ່ມ Bcc"</string>
+    <string name="quoted_text">"ລວມຂໍ້ຄວາມທີ່ອ້າງອີງ"</string>
+    <string name="quoted_text_label">"ຂໍ້ຄວາມອ້າງອີງ"</string>
+    <string name="respond_inline">"ຕອບຮັບໃນແຖວ"</string>
+    <string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+    <string name="kilobytes">"<xliff:g id="count">%s</xliff:g> KB"</string>
+    <string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+    <string name="attachment_image">"ຮູບພາບ"</string>
+    <string name="attachment_video">"ວິດີໂອ"</string>
+    <string name="attachment_audio">"ສຽງ"</string>
+    <string name="attachment_text">"ຂໍ້ຄວາມ"</string>
+    <string name="attachment_application_vnd_ms_powerpoint">"ການນໍາສະເໜີ"</string>
+    <string name="attachment_application_vnd_ms_excel">"ໄຟລເອກະສານ"</string>
+    <string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> ໄຟລ"</string>
+    <string name="save_attachment">"ບັນທຶກ"</string>
+    <string name="download_again">"ດາວໂຫຼດອີກຄັ້ງ"</string>
+    <string name="remove_attachment_desc">"ລຶບໄຟລຄັດຕິດ <xliff:g id="attachmentName">%s</xliff:g>"</string>
+    <string name="more_info_attachment">"ຂໍ້ມູນ"</string>
+    <string name="no_application_found">"ບໍ່ມີແອັບໃດສາມາດເປີດໄຟລຄັດຕິດນີ້ເພື່ອເບິ່ງໄດ້."</string>
+    <string name="fetching_attachment">"ກໍາລັງດຶງໄຟລຄັດຕິດ"</string>
+    <string name="saved">"ບັນທຶກແລ້ວ, <xliff:g id="size">%s</xliff:g>"</string>
+    <string name="download_failed">"ບໍ່ສາມາດດາວໂຫຼດ. ແຕະເພື່ອລອງໃໝ່."</string>
+    <string name="menu_photo_share">"ແບ່ງປັນ"</string>
+    <string name="menu_photo_share_all">"ແບ່ງປັນທັງໝົດ"</string>
+    <string name="saving">"ກໍາລັງບັນທຶກ…"</string>
+    <string name="choosertitle_sharevia">"ແບ່ງປັນຜ່ານ"</string>
+    <string name="contextmenu_openlink">"ເປີດໃນບຣາວເຊີ"</string>
+    <string name="contextmenu_copy">"ກອ໊ບ​ປີ"</string>
+    <string name="contextmenu_view_image">​ເບີ່ງ​ຮູບ</string>
+    <string name="contextmenu_sms_dot">"ຂໍ້ຄວາມ\u2026"</string>
+    <string name="contextmenu_add_contact">"ເພີ່ມລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string name="contextmenu_send_mail">"ສົ່ງອີເມວ"</string>
+    <string name="contextmenu_map">"ແຜນທີ່"</string>
+    <string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> ກ່ຽວກັບ <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> ໃນ <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+    <string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> ກ່ຽວກັບ <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> ທີ່ <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+    <string name="content_description_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> ກ່ຽວກັບ <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> ໃນ <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, ປ້າຍ: <xliff:g id="folders">%7$s</xliff:g>"</string>
+    <string name="content_description_today_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> ກ່ຽວກັບ <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> ທີ່ <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, ປ້າຍ: <xliff:g id="folders">%7$s</xliff:g>"</string>
+    <string name="read_string">"ອ່ານບົດສົນທະນາແລ້ວ"</string>
+    <string name="unread_string">"ຍັງບໍ່ໄດ້ອ່ານບົດສົນທະນາ"</string>
+    <string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+    <string name="badge_and_subject">"<xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g>"</string>
+    <string name="sending">"ກໍາລັງສົ່ງ\u2026"</string>
+    <string name="message_retrying">"ກໍາລັງລອງໃໝ່\u2026"</string>
+    <string name="message_failed">"ການຄົ້ນຫາລົ້ມເຫຼວ"</string>
+    <string name="send_failed">"ຂໍ້ຄວາມບໍ່ໄດ້ຖືກສົ່ງ."</string>
+    <string name="me_object_pronoun">"ຂ້ອຍ"</string>
+    <string name="me_subject_pronoun">"ຂ້ອຍ"</string>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="one">"ລຶບບົດສົນທະນານີ້?"</item>
+        <item quantity="other">"ລຶບບົດສົນທະນາ <xliff:g id="count">%1$d</xliff:g> ເຫຼົ່ານີ້ບໍ?"</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="one">"ເກັບບົດສົນທະນານີ້ບໍ?"</item>
+        <item quantity="other">"ເກັບບົດສົນທະນາ <xliff:g id="count">%1$d</xliff:g> ເຫຼົ່ານີ້ບໍ?"</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="one">"ຍົກເລີກຂໍ້ຄວາມນີ້ບໍ?"</item>
+        <item quantity="other">"ຍົກເລີກຂໍ້ຄວາມ <xliff:g id="count">%1$d</xliff:g> ເຫຼົ່ານີ້ບໍ?"</item>
+    </plurals>
+    <string name="loading_conversations">"ກຳລັງ​ໂຫລດ..."</string>
+    <string name="empty_inbox">"ທ່ານເຮັດສໍາເລັດແລ້ວ! ກະລຸນາມີຄວາມສຸກກັບມື້ຂອງທ່ານ."</string>
+    <string name="empty_search">"ເອະ! ພວກເຮົາບໍ່ພົບສິ່ງໃດໆເລີຍສໍາລັບ \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+    <string name="empty_spam_folder">"ເຢ້, ບໍ່ມີສະແປມບ່ອນນີ້!"</string>
+    <string name="empty_trash_folder">"ບໍ່ມີຂີ້ເຫຍື້ອບ່ອນນີ້. ຂໍຂອບໃຈທີ່ຣີໄຊໂຄລ!"</string>
+    <string name="empty_folder">"ບໍ່ມີເມວຢູ່ບ່ອນນີ້."</string>
+    <string name="getting_messages">"ກໍາລັງຮັບເອົາຂໍ້ຄວາມຂອງທ່ານ"</string>
+    <string name="undo">"ແກ້ໄຂຄືນ"</string>
+    <plurals name="conversation_unstarred">
+        <item quantity="one">"ບົດສົນທະນາ <xliff:g id="count">%1$d</xliff:g> ທີ່ບໍ່ສະແດງຕົນ"</item>
+        <item quantity="other">"ບົດສົນທະນາ <xliff:g id="count">%1$d</xliff:g> ທີ່ບໍ່ສະແດງຕົນ"</item>
+    </plurals>
+    <string name="archived">"ສຳເນົາເອກະສານແລ້ວ"</string>
+    <string name="folder_removed">"ລຶບອອກຈາກ <xliff:g id="folderName">%1$s</xliff:g> ແລ້ວ"</string>
+    <plurals name="conversation_folder_changed">
+        <item quantity="one">"ໂຟລເດີທີ່ປ່ຽນ"</item>
+        <item quantity="other">"ໂຟລເດີທີ່ປ່ຽນ"</item>
+    </plurals>
+    <string name="conversation_folder_moved">"ຍ້າຍໄປທີ່ <xliff:g id="folderName">%1$s</xliff:g> ແລ້ວ"</string>
+    <string name="search_results_header">"ຜົນທີ່ໄດ້"</string>
+    <string name="search_unsupported">"ການຄົ້ນຫາບໍ່ຖືກຮອງຮັບໃນບັນຊີນີ້."</string>
+    <string name="search_suggestion_desc">"ຄໍາແນະນໍາ: <xliff:g id="suggestion">%s</xliff:g>"</string>
+    <plurals name="new_incoming_messages">
+        <item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ຂໍ້ຄວາມໃໝ່"</item>
+        <item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ຂໍ້ຄວາມໃໝ່"</item>
+    </plurals>
+    <string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;ເບິ່ງລາຍລະອຽດ&lt;/a&gt;"</string>
+    <string name="hide_details">"ເຊື່ອງລາຍລະອຽດຂອງຂໍ້ມູນ"</string>
+    <string name="to_message_header">"ເຖິງ <xliff:g id="recipients">%1$s</xliff:g>"</string>
+    <string name="bcc_header_for_recipient_summary">"bcc:\u0020"</string>
+    <string name="contact_info_string">"ສະແດງຂໍ້ມູນລາຍຊື່ສໍາລັບ <xliff:g id="name">%1$s</xliff:g>"</string>
+    <string name="contact_info_string_default">"ສະແດງຂໍ້ມູນລາຍຊື່"</string>
+    <plurals name="show_messages_read">
+        <item quantity="other">"ຂະຫຍາຍ <xliff:g id="count" example="4">%1$d</xliff:g> ຂໍ້ຄວາມທີ່ເກົ່າກວ່າ"</item>
+    </plurals>
+    <plurals name="super_collapsed_block_accessibility_announcement">
+        <item quantity="other">"ຂະຫຍາຍ <xliff:g id="count" example="4">%1$d</xliff:g> ຂໍ້ຄວາມທີ່ເກົ່າກວ່າແລ້ວ"</item>
+    </plurals>
+    <string name="from_heading">"ຈາກ:"</string>
+    <string name="replyto_heading">"ຕອບກັບ:"</string>
+    <string name="to_heading_no_space">"ເຖິງ:"</string>
+    <string name="cc_heading">"Cc:"</string>
+    <string name="bcc_heading">"Bcc:"</string>
+    <string name="date_heading">"ວັນທີ:"</string>
+    <string name="show_images">"ສະແດງຮູບພາບ"</string>
+    <string name="always_show_images">"ສະແດງຮູບຖ່າຍຈາກຈາກຜູ້ສົ່ງບຸກຄົນນີ້ຢ່າງສະໝໍ່າສະເໝີ"</string>
+    <string name="always_show_images_toast">"ຮູບພາບຈາກຜູ້ສົ່ງບຸກຄົນນີ້ຈະຖືກສະແດງໂດຍອັດຕະໂນມັດ."</string>
+    <string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> ຜ່ານ <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+    <string name="message_saved">"ບັນທຶກຂໍ້ຄວາມເປັນສະບັບຮ່າງແລ້ວ."</string>
+    <string name="sending_message">"ກໍາລັງສົ່ງຂໍ້ຄວາມ\u2026"</string>
+    <string name="invalid_recipient">"ທີ່ຢູ່ <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> ບໍ່ຖືກຕ້ອງ."</string>
+    <string name="show_elided">"ສະແດງຂໍ້ຄວາມທີ່ອ້າງອີງມາ"</string>
+    <string name="hide_elided">"\u25BC ເຊື່ອງຂໍ້ຄວາມທີ່ອ້າງອີງມາ"</string>
+    <string name="message_invite_title">"ຄໍາເຊີນຮູບແບບປະຕິທິນ"</string>
+    <string name="message_invite_calendar_view">"ເບິ່ງໃນປະຕິທິນ"</string>
+    <string name="message_invite_label_attending">"ໄປບໍ?"</string>
+    <string name="message_invite_accept">"ຕົກລົງ"</string>
+    <string name="message_invite_tentative">"ອາດຈະ"</string>
+    <string name="message_invite_decline">"ບໍ່"</string>
+    <string name="enumeration_comma">",\u0020"</string>
+    <string name="send_anyway">"ສົ່ງເລີຍ"</string>
+    <string name="ok">"ຕົກລົງ"</string>
+    <string name="done">"ແລ້ວໆ"</string>
+    <string name="cancel">"ຍົກເລີກ"</string>
+    <string name="clear">"ລຶບ"</string>
+    <string name="next">"ຕໍ່ໄປ"</string>
+    <string name="previous">"ກ່ອນໜ້ານີ້"</string>
+    <string name="tap_to_configure">"ແຕະເພື່ອຕັ້ງຄ່າ"</string>
+    <string name="non_synced_folder_description">"ເພື່ອບົດສົນທະນາ, ຊິ້ງໂຟລເດີນີ້."</string>
+    <string name="tap_to_configure_folder_sync">"ຊິ້ງໂຟລເດີ"</string>
+    <string name="large_unseen_count">"<xliff:g id="count" example="99">%d</xliff:g>+ ໃໝ່"</string>
+    <string name="unseen_count">"<xliff:g id="count" example="4">%d</xliff:g> ໃໝ່"</string>
+    <plurals name="actionbar_unread_messages">
+        <item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> ຍັງບໍ່ໄດ້ອ່ານ"</item>
+    </plurals>
+    <string name="view_more_conversations">"ເບິ່ງບົດສົນທະນາເພີ່ມເຕີມ"</string>
+    <string name="loading_conversation">"ກຳລັງ​ໂຫລດ..."</string>
+    <string name="activity_mailbox_selection">"ເລືອກບັນຊີ"</string>
+    <string name="activity_folder_selection">"ເລືອກໂຟລເດີ"</string>
+    <string name="folder_shortcut_widget_label">"ໂຟລເດີອີເມວ"</string>
+    <string name="search_hint">"ຊອກຫາ"</string>
+    <string name="voice_search_not_supported">"ອຸປະກອນນີ້ບໍ່ຮອງຮັບການຄົ້ນຫາສຽງ."</string>
+    <string name="search_back_desc">"ປິດການຄົ້ນຫາ"</string>
+    <string name="search_clear_desc">"ລຶບຂໍ້ຄວາມການຄົ້ນຫາ"</string>
+    <string name="retry">"ລອງໃໝ່"</string>
+    <string name="load_more">"ໂຫຼດເພີ່ມເຕີມ"</string>
+    <string name="shortcut_name_title">"ທາງລັດໂຟລເດີຊື່"</string>
+    <string name="wait_for_sync_title">"ກໍາລັງຖ້າການຊິ້ງ"</string>
+    <string name="not_synced_title">"ບໍ່ໄດ້ຊິ້ງບັນຊີ"</string>
+    <string name="wait_for_manual_sync_body">"ບັນຊີນີ້ບໍ່ໄດ້ຄ່າມາເພື່ອຊິ້ງໂດຍອັດຕະໂນມັດ.\nແຕະ <b>ຊິ້ງຕອນນີ້</b> ເພື່ອຊິ້ງເມວໜຶ່ງຄັ້ງ, ຫຼື <b>ປ່ຽນການຕັ້ງຄ່າການຊິ້ງ</b> ເພື່ອຕັ້ງຄ່າໃຫ້ບັນຊີນີ້ຊິ້ງເມວໂດຍອັດຕະໂນມັດ."</string>
+    <string name="manual_sync">"ຊິ້ງຂໍ້ມູນດຽວນີ້"</string>
+    <string name="change_sync_settings">"ປ່ຽນການຕັ້ງຄ່າການຊິ້ງ"</string>
+    <string name="photo_load_failed">"ບໍ່ສາມາດໂຫຼດຮູບໄດ້"</string>
+    <string name="cant_move_or_change_labels">"ບໍ່ສາມາດຍ້າຍໄດ້ເນື່ອງຈາກການເລືອກມີຫຼາຍບັນຊີ."</string>
+    <string name="multiple_new_message_notification_item">"<b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+    <string name="ignore_spam_warning">"ບໍ່ສົນໃຈ, ຂ້ອຍເຊື່ອໝັ້ນຂໍ້ຄວາມນີ້"</string>
+    <string name="via_domain">"ຜ່ານ <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+    <string name="signin">"ເຂົ້າສູ່ລະບົບ"</string>
+    <string name="info">"Info"</string>
+    <string name="report">"ລາຍງານ"</string>
+    <string name="show">"ສະ​ແດງ"</string>
+    <string name="sync_error">"ບໍ່ສາມາດຊິ້ງ."</string>
+    <string name="sync_error_message">"ອຸປະກອນຂອງທ່ານບໍ່ມີພື້ນທີ່ຈັດເກັບພຽງພໍໃນການຊິ້ງ."</string>
+    <string name="storage">"ພື້ນທີ່ຈັດເກັບຂໍ້ມູນ"</string>
+    <string name="senders_split_token">",\u00A0"</string>
+    <string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+    <string name="all_folders_heading">"ໂຟລເດີທັງໝົດ"</string>
+    <string name="recent_folders_heading">"ໂຟລເດີລ້າສຸດ"</string>
+    <string name="message_details_title">"ລາຍລະອຽດຂໍ້ຄວາມ"</string>
+    <string name="preference_advance_to_title">"ລ່ວງອັດຕະໂນມັດ"</string>
+    <string-array name="prefEntries_autoAdvance">
+        <item>"ໃໝ່ກວ່າ"</item>
+        <item>"ເກົ່າກວ່າ"</item>
+        <item>"ລາຍການສົນທະນາ"</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>"ສະແດງບົດສົນທະນາທີ່ໃໝ່ກວ່າຫຼັງຈາກທ່ານລຶບແລ້ວ"</item>
+        <item>"ສະແດງບົດສົນທະນາທີ່ເກົ່າກວ່າຫຼັງຈາກທ່ານລຶບແລ້ວ"</item>
+        <item>"ສະແດງລາຍການບົດສົນທະນາຫຼັງຈາກທ່ານລຶບແລ້ວ"</item>
+    </string-array>
+    <string name="prefDialogTitle_autoAdvance">"ລ່ວງໜ້າໃຫ້ແກ່"</string>
+    <string name="clear_display_images_whitelist_title">"ລຶບການອະນຸມັດຮູບພາບ"</string>
+    <string name="clear_display_images_whitelist_dialog_title">"ລຶບການອະນຸມັດຮູບພາບບໍ?"</string>
+    <string name="clear_display_images_whitelist_dialog_message">"ຢຸດການສະແດງພາບໃນແຖວຈາກຜູ້ສົ່ງທີ່ທ່ານໄດ້ອະນຸຍາດໄວ້ລ່ວງໜ້າ."</string>
+    <string name="sender_whitelist_cleared">"ຮູບພາບຈະບໍ່ຖືກສະແດງໂດຍອັດຕະໂນມັດ."</string>
+    <string name="preferences_signature_summary_not_set">"ຍັງບໍ່ໄດ້ຕັ້ງ"</string>
+    <string name="notification_action_reply">"ຕອບ"</string>
+    <string name="notification_action_archive">"ສຳເນົາເອກະສານ"</string>
+    <string name="notification_action_remove_label">"ລຶບປ້າຍ"</string>
+    <string name="notification_action_delete">"ລຶບ"</string>
+    <string name="notification_action_undo_archive">"ສຳເນົາເອກະສານແລ້ວ"</string>
+    <string name="notification_action_undo_remove_label">"ລຶບປ້າຍແລ້ວ"</string>
+    <string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+    <string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+    <string name="silent_ringtone">"ປິດສຽງ"</string>
+    <string name="preference_removal_action_title">"ການດໍາເນີນການເດີມ"</string>
+    <string-array name="prefEntries_removal_action">
+        <item>"ສຳເນົາເອກະສານ"</item>
+        <item>"ລຶບ"</item>
+    </string-array>
+    <string-array name="prefSummaries_removal_action_summary">
+        <item>"ສຳເນົາເອກະສານ"</item>
+        <item>"ລຶບ"</item>
+    </string-array>
+    <string name="preferences_default_reply_all_summary_impl">"ໃຊ້ເປັນຄ່າເດີມສໍາລັບການຕອບກັບຂໍ້ມູນ"</string>
+    <string name="preference_swipe_title">"ການດໍາເນີນການແບບປັດ"</string>
+    <string name="preference_swipe_description">"ໃນລາຍການບົດສົນທະນາ"</string>
+    <string name="preference_sender_image_title">"ຮູບຂອງຜູ້ສົ່ງ"</string>
+    <string name="preference_sender_image_description">"ສະແດງຂ້າງຊື່ໃນລາຍການສົນທະນາ"</string>
+    <string name="empty_trash">"ລຶບຂໍ້ມູນໃນຖັງຂີ້ເຫຍື້ອ"</string>
+    <string name="empty_spam">"ລຶບສະແປມ"</string>
+    <string name="empty_trash_dialog_title">"ລຶບຂໍ້ມູນໃນຖັງຂີ້ເຫຍື້ອບໍ?"</string>
+    <string name="empty_spam_dialog_title">"ລຶບສະແປມບໍ?"</string>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ຂໍ້ຄວາມຈະຖືກລຶບຢ່າງຖາວອນ."</item>
+        <item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ຂໍ້ຄວາມຈະຖືກລຶບຢ່າງຖາວອນ."</item>
+    </plurals>
+    <string name="drawer_open">"ເປີດລິ້ນຊັກການກໍານົດທິດທາງ"</string>
+    <string name="drawer_close">"ປິດລິ້ນຊັກການກໍານົດທິດທາງ"</string>
+    <string name="conversation_photo_welcome_text">"ແຕະຮູບຂອງຜູ້ສົ່ງເພື່ອເລືອກບົດສົນທະນາດັ່ງກ່າວ."</string>
+    <string name="long_press_to_select_tip">"ແຕະ ແລະ ກົດຄ້າງໄວ້ເພື່ອເລືອກໜຶ່ງບົດສົນທະນາ, ຈາກນັ້ນແຕະເພື່ອເລືອກເພີ່ມເຕີມ."</string>
+    <string name="folder_icon_desc">"ໄອຄອນຂອງໂຟລເດີ"</string>
+    <string name="add_account">"ເພີ່ມບັນຊີ"</string>
+    <string name="dismiss_tip_hover_text">"ຍົກເລີກຄໍາແນະນໍາ"</string>
+    <string name="auto_sync_off">"ການຊິ້ງອັດຕະໂນມັດປິດຢູ່. ແຕະເພື່ອເປີດ."</string>
+    <string name="account_sync_off">"ການຊິ້ງບັນຊີປິດຢູ່. ເປີດໃນ &lt;a href=\'http://www.example.com\'&gt;Account\u00A0settings.&lt;/a&gt;"</string>
+    <string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g>ບໍ່ໄດ້ສົ່ງໃນ <xliff:g id="outbox">%2$s</xliff:g>"</string>
+    <string name="turn_auto_sync_on_dialog_title">"ເປີດການຊິ້ງອັດຕະໂນມັດບໍ?"</string>
+    <string name="turn_auto_sync_on_dialog_body">"ການປ່ຽນແປງທີ່ທ່ານດໍາເນີນໃນແອັບ ແລະ ບັນຊີທັງໝົດ, ບໍ່ພຽງແຕ່ Gmail, ຈະຖືກຊິ້ງລະຫວ່າງເວັບ, ອຸປະກອນອື່ນໆຂອງທ່ານ, ແລະ <xliff:g id="phone_or_tablet">%1$s</xliff:g> ຂອງທ່ານ."</string>
+    <string name="phone">"ໂທລະສັບ"</string>
+    <string name="tablet">"ແທັບເລັດ"</string>
+    <string name="turn_auto_sync_on_dialog_confirm_btn">"ເປີດ"</string>
+    <string name="show_n_more_folders">"ສະແດງ <xliff:g id="number">%1$s</xliff:g> ໂຟລເດີ"</string>
+    <string name="hide_folders">"ເຊື່ອງໂຟລເດີ"</string>
+    <string name="print_all">"ພິມທັງໝົດ"</string>
+    <plurals name="num_messages">
+        <item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ຂໍ້ຄວາມ"</item>
+        <item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ຂໍ້ຄວາມ"</item>
+    </plurals>
+    <string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> ຕອນ <xliff:g id="time">%2$s</xliff:g>"</string>
+    <string name="draft_to_heading">"ຮ່າງເຖິງ:"</string>
+    <string name="draft_heading">"ສະບັບຮ່າງ"</string>
+    <string name="quoted_text_hidden_print">"ເຊື່ອງຂໍ້ຄວາມທີ່ອ້າງອີງແລ້ວ"</string>
+    <plurals name="num_attachments">
+        <item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ໄຟລຄັດຕິດ"</item>
+        <item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ໄຟລຄັດຕິດ"</item>
+    </plurals>
+    <string name="no_subject">"(ບໍ່ມີຫົວຂໍ້)"</string>
+    <string name="vacation_responder">"ຜູ້ຕອບຮັບໃນມື້ພັກ"</string>
+    <string name="vacation_responder_body_hint_text">"ຂໍ້ຄວາມ"</string>
+    <string name="send_to_contacts_text">"ສົ່ງຫາສະເພາະລາຍຊື່ຂອງຂ້ອຍເທົ່ານັ້ນ"</string>
+    <string name="send_to_domain_text">"ສົ່ງຫາສະເພາະ <xliff:g id="domain">%1$s</xliff:g>"</string>
+    <string name="pick_start_date_title">"ເລີ່ມຕົ້ນ"</string>
+    <string name="pick_end_date_title">"ສິ້ນສຸດ (ບໍ່ບັງຄັບ)"</string>
+    <string name="date_not_set">"ຍັງບໍ່ໄດ້ຕັ້ງ"</string>
+    <string name="set_end_date_dialog_title">"ວັນສິ້ນສຸດ (ບໍ່ບັງຄັບ)"</string>
+    <string name="custom_date">"ກຳນົດເອງ"</string>
+    <string name="date_none">"ບໍ່ມີ"</string>
+    <string name="discard_changes">"ຍົກເລີກການປ່ຽນແປງບໍ?"</string>
+    <string name="vacation_responder_changes_saved">"ບັນທຶກການປ່ຽນແປງຂອງຜູ້ຕອບຮັບໃນມື້ພັກແລ້ວ"</string>
+    <string name="vacation_responder_changes_discarded">"ຍົກເລີກການປ່ຽນແປງຂອງຜູ້ຕອບຮັບໃນມື້ພັກແລ້ວ"</string>
+    <string name="vacation_responder_off">"ປິດ"</string>
+    <string name="vacation_responder_on">"ເປີດຢູ່, ຈາກ <xliff:g id="date">%1$s</xliff:g>"</string>
+    <string name="vacation_responder_on_with_end_date">"ເປີດຢູ່, ຈາກ <xliff:g id="start-date">%1$s</xliff:g> ຫາ <xliff:g id="end-date">%2$s</xliff:g>"</string>
+    <string name="vacation_responder_empty_subject_and_body_warning">"ເພີ່ມຫົວຂໍ້ ຫຼື ຂໍ້ຄວາມ"</string>
+    <string name="view_entire_message">"ເບິ່ງຂໍ້ຄວາມທັງໝົດ"</string>
+    <string name="eml_loader_error_toast">"ບໍ່ສາມາດເປີດໄຟລນີ້"</string>
+    <string name="help_and_info">"ຊ່ວຍເຫຼືອ"</string>
+    <string name="help_and_feedback">"ຊ່ວຍ​ເຫຼືອ &amp; ຄຳ​ຕິ​ຊົມ"</string>
+    <string name="feedback">"ສົ່ງຄຳຕິຊົມ"</string>
+    <string name="copyright">"©<xliff:g id="year" example="2010">%1$d</xliff:g> ບໍລິສັດ Google."</string>
+    <string name="version">"<xliff:g id="app_name" example="Email">%1$s</xliff:g> ລຸ້ນ <xliff:g id="version" example="2.2.1">%2$s</xliff:g>"</string>
+    <string name="print_dialog">"ພິມ\u2026"</string>
+    <string name="copyright_information">"ຂໍ້ມູນລິຂະສິດ"</string>
+    <string name="privacy_policy">"ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ"</string>
+    <string name="open_source_licenses">"ເປີດໃບຢັ້ງຢືນແຫຼ່ງທີ່ມາ"</string>
+    <string name="reply_choice_yes">"ແມ່ນແລ້ວ"</string>
+    <string name="reply_choice_no">"No"</string>
+    <string name="reply_choice_ok">"ຕົກລົງ"</string>
+    <string name="reply_choice_hehe">"ແຮ່ແຮ່"</string>
+    <string name="reply_choice_thanks">"ຂອບໃຈ"</string>
+    <string name="reply_choice_i_agree">"ຂ້ອຍເຫັນດີນຳ"</string>
+    <string name="reply_choice_nice">"ດີໆ"</string>
+    <string name="reply_on_my_way">"ກຳລັງໄປ"</string>
+    <string name="reply_choice_later">"ຕົກລົງ, ໃຫ້ຂ້ອຍຕອບກັບຫາເຈົ້າ"</string>
+    <string name="preference_header_action_confirmations">"ການຢືນຢັນກ່ຽວກັບການດໍາເນີນການ"</string>
+    <string name="preference_confirm_before_delete_title">"ຢືນຢັນກ່ອນທີ່ຈະລຶບ"</string>
+    <string name="preference_confirm_before_archive_title">"ຢືນຢັນກ່ອນທີ່ຈະເກັບໄວ້"</string>
+    <string name="preference_confirm_before_send_title">"ຢືນຢັນກ່ອນທີ່ຈະສົ່ງ"</string>
+    <string name="preferences_conversation_mode_title">"ຂໍ້ຄວາມທີ່ຕື່ມອັດຕະໂນມັດ"</string>
+    <string name="preferences_conversation_mode_summary">"ຫຍໍ້ຂໍ້ຄວາມໃຫ້ພໍດີກັບໜ້າຈໍ"</string>
+    <string name="preferences_disable_snap_headers_title">"ການດໍາເນີນການຂອງຂໍ້ຄວາມ"</string>
+    <string-array name="prefSummaries_snapHeader">
+        <item>"ສະແດງການດໍາເນີນການຂອງຂໍ້ຄວາມຢູ່ດ້ານເທິງຂອງໜ້າຈໍສະເໝີ"</item>
+        <item>"ສະແດງການດໍາເນີນການຂອງຂໍ້ຄວາມຢູ່ດ້ານເທິງຂອງໜ້າຈໍສະເພາະເມື່ອໝຸນໜ້າຈໍຕາມລວງຕັ້ງເທົ່ານັ້ນ"</item>
+        <item>"ຫ້າມສະແດງການດໍາເນີນການຂອງຂໍ້ຄວາມພາຍນອກສ່ວນເທິງຂອງຂໍ້ຄວາມ"</item>
+    </string-array>
+    <string-array name="prefEntries_snapHeader">
+        <item>"ສະແດງສະເໝີ"</item>
+        <item>"ສະແດງສະເພາະຕາມລວງຕັ້ງເທົ່ານັ້ນ"</item>
+        <item>"ຫ້າມສະແດງ"</item>
+    </string-array>
+    <string name="clear_history_title">"ລຶບປະຫວັດການຄົ້ນຫາ"</string>
+    <string name="search_history_cleared">"ລຶບປະຫວັດການຄົ້ນຫາແລ້ວ."</string>
+    <string name="clear_history_dialog_title">"ລຶບປະຫວັດການຄົ້ນຫາບໍ?"</string>
+    <string name="clear_history_dialog_message">"ການຄົ້ນຫາທັງໝົດທີ່ທ່ານໄດ້ດໍາເນີນກ່ອນໜ້ານີ້ຈະຖືກລຶບ."</string>
+    <string name="manage_accounts_menu_item">"ຈັດການກັບບັນຊີ"</string>
+    <string name="general_preferences_title">"ການຕັ້ງຄ່າທົ່ວໄປ"</string>
+    <string name="activity_preferences">"ການ​ຕັ້ງ​ຄ່າ"</string>
+    <string name="overflow_description">"ຕົວເລືອກເພີ່ມເຕີມ"</string>
+    <string name="security_hold_required_text">"ຈໍາເປັນຕ້ອງມີການອັບເດດຄວາມປອດໄພ <xliff:g id="email_address">%1$s</xliff:g>"</string>
+    <string name="update_security_text">"ອັບເດດຕອນນີ້"</string>
+    <string name="forms_are_disabled">"ຟອມຖືກປິດໃຊ້ໃນ Gmail"</string>
+    <string name="add_contacts_too_much">"ຈຳ​ນວນ​ຜູ້​ຮັບ​ຫລາຍ​ສຸດ​ແມ່ນ50."</string>
+    <string name="account_delete_waiting">"ກຳ​ລັງ​ລຶບ ກະ​ລຸ​ນາ​ລໍ​ຖ້າ..."</string>
+    <string name="filter_all">"ທັງໝົດ"</string>
+    <string name="filter_receiver">"ຜູ້ຮັບ"</string>
+    <string name="filter_sender">"ຜູ້​ສົ່ງ"</string>
+    <string name="filter_subject">"ຫົວຂໍ້"</string>
+    <string name="filter_content">"ເນື້ອ​ຫາ"</string>
+    <string name="search_on_server">"ຄົ້ນ​ຫາ​ໃນ​ເຊີບ​ເວີ້"</string>
+    <string name="download_confirm_msg">"ເຄືອ​ຂ່າຍ​ຂະ​ນະ​ນີ້ບໍ່​ແມ່ນWLAN ແລະ​ໄຟ​ລ໌​ແນບ​ໃຫ​ຍ່​ເກີນ​ໄປ ກະ​ລຸ​ນາ​ຢືນ​ຢັນ​ວ່າ​ຈະ​ສື່ບ​ຕໍ່​ຫລືບໍ່"</string>
+    <string name="download_deny_malware">"ອາດ​ຈະ​ແມ່ນ​ໂປຼ​ແກຼມ​ທີ່​ມີ​ເຈ​ຕະ​ນາ​ຮ້າຍ ບໍ່​ສາ​ມາດ​ດາວ​ໂຫລດ"</string>
+    <string name="download_deny_wifionly">"ດາວ​ໂຫລດ​ສະ​ເພາະ​ເມື່ອ​ເຊື່ອມ​ຕໍ່​ກັບWLANເທົ່າ​ນັ້ນ"</string>
+    <string name="download_deny_nointent">"ບໍ່​ມີ​​ໂປຼ​ແກຼມສາ​ມາດ​ເປີດ​ເອ​ກະ​ສານ​ແນບ​ນີ້"</string>
+    <string name="download_deny_nosideload">"ລອງ​ໃໝ່​ຫລັງ​ຈາກ​ມີ​ການ​ອະ​ນຸ​ຍາດ​ຕິດ​ຕັ້ງ​ໂປຼ​ແກຼມບໍ່​ຮູ້​ທີ່​ມາ"</string>
+    <string name="download_deny_apkinstall">"ເນື່ອງ​ຈາກ​ຫ້າມ​ຕິດ​ຕັ້ງapk ບໍ່​ສາ​ມາດ​ດາວ​ໂຫລດ"</string>
+    <string name="download_deny_policy">"ເນື່ອງ​ຈາກ​ນະ​ໂຍ​ບາຍ​ບັນ​ຊີ​ຜູ້​ໃຊ້ ບໍ່​ສາ​ມາດ​ດາວ​ໂຫລດ"</string>
+    <string name="download_att_external">"ດາວ​ໂຫລດ​ໄປ​ທີ່​ດາວ​ໂຫລດ"</string>
+    <string name="save_to_where">"ໄຟລຄັດຕິດຖືກບັນທຶກສໍາເລັດແລ້ວໃນ: "</string>
+    <string name="missing_required_permission">"ທ່ານໄດ້ປິດໃຊ້ການອະນຸຍາດທີ່ຈໍາເປັນ."</string>
+    <string name="permission_change">"ເນື່ອງ​ຈາກ​ສິດ​ທິ​ມີ​ການ​ປ່ຽນ​ແປງ ກະ​ລຸ​ນາ​ເລືອກ​ໄຟ​ລ໌​ໃໝ່"</string>
+    <string name="permission_change_redo">"ເນື່ອງ​ຈາກ​ສິດ​ທິ​ມີ​ການ​ປ່ຽນ​ແປງ ກະ​ລຸ​ນາ​ດຳ​ເນີນ​ການ​ໃໝ່"</string>
+    <string name="preference_default_signature_title">"Signature"</string>
+    <string name="signature_default">"ສົ່ງ​ໄປ​ຫາ​ມື​ຖື​ຂອງ​ຂ້ອຍ"</string>
+    <string name="set_priority_high">"ຕັ້ງ​ຄ່າ​ລະ​ດັບ​ຄວາມ​ສຳ​ຄັນ​ສູງ"</string>
+    <string name="set_priority_normal">"ຕັ້ງ​ຄ່າ​ລະ​ດັບ​ຄວາມ​ສຳ​ຄັນ​ທຳ​ມະ​ດາ"</string>
+    <string name="set_priority_low">"ຕັ້ງ​ຄ່າ​ລະ​ດັບ​ຄວາມ​ສຳ​ຄັນຕ່ຳ"</string>
+    <string name="file_not_exist">"ໄຟລ໌ແນບບໍ່ມີຢູ່ ກະລຸນາດາວໂຫລດໃໝ່！"</string>
+    <string name="body_input_more">"ຂໍ​ອະ​ໄພ ສາ​ມາດ​ໃສ່​ໄດ້​ພຽງ%1$sຕົວ​ອັກ​ສອນ"</string>
+    <string name="attachment_rename_to_legal">"ຂໍ້ຄວາມທີ່ຄັດຕິດມາໄດ້ຖືກຕັ້ງຊື່ໃໝ່ເນື່ອງຈາກຊື່ເດີມບໍ່ຖືກຕ້ອງ"</string>
+    <string name="account_changed_load_account_inbox">"ບັນຊີຕອບຮັບຖືກປ່ຽນ, ປ່ຽນໄປໃສ່ກ່ອງຂໍ້ມູນເຂົ້າ."</string>
+    <string name="no_available_storage">"ບໍ່ມີຊ່ອງເກັບຂໍ້ມູນ"</string>
+    <string name="attachment">"ເອກະສານຄັດຕິດ"</string>
+    <string name="confirm_compress_tittle">"ຫຍໍ້ເຂົ້າ"</string>
+    <string name="confirm_compress_msg">"ຂະໜາດຂອງຮູບຖ່າຍກາຍ <xliff:g id="size">%s</xliff:g>, ພະຍາຍາມທີ່ຈະບີບອັດໄຟລບໍ?"</string>
+    <string name="compressed_failed">"ບໍ່ສາມາດບີບອັດຮູບຖ່າຍດ້ານລຸ່ມ <xliff:g id="size">%s</xliff:g>"</string>
+    <string name="save_draft_msg">"ບັນທຶກຮ່າງໄດ້ບໍ?"</string>
+    <string name="menu_sorting_method">"ການລວບລວມວິທີການ"</string>
+    <string name="oarder_by_timestamp_asc">"ວັນທີ (ທໍາອິດ)"</string>
+    <string name="oarder_by_timestamp_desc">"ວັນທີ (ລ່າສຸດ)"</string>
+    <string name="oarder_by_sender_asc">"ຜູ້ສົ່ງ (A ເຖິງ Z)"</string>
+    <string name="oarder_by_sender_desc">"ຜູ້ສົ່ງ (Z ເຖິງ A)"</string>
+    <string name="oarder_by_recipient_asc">" ຜູ້ຮັບ (A ເຖິງ Z)"</string>
+    <string name="oarder_by_recipient_desc">"ຜູ້ຮັບ (Z ເຖິງ A)"</string>
+    <string name="oarder_by_subject_asc">"ຫົວຂໍ້ (A ເຖິງ Z)"</string>
+    <string name="oarder_by_subject_desc">"ຫົວຂໍ້ (Z ເຖິງ A)"</string>
+    <string name="select_all">"ເລືອກທັງຫມົດ"</string>
+    <string name="cancel_all">"ບໍ່​ເລືອກ​ທັ້ງ​ມົດ"</string>
+    <string name="preference_snippetShowLines_to_title">"ເບິ່່ງສາລະບານກ່ອນ"</string>
+    <string-array name="prefEntries_snippetShowLines">
+        <item>"ບໍ່ມີ"</item>
+        <item>"1 ແຖວ"</item>
+        <item>"2 ຶ ແຖວ"</item>
+        <item>"3 ຶ ແຖວ"</item>
+    </string-array>
+    <string name="contacts_tab_tittle">"ລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string name="favorite_tab_tittle">"ມັກ"</string>
+    <string name="checked_contacts_exceeds_max">"ສາມາດເລືອກໄດ້ສູງສຸດ <xliff:g id="count">%s</xliff:g> ລາຍຊື່"</string>
+    <string name="vip">"ກ່ອງແຟ້ມຂໍ້ມູນ VIP "</string>
+    <string name="vip_settings">"ການຕັ້ງຄ່າ VIP"</string>
+    <string name="vip_members">"ຂໍ້ມູນຕິດຕໍ່ VIP "</string>
+    <string name="vip_members_count">"ລາຍຊື່ VIP (<xliff:g example="2">%1$d</xliff:g>)"</string>
+    <string name="vip_members_list_empty">"ບໍ່ມີສະມາຊິກ VIP "</string>
+    <string name="vip_remove_title">"ເອົາ VIP ອອກ"</string>
+    <string name="vip_add">"ເພີ່ມ VIP"</string>
+    <string name="vip_add_from_contacts">"ເພີ່ມມາຈາກຂໍ້ມູນຕິດຕໍ່"</string>
+    <string name="vip_add_from_input">"ເພີ່ມທີ່ຢູ່ຕາມປື້ມຄູ່ມື"</string>
+    <string name="vip_choose_contact">"ເພີ່ມ VIP"</string>
+    <string name="vip_remove_prompt">"<xliff:g example="2">%1$s</xliff:g> ຈະຖືກລຶບອອກຈາກສະມາຊິກ VIP."</string>
+    <string name="not_add_duplicate_vip">"ຂໍ້ມູນຕິດຕໍ່ໍຊ້ຳຈະບໍ່ຖືກເພີ່ມເຂົ້າໄປໃນລາຍຊື່ VIP."</string>
+    <string name="can_not_add_vip_over">"ບໍ່ສາມາດເພີ່ມສະມາຊິກ VIP ຜ່ານ <xliff:g id="count">%s</xliff:g>"</string>
+    <string name="message_compose_error_invalid_email">"ທີ່ຢູ່ອີແມວບໍ່ຖືກ."</string>
+    <string name="duplicate_address_removed_msg">"ບໍ່ສາມາດເພີ່ມບ່ອນຢູ່ຊ້ຳເຂົ້າໄປໃນລາຍຊື່ບ່ອນຢູ່"</string>
+    <string name="gallery_not_found">"ບໍ່ເຫັນກ່ອງຮູບພາບ"</string>
+    <string name="sound_recorder_not_found">"ບໍ່ເຫັນເຄື່ອງເກັບສຽງ"</string>
+    <string name="attachment_documents_label">"ການຈັດການໄຟລ໌ຂໍ້ມູນ"</string>
+    <string name="create_image_file_failed">"ການສ້າງຮູບລົ້ມແຫຼວ, ກາລຸນາກວດກາສະຖານະການເກັບກ່ອນໃຊ້ກ້ອງຖ່າຍຮູບ"</string>
+    <string name="cancel_attachment">"ຍົກເລີກການດາວໂຫຼດ"</string>
+    <string name="from">"ຈາກ"</string>
+    <string name="compose_title">"ຂຽນ"</string>
+    <string name="reply_all">"ຕອບກັບທັງໝົດ"</string>
+    <string name="attachment_application_msword">"ເອກະສານ"</string>
+    <string name="preview_attachment">"ເບິ່ງຕົວຢ່າງ"</string>
+    <string name="please_wait">"ກະລຸນາລໍຖ້າ\u2026"</string>
+    <string name="menu_photo_save_all">"ບັນທຶກທັງໝົດ"</string>
+    <string name="menu_photo_print">"ພິມ"</string>
+    <string name="contextmenu_copylink">"ສໍາເນົາລິ້ງ URL"</string>
+    <string name="contextmenu_dial_dot">"ກົດໂທ\u2026"</string>
+    <string name="contextmenu_sharelink">"ແບ່ງປັນລິ້ງ"</string>
+    <plurals name="draft">
+        <item quantity="one">"ສະບັບຮ່າງ"</item>
+        <item quantity="other">"ຮ່າງ"</item>
+    </plurals>
+    <string name="confirm_discard_text">"ຍົກເລີກຂໍ້ຄວາມນີ້ບໍ?"</string>
+    <plurals name="conversation_muted">
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ​ຖືກ​ປິດ​ສຽງ​ແລ້ວ"</item>
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ​ຖືກ​ປິດ​ສຽງ​ແລ້ວ"</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ​ຖືກ​ລາຍ​ງານ​ວ່າ​ເປັນ​ສະ​ແປມ"</item>
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ​ຖືກ​ລາຍ​ງານ​ວ່າ​ເປັນ​ສະ​ແປມ"</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ​ຖືກ​ລາຍ​ງານ​ວ່າ​ບໍ່​ແມ່ນ​ສະ​ແປມ"</item>
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ​ຖືກ​ລາຍ​ງານ​ວ່າ​ບໍ່​ແມ່ນ​ສະ​ແປມ"</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ​ຖືກ​​ໝາຍບອກວ່າ​ບໍ່​​ສຳ​ຄັນ"</item>
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ​ຖືກ​​ໝາຍບອກວ່າ​ບໍ່​​ສຳ​ຄັນ"</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ​ຖືກ​ລາຍ​ງານ​ວ່າ​ເປັນ​​ຟິ​ສ​ຊິງ"</item>
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ​ຖືກ​ລາຍ​ງານ​ວ່າ​ເປັນ​​ຟິ​ສ​ຊິງ"</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ​​ບັນ​ລຸ​ໄດ້ແລ້ວ"</item>
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ​​ບັນ​ລຸ​ໄດ້ແລ້ວ"</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ​ຖືກ​​ລຶບ​ແລ້ວ"</item>
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ​ຖືກ​​ລຶບ​ແລ້ວ"</item>
+    </plurals>
+    <string name="deleted">"ລຶບແລ້ວ"</string>
+    <string name="add_label">"ເພີ່ມໂຟລເດີ"</string>
+    <string name="to_heading">"ເຖິງ:\u0020"</string>
+    <string-array name="sync_status">
+        <item>"ຄວາມສໍາເລັດ"</item>
+        <item>"ບໍ່ມີການເຊື່ອມຕໍ່"</item>
+        <item>"ບໍ່ສາມາດເຂົ້າສູ່ລະບົບ"</item>
+        <item>"ຂໍ້ຜິດພາດດ້ານຄວາມປອດໄພ"</item>
+        <item>"ບໍ່ສາມາດຊິ້ງ"</item>
+        <item>"ຂໍ້ຜິດພາດໃນເຄື່ອງ"</item>
+        <item>"ຂໍ້ຜິດພາດຂອງເຊີບເວີ"</item>
+    </string-array>
+    <string name="change_folders_selection_dialog_title">"ປ່ຽນໂຟລເດີ"</string>
+    <string name="move_to_selection_dialog_title">"ຍ້າຍໄປຫາ"</string>
+    <string name="search_voice_desc">"ເລີ່ມການຄົ້ນຫາດ້ວຍສຽງ"</string>
+    <string name="network_error">"ບໍ່ມີການເຊື່ອມຕໍ່"</string>
+    <string name="preferences_signature_title">"ລາຍເຊັນ"</string>
+    <string name="preferences_signature_dialog_title">"ລາຍເຊັນ"</string>
+    <string name="notification_action_reply_all">"ຕອບກັບທັງໝົດ"</string>
+    <string name="notification_action_undo_delete">"ລຶບແລ້ວ"</string>
+    <plurals name="new_messages">
+        <item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ຂໍ້ຄວາມໃໝ່"</item>
+        <item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ຂໍ້ຄວາມໃໝ່"</item>
+    </plurals>
+    <string name="prefDialogTitle_removal_action">"ການດໍາເນີນການເດີມ"</string>
+    <string name="preferences_default_reply_all_title">"ຕອບກັບທັງໝົດ"</string>
+    <string name="print">"ພິມ"</string>
+    <string name="account_delete_dlg_title">"ລຶບບັນຊີ"</string>
+</resources>

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="from">"වෙතින්"</string>
+    <string name="to">"වෙත"</string>
+    <string name="cc">"පිටපත"</string>
+    <string name="bcc">"රහස් පිටපත"</string>
+    <string name="subject_hint">"කාරණය"</string>
+    <string name="body_hint">"ඊමේල් සැකසීම"</string>
+    <string name="add_file_attachment">"ගොනුවක් ඇමිණීම"</string>
+    <string name="add_photo_attachment">"පින්තූරයක් ඇමිණීම"</string>
+    <string name="save_draft">"කෙටුම්පත සුරැකීම"</string>
+    <string name="discard">"ඉවත ලන්න"</string>
+    <string name="compose">"සම්පාදනය කරන්න"</string>
+    <string name="compose_title">"සකසනය"</string>
+    <string-array name="compose_modes">
+        <item>"පිළිතුරු දීම"</item>
+        <item>"සියල්ලටම පිළිතුරු දෙන්න"</item>
+        <item>"ඉදිරියට"</item>
+    </string-array>
+    <string name="reply_attribution">"<xliff:g id="date">%s</xliff:g> දින, <xliff:g id="person">%s</xliff:g> ලියන ලදී:"</string>
+    <string name="forward_attribution">"---------- යොමු කළ පණිවුඩය ----------&lt;br&gt;වෙතින්: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;දිනය: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;මාතෘකාව: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;වෙත: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;"</string>
+    <string name="forward_attribution_no_headers">"---------- ආපසු යොමුකළ පණිවුඩය ----------"</string>
+    <string name="cc_attribution">"පිටපත: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;"</string>
+    <string name="select_attachment_type">"ඇමුණුම් වර්ගය තෝරන්න"</string>
+    <string name="too_large_to_attach_single">"ඇමිණීමට නොහැකිය ගොනුව ඉක්මවයි <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+    <string name="too_large_to_attach_multiple">"ගොනු එකක් හෝ කිහිපයක් ඇමිණීමට නොහැකි විය. සීමාව <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+    <string name="too_large_to_attach_additional">"ගොනුව ඇමිණීමට නොහැකි විය. <xliff:g id="maxSize">%1$s</xliff:g> සීමාවට ළඟා විය."</string>
+    <string name="generic_attachment_problem">"ගොනුව ඇමිණීමට නොහැකි විය."</string>
+    <string name="attachment_permission_denied">"ඇමුණුම සඳහා අවසරය ප්‍රතික්ෂේප කරන ලදි."</string>
+    <string name="recipient_needed">"අඩුතරමේ ඒක ලබන්නෙක්."</string>
+    <string name="confirm_send_message_with_no_subject">"පණිවුඩ විෂයේ කිසිඳු පෙළක් නොමැත."</string>
+    <string name="confirm_send_message_with_no_body">"පණිවුඩ දේහයේ කිසිඳු පෙළක් නොමැත."</string>
+    <string name="confirm_send_message">"මෙම පණිවුඩය යවන්න?"</string>
+    <string name="message_discarded">"පණිවුඩය ඉවතලන ලදී."</string>
+    <string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+    <string name="custom_from_account_label">"ලිපය යවන්න මේ ලෙස:"</string>
+    <string name="send">"යවන්න"</string>
+    <string name="mark_read">"කියවූ ලෙස ලකුණු කරන්න"</string>
+    <string name="mark_unread">"නොකියවූ ලෙස ලකුණු කරන්න"</string>
+    <string name="toggle_read_unread">"කියවූ නොකියවූ අතර මාරු වන්න"</string>
+    <string name="mute">"නිශ්ශබ්ද කරන්න"</string>
+    <string name="add_star">"තරුව එකතු කරන්න"</string>
+    <string name="remove_star">"තරුව ඉවත් කරන්න"</string>
+    <string name="remove_folder">"<xliff:g id="folderName">%1$s</xliff:g> වලින් ඉවත් කරන්න"</string>
+    <string name="archive">"සංරක්ෂණය කරන්න"</string>
+    <string name="report_spam">"අයාචිත තැපෑල ලෙස වාර්තා කරන්න"</string>
+    <string name="mark_not_spam">"අයාචිත නොවන තැපෑල ලෙස වාර්තා කරන්න"</string>
+    <string name="report_phishing">"තතුබෑම වාර්තා කරන්න"</string>
+    <string name="delete">"මකන්න"</string>
+    <string name="discard_drafts">"කෙටුම්පත් ඉවතලන්න"</string>
+    <string name="discard_failed">"ඉවත දැමීම අතැර දමන්න"</string>
+    <string name="refresh">"නැවුම් කරන්න"</string>
+    <string name="reply">"පිළිතුරු දීම"</string>
+    <string name="reply_all">"සියල්ලටම පිළිතුරු දෙන්න"</string>
+    <string name="resume_draft">"සංස්කරණය කරන්න"</string>
+    <string name="forward">"ඉදිරියට"</string>
+    <string name="menu_compose">"සකසනය"</string>
+    <string name="menu_change_folders">"ෆෝල්ඩර වෙනස් කරන්න"</string>
+    <string name="menu_move_to">"ස්ථානය වෙනස් කරන්න"</string>
+    <string name="menu_move_to_inbox">"ලද පණිවුඩ සඳහා මාරු කරන්න"</string>
+    <string name="menu_manage_folders">"ෆෝල්ඩර පසුතල"</string>
+    <string name="menu_show_original">"ස්වයං-ප්‍රමාණයට නැවත යන්න"</string>
+    <string name="menu_settings">"සැකසීම්"</string>
+    <string name="menu_search">"සෙවීම"</string>
+    <string name="menu_toggle_drawer">"ලාච්චු අතර මාරු වන්න"</string>
+    <string name="drawer_title">"යාත්‍රණය"</string>
+    <string name="mark_important">"වැදගත් ලෙස ලකුණු කරන්න"</string>
+    <string name="mark_not_important">"වැදගත් නැති ලෙස ලකුණු කරන්න"</string>
+    <string name="add_cc_label">"පිටපත්/රහස් පිටපත් එකතු කරන්න"</string>
+    <string name="add_bcc_label">"රහස් පිටපත් එකතු කරන්න"</string>
+    <string name="quoted_text">"ගෙනහැර දැක්වූ පෙළ අන්තර්ගත කරන්න"</string>
+    <string name="quoted_text_label">"ගෙනහර දැක්වූ පෙළ"</string>
+    <string name="respond_inline">"ප්‍රතිචාර පේළිගත කිරීම"</string>
+    <string name="bytes">"<xliff:g id="count">%s</xliff:g>&#160;B"</string>
+    <string name="kilobytes">"<xliff:g id="count">%s</xliff:g>&#160;KB"</string>
+    <string name="megabytes">"<xliff:g id="count">%s</xliff:g>&#160;MB"</string>
+    <string name="attachment_image">"රූපය"</string>
+    <string name="attachment_video">"වීඩියෝ"</string>
+    <string name="attachment_audio">"ශ්‍රව්‍ය"</string>
+    <string name="attachment_text">"පණිවුඩයක් යවන්න"</string>
+    <string name="attachment_application_msword">"ලේඛය"</string>
+    <string name="attachment_application_vnd_ms_powerpoint">"පිළිගැන්වීම"</string>
+    <string name="attachment_application_vnd_ms_excel">"පැතුරුම්පත"</string>
+    <string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> ගොනුව"</string>
+    <string name="preview_attachment">"පූර්ව දර්ශනය"</string>
+    <string name="save_attachment">"සුරකින්න"</string>
+    <string name="download_again">"නැවත බාගන්න"</string>
+    <string name="remove_attachment_desc">"ඇමුණුම ඉවත් කරන්න <xliff:g id="attachmentName">%s</xliff:g>"</string>
+    <string name="more_info_attachment">"තොරතුරු"</string>
+    <string name="no_application_found">"මෙම ඇමුණුම දර්ශනය කිරීමට විවෘත කිරීමට කිසිඳු යෙදුමකට නොහැකිය."</string>
+    <string name="fetching_attachment">"ලේඛනය සොයාගැනේ"</string>
+    <string name="please_wait">"කරුණාකර රැඳී සිටින්න..."</string>
+    <string name="saved">"සුරකින ලද,&#160;<xliff:g id="size">%s</xliff:g>"</string>
+    <string name="download_failed">"බාගැනීමට නොහැකි විය. නැවත උත්සාහ කිරීමට ස්පර්ශ කරන්න."</string>
+    <string name="menu_photo_save_all">"සියල්ල සුරකින්න"</string>
+    <string name="menu_photo_share">"බෙදා ගන්න"</string>
+    <string name="menu_photo_share_all">"සියල්ල හුවමාරු කරන්න"</string>
+    <string name="menu_photo_print">"මුද්‍රණය කරන්න"</string>
+    <string name="saving">"සුරැකේ..."</string>
+    <string name="choosertitle_sharevia">"බෙදාගන්නේ"</string>
+    <string name="contextmenu_openlink">"බ්‍රවුසරයේ විවෘත කිරීම"</string>
+    <string name="contextmenu_copy">"පිටපත් කරන්න"</string>
+    <string name="contextmenu_copylink">"සබැඳියේ URL පිටපත් කිරීම"</string>
+    <string name="contextmenu_view_image">"පින්තුරය බැලීම"</string>
+    <string name="contextmenu_dial_dot">"ඩයල් කිරීම"</string>
+    <string name="contextmenu_sms_dot">"පණිවුඩය\u2026"</string>
+    <string name="contextmenu_add_contact">"සම්බන්ධතාව එක් කරන්න"</string>
+    <string name="contextmenu_send_mail">"ඊ-තැපෑල යවන්න"</string>
+    <string name="contextmenu_map">"සිතියම"</string>
+    <string name="contextmenu_sharelink">"සබැඳිය හුවමාරු කිරීම"</string>
+    <string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> ගැන <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> දිනය <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+    <string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> ගැන <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> වේලාව <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+    <string name="content_description_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> ගැන <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> දිනය <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, ලේබල්: <xliff:g id="folders">%7$s</xliff:g>"</string>
+    <string name="content_description_today_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> ගැන <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> වේලාව <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, ලේබල්: <xliff:g id="folders">%7$s</xliff:g>"</string>
+    <string name="read_string">"සංවාදය කියවා ඇත"</string>
+    <string name="unread_string">"සංවාදය කියවා නැත"</string>
+    <string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+    <string name="badge_and_subject">"<xliff:g>%1$s</xliff:g> <xliff:g> %2$s</xliff:g>"</string>
+    <plurals name="draft">
+        <item quantity="one">"කටු සටහන"</item>
+        <item quantity="other">"කෙටුම්පත්"</item>
+    </plurals>
+    <string name="sending">"යවමින්\u2026"</string>
+    <string name="message_retrying">"නැවත උත්සාහ කරමින්\u2026"</string>
+    <string name="message_failed">"අසාර්ථක වුණි"</string>
+    <string name="send_failed">"පණිවුඩය ගියේ නැත."</string>
+    <string name="me_object_pronoun">"මම"</string>
+    <string name="me_subject_pronoun">"මම"</string>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="one">"මෙම සංවාදය මකන්න?"</item>
+        <item quantity="other">මෙම <xliff:g id="count">%1$d</xliff:g> සංවාද මකන්න?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="one">"මෙම සංවාද සංරක්ෂණය කරන්න?"</item>
+        <item quantity="other">"මෙම <xliff:g id="count">%1$d</xliff:g> සංවාද සංරක්ෂණය කරන්න?"</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="one">"මෙම පණිවුඩය ඉවතලන්න?"</item>
+        <item quantity="other">"මෙම <xliff:g id="count">%1$d</xliff:g> පණිවුඩ ඉවත් කරන්නද?"</item>
+    </plurals>
+    <string name="confirm_discard_text">"මෙම පණිවුඩය ඉවතලන්න?"</string>
+    <string name="loading_conversations">"පූරණය කරමින්…"</string>
+    <string name="empty_inbox">"ඔබගේ කටයුතු අවසන්! කරුණාකර ඔබේ දවස විනෝදයෙන් ගත කරන්න."</string>
+    <string name="empty_search">"ආහ්! අපට \"<xliff:g id="search_query">%1$s</xliff:g>\". සඳහා කිසිවක් සොයා ගත නොහැකි විය"</string>
+    <string name="empty_spam_folder">"හුරේ, මෙහි ස්පෑම් නැත!"</string>
+    <string name="empty_trash_folder">"මෙහි කසළ නැත. ප්‍රතිචක්‍රීකරණය කිරීම ගැන ස්තූතියි!"</string>
+    <string name="empty_folder">"මෙහි මේල් නැත."</string>
+    <string name="getting_messages">"ඔබේ පණිවුඩ ලැබෙමින්"</string>
+    <string name="undo">"පසුගමනය කරන්න"</string>
+    <plurals name="conversation_unstarred">
+        <item quantity="one">"සංවාදය <xliff:g id="count">%1$d</xliff:g> දිගහැරෙමින්"</item>
+        <item quantity="other">"සංවාද <xliff:g id="count">%1$d</xliff:g> දිගහැරෙමින්"</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> නිහඬ කරන ලදි"</item>
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ක් නිහඬ කරන ලදි"</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ස්පෑම් ලෙස වාර්තා කරන ලදි"</item>
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ආයාචිත ලෙස සලකුණු කරන ලදි"</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ස්පෑම් නොවන ලෙස වාර්තා කරන ලදි"</item>
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ක් ආයාචිත නොවන බව වාර්තා කරන ලදි"</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> නොවැදගත් ලෙස සලකුණු කරන ලදි"</item>
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ක් වැදගත් නොවන බව සලකුණු කරන ලදි"</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> හානිකර ලෙස වාර්තා කරන ලදි"</item>
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ක් තතුබෑම ලෙස වාර්තා කරන ලදි"</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> සංරක්ෂණය කරන ලදි"</item>
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ක් සංරක්ෂිත කරන ලදි"</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> මකන ලදි"</item>
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ක් මකා දමන ලදි"</item>
+    </plurals>
+    <string name="deleted">"මකාදමන ලදී"</string>
+    <string name="archived">"සංරක්ෂණය කරන ලදී"</string>
+    <string name="folder_removed">"<xliff:g id="folderName">%1$s</xliff:g> තුලින් ඉවත් කරන ලදී."</string>
+    <plurals name="conversation_folder_changed">
+        <item quantity="one">"ෆෝල්ඩරය මාරු කරන ලදි"</item>
+        <item quantity="other">"ෆෝල්ඩර් මාරු කරන ලදි"</item>
+    </plurals>
+    <string name="conversation_folder_moved">"<xliff:g id="folderName">%1$s</xliff:g> ට ස්ථානය වෙනස් කරන ලදී."</string>
+    <string name="search_results_header">"ප්‍රතිඵල"</string>
+    <string name="search_unsupported">"මෙම ගිණුමේ සෙවීමට සහාය දක්වා නොමැත."</string>
+    <string name="search_suggestion_desc">"යෝජනාව: <xliff:g id="suggestion">%s</xliff:g>"</string>
+    <string name="add_label">"ෆෝල්ඩරයක් එකතු කිරීම"</string>
+    <plurals name="new_incoming_messages">
+        <item quantity="one">"<xliff:g id="count">%1$d</xliff:g> නව පණිවුඩය"</item>
+        <item quantity="other">"<xliff:g id="count">%1$d</xliff:g> නව පණිවුඩ"</item>
+    </plurals>
+    <string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;විස්තර පෙන්වන්න&lt;/a&gt;"</string>
+    <string name="hide_details">"තොරතුරු සඟවන්න"</string>
+    <string name="to_message_header">"වෙත <xliff:g id="recipients">%1$s</xliff:g>"</string>
+    <string name="bcc_header_for_recipient_summary">"රහස් පිටපත:\u0020"</string>
+    <string name="contact_info_string">"<xliff:g id="name">%1$s</xliff:g> සඳහා සබැඳුම් තොරතුරු පෙන්වන්න"</string>
+    <string name="contact_info_string_default">"සබැඳුම් තොරතුරු පෙන්වන්න"</string>
+    <plurals name="show_messages_read">
+        <item quantity="other">"පැරණි පණිවුඩ <xliff:g id="count" example="4">%1$d</xliff:g> ව්‍යාප්ත කරන්න"</item>
+    </plurals>
+    <plurals name="super_collapsed_block_accessibility_announcement">
+        <item quantity="other">"පැරණි පණිවුඩ <xliff:g id="count" example="4">%1$d</xliff:g> ව්‍යාප්ත කරන ලදි"</item>
+    </plurals>
+    <string name="from_heading">"වෙතින්:"</string>
+    <string name="replyto_heading">"වෙත පිළිතුරු දෙන්න:"</string>
+    <string name="to_heading">"To:\u0020"</string>
+    <string name="to_heading_no_space">"To:"</string>
+    <string name="cc_heading">"පිටපත:"</string>
+    <string name="bcc_heading">"රහස් පිටපත:"</string>
+    <string name="date_heading">"දිනය:"</string>
+    <string name="show_images">"පින්තූර පෙන්වන්න"</string>
+    <string name="always_show_images">"සැමවිටම මෙම එවන්නගෙන් පින්තූර පෙන්වන්න"</string>
+    <string name="always_show_images_toast">"මෙම එවන්නාගේ පින්තුර ස්වයන්ක්‍රියව දර්ශනය වනු ඇත."</string>
+    <string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> හරහා <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+    <string name="message_saved">"පණිවුඩය කෙටුම්පතක් ලෙස සුරකින ලදි."</string>
+    <string name="sending_message">"පණිවුඩය යැවේ..."</string>
+    <string name="invalid_recipient">"ලිපිනය <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> අවලංගුයි."</string>
+    <string name="show_elided">"උපුටාගත් වදන පෙන්වන්න"</string>
+    <string name="hide_elided">"\u25BC ච ගෙනහැර දැක්වූ පෙළ සඟවන්න"</string>
+    <string name="message_invite_title">"දින දර්ශන ආරාධනය"</string>
+    <string name="message_invite_calendar_view">"දින දර්ශනයේ පෙන්වන්න"</string>
+    <string name="message_invite_label_attending">"යනවාද?"</string>
+    <string name="message_invite_accept">"ඔව්"</string>
+    <string name="message_invite_tentative">"සමහරවිට"</string>
+    <string name="message_invite_decline">"නැත"</string>
+    <string name="enumeration_comma">",\u0020"</string>
+    <string name="send_anyway">"කෙසේ වුවත් යවන්න"</string>
+    <string name="ok">"හරි"</string>
+    <string name="done">"නිමයි"</string>
+    <string name="cancel">"අවලංගු කරන්න"</string>
+    <string name="clear">"හිස් කරන්න"</string>
+    <string name="next">"මීලඟ"</string>
+    <string name="previous">"පෙර"</string>
+    <string-array name="sync_status">
+        <item>"සාර්ථකයි"</item>
+        <item>"සම්බන්ධතාවක් නැත"</item>
+        <item>"පුරනය වීමට නොහැකි විය"</item>
+        <item>"ආරක්ෂක දෝෂය"</item>
+        <item>"සමමු කළ නොහැක"</item>
+        <item>"අභ්‍යන්තර දෝෂයක්"</item>
+        <item>"සර්වර දෝෂය"</item>
+    </string-array>
+    <string name="tap_to_configure">"පිහිටුවීමට ස්පර්ශ කරන්න"</string>
+    <string name="non_synced_folder_description">"සංවාදය දැකීමට, මෙම ෆෝල්ඩරය සමමුහුර්ත කරන්න."</string>
+    <string name="tap_to_configure_folder_sync">"ෆෝල්ඩරය සමමුහුර්ත කරන්න."</string>
+    <string name="large_unseen_count">"<xliff:g id="count" example="99">%d</xliff:g>+ නව"</string>
+    <string name="unseen_count">"<xliff:g id="count" example="4">%d</xliff:g> නව"</string>
+    <plurals name="actionbar_unread_messages">
+        <item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> නොකියවූ"</item>
+    </plurals>
+    <string name="view_more_conversations">"තවත් සංවාද පෙන්වන්න"</string>
+    <string name="loading_conversation">"පූරණය කරමින්…"</string>
+    <string name="activity_mailbox_selection">"ගිණුම තෝරන්න"</string>
+    <string name="activity_folder_selection">"ෆෝල්ඩරය තෝරන්න"</string>
+    <string name="folder_shortcut_widget_label">"ෆෝල්ඩරය ඊමේල් කරන්න"</string>
+    <string name="change_folders_selection_dialog_title">"ෆෝල්ඩර වෙනස් කරන්න"</string>
+    <string name="move_to_selection_dialog_title">"ස්ථානය වෙනස් කරන්න"</string>
+    <string name="search_hint">"සෙවීම"</string>
+    <string name="voice_search_not_supported">"හඬ සෙවීම මෙම උපාංගයෙන් ආධාරක නොවේ."</string>
+    <string name="search_back_desc">"සෙවීම වසන්න"</string>
+    <string name="search_clear_desc">"සෙවීම් වදන හිස් කරන්න"</string>
+    <string name="network_error">"සම්බන්ධතාවක් නැත"</string>
+    <string name="retry">"නැවත උත්සාහ කරන්න"</string>
+    <string name="load_more">"තව ප්‍රවේශනය කරන්න"</string>
+    <string name="shortcut_name_title">"ෆෝල්ඩර කෙටිමඟ නම් කරන්න"</string>
+    <string name="wait_for_sync_title">"සමමුහුර්ත වීමට බලාසිටියි"</string>
+    <string name="not_synced_title">"ගිණුම සම්මුහුර්තකරණය වී නැත"</string>
+    <string name="wait_for_manual_sync_body">"මෙම ගිණුම ස්වයන්ක්‍රීයව සම්මුහුර්තකරණයට පිහිටුවා නැත.\n ලිපි එක් වරක් සම්මුහුර්තකරණයට <b>දැන් සම්මුහුර්තකරණය කරන්න</b> ස්පර්ශ කරන්න, හෝ ලිපි ස්වයන්ක්‍රීයව සම්මුහුර්තකරණය වීමට <b>සම්මුහුර්ත පසුතල වෙනස් කරන්න</b> ස්පර්ශ කරන්න." </string>
+    <string name="manual_sync">"දැන් සමමුහුර්ත කරන්න"</string>
+    <string name="change_sync_settings">"සමමුහුර්තකරණ පසුතල වෙනස් කරන්න"</string>
+    <string name="photo_load_failed">"පින්තුරය ප්‍රවේශනය කිරීමට නොහැකි විය"</string>
+    <string name="cant_move_or_change_labels">"තේරීමෙහි බහුවිධ ගිණුම් අඩංගු නිසා චලනය කළ නොහැක."</string>
+    <string name="multiple_new_message_notification_item">"<b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+    <string name="ignore_spam_warning">"මගහරින්න, මම මෙම පණිවුඩය විශ්වාස කරන්නෙමි"</string>
+    <string name="via_domain">"<xliff:g id="viaDomain">%1$s</xliff:g> මගින්"</string>
+    <string name="signin">"පූරණය වීම"</string>
+    <string name="info">"තොරතුරු"</string>
+    <string name="report">"වාර්තා කරන්න"</string>
+    <string name="show">"පෙන්වන්න"</string>
+    <string name="sync_error">"සමමුහුර්ත වීමට නොහැකි විය."</string>
+    <string name="sync_error_message">"ඔබේ උපාංගයේ සම්මුහුර්තකරණය වීමට තරම් ඉඩ නොමැත."</string>
+    <string name="storage">"ආචයනය"</string>
+    <string name="senders_split_token">",\u00A0"</string>
+    <string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+    <string name="all_folders_heading">"සියලුම ෆෝල්ඩර"</string>
+    <string name="recent_folders_heading">"මෑත කාලීන ෆෝල්ඩර"</string>
+    <string name="message_details_title">"පණිවුඩ විස්තර"</string>
+    <string name="preference_advance_to_title">"ස්වයං දියුණුව"</string>
+    <string-array name="prefEntries_autoAdvance">
+        <item>"වඩා අලුත්"</item>
+        <item>"වඩා පැරණි"</item>
+        <item>"සංවාද ලැයිස්තුව"</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>"මැකීමෙන් පසු නව සංවාද පෙන්වන්න"</item>
+        <item>"මැකීමෙන් පසු පැරණි සංවාද පෙන්වන්න"</item>
+        <item>"මැකීමෙන් පසු සංවාද ලැයිස්තුව පෙන්වන්න"</item>
+    </string-array>
+    <string name="prefDialogTitle_autoAdvance">"මේ වෙත උසස් කරන්න"</string>
+    <string name="clear_display_images_whitelist_title">"පින්තූර අනුමැති හිස් කරන්න"</string>
+    <string name="clear_display_images_whitelist_dialog_title">"පින්තූර අනුමැති හිස් කරන්න?"</string>
+    <string name="clear_display_images_whitelist_dialog_message">"ඔබ මීට පෙර අවසර ඩී ඇති එවන්නන්ගෙන් පේළිගත රූප දර්ශනය වීම නවත්වන්න."</string>
+    <string name="sender_whitelist_cleared">"පින්තුර ස්වයන්ක්‍රීයව දර්ශනය නොවේ."</string>
+    <string name="preferences_signature_title">"අත්සන"</string>
+    <string name="preferences_signature_dialog_title">"අත්සන"</string>
+    <string name="preferences_signature_summary_not_set">"පිහිටුවා නැත"</string>
+    <string name="notification_action_reply">"පිළිතුරු දීම"</string>
+    <string name="notification_action_reply_all">"සියල්ලටම පිළිතුරු දෙන්න"</string>
+    <string name="notification_action_archive">"සංරක්ෂණය කරන්න"</string>
+    <string name="notification_action_remove_label">"ලේබලය ඉවත් කරන්න"</string>
+    <string name="notification_action_delete">"මකන්න"</string>
+    <string name="notification_action_undo_archive">"සංරක්ෂණය කරන ලදී"</string>
+    <string name="notification_action_undo_remove_label">"ලේබලය ඉවත් කරන ලදී"</string>
+    <string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+    <string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+    <string name="silent_ringtone">"නිහඬ"</string>
+    <string name="preference_removal_action_title">"පෙරනිමි ක්‍රියාමාර්ගය"</string>
+    <string-array name="prefEntries_removal_action">
+        <item>"සංරක්ෂණය කරන්න"</item>
+        <item>"මකන්න"</item>
+    </string-array>
+    <string-array name="prefSummaries_removal_action_summary">
+        <item>"සංරක්ෂණය කරන්න"</item>
+        <item>"මකන්න"</item>
+    </string-array>
+    <string name="prefDialogTitle_removal_action">"සුපුරුදු ක්‍රියාව"</string>
+    <string name="preferences_default_reply_all_title">"සියල්ලටම පිළිතුරු දෙන්න"</string>
+    <string name="preferences_default_reply_all_summary_impl">"පණිවුඩ පිළිතුරු සඳහා පෙරනිමි ලෙස භාවිතා කරන්න"</string>
+    <string name="preference_swipe_title">"ක්‍රියාමාර්ග ස්වයිප් කරන්න"</string>
+    <string name="preference_swipe_description">"සංවාද ලැයිස්තුවෙහි"</string>
+    <string name="preference_sender_image_title">"යවන්නාගේ රූපය"</string>
+    <string name="preference_sender_image_description">"සංවාද ලයිස්තුවේ නම ළඟින් පෙන්වන්න"</string>
+    <string name="empty_trash">"ඉවත ලන දෑ හිස් කරන්න"</string>
+    <string name="empty_spam">"අයාචිත තැපෑල හිස් කරන්න"</string>
+    <string name="empty_trash_dialog_title">"ඉවත ලන දෑ හිස් කරන්න?"</string>
+    <string name="empty_spam_dialog_title">"අයාචිත තැපෑල හිස් කරන්න?"</string>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="one">"<xliff:g id="count">%1$d</xliff:g> පණිවුඩය සදාකාලිකව මැකෙනු ඇත."</item>
+        <item quantity="other">"<xliff:g id="count">%1$d</xliff:g> පණිවුඩ සදාකාලිකව මැකෙනු ඇත."</item>
+    </plurals>
+    <string name="drawer_open">"සංචාලන ලාච්චුව විවෘත කරන්න"</string>
+    <string name="drawer_close">"සංචාලන ලාච්චුව වසන්න"</string>
+    <string name="conversation_photo_welcome_text">"එම සංවාදය තේරීමට යවන්නාගේ පින්තුරය ස්පර්ශ කරන්න."</string>
+    <string name="long_press_to_select_tip">"ස්පර්ශ කරන්න &amp; එක් සංවාදයක් තේරීමට අල්ලාගෙන සිටින්න, ඉන්පසු තව තේරීමට ස්පර්ශ කරන්න."</string>
+    <string name="folder_icon_desc">"ෆෝල්ඩර අයිකනය"</string>
+    <string name="add_account">"ගිණුම එක් කරන්න"</string>
+    <string name="dismiss_tip_hover_text">"ඉඟිය ඉවත් කරන්න"</string>
+    <string name="auto_sync_off">"ස්වයං-සමමු අක්‍රීයයි. ක්‍රියාත්මක කිරීමට ස්පර්ශ කරන්න."</string>
+    <string name="account_sync_off">"ගිණුම-සමමු අක්‍රීයයි. &lt;a href=\'http://www.example.com\'&gt;Account\u00A0settings.&lt;/a&gt; "තුළ එය ක්‍රියාත්මක කරන්න</string>
+    <string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g>නොයවන ලදී <xliff:g id="outbox">%2$s</xliff:g>"</string>
+    <string name="turn_auto_sync_on_dialog_title">"ස්වයංක්‍රීය සම්මුහුර්තකරණය ක්‍රියාත්මක කරන්න?"</string>
+    <string name="turn_auto_sync_on_dialog_body">"ඔබ සියලුම යෙදුම් සහ ගිණුම් සඳහා සිදු කරන වෙනස්කම්, Gmail පමණක් නොවේ, අන්තර්ජාලය, ඔබේ අනෙකුත් උපාංග සහ ඔබේ <xliff:g id="phone_or_tablet">%1$s</xliff:g> අතර සම්මුහුර්තකරණය වේ."</string>
+    <string name="phone">"දුරකථනය"</string>
+    <string name="tablet">"ටැබ්ලටය"</string>
+    <string name="turn_auto_sync_on_dialog_confirm_btn">"ක්‍රියාත්මක කිරීම"</string>
+    <string name="show_n_more_folders">"ෆෝල්ඩර් <xliff:g id="number">%1$s</xliff:g> පෙන්වන්න"</string>
+    <string name="hide_folders">"ෆෝල්ඩර සඟවන්න"</string>
+    <string name="print">"මුද්‍රණ කරන්න"</string>
+    <string name="print_all">"සියල්ල මුද්‍රණය කරන්න"</string>
+    <plurals name="num_messages">
+        <item quantity="one">"<xliff:g id="count">%1$d</xliff:g> පණිවුඩය"</item>
+        <item quantity="other">"<xliff:g id="count">%1$d</xliff:g> පණිවුඩ"</item>
+    </plurals>
+    <string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> වේලාව <xliff:g id="time">%2$s</xliff:g>"</string>
+    <string name="draft_to_heading">"වෙත කෙටුම්පත:"</string>
+    <string name="draft_heading">"කටු සටහන"</string>
+    <string name="quoted_text_hidden_print">"උපුටා ගත් වදන සඟවා තිබේ"</string>
+    <plurals name="num_attachments">
+        <item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ඇමුණුම"</item>
+        <item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ඇමුණුම්"</item>
+    </plurals>
+    <string name="no_subject">"(කාරණාවක් නොමැත)"</string>
+    <string name="vacation_responder">"නිවාඩු ප්‍රතිචාරය"</string>
+    <string name="vacation_responder_body_hint_text">"පණිවිඩය"</string>
+    <string name="send_to_contacts_text">"මගේ සබඳතා වෙත පමණක් යවන්න"</string>
+    <string name="send_to_domain_text">"<xliff:g id="domain">%1$s</xliff:g> වෙත පමණක් යවන්"</string>
+    <string name="pick_start_date_title">"ආරම්භ වෙයි"</string>
+    <string name="pick_end_date_title">"අවසන් වෙයි (වෛකල්පිත)"</string>
+    <string name="date_not_set">"පිහිටුවා නැත"</string>
+    <string name="set_end_date_dialog_title">"අවසන් වන දිනය (වෛකල්පිත)"</string>
+    <string name="custom_date">"අභිරුචි"</string>
+    <string name="date_none">"කිසිවක් නැත"</string>
+    <string name="discard_changes">"වෙනස්කම් නොතකා හරින්නද?"</string>
+    <string name="vacation_responder_changes_saved">"නිවාඩු ප්‍රතිචාර දැක්වීමේ වෙනස්කම් සුරකින ලදි"</string>
+    <string name="vacation_responder_changes_discarded">"නිවාඩු ප්‍රතිචාර දැක්වීමේ වෙනස්කම් නොතකා හරින ලදි"</string>
+    <string name="vacation_responder_off">"ක්‍රියාවිරහිතයි"</string>
+    <string name="vacation_responder_on">"<xliff:g id="date">%1$s</xliff:g>සිට"</string>
+    <string name="vacation_responder_on_with_end_date">"හි සිට <xliff:g id="start-date">%1$s</xliff:g> <xliff:g id="end-date">%2$s</xliff:g> දක්වා"</string>
+    <string name="vacation_responder_empty_subject_and_body_warning">"මාතෘකාවක් හෝ පණිවුඩයක් එක් කරන්න"</string>
+    <string name="view_entire_message">"සම්පූර්ණ පණිවුඩය පෙන්වන්න"</string>
+    <string name="eml_loader_error_toast">"මෙම ගොනුව විවෘත කළ නොහැක"</string>
+    <string name="help_and_info">"උදවු"</string>
+    <string name="help_and_feedback">"උදවු සහ ප්‍රතිපෝෂණ"</string>
+    <string name="feedback">"ප්‍රතිපෝෂණය යවන්න"</string>
+    <string name="copyright">"©<xliff:g id="year" example="2010">%1$d</xliff:g> Google Inc."</string>
+    <string name="version">"<xliff:g id="app_name" example="Email">%1$s</xliff:g> සංස්කරණය <xliff:g id="version" example="2.2.1">%2$s</xliff:g>"</string>
+    <string name="print_dialog">"මුද්‍රණය කරන්න\u2026"</string>
+    <string name="copyright_information">"ප්‍රකාශන හිමිකම් තොරතුරු"</string>
+    <string name="privacy_policy">"පුද්ගලිකතා ප්‍රතිපත්තිය"</string>
+    <string name="open_source_licenses">"විවෘත මූලාශ්‍ර බලපත්‍ර"</string>
+    <string name="reply_choice_yes">"ඔව්"</string>
+    <string name="reply_choice_no">"නැත"</string>
+    <string name="reply_choice_ok">"හරි"</string>
+    <string name="reply_choice_hehe">"හා හා"</string>
+    <string name="reply_choice_thanks">"ස්තූතියි"</string>
+    <string name="reply_choice_i_agree">"මම එකඟයි"</string>
+    <string name="reply_choice_nice">"හොඳයි"</string>
+    <string name="reply_on_my_way">"මම එන ගමන්"</string>
+    <string name="reply_choice_later">"හරි, මම ඔබට පසුව කියන්නම්"</string>
+    <string name="preference_header_action_confirmations">"ක්‍රියාකාරකම් තහවුරු කිරීම්"</string>
+    <string name="preference_confirm_before_delete_title">"මැකීමට පෙර තහවුරු කරන්න"</string>
+    <string name="preference_confirm_before_archive_title">"ලේඛනාගාරගත කිරීමට පෙර ස්ථිර කරන්න"</string>
+    <string name="preference_confirm_before_send_title">"යැවීමට පෙර තහවුරු කරන්න"</string>
+    <string name="preferences_conversation_mode_title">"පණිවුඩ ස්වයංක්‍රියව අඩුක් කරන්න"</string>
+    <string name="preferences_conversation_mode_summary">"තිරයට ගැලපෙන පරිදි පණිවුඩ හකුලුවන්න"</string>
+    <string name="preferences_disable_snap_headers_title">"පණිවුඩ ක්‍රියාකාරකම්"</string>
+    <string-array name="prefSummaries_snapHeader">
+        <item>"සැමවිට තිරයේ ඉහළ පනිවුඩ සහ ක්‍රියාකාරකම් පෙන්වන්න"</item>
+        <item>"හරස් අතට කරකවා ඇති විට තිරය මුදුනේ පමණක් පණිවුඩ ක්‍රියාකාරකම් පෙන්වන්න"</item>
+        <item>"පණිවුඩ ශිර්ෂයෙන් පිටත පණිවුඩ නොපෙන්වන්න"</item>
+    </string-array>
+    <string-array name="prefEntries_snapHeader">
+        <item>"සැමවිට පෙන්වන්න"</item>
+        <item>"හරස් අතට පමණක් පෙන්වන්න"</item>
+        <item>"නොපෙන්වන්න"</item>
+    </string-array>
+    <string name="clear_history_title">"සෙවුම් ඉතිහාසය හිස් කරන්න"</string>
+    <string name="search_history_cleared">"සෙවුම් ඉතිහාසය හිස් කරන ලදි."</string>
+    <string name="clear_history_dialog_title">"සෙවුම් ඉතිහාසය හිස් කරන්න?"</string>
+    <string name="clear_history_dialog_message">"ඔබ කලින් කළ සෙවුම් ඉවත් වනුඇත."</string>
+    <string name="manage_accounts_menu_item">"ගිණුම් කළමනාකරණය කරන්න"</string>
+    <string name="general_preferences_title">"සාමාන්‍ය පසුතල"</string>
+    <string name="activity_preferences">"සැකසීම්"</string>
+    <string name="overflow_description">"තවත් විකල්ප"</string>
+    <string name="security_hold_required_text">" <xliff:g id="email_address">%1$s</xliff:g> සඳහා ආරක්ෂිත යාවත්කාලීනය"</string>
+    <string name="update_security_text">"දැන් යාවත්කාලීනය"</string>
+    <string name="forms_are_disabled">"Gmail හි ආකෘති අක්‍රිය කර ඇත"</string>
+    <string name="add_contacts_too_much">"උපරිම ලබන්නන් සංඛ්‍යාව 50කි."</string>
+    <string name="account_delete_dlg_title">"Remove account"</string>
+    <string name="account_delete_waiting">"ඉවත් කරමින්, කරුණාකර රැඳී සිටින්න..."</string>
+    <string name="filter_all">"සියලු"</string>
+    <string name="filter_receiver">"ග්‍රාහකය"</string>
+    <string name="filter_sender">"යවන්නා"</string>
+    <string name="filter_subject">"විෂයය"</string>
+    <string name="filter_content">"අන්තර්ගතය"</string>
+    <string name="search_on_server">"සේවාදායකය මත සොයන්න"</string>
+    <string name="download_confirm_msg">"ජාලය WLAN නොවන අතර, ඇමුණුම විෂාලය, කරුණාකර දිගටම කරගෙන යන්නේද යන්න තහවුරු කරන්න"</string>
+    <string name="download_deny_malware">"ඇතුම් විට අනිෂ්ට මෘදුකාංගයකි. බාගැනීමට නොහැකි විය."</string>
+    <string name="download_deny_wifionly">"WLAN අතරතුර පමණක් බාගැනීමට හැකිය."</string>
+    <string name="download_deny_nointent">"යෙදුමකට එය විවෘත කළ නොහැකිය. බාගැනීමට නොහැකි විය."</string>
+    <string name="download_deny_nosideload">"නොදන්නා මූලාශ්‍ර යෙදුම් ස්ථාපනයට ඉඩ දීමෙන් පසු නැවත උත්සාහ කරන්න."</string>
+    <string name="download_deny_apkinstall">"කිසිදු apk එකක් ස්ථාපනය කිරීමට නොහැකිය. බාගැනීමට නොහැකි විය."</string>
+    <string name="download_deny_policy">"ගිණුම් ප්‍රතිපත්තිය ලෙස බාගැනීමට නොහැකි විය."</string>
+    <string name="download_att_external">"බාගැනීමට බාගන්න"</string>
+    <string name="save_to_where">"ඇමුණුම සාර්ථක ලෙස: වෙත සුරැක ඇත"</string>
+    <string name="missing_required_permission">"ඔබ විසින් අවශ්‍ය අවසරයක් අක්‍රිය කර ඇත."</string>
+    <string name="permission_change">"අවසර වෙනස් වන නිසා, කරුණාකර ගොනුව නැවත-තෝරන්න."</string>
+    <string name="permission_change_redo">"අවසර වෙනස් වන නිසා, කරුණාකර නැවත කරන්න."</string>
+    <string name="preference_default_signature_title">"අත්සන"</string>
+    <string name="signature_default">"මගේ දුරකථනයෙන් එව්වෙමි"</string>
+    <string name="set_priority_high">"ප්‍රමුඛතාව ඉහළ ලෙස සකසන්න"</string>
+    <string name="set_priority_normal">"ප්‍රමුඛතාව සාමාන්‍ය ලෙස සකසන්න"</string>
+    <string name="set_priority_low">"ප්‍රමුඛතාව පහළ ලෙස සකසන්න"</string>
+    <string name="file_not_exist">"ස්ථානීය ඇමුණුම නොපවතී, කරුණාකර නැවත බාගන්න!"</string>
+    <string name="body_input_more">"කනගාටුයි, අනුලකුණු %1$s දක්වා පමණක් ආදානය කළ හැකිය"</string>
+    <string name="attachment_rename_to_legal">"මුල් නම නීති විරෝධී නිසා ඇමුණුම යලි නම් කර තිබේ"</string>
+    <string name="account_changed_load_account_inbox">"ෆෝල්ඩරය සඳහා අදාල ගිණුම වෙනස් වී ඇත,එන ලිපි වෙත වෙනස් කරන්න."</string>
+    <string name="no_available_storage">"ගබඩාවක් ලද නොහැක"</string>
+    <string name="attachment">"ඇමිණුම"</string>
+    <string name="confirm_compress_tittle">"සම්පීඩනය කරන්න"</string>
+    <string name="confirm_compress_msg">"ඡායාරුපයේ විශාලත්වය වඩා වැඩියි <xliff:g id="size">%s</xliff:g>, සම්පීඩනය කිරීමට උත්සහ කරන්න?"</string>
+    <string name="compressed_failed">"ඡායාරුපය පහලට සම්පීඩනය කල නොහැක <xliff:g id="size">%s</xliff:g>"</string>
+    <string name="save_draft_msg">"කෙටුම්පත සුරකින්න?"</string>
+    <string name="menu_sorting_method">"තේරීමේ ක්‍රමයක්"</string>
+    <string name="oarder_by_timestamp_asc">"දිනය (කලින්ම)"</string>
+    <string name="oarder_by_timestamp_desc">"දිනය (පස්සෙම)"</string>
+    <string name="oarder_by_sender_asc">"යවන්නා (A සිට Z)"</string>
+    <string name="oarder_by_sender_desc">"යවන්නා (Z සිට A)"</string>
+    <string name="oarder_by_recipient_asc">"ලබන්නා (A සිට Z)"</string>
+    <string name="oarder_by_recipient_desc">"ලබන්නා (Z සිට A)"</string>
+    <string name="oarder_by_subject_asc">"මාතෘකාව (A සිට Z)"</string>
+    <string name="oarder_by_subject_desc">"මාතෘකාව (Z සිට A)"</string>
+    <string name="select_all">"සියල්ල තෝරන්න"</string>
+    <string name="cancel_all">"සියල්ල අවලංගු කරන්න"</string>
+    <string name="preference_snippetShowLines_to_title">"අන්තර්ගත පෙරදසුන"</string>
+    <string-array name="prefEntries_snippetShowLines">
+        <item>"කිසිවක් නැත"</item>
+        <item>"1 පේලියක්"</item>
+        <item>"පේලි 2"</item>
+        <item>"පේලි 3"</item>
+    </string-array>
+    <string name="contacts_tab_tittle">"සම්බන්ධතා"</string>
+    <string name="favorite_tab_tittle">"ප්‍රියතම"</string>
+    <string name="checked_contacts_exceeds_max">"දක්වා <xliff:g id="count">%s</xliff:g> සම්බන්ධතා තේරිය හැකිය"</string>
+    <string name="vip">"VIP ෆෝල්ඩරය"</string>
+    <string name="vip_settings">"VIP සැකසුම්"</string>
+    <string name="vip_members">"VIP සම්බන්ධතා"</string>
+    <string name="vip_members_count">"VIP සම්බන්ධතා (<xliff:g example="2">%1$d</xliff:g>)"</string>
+    <string name="vip_members_list_empty">"කිසිදු VIP සාමාජිකයෙකු ලද නොහැක"</string>
+    <string name="vip_remove_title">"VIP වලින් ඉවත් කරන්න"</string>
+    <string name="vip_add">"VIP වෙත එක් කරන්න"</string>
+    <string name="vip_add_from_contacts">"සබඳතා වලින් එකතු කරන්න"</string>
+    <string name="vip_add_from_input">"ලිපිනය හස්තීයව එකතු කරන්න"</string>
+    <string name="vip_choose_contact">"VIP වෙත එක් කරන්න"</string>
+    <string name="vip_remove_prompt">"<xliff:g example="2">%1$s</xliff:g> VIP සාමාජිකයන්ගෙන්  ඉවත් කරනු ලැබේ."</string>
+    <string name="not_add_duplicate_vip">"අනුපිටපත් සම්බන්ධතාවය VIP ලැයිස්තුවට එක් නොකරනු ඇත."</string>
+    <string name="can_not_add_vip_over">"මීට ඉහලින් VIP සාමාජිකයෙක් එකතු කල නොහැක <xliff:g id="count">%s</xliff:g>"</string>
+    <string name="message_compose_error_invalid_email">"ඊමේල් ලිපිනයන් වලංගු නොවේ."</string>
+    <string name="duplicate_address_removed_msg">"ලිපින ලැයිස්තුවට, අනුපිටපත් ලිපින එක් කරනු නොලැබේ"</string>
+    <string name="gallery_not_found">"ගැලරිය හමු නොවිනි"</string>
+    <string name="sound_recorder_not_found">"ශබ්ද පටිගතකරණය සොයාගත නොහැකි විය"</string>
+    <string name="attachment_documents_label">"ගොනු කළමනාකරණය"</string>
+    <string name="create_image_file_failed">"ඡායාරූපය සාදන්න අසමත් විය, කරුණාකර කැමරාව භාවිතා කිරීමට පෙර ගබඩා තත්වය පරීක්ෂා කරන්න"</string>
+    <string name="cancel_attachment">"බාගැනීම අවලංගු කරන්න"</string>
+    <string name="search_voice_desc">"හඬ සෙවීම අරඹන්න"</string>
+    <string name="notification_action_undo_delete">"මකන ලද"</string>
+    <plurals name="new_messages">
+        <item quantity="one">"<xliff:g id="count">%1$d</xliff:g> නව පණිවුඩය"</item>
+        <item quantity="other">"<xliff:g id="count">%1$d</xliff:g> නව පණිවුඩ"</item>
+    </plurals>
+    <string name="preferences_vacation_responder_title">"නිවාඩු ප්‍රතිචාරය"</string>
+</resources>

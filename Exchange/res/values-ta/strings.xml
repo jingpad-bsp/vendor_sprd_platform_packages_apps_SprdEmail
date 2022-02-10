@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"ஒப்புக்கொள்ளப்பட்டது: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">"நிராகரிக்கப்பட்டது: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">"தற்காலிகம்: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">"ரத்து செய்யப்பட்டது: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">"புதுப்பிக்கபட்டது: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">"எப்பொழுது: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">"எங்கே: <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">"எப்பொழுது: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (அடிக்கடி) "</string>
+<string name="meeting_allday">"எப்பொழுது: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (அனைத்து நாட்களும்) "</string>
+<string name="meeting_allday_recurring">"எப்பொழுது: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>  (அனைத்து நாட்களும்,அடிக்கடி) "</string>
+<string name="app_name">பரிமாற்ற சேவைகள்</string>
+<string name="exception_cancel">"இந்த நிகழ்ச்சி ரத்து செய்யபப்ட்டுள்ளது: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="exception_updated">"இந்த நிகழ்ச்சிக்கான விபரங்கள் மாற்றப்பட்டுள்ளன: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="policy_dont_allow_storage_cards">சேமிப்பக அட்டைகளை அனுமதிக்க வேண்டாம்</string>
+<string name="policy_dont_allow_unsigned_apps">கையோப்பமிடாத அப்ளிகேஷன்களை அனுமதிக்க வேண்டாம்</string>
+<string name="policy_dont_allow_unsigned_installers">"சைன் செய்யப்பட்டாத ஆப் இன்ஸ்டாலர்களை அனுமதிக்க வேண்டாம்."</string>
+<string name="policy_dont_allow_wifi">வைஃபை அனுமதிக்க வேண்டாம்</string>
+<string name="policy_dont_allow_text_messaging">வாசக செய்தியனுப்புதலை அனுமதிக்க வேண்டாம்</string>
+<string name="policy_dont_allow_pop_imap">POP3 அல்லது IMAP கணக்குகளை அனுமதிக்க வேண்டாம்</string>
+<string name="policy_dont_allow_irda">இன்ஃப்ரா ரெட் தகவல்பரிமாற்றத்தை அனுமதிக்க வேண்டாம்</string>
+<string name="policy_dont_allow_html">HTML மின்னஞ்சலை அனுமதிக்க வேண்டாம்</string>
+<string name="policy_dont_allow_browser">உலாவிகளை அனுமதிக்க வேண்டாம்</string>
+<string name="policy_dont_allow_consumer_email">நுகர்வோர் மின்னஞ்சலை அனுமதிக்க வேண்டாம்</string>
+<string name="policy_dont_allow_internet_sharing">இணையதள பகிர்வினை அனுமதிக்க வேண்டாம்</string>
+<string name="policy_require_smime">SMIME செய்திகள் கேட்கிறது</string>
+<string name="policy_bluetooth_restricted">புளூடூத் பயன்பாடு கட்டுப்படுத்துக</string>
+<string name="policy_app_blacklist">குறிப்பிட்ட அப்ளிகேஷன்களுக்கு அனுமதி மறுக்கவும்</string>
+<string name="policy_app_whitelist">ஒவ்வொரு அப்ளிகேஷனுக்கும் பல டேப்லெட்டுகளை அனுமதிக்கவும்</string>
+<string name="policy_text_truncation">HTML மின்னஞ்சல் அளவு கட்டுப்படுத்துக</string>
+<string name="policy_html_truncation">HTML மின்னஞ்சல் அளவு கட்டுப்படுத்துக</string>
+<string name="policy_require_sd_encryption">sd கார்டு மறைகுறியீடு கேட்கிறது</string>
+<string name="policy_dont_allow_attachments">அனுமதிக்க வேண்டாம்</string>
+<string name="policy_max_attachment_size">இணைப்புக் கோப்பு அளவு கட்டுப்படுத்துக</string>
+<string name="policy_require_manual_sync_roaming">உலவும் போது கையால் சின்க் செய்வதை மட்டும் அனுமதிக்கவும்</string>
+<string name="policy_require_encryption">சாதன மறைகுறியீடு கேட்கிறது</string>
+<string name="account_setup_options_mail_window_auto">தன்னியக்கமாக</string>
+<string name="account_setup_options_mail_window_1day">ஒரு நாள்</string>
+<string name="account_setup_options_mail_window_3days">மூன்று</string>
+<string name="account_setup_options_mail_window_1week">ஒரு வாரம்</string>
+<string name="account_setup_options_mail_window_2weeks">இரண்டு வாரங்கள்</string>
+<string name="account_setup_options_mail_window_1month">ஒரு மாதம்</string>
+<string name="account_setup_options_mail_window_all">"அனைத்தும்"</string>
+<string name="auth_error_notification_title">அங்கீகரிப்பு பிழை</string>
+<string name="auth_error_notification_text">"<xliff:g id="account">%s</xliff:g> க்கான கணக்கு அமைவுகளைத் திருத்த தொடவும்"</string>
+<string name="email_settings_not_available">"அமைப்புகளைப் பார்வையிட மின்னஞ்சல் பயன்பாட்டை மீண்டும் செயபடுத்தவும்"</string>
+</resources>

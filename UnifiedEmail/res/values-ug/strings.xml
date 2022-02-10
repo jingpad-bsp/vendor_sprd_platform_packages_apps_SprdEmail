@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="from">"ئەۋەتكۈچى"</string>
+<string name="to">"كېلىش"</string>
+<string name="cc">"كۆچۈرۈپ ئەۋەتىش"</string>
+<string name="bcc">"مەخپى ئەۋەتىش"</string>
+<string name="subject_hint">"تېما"</string>
+<string name="body_hint">"ئېلخەت مەزمۇنى"</string>
+<string name="add_file_attachment">"قوشۇمچە قوشۇش"</string>
+<string name="add_photo_attachment">"رەسىم قىستۇرۇش"</string>
+<string name="save_draft">"دەسلەپكى نۇسخىنى ساقلاش"</string>
+<string name="discard">"تاشلىۋىتىش"</string>
+<string name="compose">"يېزىش"</string>
+<string name="compose_title">"يېزىش"</string>
+<string-array name="compose_modes">
+<item>قايتۇرۇش</item>
+<item>"ھەممىسىگە قايتۇرۇش"</item>
+<item>باشقىغا يۆتكىمەك</item>
+</string-array>
+<string name="reply_attribution">":يېزىلىدۇ <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g>"</string>
+<string name="forward_attribution">"----------يۆتكەپ تارقىتىلىدىغان ئېلىخەت ----------&lt;br&gt;ئەۋەتكۈچى: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;چېسلا: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;ئاساسىي تېما: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;تاپشۇرۇۋالغۇچى: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;"</string>
+<string name="forward_attribution_no_headers">"---------- ئۆزگەرتىپ يوللىنىدىغان ئېلىخەت ----------"</string>
+<string name="cc_attribution">"<xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;:كۆچۈرۈلۈپ ئەۋەتىلىدىغىنى"</string>
+<string name="select_attachment_type">"قىستۇرۇلمىنىڭ شەكلىنى تاللاش"</string>
+<string name="too_large_to_attach_single">"دىن ئېشىپ كەتمەسلىكى كېرەك<xliff:g id="maxSize">%1$s</xliff:g>قىستۇرۇلىدىغان ھۆججەتنىڭ چوڭ كىچىكلىكى"</string>
+<string name="too_large_to_attach_multiple">"<xliff:g id="maxSize">%1$s</xliff:g>:بىر ياكى ئۇنىڭدىن كۆپ ھۆججەتنى قىستۇرالمىدى. چەكلىمىسى"</string>
+<string name="too_large_to_attach_additional">"چەكلىمىسىگە يەتتى<xliff:g id="maxSize">%1$s</xliff:g>.ھۆججەتنى قىستۇرالمىدى"</string>
+<string name="generic_attachment_problem">"ھۆججەتنى قىستۇرالمىدى"</string>
+<string name="attachment_permission_denied">قۇشۇمچە ھۆججەت قۇشۇش ھۇقۇقى يوق</string>
+<string name="recipient_needed">"ئاز بولغاندا بىر نەپەر تاپشۇرۇۋالغۇچى قۇشۇڭ"</string>
+<string name="confirm_send_message_with_no_subject">"ئېلىخەتنىڭ ئاساسى تېمىسىدا خەت يوق"</string>
+<string name="confirm_send_message_with_no_body">"ئېلىخەتنىڭ تېكستىدا خەت يوق"</string>
+<string name="confirm_send_message">"بۇ ئېلىخەتنى يوللامسىز؟"</string>
+<string name="message_discarded">"ئېلىخەت تاشلىۋېتىلدى"</string>
+<string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+<string name="custom_from_account_label">":ئېلىخەتنى تۆۋەندىكى ئادرېس بويىچە يوللاش"</string>
+<string name="send">"يوللاش"</string>
+<string name="mark_read">"ئوقۇلدى بەلگىسى ئۇرۇلدى"</string>
+<string name="mark_unread">"ئوقۇلمىدى بەلگىسى ئۇرۇلدى"</string>
+<string name="toggle_read_unread">ئۇقۇلغان ئۇقۇلمىغاننى ئالماشتۇرۇش</string>
+<string name="mute">"ئاۋازسىز"</string>
+<string name="add_star">"يۇلتۇز بەلگىسى ئۇرۇش"</string>
+<string name="remove_star">"يۇلتۇز بەلگىسىنى يۇيۇش"</string>
+<string name="remove_folder">"دىن يۇيۇۋېتىش<xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="archive">"ئارخىپلاش"</string>
+<string name="report_spam">"كېرەكسىز ئېلىخەتنى دوكلات قىلىش"</string>
+<string name="mark_not_spam">"كېرەكسىز ئېلىخەت ئەمەس"</string>
+<string name="report_phishing">"تور ئالدامچىلىق قىلمىشى ئىكەنلىكىنى دوكلات قىلىش"</string>
+<string name="delete">ئۆچۈرۈش</string>
+<string name="discard_drafts">"دەسلەپكى نۇسخىنى تاشلىۋېتىش"</string>
+<string name="discard_failed">"مەغلۇب بولغىنىدىن ۋاز كېچىش"</string>
+<string name="refresh">"يېڭىلاش"</string>
+<string name="reply">قايتۇرۇش</string>
+<string name="reply_all">"ھەممىسىگە قايتۇرۇش"</string>
+<string name="resume_draft">تەھرىرلەش</string>
+<string name="forward">باشقىغا يۆتكىمەك</string>
+<string name="menu_compose">"يېزىش"</string>
+<string name="menu_change_folders">"ھۆججەت پاپكىسىنى ئۆزگەرتىش"</string>
+<string name="menu_move_to">"غا يۆتكەش..."</string>
+<string name="menu_move_to_inbox">"تاپشۇرۇۋېلىش ساندۇقىغا يۆتكەش"</string>
+<string name="menu_manage_folders">"ھۆججەت پاپكىسى تەڭشىكى"</string>
+<string name="menu_show_original">"ئۆزلىكىدىن چوڭ كىچىكلىكىنى تەڭشەشنى ئەمەلدىن قالدۇرۇش"</string>
+<string name="menu_settings">تەڭشەك</string>
+<string name="menu_search">"ئىزدەش"</string>
+<string name="menu_toggle_drawer">تارتما ھالىتىگە ئۆزگەرتىش</string>
+<string name="drawer_title">تور بېتى يول باشلىغۇچى</string>
+<string name="mark_important">"مۇھىم دەپ بەلگە سېلىش"</string>
+<string name="mark_not_important">"مۇھىم ئەمەس دەپ بەلگە سېلىش"</string>
+<string name="add_cc_label">"كۆچۈرۈپ يوللاش\مەخپىي يوللاش ئادرېسىنى قوشۇش"</string>
+<string name="add_bcc_label">"مەخپىي يوللاش ئادرېسىنى قوشۇش"</string>
+<string name="quoted_text">"نەقىل كەلتۈرۈلگەن تېكىستنى ئۆز ئىچىگە ئالىدۇ"</string>
+<string name="quoted_text_label">"نەقىل كەلتۈرۈلگەن تېكىست"</string>
+<string name="respond_inline">"ئەسلىدىكى ئېلىخەت مەزمۇنى ئىچىدە جاۋاب قايتۇرۇش"</string>
+<string name="bytes">"<xliff:g id="count">%s</xliff:g>&amp;amp;amp;#160;B"</string>
+<string name="kilobytes">"<xliff:g id="count">%s</xliff:g>&amp;amp;amp;#160;KB"</string>
+<string name="megabytes">"<xliff:g id="count">%s</xliff:g>&amp;amp;amp;#160;MB"</string>
+<string name="attachment_image">رەسىم</string>
+<string name="attachment_video">ۋېدىئو</string>
+<string name="attachment_audio">ئۈن</string>
+<string name="attachment_text">"ئۇچۇر يوللاش"</string>
+<string name="attachment_application_msword">"ھۆججەت"</string>
+<string name="attachment_application_vnd_ms_powerpoint">"كۆرسەتمە ئارگىنال"</string>
+<string name="attachment_application_vnd_ms_excel">"ئېلىكتىرونلۇق جەدۋەل"</string>
+<string name="attachment_unknown">"ھۆججەت<xliff:g id="attachmentExtension">%s</xliff:g>"</string>
+<string name="preview_attachment">"ئالدىن كۆرۈش"</string>
+<string name="save_attachment">ساقلاش</string>
+<string name="download_again">"قايتا چۈشۈرۈش"</string>
+<string name="remove_attachment_desc">"نى يۆتكىۋېتىش<xliff:g id="attachmentName">%s</xliff:g>قۇشۇمچە ھۆججەت"</string>
+<string name="more_info_attachment">"ئۇچۇر"</string>
+<string name="no_application_found">"بۇ قىستۇرۇلغان ھۆججەتنى كۆرۈش ئۈچۈن ھەر قانداق ئەپ ئۇنى ئاچالمىدى"</string>
+<string name="fetching_attachment">"قىستۇرۇلما ھۆججەتلەرنى ئېلىۋاتىدۇ"</string>
+<string name="please_wait">ساقلاڭ\u2032</string>
+<string name="saved">"نى ساقلىدى(<xliff:g id="size">%s</xliff:g>)"</string>
+<string name="download_failed">"چۈشۈرەلمىدى. چېكىپ قايتا سىناڭ"</string>
+<string name="menu_photo_save_all">"ھەممىسىنى ساقلاش"</string>
+<string name="menu_photo_share">بەھرىمان بولۇش</string>
+<string name="menu_photo_share_all">"ھەممسىنى بەھىرلەش"</string>
+<string name="menu_photo_print">"بېسىش"</string>
+<string name="saving">"...ساقلاۋاتىدۇ""</string>
+<string name="choosertitle_sharevia">"بەھىرلەش ئۇسۇلى"</string>
+<string name="contextmenu_openlink">"كۆرسەتكۈچتە ئېچىش"</string>
+<string name="contextmenu_copy">كوپيەلەش</string>
+<string name="contextmenu_copylink">"ئۇلىنىش تور ئادرېسىنى كۆپەيتىش"</string>
+<string name="contextmenu_view_image">"شەكىلنى كۆرۈش"</string>
+<string name="contextmenu_dial_dot">"...تېلىڧۇن ئۇرۇش"</string>
+<string name="contextmenu_sms_dot">"...قىسقا ئۇچۇر"</string>
+<string name="contextmenu_add_contact">ئالاقلاشقۇچى كۆپەيتىش</string>
+<string name="contextmenu_send_mail">"ئىلىكتىرونلۇق خەت يوللاش"</string>
+<string name="contextmenu_map">"خەرىتە"</string>
+<string name="contextmenu_sharelink">"ئۇلىنىشنى بەھىرلەش"</string>
+<string name="content_description"><xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> ئاساسىي تېما <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g>  <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_today"><xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> ئاساسىي تېما <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g>  <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> :ئاساسى تېما <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> :ۋاقىت <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>,بەلگە: <xliff:g id="folders">%7$s</xliff:g>""</string>
+<string name="content_description_today_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> :ئاساسى تېما <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> ۋاقتى <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>,بەلگە: <xliff:g id="folders">%7$s</xliff:g>""</string>
+<string name="read_string">"ئوقۇلغان سۆزلىشىش"</string>
+<string name="unread_string">"ئوقۇلمىغان سۆزلىشىش"</string>
+<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="badge_and_subject"><xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+<plurals name="draft">
+<item quantity="one">"كوپيە"</item>
+<item quantity="other">دەسلەپكى نۇسخا</item>
+</plurals>
+<string name="sending">"يوللاۋاتىدۇ\u2026"</string>
+<string name="message_retrying">"...قايتا سىناۋاتىدۇ"</string>
+<string name="message_failed">مەغلۇپ بولدى</string>
+<string name="send_failed">"ئېلىخەت يوللانمىدى"</string>
+<string name="me_object_pronoun">مەن</string>
+<string name="me_subject_pronoun">مەن</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">"بۇ سۆزلىشىشنى يۇيۇمسىز؟"</item>
+<item quantity="other">"سۆزلىشىشلەرنى يۇيامسىز؟<xliff:g id="count">%1$d</xliff:g>بۇ"</item>
+</plurals>
+<plurals name="confirm_archive_conversation">
+<item quantity="one">"بۇ سۆزلىشىشنى ئارخىپلامسىز؟"</item>
+<item quantity="other">"سۆزلىشىشلەرنى ئارخىپلامسىز؟<xliff:g id="count">%1$d</xliff:g>بۇ"</item>
+</plurals>
+<plurals name="confirm_discard_drafts_conversation">
+<item quantity="one">"بۇ ئېلىخەتتىن ۋاز كېچەمسىز؟"</item>
+<item quantity="other">"پارچە ئېلىخەتتىن ۋاز كېچەمسىز؟<xliff:g id="count">%1$d</xliff:g>"</item>
+</plurals>
+<string name="confirm_discard_text">"بۇ ئېلىخەتتىن ۋاز كېچەمسىز؟"</string>
+<string name="loading_conversations">يۈكلەۋاتىدۇ\u2026</string>
+<string name="empty_inbox">"ھەممىسى پۈتتى! بۇ كۈنىڭىزدىن ھۇزۇرلىنىڭ"</string>
+<string name="empty_search">"غا ماس كېلىدىغان ھېچقانداق نەرسە تېپىلمىدى"<xliff:g id="search_query">%1$s</xliff:g>"كەچۈرۈڭ"</string>
+<string name="empty_spam_folder">"!بەك قالتىس، ھېچقانداق ئەخلەت ئېلىخەت يوق"</string>
+<string name="empty_trash_folder">"!يۇيۇۋېتىلگەن ئېلىخەت يوق. يىغىۋېلىشقا كەلگىنىڭىزگە رەخمەت"</string>
+<string name="empty_folder">"بۇ يەردە ئېلىخەت يوق"</string>
+<string name="getting_messages">"سىزنىڭ ئېلىخېتىڭىزنى قۇبۇللاۋاتىدۇ"</string>
+<string name="undo">يېنىۋالماق</string>
+<plurals name="conversation_unstarred">
+<item quantity="one">"سۆزلىشىش يۇلتۇز بەلگىسىنى بىكارلاۋاتىدۇ<xliff:g id="count">%1$d</xliff:g>"</item>
+<item quantity="other">"سۆزلىشىش يۇلتۇز بەلگىسىنى بىكارلاۋاتىدۇ<xliff:g id="count">%1$d</xliff:g>"</item>
+</plurals>
+<plurals name="conversation_muted">
+<item quantity="one">"سۆزلىشىشنى ھېسابقا ئالمىدى<b><xliff:g id="count">%1$d</xliff:g></b>"</item>
+<item quantity="other">"سۆزلىشىشنى ھېسابقا ئالمىدى<b><xliff:g id="count">%1$d</xliff:g></b>"</item>
+</plurals>
+<plurals name="conversation_spammed">
+<item quantity="one">"سۆزلىشىشنى كېرەكسىز ئېلىخەت قىلىپ تىزىلدى<b><xliff:g id="count">%1$d</xliff:g></b>"</item>
+<item quantity="other">"سۆزلىشىشنى كېرەكسىز ئېلىخەت قىلىپ تىزىلدى<b><xliff:g id="count">%1$d</xliff:g></b>"</item>
+</plurals>
+<plurals name="conversation_not_spam">
+<item quantity="one">"سۆزلىشىشنى كېرەكسىز ئېلىخەت ئەمەس قىلىپ تىزىلدى<b><xliff:g id="count">%1$d</xliff:g></b>"</item>
+<item quantity="other">"سۆزلىشىشنى كېرەكسىز ئېلىخەت ئەمەس قىلىپ تىزىلدى<b><xliff:g id="count">%1$d</xliff:g></b>"</item>
+</plurals>
+<plurals name="conversation_not_important">
+<item quantity="one">"سۆزلىشىشنى مۇھىم ئەمەس قىلىپ بەلگە ئۇردى<b><xliff:g id="count">%1$d</xliff:g></b>"</item>
+<item quantity="other">"سۆزلىشىشنى مۇھىم ئەمەس قىلىپ بەلگە ئۇردى<b><xliff:g id="count">%1$d</xliff:g></b>"</item>
+</plurals>
+<plurals name="conversation_phished">
+<item quantity="one">"سۆزلىشىشنى توردىكى ئالدامچىلىق دەپ پاش قىلدى<b><xliff:g id="count">%1$d</xliff:g></b>"</item>
+<item quantity="other">"سۆزلىشىشنى توردىكى ئالدامچىلىق دەپ پاش قىلدى<b><xliff:g id="count">%1$d</xliff:g></b>"</item>
+</plurals>
+<plurals name="conversation_archived">
+<item quantity="one">"سۆزلىشىشنى ئارخىپلىدى<b><xliff:g id="count">%1$d</xliff:g></b>"</item>
+<item quantity="other">"سۆزلىشىشنى ئارخىپلىدى<b><xliff:g id="count">%1$d</xliff:g></b>"</item>
+</plurals>
+<plurals name="conversation_deleted">
+<item quantity="one">"سۆزلىشىشنى يۇيۇۋەتتى<b><xliff:g id="count">%1$d</xliff:g></b>"</item>
+<item quantity="other">"سۆزلىشىشنى يۇيۇۋەتتى<b><xliff:g id="count">%1$d</xliff:g></b>"</item>
+</plurals>
+<string name="deleted">"ئۆچۈرۈلدى"</string>
+<string name="archived">"ئارخىپلاشتۇرۇلدى"</string>
+<string name="folder_removed">"دىن يۇيۇلدى<xliff:g id="folderName">%1$s</xliff:g>"</string>
+<plurals name="conversation_folder_changed">
+<item quantity="one">"ھۆججەت پاپكىسى ئۆزگەرتىلدى"</item>
+<item quantity="other">"ھۆججەت پاپكىسى ئۆزگەرتىلدى"</item>
+</plurals>
+<string name="conversation_folder_moved">"غا يۆتكەلدى<xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="search_results_header">"نەتىجىلىرى"</string>
+<string name="search_unsupported">"بۇ ھېسابات نۇمۇرىدا ئىزدەش قوللانمايدۇ"</string>
+<string name="search_suggestion_desc">"<xliff:g id="suggestion">%s</xliff:g>:تەۋسىيە قىلىمىز"</string>
+<string name="add_label">ھۆججەت قىسقۇچ قوشۇش</string>
+<plurals name="new_incoming_messages">
+<item quantity="one">"پارچە يېڭى ئېلىخەت بار<xliff:g id="count">%1$d</xliff:g>"</item>
+<item quantity="other">"پارچە يېڭى ئېلىخەت بار<xliff:g id="count">%1$d</xliff:g>"</item>
+</plurals>
+<string name="date_and_view_details">"&lt;/a&gt;تەپسىلاتىنى كۆرۈڭ<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;"</string>
+<string name="hide_details">"تەپسىلاتىنى يۇشۇرۇش"</string>
+<string name="to_message_header">"<xliff:g id="recipients">%1$s</xliff:g>:تاپشۇرۇۋالغۇچى"</string>
+<string name="bcc_header_for_recipient_summary">"شىفىر يوللاش:\u0020"</string>
+<string name="contact_info_string">"نىڭ ئالاقىلاشقۇچى ئۇچۇرىنى كۆرسىتىش<xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="contact_info_string_default">"ئالاقىلاشقۇچى ئۇچۇرىنى كۆرسىتىش"</string>
+<plurals name="show_messages_read">
+<item quantity="other">"پارچە كونا ئېلىخەتنى كېڭەيتىش<xliff:g id="count" example="4">%1$d</xliff:g>"</item>
+</plurals>
+<plurals name="super_collapsed_block_accessibility_announcement">
+<item quantity="other">"پارچە كونا ئېلىخەت كېڭەيتىلدى<xliff:g id="count" example="4">%1$d</xliff:g>"</item>
+</plurals>
+<string name="from_heading">:ئەۋەتكۈچى</string>
+<string name="replyto_heading">":قايتۇرۇش ئوبىيكتى"</string>
+<string name="to_heading">"قوبۇللىغۇچى:\u0020"</string>
+<string name="to_heading_no_space">"غا (قا، گ، كە):"</string>
+<string name="cc_heading">":كۆچۈرۈپ ئەۋەتىش"</string>
+<string name="bcc_heading">"مەخپى ئەۋەتىش"</string>
+<string name="date_heading">":چېسلا"</string>
+<string name="show_images">"رەسىملەرنى كۆرسىتىش"</string>
+<string name="always_show_images">"بۇ ئەۋەتكۈچىدىن كەلگەن رەسىملەرنى داۋاملىق كۆرسىتىش"</string>
+<string name="always_show_images_toast">"بۇ ئەۋەتكۈچىدىن كەلگەن رەسىملەر ئاپتوماتىك كۆرسىتىلىدۇ"</string>
+<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> ئارقىلىق<xliff:g id="via_domain">%3$s</xliff:g>"</string>
+<string name="message_saved">"ئۇچۇر دەسلەپكى نوسقا شەكلىدە ساقلاندى."</string>
+<string name="sending_message">"...ئېلىخەت يوللاۋاتىدۇ"</string>
+<string name="invalid_recipient">"بولسا ئىناۋەتسىز ئادرېس<xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g>"</string>
+<string name="show_elided">"ئىشلىتىلگەن تېكستنى كۆرسىتىش"</string>
+<string name="hide_elided">"ئىشلىتىلگەن تېكىستنى يۇشۇرۇش \u25BC"</string>
+<string name="message_invite_title">"كالىندار تەكلىپى"</string>
+<string name="message_invite_calendar_view">"كالىنداردا كۆرۈش"</string>
+<string name="message_invite_label_attending">"قاتنىشامسىز؟"</string>
+<string name="message_invite_accept">ھەئە</string>
+<string name="message_invite_tentative">"بەلكىم"</string>
+<string name="message_invite_decline">ياق</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="send_anyway">"يەنىلا يوللاش"</string>
+<string name="ok">مۇقىملاش</string>
+<string name="done">تامام</string>
+<string name="cancel">ئەمەلدىن قالدۇرۇش</string>
+<string name="clear">تازلاقلىق</string>
+<string name="next">"كېيىنكى"</string>
+<string name="previous">"ئالدىن كۆرۈش"</string>
+<string-array name="sync_status">
+<item>"مۇۋەپىقىيەتلىك بولدى"</item>
+<item>"ئۇلىنىش يوق"</item>
+<item>"تىزىملاپ كىرەلمەيدۇ"</item>
+<item>"بىخەتەرلىك خاتالىقى"</item>
+<item>"ماسقەدەملەشتۈرەلمىدى"</item>
+<item>"ئىچكى خاتالىق"</item>
+<item>"مۇلازىمىتىر خاتالىقى"</item>
+</string-array>
+<string name="tap_to_configure">"چېكىش ئارقىلىق تەڭشەش\'</string>
+<string name="non_synced_folder_description">"دېئالوگنى كۆرۈش ئۈچۈن، بۇ ھۆججەت پاپكىسىنى ماسقەدەملەشتۈرۈڭ"</string>
+<string name="tap_to_configure_folder_sync">"ھۆججەت پاپكىسىنى ماسقەدەملەشتۈرۈش"</string>
+<string name="large_unseen_count">"يېڭى ئېلىخەت+<xliff:g id="count" example="99">%d</xliff:g>"</string>
+<string name="unseen_count">"يېڭى<xliff:g id="count" example="4">%d</xliff:g>"</string>
+<plurals name="actionbar_unread_messages">
+<item quantity="other">"پارچە ئوقۇلمىغان ئېلىخەت<xliff:g id="count" example="4">%1$d</xliff:g>"</item>
+</plurals>
+<string name="view_more_conversations">تېخىمۇ كۆپ سۆھبەتلەرنى كۆرۈش</string>
+<string name="loading_conversation">يۈكلەۋاتىدۇ\u2026</string>
+<string name="activity_mailbox_selection">"بىر دانە ھېسابات نۇمۇرىنى تاللاش"</string>
+<string name="activity_folder_selection">"ھۆججەت پاپكىسىنى تاللاش"</string>
+<string name="folder_shortcut_widget_label">"ئېلىخەت ھۆججەت پاپكىسى"</string>
+<string name="change_folders_selection_dialog_title">"ھۆججەت پاپكىسىنى ئۆزگەرتىش"</string>
+<string name="move_to_selection_dialog_title">"غا يۆتكەش..."</string>
+<string name="search_hint">"ئىزدەش"</string>
+<string name="voice_search_not_supported">بۇ ئەسلىھە ئاۋازلىق ئىزدەشنى قوللىمايدۇ</string>
+<string name="search_back_desc">ئىزدەشنى ئېتىش</string>
+<string name="search_voice_desc">"ئاۋازلىق ئىزدەشنى باشلاش"</string>
+<string name="search_clear_desc">ئىزدەش تېكستىنى قۇرۇقداش</string>
+<string name="network_error">"ئۇلىنىش يوق"</string>
+<string name="retry">" قايتا سىناش"</string>
+<string name="load_more">"تېخىمۇ كۆپ يۈكلەش"</string>
+<string name="shortcut_name_title">"ھۆججەت پاپكىسى تېزلەتمىسىنى ئىسىملاش"</string>
+<string name="wait_for_sync_title">"ماسقەدەملەشتۈرۈشنى ساقلاۋاتىدۇ"</string>
+<string name="not_synced_title">"ھېسابات نۇمۇرى ماسقەدەملەشمىدى"</string>
+<string name="wait_for_manual_sync_body">"نى چېكىپ بۇ ھېسابات نۇمۇرىنى ئاپتوماتىك ماسقەدەملىشىدىغان قىلىپ تەڭشەڭ<b>ماسقەدەملەشتۈرۈش تەڭشىكىنى ئۆزگەرتىش</b> چېكىپ،ئېلىخەتنى بىر قەدەمدە ماسقەدەملەشتۈرۈڭ،ياكى\n نى<b>دەرھال ماسقەدەملەشتۈرۈش</b>بۇ ھېسابات نۇمۇرى ئاپتوماتىك ماسقەدەملەشتۈرۈش قىلىپ تەڭشەلمىگەن. سىز"</string>
+<string name="manual_sync">"ھازىرلا ماسقەدەملەشتۈرۈش"</string>
+<string name="change_sync_settings">"ماسقەدەملەشتۈرۈش تەڭشىكىنى ئۆزگەرتىش"</string>
+<string name="photo_load_failed">"رەسىمنى يۈكلىيەلمەيۋاتىدۇ"</string>
+<string name="cant_move_or_change_labels">"تاللانغان مەزمۇندا كۆپ ھېسابات نۇمۇرىنىڭ ئېلىخېتى بولغاچقا يۆتكىيەلمىدى"</string>
+<string name="multiple_new_message_notification_item">"<b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="ignore_spam_warning">"ئېتىبارغا ئالماڭ، مەن بۇ ئېلېكترونلۇق پوچتا يوللانمىسىغا ئىشىنىمەن"</string>
+<string name="via_domain">"ئارقىلىق<xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+<string name="signin">"تىزىملاپ كىرىش"</string>
+<string name="info">"ئۇچۇر"</string>
+<string name="report">"دوكىلات"</string>
+<string name="show">كۆرسىتىش</string>
+<string name="sync_error">"ماسقەدەملەشتۈرەلمىدى"</string>
+<string name="sync_error_message">"ئۈسكىنىڭىزدە ماسقەدەملەشتۈرۈش ئۈچۈن يېتەرلىك بوشلۇق يوق"</string>
+<string name="storage">"ساقلاش"</string>
+<string name="senders_split_token">",\u00A0"</string>
+<string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+<string name="all_folders_heading">"بارلىق ھۆججەت پاپكىلىرى"</string>
+<string name="recent_folders_heading">"يېقىنقى ھۆججەت پاپكىلىرى"</string>
+<string name="message_details_title">"ئۇچۇر تەپسلى ئەھۋالى"</string>
+<string name="preference_advance_to_title">"ئۆزلىكىدىن يۇقىرى كۆتۈرۈلۈش"</string>
+<string-array name="prefEntries_autoAdvance">
+<item>"كېيىنكى بىر سۆزلىشىش "</item>
+<item>كوناراق</item>
+<item>"سۆزلىشىش تىزىملىكى"</item>
+</string-array>
+<string-array name="prefSummaries_autoAdvance">
+<item>"يۇيۇۋېتىش مەشغۇلاتىدىن كېيىن كېيىنكى يېڭىراق سۆزلىشىشنى كۆرسىتىش"</item>
+<item>"يۇيۇۋېتىش مەشغۇلاتىدىن كېيىن كېيىنكى كونىراق سۆزلىشىشنى كۆرسىتىش"</item>
+<item>"يۇيۇۋېتىش مەشغۇلاتىدىن كېيىن  سۆزلىشىش تىزىملىكىنى كۆرسىتىش"</item>
+</string-array>
+<string name="prefDialogTitle_autoAdvance">"غا ئاتلاش"</string>
+<string name="clear_display_images_whitelist_title">"رەسىم كۆرسىتىش تەڭشىكىنى تازىلاش"</string>
+<string name="clear_display_images_whitelist_dialog_title">"رەسىم كۆرسىتىش تەڭشىكىنى تازىلامسىز؟"</string>
+<string name="clear_display_images_whitelist_dialog_message">"سىز بۇرۇن رۇخسەت قىلغان ئەۋەتكۈچىلەرنىڭ ئېلىخەت ئىچىدىكى رەسىملەرنى كۆرسىتىشىنى توختىتىش"</string>
+<string name="sender_whitelist_cleared">"رەسىملەر ئاپتوماتىك كۆرسىتىلمەيدۇ"</string>
+<string name="preferences_signature_title">"ئىمزا"</string>
+<string name="preferences_signature_dialog_title">"ئىمزا"</string>
+<string name="preferences_signature_summary_not_set">"1 سائەت"</string>
+<string name="notification_action_reply">قايتۇرۇش</string>
+<string name="notification_action_reply_all">"ھەممىسىگە قايتۇرۇش"</string>
+<string name="notification_action_archive">"ئارخىپلاش"</string>
+<string name="notification_action_remove_label">"بەلگىنى يۇيۇش"</string>
+<string name="notification_action_delete">ئۆچۈرۈش</string>
+<string name="notification_action_undo_archive">"ئارخىپلاشتۇرۇلدى"</string>
+<string name="notification_action_undo_remove_label">"يۇيۇلغان بەلگە"</string>
+<string name="notification_action_undo_delete">"ئۆچۈرۈلدى"</string>
+<string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+<plurals name="new_messages">
+<item quantity="one">"پارچە يېڭى ئېلىخەت بار<xliff:g id="count">%1$d</xliff:g>"</item>
+<item quantity="other">"پارچە يېڭى ئېلىخەت بار<xliff:g id="count">%1$d</xliff:g>"</item>
+</plurals>
+<string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="silent_ringtone">تىنچ</string>
+<string name="preference_removal_action_title">"سۈكۈتلۈك مەشغۇلات"</string>
+<string-array name="prefEntries_removal_action">
+<item>"ئارخىپلاش"</item>
+<item>ئۆچۈرۈش</item>
+</string-array>
+<string-array name="prefSummaries_removal_action_summary">
+<item>"ئارخىپلاش"</item>
+<item>ئۆچۈرۈش</item>
+</string-array>
+<string name="prefDialogTitle_removal_action">"سۈكۈتلۈك مەشغۇلات"</string>
+<string name="preferences_default_reply_all_title">"ھەممىسىگە قايتۇرۇش"</string>
+<string name="preferences_default_reply_all_summary_impl">"سۈكۈتلۈك ئېلىخەت قايتۇرۇش شەكلى قىلىپ ئىشلىتىش"</string>
+<string name="preference_swipe_title">سىيرىش مەشغۇلاتى</string>
+<string name="preference_swipe_description">"سۆزلىشىش تىزىملىكىدە"</string>
+<string name="preference_sender_image_title">"ئەۋەتكۈچىنىڭ باش رەسىمى"</string>
+<string name="preference_sender_image_description">"سۆزلىشىش تىزىملىكىدىكى ئىسىمنىڭ يېنىدا كۆرسىتىش"</string>
+<string name="empty_trash">"يۇيۇلغان ئېلىخەتلەرنى قۇرۇقداش"</string>
+<string name="empty_spam">"كېرەكسىز ئېلىخەتلەرنى قۇرۇقداش"</string>
+<string name="empty_trash_dialog_title">"يۇيۇلغان ئېلىخەتلەرنى قۇرۇقدامسىز؟"</string>
+<string name="empty_spam_dialog_title">"كېرەكسىز ئېلىخەتلەرنى قۇرۇقدامسىز؟"</string>
+<plurals name="empty_folder_dialog_message">
+<item quantity="one">"پارچە ئېلىخەت مەڭگۈ يۇيۇلىدۇ<xliff:g id="count">%1$d</xliff:g>"</item>
+<item quantity="other">"پارچە ئېلىخەتلەر مەڭگۈ يۇيۇلىدۇ<xliff:g id="count">%1$d</xliff:g>"</item>
+</plurals>
+<string name="drawer_open">"ئىشكاپلىق يول باشلىغۇچ ئىستونىنى ئېچىش"</string>
+<string name="drawer_close">"ئىشكاپلىق يول باشلىغۇچ ئىستونىنى ئېتىش"</string>
+<string name="conversation_photo_welcome_text">"ئەۋەتكۈچىنىڭ باش رەسىمىنى چېكىش ئارقىلىق ئالاقىدار سۆزلىشىشنى تاللاڭ"</string>
+<string name="long_press_to_select_tip">"چېكىش ۋە بېسىپ تۇرۇش ئارقىلىق بىر سۆزلىشىشنى تاللىغىلى بولىدۇ، يەنە چېكىش ئارقىلىق تېخىمۇ كۆپنى تاللىغىلى بولىدۇ"</string>
+<string name="folder_icon_desc">"ھۆججەت پاپكا سىنبەلگىسى"</string>
+<string name="add_account">سچوت قۇشۇپ كۆپەيتىش</string>
+<string name="dismiss_tip_hover_text">"كۆرسەتمىنى ئېتىبارغا ئالماسلىق"</string>
+<string name="auto_sync_off">".ئاپتوماتىك ماسقەدەملەشتۈرۈش ئېتىك. چېكىش ئارقىلىق ئېچىڭ"</string>
+<string name="account_sync_off">"&lt;/a>دىكى ھېسابات نۇمۇر تەڭشىكىدە ئېچىڭ&lt;a href=\'http://www.example.com\'&gt;ھېسابات نۇمۇر ماسقەدەملەشتۈرۈلىشى ئېتىلدى.سىز"</string>
+<string name="unsent_messages_in_outbox">"پارچە ئەۋەتىلمىگەن ئېلىخەت بار<xliff:g id="number">%1$s</xliff:g>نىڭ ئىچىدە<xliff:g id="outbox">%2$s</xliff:g>"</string>
+<string name="turn_auto_sync_on_dialog_title">"ئاپتوماتىك ماسقەدەملەشتۈرۈشنى قوزغىتامسىز؟"</string>
+<string name="turn_auto_sync_on_dialog_body">"ئارىسىدا ماسقەدەملەشتۈرىدۇ<xliff:g id="phone_or_tablet">%1$s</xliff:g>لا ئەمەس، ئۈسىتىدە ئېلىپ بارغان ئۆزگەرتىشلىرىڭىز تور،سىزنىڭ باشقا ئۈسكىنىلىرىڭىز ۋە سىزنىڭ Gmail، سىزنىڭ بارلىق ئەپلەر ۋە ھېسابات نۇمۇرلىرى "</string>
+<string name="phone">تېلېفون</string>
+<string name="tablet">تاختا كومپيۇتېر</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">"ئېچىش"</string>
+<string name="show_n_more_folders">"دانە ھۆججەت پاپكىسىنى كۆرسىتىش<xliff:g id="number">%1$s</xliff:g>"</string>
+<string name="hide_folders">"ھۆججەت پاپكىلىرىنى يۇشۇرۇش"</string>
+<string name="print">"بېسىش"</string>
+<string name="print_all">"ھەممىنى بېسىپ چىقىرىش"</string>
+<plurals name="num_messages">
+<item quantity="one">"پارچە ئېلىخەت<xliff:g id="count">%1$d</xliff:g>"</item>
+<item quantity="other">"پارچە ئېلىخەت<xliff:g id="count">%1$d</xliff:g>"</item>
+</plurals>
+<string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> دىكى<xliff:g id="time">%2$s</xliff:g>"</string>
+<string name="draft_to_heading">":دەسلەپكى نۇسخىسىنى تاپشۇرۇۋالغۇچى"</string>
+<string name="draft_heading">"كوپيە"</string>
+<string name="quoted_text_hidden_print">"ئىشلىتىلگەن تېكستنى يۇشۇرۇش"</string>
+<plurals name="num_attachments">
+<item quantity="one">"دانە قۇشۇمچە ھۆججەت<xliff:g id="count">%1$d</xliff:g>"</item>
+<item quantity="other">"دانە قۇشۇمچە ھۆججەتلەر<xliff:g id="count">%1$d</xliff:g>"</item>
+</plurals>
+<string name="no_subject">"(تەسىرى يوق)"</string>
+<string name="vacation_responder">"دەم ئېلىشتىكى جاۋاب قايتۇرغۇچ"</string>
+<string name="preferences_vacation_responder_title">"دەم ئېلىشتىكى جاۋاب قايتۇرغۇچ"</string>
+<string name="vacation_responder_body_hint_text">ئۇچۇر</string>
+<string name="send_to_contacts_text">"مېنىڭ ئالاقىلاشقۇچىلىرىمغىلا ئەۋەتىش"</string>
+<string name="send_to_domain_text">"غىلا ئەۋەتىش<xliff:g id="domain">%1$s</xliff:g>"</string>
+<string name="pick_start_date_title">"باشلىنىش چېسلاسى"</string>
+<string name="pick_end_date_title">"(تاللىغىلى بولىدۇ)ئاخىرلىشىش چېسلاسى"</string>
+<string name="date_not_set">"1 سائەت"</string>
+<string name="set_end_date_dialog_title">"(تاللىغىلى بولىدۇ)ئاخىرلىشىش چېسلاسى"</string>
+<string name="custom_date">"ئۆزلىكىدىن ئېنىقلىما بېرىش"</string>
+<string name="date_none">يوق</string>
+<string name="discard_changes">"ئۆزگەرتىشتىن ۋاز كېچەمسىز؟"</string>
+<string name="vacation_responder_changes_saved">"دەم ئېلىشتىكى جاۋاب قايتۇرغۇچ ئۆزگەرتىلىشى ساقلاندى"</string>
+<string name="vacation_responder_changes_discarded">"دەم ئېلىشتىكى جاۋاب قايتۇرغۇچ ئۆزگەرتىلىشى ۋاز كېچىلدى"</string>
+<string name="vacation_responder_off">ئىتىۋېتىش</string>
+<string name="vacation_responder_on">"دىن باشلاپ <xliff:g id="date">%1$s</xliff:g>ئۇچۇق"</string>
+<string name="vacation_responder_on_with_end_date">"غىچە ئوچۇق<xliff:g id="end-date">%2$s</xliff:g>دىن باشلاپ<xliff:g id="start-date">%1$s</xliff:g> "</string>
+<string name="vacation_responder_empty_subject_and_body_warning">"ئاساسىي تېما ياكى تېكست قوشۇش"</string>
+<string name="view_entire_message">"ئېلىخەتنىڭ پۈتۈن تېكستىنى كۆرۈش"</string>
+<string name="eml_loader_error_toast">"بۇ ھۆججەتنى ئاچالمىدى"</string>
+<string name="help_and_info">ياردەم</string>
+<string name="help_and_feedback">"ياردەم ۋە ئىنكاس"</string>
+<string name="feedback">"قايتما ئىنكاس يوللاش"</string>
+<string name="copyright">&#169;<xliff:g id="year" example="2010">%1$d</xliff:g> Google Inc."</string>
+<string name="version"><xliff:g id="app_name" example="Email">%1$s</xliff:g> version <xliff:g id="version" example="2.2.1">%2$s</xliff:g>"</string>
+<string name="print_dialog">"...بېسىۋاتىدۇ"</string>
+<string name="copyright_information">"نەشىر ھوقۇق ئۇچۇرى"</string>
+<string name="privacy_policy">"شەخسىي ھوقۇق تۈزۈمى"</string>
+<string name="open_source_licenses">"مەنبە گۇۋاھنامىسىنى ئېچىش"</string>
+<string name="reply_choice_yes">ھەئە</string>
+<string name="reply_choice_no">ياق</string>
+<string name="reply_choice_ok">مۇقىملاش</string>
+<string name="reply_choice_hehe">"ھى ھى"</string>
+<string name="reply_choice_thanks">"رەھمەت"</string>
+<string name="reply_choice_i_agree">"قوشۇلىمەن"</string>
+<string name="reply_choice_nice">"توغرا"</string>
+<string name="reply_on_my_way">"يولدا"</string>
+<string name="reply_choice_later">"!بولىدۇ. ئامال بار سىزگە تېزراق جاۋاب قايتۇرىمەن"</string>
+<string name="preference_header_action_confirmations">"مەشغۇلات مۇقىملاشتۇرۇلىشى"</string>
+<string name="preference_confirm_before_delete_title">"يۇيۇشتىن ئاۋۋال مۇقىملاڭ"</string>
+<string name="preference_confirm_before_archive_title">" ئارخىپلاشتىن بۇرۇن مۇئەييەنلەشتۈرۈڭ"</string>
+<string name="preference_confirm_before_send_title">"يوللاشتىن ئاۋۋال مۇقىملاڭ"</string>
+<string name="preferences_conversation_mode_title">"ئاپتوماتىك تەڭشەلگەن ئۇچۇرى"</string>
+<string name="preferences_conversation_mode_summary">"ئۇچۇرنى تارلاشتۇرۇش ئارقىلىق ئىكرانغا ماسلاشتۇرۇش"</string>
+<string name="preferences_disable_snap_headers_title">"ئۇچۇر مەشغۇلاتى"</string>
+<string-array name="prefSummaries_snapHeader">
+<item>"دائىم ئىكران تۆپىسىدە ئېلىخەت مەشغۇلاتىنى كۆرسىتىش"</item>
+<item>"ئايلىنىپ تىك يۆنىلىشكە كەلگەندە ئىكران تۆپىسىدە ئېلىخەت مەشغۇلاتىنى كۆرسىتىش"</item>
+<item>"ئىكران تۆپىسىدىدىن باشقا جايلاردا ئېلىخەت مەشغۇلاتىنى كۆرسەتمەسلىك"</item>
+</string-array>
+<string-array name="prefEntries_snapHeader">
+<item>دائىم ئاشكارە</item>
+<item>"تىك يۆنىلىشتىلا كۆرسىتىش"</item>
+<item>"كۆرسەتمەسلىك"</item>
+</string-array>
+<string name="clear_history_title">"ئىزدىگەن تارىخى ھۆججەتنى تازىلاش"</string>
+<string name="search_history_cleared">"ئىزدەش خاتىرىسى تازىلاندى"</string>
+<string name="clear_history_dialog_title">"ئىزدەش تارىخىنى يۇيامسىز؟"</string>
+<string name="clear_history_dialog_message">"بۇ مەشغۇلاتتىن كېيىن سىزنىڭ بۇرۇنقى ئىزدەش تارىخىڭىزنىڭ ھەممىسى يۆتكىلىدۇ"</string>
+<string name="manage_accounts_menu_item">"ھىسابات نۇمۇرىنى باشقۇرۇش"</string>
+<string name="general_preferences_title">ئادەتتىكى تەڭشەش</string>
+<string name="activity_preferences">تەڭشەك</string>
+<string name="overflow_description">"تېخىمۇ كۆپ تاللاش"</string>
+<string name="security_hold_required_text">"بىخەتەرلىك يېڭىلىنىشى ئېلىپ بېرىشى كېرەك<xliff:g id="email_address">%1$s</xliff:g>"</string>
+<string name="update_security_text">ھازىرلا يېڭىلاش</string>
+<string name="forms_are_disabled">دە جەدۋەلنى ئىشلەتكىلى بولمايدۇGmail</string>
+    <string name="add_contacts_too_much">"تاپشۇرۇۋالغۇچىلارنىڭ ئەڭ يۇقىرى سان چەكلىمىسى 50"</string>
+     <string name="account_delete_dlg_title">"ھېسابات نۇمۇرىنى يۆتكىۋېتىش"</string>
+     <string name="account_delete_waiting">"...يۆتكەۋاتىدۇ، سەل ساقلاڭ"</string>
+     <string name="filter_all">ھەممە</string>
+     <string name="filter_receiver">"تاپشۇرۇۋالغۇچ"</string>
+     <string name="filter_sender">"ئەۋەتكۈچى"</string>
+     <string name="filter_subject">"تېما"</string>
+     <string name="filter_content">مەزمۇن</string>
+     <string name="search_on_server">"مۇلازىمىتىردىن ئىزدەش"</string>
+     <string name="download_confirm_msg">"ھازىرقىسى سىمسىز تور ئەمەس، ھەمدە قۇشۇمچە ھۆججەت بەك چوڭ، داۋاملاشتۇرامسىز"</string>
+     <string name="download_deny_malware">".يامان نىيەتلىك دىتال بولۇشى مۇمكىن .چۈشۈرۈلمەيۋاتىدۇ"</string>
+     <string name="download_deny_wifionly">"سىمسىز تور شارائىتىدىلا چۈشۈرۈشكە بولىدۇ"</string>
+     <string name="download_deny_nointent">"بۇ ھۆججەتنى ئاچقىلى  بولىدىغان ئەپ يوق .چۈشۈرۈشكە ئامالسىز."</string>
+     <string name="download_deny_nosideload">" نامەلۇم مەنبەلىك ئەپنى ئورنىتىشقا رۇخسەت قىلغاندىن كېيىن ئاندىن سىناڭ"</string>
+     <string name="download_deny_apkinstall">".لارنى ئورنىتىشتىن توسقانلىقى ئۈچۈن، چۈشۈرۈشكە بولمىدىapkبارلىق"</string>
+     <string name="download_deny_policy">"ھېسابات نۇمۇر ئىستىراتىگىيسى سەۋەبىدىن چۈشۈرەلمىدى"</string>
+     <string name="download_att_external">"چۈشۈرۈش كە چۈشۈرۈش"</string>
+     <string name="save_to_where">"قۇشۇمچە ھۆججەتنى...غا ساقلاش"</string>
+     <string name="missing_required_permission">"سىز تەلەپ قىلىنغان ھوقۇقنى توختاتتىڭىز"</string>
+     <string name="permission_change">"ھوقۇق ئۆزگەرگەنلىكى ئۈچۈن، ھۆججەتنى قايتا تاللاڭ"</string>
+     <string name="permission_change_redo">"ھوقۇق ئۆزگەرگەنلىكى ئۈچۈن، مەشغۇلاتنى قايتا تاللاڭ"</string>
+     <string name="preference_default_signature_title">"ئىمزا"</string>
+     <string name="signature_default">"مېنىڭ يانفۇنۇمدىن يوللاش"</string>
+     <string name="set_priority_high">"ئالدىن ئويلىشىشنى تەڭشەش :يۇقىرى دەرىجە"</string>
+     <string name="set_priority_normal">"ئالدىن ئويلىشىشنى تەڭشەش :نورمال  دەرىجە"</string>
+     <string name="set_priority_low">"ئالدىن ئويلىشىشنى تەڭشەش :تۆۋەن دەرىجە"</string>
+     <string name="file_not_exist">"!ئۆز رايۇندىكى قوشۇمچە ھۆججەت مەۋجۇت ئەمەس، قايتا چۈشۈرۈڭ"</string>
+     <string name="body_input_more">"كەچۈرۈڭ،تېمىغا پەقەت%1$s ھەرپ كىرگۈزۈشكە بولىدۇ"</string>
+     <string name="attachment_rename_to_legal">"قۇشۇمچە ھۆججەتنىڭ ئورىگىنال نامى قانۇسىز بولغاچقا قايتىدىن ناملاندى"</string>
+
+</resources>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="from">"द्वारा"</string>
+<string name="to">"प्रति"</string>
+<string name="cc">"सीसी"</string>
+<string name="bcc">"बीसीसी"</string>
+<string name="subject_hint">"विषयः"</string>
+<string name="body_hint">"वि-पत्रं निर्मातु"</string>
+<string name="add_file_attachment">"संयोजितसञ्चिका"</string>
+<string name="add_photo_attachment">"संयोजितं चित्रम्"</string>
+<string name="save_draft">"प्रारूपं रक्षतु"</string>
+<string name="discard">"त्यजतु"</string>
+<string name="compose">"निर्माति"</string>
+<string name="compose_title">"निर्माति"</string>
+<string-array name="compose_modes">
+<item>"प्रत्युत्तरतु"</item>
+<item>"सर्वेभ्यः प्रतुय्तरम्"</item>
+<item>"अग्रेगमनम्"</item>
+</string-array>
+<string name="reply_attribution">"<xliff:g id="date">%s</xliff:g> इत्यस्मिन्, <xliff:g id="person">%s</xliff:g> लिखितम् :"</string>
+<string name="forward_attribution_no_headers">"---------- अग्रे प्रेषितः सन्देशः ----------"</string>
+<string name="select_attachment_type">"संयोजितस्य प्रकारं चिनोतु"</string>
+<string name="too_large_to_attach_single">"<xliff:g id="maxSize">%1$s</xliff:g> इत्यस्मात् अधिका सञ्चिका आरोपयितुं न शक्यते।"</string>
+<string name="too_large_to_attach_multiple">"एका उत अधिकाः सञ्चिकाः न संयुक्ताः। सीमा <xliff:g id="maxSize">%1$s</xliff:g>।"</string>
+<string name="too_large_to_attach_additional">"सञ्चिका न संयोक्ता <xliff:g id="maxSize">%1$s</xliff:g> सीमा सम्प्राप्ता"</string>
+<string name="generic_attachment_problem">"सञ्चिकां चयनं न शक्तम्।"</string>
+<string name="attachment_permission_denied">"संयोजनाय अनुमतिः नास्ति।"</string>
+<string name="recipient_needed">"न्यूनातिन्यूनम् एकं स्वीकर्तारं योजयतु।"</string>
+<string name="confirm_send_message_with_no_subject">"तत्र सन्देशविषये पाठ्यं नास्ति।"</string>
+<string name="confirm_send_message_with_no_body">"तत्र सन्देशभागे पाठ्यं नास्ति।"</string>
+<string name="confirm_send_message">"एनं सन्देशं प्रेषयति?"</string>
+<string name="message_discarded">"सन्देशः त्यक्तः।"</string>
+<string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+<string name="custom_from_account_label">": रूपेण पत्रं प्रेषयतु"</string>
+<string name="send">"प्रेषयतु"</string>
+<string name="mark_read">"पठितत्वेन अङ्क्यताम्"</string>
+<string name="mark_unread">"अपठितत्वेन अङ्क्यताम्"</string>
+<string name="toggle_read_unread">"पठित-अपठितयोः विभाषकम्"</string>
+<string name="mute">"मूकम्"</string>
+<string name="add_star">"तारकं योजयतु"</string>
+<string name="remove_star">"तारकम् अपाकरोतु"</string>
+<string name="remove_folder">"<xliff:g id="folderName">%1$s</xliff:g> तः निष्कासयतु"</string>
+<string name="archive">"अभिलेखः"</string>
+<string name="report_spam">"अवकरत्वेन विवरणम्"</string>
+<string name="mark_not_spam">"अवकरत्वेन विवरणं नास्ति"</string>
+<string name="report_phishing">"फिशिंग-विवरणम्"</string>
+<string name="delete">"अपाक्रियताम्"</string>
+<string name="discard_drafts">"प्रारूपाणि त्यजतु"</string>
+<string name="discard_failed">"प्रारूपं विफलम्"</string>
+<string name="refresh">"पुनस्स्थापनम्"</string>
+<string name="reply">"प्रत्युत्तरतु"</string>
+<string name="reply_all">"सर्वेभ्यः प्रतुय्तरम्"</string>
+<string name="resume_draft">"सम्पाद्यताम्"</string>
+<string name="forward">"अग्रेगमनम्"</string>
+<string name="menu_compose">"निर्माति"</string>
+<string name="menu_change_folders">"समुच्चयान् प्ररिवर्तयतु"</string>
+<string name="menu_move_to">"प्रति स्थानान्तरतु"</string>
+<string name="menu_move_to_inbox">"आगतपेटिकां प्रति स्थानान्तरतु"</string>
+<string name="menu_manage_folders">"समुच्चयस्य अभिविन्यासाः"</string>
+<string name="menu_show_original">"स्वतः आकारणं पूर्ववत् करोतु"</string>
+<string name="menu_settings">"व्यवस्थापनम्।"</string>
+<string name="menu_search">"अन्विष्यताम्"</string>
+<string name="menu_toggle_drawer">"चित्रकारस्य विभाषकम्"</string>
+<string name="drawer_title">"सञ्चरणम्"</string>
+<string name="mark_important">"मुख्यत्वेन अङ्कयतु"</string>
+<string name="mark_not_important">"अमुख्यत्वेन अङ्कयतु"</string>
+<string name="add_cc_label">"योज्यताम् Cc/Bcc"</string>
+<string name="add_bcc_label">"योज्यताम् Bcc"</string>
+<string name="quoted_text">"उद्धृतं पाठ्यम् अन्तर्भूतम्"</string>
+<string name="quoted_text_label">"उद्धरणस्य पाठ्यम्"</string>
+<string name="respond_inline">"पक्तौ प्रत्युत्तरितम्"</string>
+<string name="attachment_image">"चित्रम्।"</string>
+<string name="attachment_video">"दृश्यचलितम्"</string>
+<string name="attachment_audio">"श्रव्यः।"</string>
+<string name="attachment_text">"पाठ्यम्"</string>
+<string name="attachment_application_msword">"प्रलेखः"</string>
+<string name="attachment_application_vnd_ms_powerpoint">"उपस्थापनम्"</string>
+<string name="attachment_application_vnd_ms_excel">"विस्तारपत्रम्"</string>
+<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> सञ्जिका"</string>
+<string name="preview_attachment">"पूर्वदृश्यं।"</string>
+<string name="save_attachment">"सक्ष्यताम्"</string>
+<string name="download_again">"पुनः अवारोपयतु"</string>
+<string name="remove_attachment_desc">"<xliff:g id="attachmentName">%s</xliff:g> संयोजनम् अपाक्रियताम्"</string>
+<string name="more_info_attachment">"विवरणम्"</string>
+<string name="no_application_found">"न कोऽपि अनुप्रयोगः एतत् संयोजितं दर्शनाय उद्घाटयितुं न शक्नोति।"</string>
+<string name="fetching_attachment">"संयोजनानि आनयति"</string>
+<string name="please_wait">"कृपया प्रतीक्षताम्..."</string>
+<string name="download_failed">"अवारोपणं न शक्तम्। पुनः प्रयतितुं स्पृशतु।"</string>
+<string name="menu_photo_save_all">"सर्वं रक्षतु"</string>
+<string name="menu_photo_share">"वितरतु"</string>
+<string name="menu_photo_share_all">"सर्वं वितरतु"</string>
+<string name="menu_photo_print">"मुद्रतु"</string>
+<string name="choosertitle_sharevia">"द्वारा वितरतु"</string>
+<string name="contextmenu_openlink">"गवेषके उद्घाट्यताम्"</string>
+<string name="contextmenu_copy">"प्रतिकृतिः"</string>
+<string name="contextmenu_copylink">"पृष्ठ-सार्वसङ्केतस्य प्रतिकृतिं करोतु"</string>
+<string name="contextmenu_view_image">"चित्रं पश्यतु"</string>
+<string name="contextmenu_dial_dot">"आह्वयतु..."</string>
+<string name="contextmenu_sms_dot">"SMS..."</string>
+<string name="contextmenu_add_contact">"सम्पर्कः योज्यताम्"</string>
+<string name="contextmenu_send_mail">"वि-पत्रं प्रेषयतु"</string>
+<string name="contextmenu_map">"मानचित्रम्"</string>
+<string name="contextmenu_sharelink">"परिसन्धिं वितरतु"</string>
+<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> वेषये <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> <xliff:g id="date">%5$s</xliff:g> इत्यत्र, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> विषये <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> <xliff:g id="time">%5$s</xliff:g> समये, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> वेषये <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> <xliff:g id="date">%5$s</xliff:g> इत्यत्र, <xliff:g id="readstate">%6$s</xliff:g>, नामपत्राणि : <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="content_description_today_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> विषये <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> <xliff:g id="time">%5$s</xliff:g> समये, <xliff:g id="readstate">%6$s</xliff:g>, नामपत्राणि : <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="read_string">"संवादस्य पठनम्"</string>
+<string name="unread_string">"संवादनस्य अपठनम्"</string>
+<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="badge_and_subject">"<xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g>"</string>
+<plurals name="draft">
+<item quantity="one">"प्रारूपम्"</item>
+<item quantity="other">"प्रारूपाणि"</item>
+</plurals>
+<string name="sending">"प्रेशयति..."</string>
+<string name="message_retrying">"पुनःप्रयतते..."</string>
+<string name="message_failed">"असफलम्"</string>
+<string name="send_failed">"सन्देशः न प्रेषितः।"</string>
+<string name="me_object_pronoun">"अहम्।"</string>
+<string name="me_subject_pronoun">"अहम्।"</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">"एनं संवादम् अपाकर्तुम् इच्छति?"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> एतान् संवादान् अपाकर्तुम् इच्छति?"</item>
+</plurals>
+<plurals name="confirm_archive_conversation">
+<item quantity="one">"एतस्य संवादस्य अभिलेखनम् इच्छति?"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> एतान् संवादान् अभिलेखितुम् इच्छति?"</item>
+</plurals>
+<plurals name="confirm_discard_drafts_conversation">
+<item quantity="one">"एनं सन्देशं त्यजति?"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> एतान् सन्देशान् त्यजति?"</item>
+</plurals>
+<string name="confirm_discard_text">"एनं सन्देशं त्यजति?"</string>
+<string name="loading_conversations">"आरोपयति..."</string>
+<string name="empty_inbox">"सर्वं पूर्णम् अभवत्! स्वदिनस्य आनन्दं स्वीकरोतु।"</string>
+<string name="empty_search">"अरे! \"<xliff:g id="search_query">%1$s</xliff:g>\"कृते अस्माभिः किमपि न प्राप्तम् अस्ति।"</string>
+<string name="empty_spam_folder">"साधु, अत्र अवकरः नास्ति!"</string>
+<string name="empty_trash_folder">"अत्र अवकरः नास्ति। पुनरावृत्त्यै धन्यवादः!"</string>
+<string name="empty_folder">"अत्र पत्रं नास्ति।"</string>
+<string name="getting_messages">"भवतः/भवत्याः सन्देशान् प्राप्नोति"</string>
+<string name="undo">"पूर्ववत्"</string>
+<plurals name="conversation_unstarred">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> संवादस्य ताराङ्कनं निष्कासयति"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> संवादानां ताराङ्कनं निष्कासयति"</item>
+</plurals>
+<string name="deleted">"अपाक्रियताम्"</string>
+<string name="archived">"अभिलिखितम्"</string>
+<string name="folder_removed">"<xliff:g id="folderName">%1$s</xliff:g> तः अपाकृतम्"</string>
+<plurals name="conversation_folder_changed">
+<item quantity="one">"परिवर्तितः समुच्चयः"</item>
+<item quantity="other">"परिविर्तिताः समुच्चयाः"</item>
+</plurals>
+<string name="conversation_folder_moved">"<xliff:g id="folderName">%1$s</xliff:g> प्रति स्थानान्तरितम्"</string>
+<string name="search_results_header">"परिणामाः"</string>
+<string name="search_unsupported">"एतस्यां लेखायाम् अन्वेषणं समर्थितं नास्ति।।"</string>
+<string name="search_suggestion_desc">"परामर्शः :<xliff:g id="suggestion">%s</xliff:g>"</string>
+<string name="add_label">"सम्पुटं योजय।"</string>
+<plurals name="new_incoming_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> नवीनः सन्देशः"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> नवीनाः सन्देशाः"</item>
+</plurals>
+<string name="hide_details">"विवरणानि गोपयतु"</string>
+<string name="to_message_header">"<xliff:g id="recipients">%1$s</xliff:g> प्रति"</string>
+<string name="bcc_header_for_recipient_summary">"Bcc:\u0020"</string>
+<string name="contact_info_string">"<xliff:g id="name">%1$s</xliff:g> कृते सामग्रीसूचनां प्रदर्शयतु"</string>
+<string name="contact_info_string_default">"सामग्रीसूचनां प्रदर्शयतु"</string>
+<plurals name="show_messages_read">
+<item quantity="other">"विस्तरतु <xliff:g id="count" example="4">%1$d</xliff:g> पुरातनाः सन्देशाः"</item>
+</plurals>
+<plurals name="super_collapsed_block_accessibility_announcement">
+<item quantity="other">"विस्तारिताः <xliff:g id="count" example="4">%1$d</xliff:g> पुरातनाः सन्देशाः"</item>
+</plurals>
+<string name="from_heading">"द्वारा:"</string>
+<string name="replyto_heading">"कृते पुनःप्रयततु :"</string>
+<string name="to_heading">"प्रति :\u0020"</string>
+<string name="to_heading_no_space">"प्रति:"</string>
+<string name="cc_heading">"Cc:"</string>
+<string name="bcc_heading">"Bcc:"</string>
+<string name="date_heading">"दिनाङ्कः :"</string>
+<string name="show_images">"चित्राणि प्रदर्शयतु"</string>
+<string name="always_show_images">"एतस्य प्रेषकस्य चित्राणि सर्वदा प्रदर्शयतु"</string>
+<string name="always_show_images_toast">"एतस्य प्रेषकस्य चित्राणि स्वतः दृश्यमानानि भविष्यन्ति।"</string>
+<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> द्वारा <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+<string name="message_saved">"प्रारूपत्वेन सन्देशं रक्षतु।"</string>
+<string name="sending_message">"सन्देशं प्रेषयति..."</string>
+<string name="invalid_recipient">"सङ्केतः <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> अयोग्यः अस्ति।"</string>
+<string name="show_elided">"उद्धृतं पाठ्यं प्रदर्शयतु"</string>
+<string name="hide_elided">"\u25BC उद्धृतं पाठ्यं गोपयतु"</string>
+<string name="message_invite_title">"आह्वाहनस्य पञ्चाङ्गम्"</string>
+<string name="message_invite_calendar_view">"पञ्चाङ्गे दृश्यताम्"</string>
+<string name="message_invite_label_attending">"गच्छति?"</string>
+<string name="message_invite_accept">"आम्"</string>
+<string name="message_invite_tentative">"अपि नाम"</string>
+<string name="message_invite_decline">"न"</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="send_anyway">"यथाकञ्चित् प्रेशयतु"</string>
+<string name="ok">"बाढम्।"</string>
+<string name="done">"अभवत्"</string>
+<string name="cancel">"निरस्यताम्"</string>
+<string name="clear">"प्रोञ्छतु"</string>
+<string name="next">"अग्रिमम्"</string>
+<string name="previous">"पूर्व"</string>
+<string-array name="sync_status">
+<item>"सफलता"</item>
+<item>"सम्पर्क-हीनः"</item>
+<item>"प्रवेशः न शक्तः"</item>
+<item>"सुरक्षादोषः"</item>
+<item>"समाकलं न शक्तम्"</item>
+<item>"आन्तरिकः दोषः"</item>
+<item>"वितरकस्य दोषः!"</item>
+</string-array>
+<string name="tap_to_configure">"व्यस्थापयितुं स्पृशतु"</string>
+<string name="non_synced_folder_description">"संवादान् द्रष्टुम् एनं समुच्चयं समाकलतु।"</string>
+<string name="tap_to_configure_folder_sync">"समुच्चयं समाकलतु"</string>
+<string name="large_unseen_count">"<xliff:g id="count" example="99">%d</xliff:g>+ नवीनम्"</string>
+<string name="unseen_count">"<xliff:g id="count" example="4">%d</xliff:g> नवीनम्"</string>
+<plurals name="actionbar_unread_messages">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> अपठितम्"</item>
+</plurals>
+<string name="view_more_conversations">"अधिकाः संवादाः दृश्यन्ताम्"</string>
+<string name="loading_conversation">"आरोपयति..."</string>
+<string name="activity_mailbox_selection">"उपयोजकसंज्ञां चिनुत"</string>
+<string name="activity_folder_selection">"समुच्चयं चिनोतु"</string>
+<string name="folder_shortcut_widget_label">"समुच्चयाय वि-पत्रं प्रेषयतु"</string>
+<string name="change_folders_selection_dialog_title">"समुच्चयान् प्ररिवर्तयतु"</string>
+<string name="move_to_selection_dialog_title">"प्रति स्थानान्तरतु"</string>
+<string name="search_hint">"अन्विष्यताम्"</string>
+<string name="voice_search_not_supported">"उपकरणेऽस्मिन् ध्वन्यन्वेषणं समर्थितं नास्ति।।"</string>
+<string name="search_back_desc">"अन्वेषणं पिदधातु"</string>
+<string name="search_voice_desc">"ध्वनि-अन्वेषणं प्रारभत।"</string>
+<string name="search_clear_desc">"अन्वेषणेतिहासं प्रोञ्छतु"</string>
+<string name="network_error">"सम्पर्क-हीनः"</string>
+<string name="retry">"पुनः प्रयासः"</string>
+<string name="load_more">"अधिकम् आरोपयतु"</string>
+<string name="shortcut_name_title">"समुच्चयलघुमार्गस्य नाम"</string>
+<string name="wait_for_sync_title">"समाकलनाय पतीक्षते"</string>
+<string name="not_synced_title">"लेखा न समाकलिता"</string>
+<string name="wait_for_manual_sync_body">"एषा लेखा स्वतःसमाकलनाय न निर्धारिता।\n  <b>अधुना समाकलतु</b> इति एकवारं पत्रं समाकलितुं स्पृशतु अथवा एनां लेखां पत्रस्य स्वतःसमाकलनाय निर्धारितुं <b>समाकलस्य अभिविन्यासान् प्ररिवर्तयतु</b>।"</string>
+<string name="manual_sync">"अधुना सङ्कूटतु"</string>
+<string name="change_sync_settings">"समकालीनस्य अभिविन्यासान् परिवर्तयतु"</string>
+<string name="photo_load_failed">"चित्रारोपणं न शक्तम्"</string>
+<string name="cant_move_or_change_labels">"चयनं न शक्यते यतो हि एकाधिकालेखाः चिताः"</string>
+<string name="multiple_new_message_notification_item">"<b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="ignore_spam_warning">"अवगणतु, अहं सन्देशेऽस्मिन् विश्वसिमि"</string>
+<string name="via_domain">"द्वारा <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+<string name="signin">"प्रविश्यताम्"</string>
+<string name="info">"विवरणम्"</string>
+<string name="report">"विवरणम्"</string>
+<string name="show">"प्रदर्श्यताम्"</string>
+<string name="sync_error">"समाकलं न शक्तम्।"</string>
+<string name="sync_error_message">"समाकलनाय भवतः/भवत्याः सङ्ग्रहे पर्याप्तं रिक्तस्थानं नास्ति।"</string>
+<string name="storage">"संधारिता।"</string>
+<string name="senders_split_token">",\u00A0"</string>
+<string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+<string name="all_folders_heading">"सर्वे समुच्चयताः"</string>
+<string name="recent_folders_heading">"सद्यःकालीनाः समुच्चयाः"</string>
+<string name="message_details_title">"सन्देशानां विवरणानि"</string>
+<string name="preference_advance_to_title">"स्वतः-विशेषः"</string>
+<string-array name="prefEntries_autoAdvance">
+<item>"नवीनतरः"</item>
+<item>"पुरातनम्"</item>
+<item>"संवादस्य सूचिः"</item>
+</string-array>
+<string-array name="prefSummaries_autoAdvance">
+<item>"भवता/भवत्या अपाकृतस्य अनन्तरं नवीनसंवादान् प्रदर्शयतु"</item>
+<item>"भवता/भवत्या अपाकृतस्य अनन्तरं पुरातनसंवादान् प्रदर्शयतु"</item>
+<item>"भवता/भवत्या अपाकृतस्य अनन्तरं संवादसूचिं प्रदर्शयतु"</item>
+</string-array>
+<string name="prefDialogTitle_autoAdvance">"प्रति विशेषः"</string>
+<string name="clear_display_images_whitelist_title">"चित्रस्य अनुमोदनानि प्रोञ्छतु"</string>
+<string name="clear_display_images_whitelist_dialog_title">"चित्रस्य अनुमोदनानि प्रोञ्छति?"</string>
+<string name="clear_display_images_whitelist_dialog_message">"येभ्यः पूर्वमेव अनुमतिः अस्ति, तेभ्यः प्रेषकेभ्यः पङ्क्तौ चित्राणां प्रदर्शनं स्थगयतु"</string>
+<string name="sender_whitelist_cleared">"चित्राणि स्वतः न प्रदर्शयिष्यन्ते।"</string>
+<string name="preferences_signature_title">"हस्ताक्षरम्"</string>
+<string name="preferences_signature_dialog_title">"हस्ताक्षरम्"</string>
+<string name="preferences_signature_summary_not_set">"स्थापनं नास्ति"</string>
+<string name="notification_action_reply">"प्रत्युत्तरतु"</string>
+<string name="notification_action_reply_all">"सर्वेभ्यः प्रतुय्तरम्"</string>
+<string name="notification_action_archive">"अभिलेखः"</string>
+<string name="notification_action_remove_label">"नामपत्रम् अपाकरोतु"</string>
+<string name="notification_action_delete">"अपाक्रियताम्"</string>
+<string name="notification_action_undo_archive">"अभिलिखितम्"</string>
+<string name="notification_action_undo_remove_label">"नामपत्रम् अपाकृतम्"</string>
+<string name="notification_action_undo_delete">"अपाक्रियताम्"</string>
+<string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+<plurals name="new_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> नवीनः सन्देशः"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> नवीनाः सन्देशाः"</item>
+</plurals>
+<string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="silent_ringtone">"मूकम्"</string>
+<string name="preference_removal_action_title">"उत्सर्गक्रिया"</string>
+<string-array name="prefEntries_removal_action">
+<item>"अभिलेखः"</item>
+<item>"अपाक्रियताम्"</item>
+</string-array>
+<string-array name="prefSummaries_removal_action_summary">
+<item>"अभिलेखः"</item>
+<item>"अपाक्रियताम्"</item>
+</string-array>
+<string name="prefDialogTitle_removal_action">"उत्सर्गक्रिया"</string>
+<string name="preferences_default_reply_all_title">"सर्वेभ्यः प्रतुय्तरम्"</string>
+<string name="preferences_default_reply_all_summary_impl">"सन्देश-प्रत्युत्तराय उत्सर्गत्वेन उपयुज्यताम्"</string>
+<string name="preference_swipe_title">"प्रक्रियाः घर्षतु"</string>
+<string name="preference_swipe_description">"संवादसूच्याम्"</string>
+<string name="preference_sender_image_title">"प्रेषकस्य चित्रम्"</string>
+<string name="preference_sender_image_description">"नाम्नः समीपे संवादसूचिं प्रदर्शयतु"</string>
+<string name="empty_trash">"अनावश्यकं रिक्तं करोतु"</string>
+<string name="empty_spam">"अवकरं रिक्तं करोतु"</string>
+<string name="empty_trash_dialog_title">"अनावश्यकं रिक्तं करोति?"</string>
+<string name="empty_spam_dialog_title">"अवकरं रिक्तं करोति?"</string>
+<plurals name="empty_folder_dialog_message">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> सन्देशाः स्थायिरूपेण अपाभविष्यन्ति।"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> सन्देशाः स्थायिरूपेण अपाभविष्यन्ति।"</item>
+</plurals>
+<string name="drawer_open">"सञ्चरणचित्रकम् उद्घाटयतु"</string>
+<string name="drawer_close">"सञ्चरणचित्रकं पिदधातु"</string>
+<string name="conversation_photo_welcome_text">"तस्य संवादस्य चयनार्थं चित्रपप्रेषकं चिनोतु।"</string>
+<string name="folder_icon_desc">"समुच्चयस्य चिह्नम्"</string>
+<string name="add_account">"लेखां योजयतु"</string>
+<string name="dismiss_tip_hover_text">"परामर्शः निरस्तः"</string>
+<string name="auto_sync_off">"पुनःचालनं निष्क्रियम् अस्ति। आरब्धुं स्पृशतु"</string>
+<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> अप्रेषतिम्  <xliff:g id="outbox">%2$s</xliff:g> इत्यत्र"</string>
+<string name="turn_auto_sync_on_dialog_title">"स्वतःसमाकलनं सक्रियं करोति?"</string>
+<string name="turn_auto_sync_on_dialog_body">"यानि परिवर्तनानि भवान्/भवती स्वलेखायां, सर्वेषु अनुप्रयोगेषु च कुर्वन्ति, तानि न केवलं जी-मेल मध्ये अपि तु जालेन, भवतः/भवत्याः अन्योपकरणेन, भवतः <xliff:g id="phone_or_tablet">%1$s</xliff:g> इत्यनेन सह अपि समाकलीतानि भविष्यन्ति।"</string>
+<string name="phone">"दूरभाषः"</string>
+<string name="tablet">"टेबलेट"</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">"आरभतु"</string>
+<string name="show_n_more_folders">"<xliff:g id="number">%1$s</xliff:g> समुच्चयान् प्रदर्शयतु"</string>
+<string name="hide_folders">"समुच्चयान् गोपयतु"</string>
+<string name="print">"मुद्रतु"</string>
+<string name="print_all">"सर्वं मुद्रतु"</string>
+<plurals name="num_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> सन्देशः"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> सन्देशाः"</item>
+</plurals>
+<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> <xliff:g id="time">%2$s</xliff:g> समये"</string>
+<string name="draft_to_heading">"प्रति प्रारूपम् :"</string>
+<string name="draft_heading">"प्रारूपम्"</string>
+<string name="quoted_text_hidden_print">"उद्धृतं पाठ्यं गोपितम्"</string>
+<plurals name="num_attachments">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> संयोजनम्"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> संयोजितानि"</item>
+</plurals>
+<string name="no_subject">"(विषयः नास्ति)"</string>
+<string name="vacation_responder">"अवकाशे प्रत्युत्तरदाता"</string>
+<string name="preferences_vacation_responder_title">"अवकाशे प्रत्युत्तरदाता"</string>
+<string name="vacation_responder_body_hint_text">"सन्देशः"</string>
+<string name="send_to_contacts_text">"केवलं मम सम्पर्केभ्यः एव प्रेषयतु"</string>
+<string name="send_to_domain_text">"केवलं <xliff:g id="domain">%1$s</xliff:g> प्रति प्रेषयतु"</string>
+<string name="pick_start_date_title">"आरभ्यं करोति"</string>
+<string name="pick_end_date_title">"समाप्तिः (वैकल्पकम्)"</string>
+<string name="date_not_set">"स्थापनं नास्ति"</string>
+<string name="set_end_date_dialog_title">"समापितदिनआङ्कः (वैकल्पिकम्)"</string>
+<string name="custom_date">"स्वानुकूलनम्"</string>
+<string name="date_none">"नैकमपि"</string>
+<string name="discard_changes">"परिवर्तनानि त्यजति?"</string>
+<string name="vacation_responder_changes_saved">"अवकाशे प्रत्युत्तरदातरि परिवर्तनानि संरक्षितानि"</string>
+<string name="vacation_responder_changes_discarded">"अवकाशे प्रत्युत्तरदातरि परिवर्तनानि त्यक्तानि"</string>
+<string name="vacation_responder_off">"निष्क्रियम्"</string>
+<string name="vacation_responder_on">"दिनाङ्के, <xliff:g id="date">%1$s</xliff:g> द्वारा"</string>
+<string name="vacation_responder_on_with_end_date">"दिनाङ्के, <xliff:g id="start-date">%1$s</xliff:g> तः <xliff:g id="end-date">%2$s</xliff:g> द्वारा"</string>
+<string name="vacation_responder_empty_subject_and_body_warning">"एकं विषयं, सन्देशं वा योजयतु"</string>
+<string name="view_entire_message">"सम्पूर्णं सन्देशं पश्यतु"</string>
+<string name="eml_loader_error_toast">"एनां सञ्चिकाम् उद्घाटयितुं न शक्यते"</string>
+<string name="help_and_info">"साहाय्यम्"</string>
+<string name="feedback">"प्रतिस्पन्दं प्रेषयतु"</string>
+<string name="version">"<xliff:g id="app_name" example="Email">%1$s</xliff:g> संस्करणम् <xliff:g id="version" example="2.2.1">%2$s</xliff:g>"</string>
+<string name="print_dialog">"मुद्रति..."</string>
+<string name="copyright_information">"प्रतिकृत्यधिकारस्य सूचना"</string>
+<string name="privacy_policy">"गोपनीयातायाः नीतिः"</string>
+<string name="open_source_licenses">"स्रोतसः प्रतिकृत्यधिकारम् उद्घाटयतु"</string>
+<string name="reply_choice_yes">"आम्"</string>
+<string name="reply_choice_no">"न"</string>
+<string name="reply_choice_ok">"बाढम्।"</string>
+<string name="reply_choice_hehe">"हा हा"</string>
+<string name="reply_choice_thanks">"कृतज्ञताः"</string>
+<string name="reply_choice_i_agree">"अहं सम्मतः/ता"</string>
+<string name="reply_choice_nice">"उत्तमम्"</string>
+<string name="reply_on_my_way">"मम मार्गे"</string>
+<string name="reply_choice_later">"भवतु, मह्यं पुनः भवता/भवत्या सह चर्चां कर्तुम् अवसरं ददातु"</string>
+<string name="preference_header_action_confirmations">"क्रियाः पुष्टिकरणानि"</string>
+<string name="preference_confirm_before_delete_title">"अपाकरणात् पूर्वं पुष्टयतु"</string>
+<string name="preference_confirm_before_archive_title">"अभिलेखनात् पूर्वं पुष्टयतु"</string>
+<string name="preference_confirm_before_send_title">"प्रेषणात् पूर्वं पुष्टयतु"</string>
+<string name="preferences_conversation_mode_title">"स्वतःस्थापनाः सन्देशाः"</string>
+<string name="preferences_conversation_mode_summary">"पटले व्यवस्थितं कर्तुं सन्देशं धूणयतु"</string>
+<string name="preferences_disable_snap_headers_title">"सन्देशस्य क्रियाः"</string>
+<string-array name="prefSummaries_snapHeader">
+<item>"पटलस्य शीर्षे सर्वदा सन्देशस्य क्रियाः प्रदर्शयतु"</item>
+<item>"यदा चित्रणं प्रति भ्रमते, तदा पटलस्य शीर्षे केवलं सन्देशस्य क्रियाः प्रदर्शयतु"</item>
+<item>"सन्देशशीर्षकात् बहिः सन्देशक्रियाः मा प्रदर्श्यन्ताम्"</item>
+</string-array>
+<string-array name="prefEntries_snapHeader">
+<item>"सर्वदा प्रदर्श्यताम्"</item>
+<item>"केवलं चित्रणे प्रदर्शयतु"</item>
+<item>"मा प्रदर्शयतु"</item>
+</string-array>
+<string name="clear_history_title">"अन्वेषण-वृतान्तं मार्जय।"</string>
+<string name="search_history_cleared">"अन्वेषण-वृतान्तः मार्जितः।"</string>
+<string name="clear_history_dialog_title">"अन्वेषणेतिहासं प्रोञ्छति?"</string>
+<string name="clear_history_dialog_message">"भवता/भवत्या अनुकूलानि सर्वाणि अन्वेषणानि अपाभविष्यन्ति।"</string>
+<string name="manage_accounts_menu_item">"लेखाः व्यवस्थाप्यन्ताम्"</string>
+<string name="general_preferences_title">"सामान्यं रोपणम्"</string>
+<string name="activity_preferences">"व्यवस्थापनम्।"</string>
+<string name="overflow_description">"अधिकाः विकल्पाः"</string>
+<string name="security_hold_required_text">"<xliff:g id="email_address">%1$s</xliff:g> कृते सुरक्षा-अद्यतनम् आवश्यकम्"</string>
+<string name="update_security_text">"अधुना अद्यतनीकरणम्"</string>
+<string name="forms_are_disabled">"जीमेल मध्ये प्रपत्राणि निष्क्रियाणि"</string>
+<string name="add_contacts_too_much">"अधिकाधिकं स्वीकर्तुः सङ्ख्या 50 अस्ति।"</string>
+<string name="account_delete_dlg_title">"लेखाम् अपाकरतु"</string>
+<string name="account_delete_waiting">"अपाकरोति, कृपया प्रतीक्ष्यताम्..."</string>
+<string name="filter_all">"सर्वाः"</string>
+<string name="filter_receiver">"प्राप्तकर्ता"</string>
+<string name="filter_sender">"प्रेषकः"</string>
+<string name="filter_subject">"विषयः"</string>
+<string name="filter_content">"अनुक्रमाणिका"</string>
+<string name="search_on_server">"वितरके अन्विषतु"</string>
+<string name="download_confirm_msg">"जालं WLAN नास्ति। तथा च संयोजितं बृहत् अस्ति। अनुवर्तयितुं पुष्टिं करोतु"</string>
+<string name="download_deny_malware">"कदाचित् मैलवेयर। अवरोपणं न शक्तम्।"</string>
+<string name="download_deny_wifionly">"WLAN काले केवलं अवारोपणं शक्यते।"</string>
+<string name="download_deny_nointent">"न कोऽपि अनुप्रयोगः उद्घाटयितुं न शक्नोति। अवारोपणं न शक्यते।"</string>
+<string name="download_deny_nosideload">"सर्वेभ्यः अज्ञातस्रोतसः अनुप्रयोगाणां स्थापनम् अनुमत्य पुनः प्रयततु।"</string>
+<string name="download_deny_apkinstall">"कोऽपि APK इति स्थानाय अनुपलब्धः। अवारोपणं न शक्तम्।"</string>
+<string name="download_deny_policy">"लेखानीतित्वेन अवारोपणं न शक्तम्।"</string>
+<string name="download_att_external">"अवारोपयितुं अवारोपयतु"</string>
+<string name="missing_required_permission">"आवश्यकानुमतिः भवता/भवत्याः निष्क्रिया कृता।"</string>
+<string name="permission_change">"अनुमतिः परिवर्तिता कृपया सञ्चिकां पुनः चिनोतु।"</string>
+<string name="permission_change_redo">"अनुमतिः परिवर्तिता, अतः कृपया पुनः करोतु।"</string>
+<string name="preference_default_signature_title">"हस्ताक्षरम्"</string>
+<string name="signature_default">"मम दूरभाषात् प्रेषयतु"</string>
+<string name="set_priority_high">"उच्चप्राधान्यं निर्धारयतु"</string>
+<string name="set_priority_normal">"सामान्यप्राधान्यं निर्धारयतु"</string>
+<string name="set_priority_low">"निम्नप्राधान्यं निर्धारयतु"</string>
+<string name="file_not_exist">"स्थानीयं संयोजनं नोपलब्धम्। कृपया पुनः अवारोपयतु!"</string>
+<string name="body_input_more">"क्षम्यताम्, केवलं %1$s अक्षराणि निवेशयितुं शक्यन्ते"</string>
+<string name="attachment_rename_to_legal">"वास्तविकनाम अयोग्यत्वात् संयोजितस्य नाम परिवर्ततम्"</string>
+<string name="account_changed_load_account_inbox">"समुच्चयस्य दूरस्थलेखा परिवर्तिता, आयातपेटिकां प्रति परिवर्तयतु।"</string>
+</resources>

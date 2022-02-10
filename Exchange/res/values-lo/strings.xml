@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">" ຍອມຮັບແລ້ວ: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">" ປະຕິເສດແລ້ວ: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">" ຍັງບໍ່ແນ່ນອນ: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">" ຍົກເລີກແລ້ວ: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">" ອັບເດດແລ້ວ: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">" ເມື່ອ: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">" ບ່ອນທີ່: <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">" ເມື່ອ: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (ເກີດຊໍ້າ) "</string>
+<string name="meeting_allday">" ເມື່ອ: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (ໝົດມື້) "</string>
+<string name="meeting_allday_recurring">" ເມື່ອ: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (ໝົດມື້, ເກີດຊໍ້າ) "</string>
+<string name="app_name">"ບໍລິການແລກປ່ຽນ"</string>
+<string name="exception_cancel">" ກິດຈະກໍານີ້ໄດ້ຖືກຍົກເລີກສໍາລັບ: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="exception_updated">" ລາຍລະອຽດຂອງກິດຈະກໍານີ້ໄດ້ຖືກປ່ຽນເປັນ: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="policy_dont_allow_storage_cards">"ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ແຜ່ນຈັດເກັບຂໍ້ມູນ"</string>
+<string name="policy_dont_allow_unsigned_apps">"ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ແອັບທີ່ບໍ່ໄດ້ລົງຊື່"</string>
+<string name="policy_dont_allow_unsigned_installers">"ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ໂປຣແກຣມຕິດຕັ້ງແອັບທີ່ບໍ່ໄດ້ລົງຊື່"</string>
+<string name="policy_dont_allow_wifi">"ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ Wi-Fi"</string>
+<string name="policy_dont_allow_text_messaging">"ບໍ່ອະນຸຍາດໃຫ້ສົ່ງຂໍ້ຄວາມຕົວອັກສອນ"</string>
+<string name="policy_dont_allow_pop_imap">"ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ POP3 ຫຼື ບັນຊີ IMAP"</string>
+<string name="policy_dont_allow_irda">"ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ການສື່ສານດ້ວຍແສງອິນຟຼາເຣດ"</string>
+<string name="policy_dont_allow_html">"ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ອີເມວ HTML"</string>
+<string name="policy_dont_allow_browser">"ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ບຣາວເຊີ"</string>
+<string name="policy_dont_allow_consumer_email">"ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ອີເມວ HTML"</string>
+<string name="policy_dont_allow_internet_sharing">"ບໍ່ອະນຸຍາດໃຫ້ແບ່ງປັນອິນເຕີເນັດ"</string>
+<string name="policy_require_smime">"ຕ້ອງການຂໍ້ຄວາມ SMIME"</string>
+<string name="policy_bluetooth_restricted">"ຈໍາກັດການໃຊ້ Bluetooth"</string>
+<string name="policy_app_blacklist">"ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ແອັບທີ່ລະບຸ"</string>
+<string name="policy_app_whitelist">"ອະນຸຍາດໃຫ້ໃຊ້ສະເພາະແອັບທີ່ລະບຸ"</string>
+<string name="policy_text_truncation">"ຈໍາກັດຂະໜາດອີເມວຂໍ້ຄວາມ"</string>
+<string name="policy_html_truncation">"ຈໍາກັດຂະໜາດອີເມວ HTML"</string>
+<string name="policy_require_sd_encryption">"ຕ້ອງມີການເຂົ້າລະຫັດແຜ່ນ SD"</string>
+<string name="policy_dont_allow_attachments">"ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ໄຟລຄັດຕິດ"</string>
+<string name="policy_max_attachment_size">"ຈໍາກັດຂະໜາດໄຟຄັດຕິດ"</string>
+<string name="policy_require_manual_sync_roaming">"ອະນຸຍາດໃຫ້ໃຊ້ສະເພາະການຊິ້ງດ້ວຍຕົນເອງໃນຂະນະໂຣມມິງ"</string>
+<string name="policy_require_encryption">"ຕ້ອງການໃຊ້ການເຂົ້າລະຫັດຂອງອຸປະກອນ"</string>
+<string name="account_setup_options_mail_window_auto">"ອັດຕະໂນມັດ"</string>
+<string name="account_setup_options_mail_window_1day">"ໜຶ່ງມື້"</string>
+<string name="account_setup_options_mail_window_3days">"ສາມມື້"</string>
+<string name="account_setup_options_mail_window_1week">"ໜຶ່ງອາທິດ"</string>
+<string name="account_setup_options_mail_window_2weeks">"ສອງອາທິດ"</string>
+<string name="account_setup_options_mail_window_1month">"ໜຶ່ງເດືອນ"</string>
+<string name="account_setup_options_mail_window_all">"ທັງໝົດ"</string>
+<string name="auth_error_notification_title">"ຂໍ້ຜິດພາດໃນການກວດຮັບຮອງ"</string>
+<string name="auth_error_notification_text">"ແຕະເພື່ອແກ້ໄຂການຕັ້ງຄ່າບັນຊີສໍາລັບ <xliff:g id="account">%s</xliff:g>"</string>
+<string name="email_settings_not_available">"ເປີດໃຊ້ແອັບພລິເຄຊັນອີເມວຄືນໃໝ່ເພື່ອເບິ່ງການຕັ້ງຄ່າ."</string>
+</resources>

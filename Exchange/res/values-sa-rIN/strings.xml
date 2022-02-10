@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"स्वीक्रियते : <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">"न स्वीक्रियते : <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">"अस्थायी : <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">"निरस्तम् : <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">"अद्यतनीकृतम् : <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">"कदा : <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">"कुत्र : <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">"कदा : <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (आवर्ती) "</string>
+<string name="meeting_allday">" कदा : <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (आदिनम्) "</string>
+<string name="meeting_allday_recurring">" कदा : <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (आदिनम्, आवर्ती) "</string>
+<string name="app_name">"विनिमयस्य सेवाः"</string>
+<string name="exception_cancel">" <xliff:g id="date">%s</xliff:g> कृते एषः कार्यक्रमः निरस्तः जातः "</string>
+<string name="exception_updated">" <xliff:g id="date">%s</xliff:g> कृते एतत् विवरणं परिवर्तितम् अभवत्"</string>
+<string name="policy_dont_allow_storage_cards">"सङ्ग्रह-पत्राणि मा स्वीकरोतु"</string>
+<string name="policy_dont_allow_unsigned_apps">"अप्रविष्टानुप्रयोगान् मा स्वीकरोतु"</string>
+<string name="policy_dont_allow_unsigned_installers">"अप्रविष्टानुप्रयोगस्थापकान् मा स्वीकरोतु"</string>
+<string name="policy_dont_allow_wifi">"Wi-Fi मा स्वीकरोतु"</string>
+<string name="policy_dont_allow_text_messaging">"पाठ्यसन्देशान् मा स्वीकरोतु"</string>
+<string name="policy_dont_allow_pop_imap">"POP3 उत IMAP लेखाः मा स्वीकरोतु"</string>
+<string name="policy_dont_allow_irda">"अवरक्त-वार्तालापान् मा स्वीकरोतु"</string>
+<string name="policy_dont_allow_html">"HTML-वि-पत्राणि मा स्वीकरोतु"</string>
+<string name="policy_dont_allow_browser">"गवेषकान् मा स्वीकरोतु"</string>
+<string name="policy_dont_allow_consumer_email">"ग्राहक-वि-पत्राणि मा स्वीकरोतु"</string>
+<string name="policy_dont_allow_internet_sharing">"अन्तर्जाल-वितरणं मा स्वीकरोतु"</string>
+<string name="policy_require_smime">"SMIME सन्देशाः आवश्यकाः"</string>
+<string name="policy_bluetooth_restricted">"ब्लूटूथ-उपयोगः प्रतिबन्ध्यताम्"</string>
+<string name="policy_app_blacklist">"निश्चितानुप्रयोगान् मा स्वीकरोतु"</string>
+<string name="policy_app_whitelist">"केवलं निर्धारितान् अनुप्रयोगान् स्वीकरोतु"</string>
+<string name="policy_text_truncation">"वि-पत्रस्य पाठ्याकारं सीमितं करोतु"</string>
+<string name="policy_html_truncation">"वि-पत्रस्य HTML-आकारं सीमितं करोतु"</string>
+<string name="policy_require_sd_encryption">"SD-पत्रस्य सङ्कूटीकरणम् अपेक्ष्यते"</string>
+<string name="policy_dont_allow_attachments">"संयोजितानि मा स्वीकरोतु"</string>
+<string name="policy_max_attachment_size">"संयोजितस्य आकारं सीमितं करोतु"</string>
+<string name="policy_require_manual_sync_roaming">"यात्राकाले केवलं हस्तेन कृतं समाकलं स्वीकरोतु"</string>
+<string name="policy_require_encryption">"उपकरणस्य सङ्कूटीकरणम् आवश्यकम्"</string>
+<string name="account_setup_options_mail_window_auto">"स्वतः"</string>
+<string name="account_setup_options_mail_window_1day">"एकं दिनम्"</string>
+<string name="account_setup_options_mail_window_3days">"त्रीणि दिनानि"</string>
+<string name="account_setup_options_mail_window_1week">"एकः सप्ताहः"</string>
+<string name="account_setup_options_mail_window_2weeks">"सप्ताहौ"</string>
+<string name="account_setup_options_mail_window_1month">"एकः मासः"</string>
+<string name="account_setup_options_mail_window_all">"सर्वाः"</string>
+<string name="auth_error_notification_title">"अधिकृततायां दोषः"</string>
+<string name="auth_error_notification_text">"<xliff:g id="account">%s</xliff:g> इत्यस्य कृते लेखा-अभिविन्यासं सम्पादयितुं स्पृशतु"</string>
+<string name="email_settings_not_available">"अभिविन्यासाः द्रष्टुं वि-पत्रानुप्रयोगाः पुनःसक्रियन्ताम्।"</string>
+</resources>

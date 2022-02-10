@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">Onartuta:<xliff:g id="subject">%s</xliff:g></string>
+<string name="meeting_declined">Ez onartua:<xliff:g id="subject">%s</xliff:g></string>
+<string name="meeting_tentative">Behin behinekoa:<xliff:g id="subject">%s</xliff:g></string>
+<string name="meeting_canceled">Deuseztatuta:<xliff:g id="subject">%s</xliff:g></string>
+<string name="meeting_updated">Eguneratuta:<xliff:g id="subject">%s</xliff:g></string>
+<string name="meeting_when"> Noiz:<xliff:g id="when">%s</xliff:g></string>
+<string name="meeting_where">Non:<xliff:g id="where">%s</xliff:g></string>
+<string name="meeting_recurring">Noiz:<xliff:g id="eventdate" example="Tue, Mar 1, 21 ">%s</xliff:g> (errepikatuz)</string>
+<string name="meeting_allday">Noiz:<xliff:g id="eventdate" example="Tue, Mar 1, 21 ">%s</xliff:g> (egun osoan zehar)</string>
+<string name="meeting_allday_recurring">Noiz:<xliff:g id="eventdate" example="Tue, Mar 1, 21 ">%s</xliff:g> (egun osoan zehar, errepikatuz)</string>
+<string name="app_name">Exchange Zerbitzuak</string>
+<string name="exception_cancel">Hitzordu hau bertan behera utzi da:<xliff:g id="date">%s</xliff:g></string>
+<string name="exception_updated">Hitzordu honen xehetasunak aldatu dira:<xliff:g id="date">%s</xliff:g></string>
+<string name="policy_dont_allow_storage_cards">Ez baimendu memoria txartelak</string>
+<string name="policy_dont_allow_unsigned_apps">Ez baimendu sinadurarik gabeko aplikazioak</string>
+<string name="policy_dont_allow_unsigned_installers">Ez baimendu sinadurarik gabeko aplikazio instalatzaileak</string>
+<string name="policy_dont_allow_wifi">Ez baimendu Wi-Fia</string>
+<string name="policy_dont_allow_text_messaging">Ez baimendu testuak bidaltzea</string>
+<string name="policy_dont_allow_pop_imap">Ez baimendu POP3 edo IMAP kontuak</string>
+<string name="policy_dont_allow_irda">Ez baimendu infragorri bidezko komunikazioak</string>
+<string name="policy_dont_allow_html">Ez baimendu HTML posta-elektronikoa</string>
+<string name="policy_dont_allow_browser">Ez baimendu arakatzaileak</string>
+<string name="policy_dont_allow_consumer_email">Ez baimendu kontsumitzaileen posta-elektronikoak</string>
+<string name="policy_dont_allow_internet_sharing">Ez baimendu Interneteko partekatzea</string>
+<string name="policy_require_smime">Eskatu SMIME mezuak</string>
+<string name="policy_bluetooth_restricted">Murriztu Bluetoothen erabilera</string>
+<string name="policy_app_blacklist">Zehaztutako aplikazioak ez baimendu</string>
+<string name="policy_app_whitelist">Baimendu bakarrik zehaztutako aplikazioak</string>
+<string name="policy_text_truncation">Murriztu posta elektronikoaren testuaren tamaina</string>
+<string name="policy_html_truncation">Murriztu HTML posta elektronikoen tamaina</string>
+<string name="policy_require_sd_encryption">Eskatu SD txartelaren zifratzea </string>
+<string name="policy_dont_allow_attachments">Ez baimendu eranskinak</string>
+<string name="policy_max_attachment_size">Murriztu eranskinaren tamaina</string>
+<string name="policy_require_manual_sync_roaming">Bakarrik baimentu eskuzko sinkronizazioa ibiltaritza dagoen bitartean</string>
+<string name="policy_require_encryption">Eskatu gailuaren zifratzea</string>
+<string name="account_setup_options_mail_window_auto">Automatikoa</string>
+<string name="account_setup_options_mail_window_1day">Egun bat</string>
+<string name="account_setup_options_mail_window_3days">Hiru egun</string>
+<string name="account_setup_options_mail_window_1week">Aste bat</string>
+<string name="account_setup_options_mail_window_2weeks">Bi aste</string>
+<string name="account_setup_options_mail_window_1month">Hilabete bat</string>
+<string name="account_setup_options_mail_window_all">Guztia</string>
+<string name="auth_error_notification_title">Autentifikazio errorea</string>
+<string name="auth_error_notification_text">Ukitu <xliff:g id="account">%s</xliff:g>-rentzako kontu ezarpenak editatzeko.</string>
+<string name="email_settings_not_available">Gaitu posta elektronikoaren aplikazioa ezarpenak ikusteko.</string>
+</resources>

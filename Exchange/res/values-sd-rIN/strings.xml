@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"قبول ٿي ويو: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_declined">"انڪار ٿي ويو: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_tentative">"اندازي سان: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_canceled">"منسوخ ٿي ويو: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_updated">"تجديد ٿي وئي: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_when">"ڪڏهن: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">"ڪٿي: <xliff:g id="where">%s</xliff:g>"</string>
+<string name="meeting_recurring">"ڪڏهن: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (باربار ٿيندڙ) "</string>
+<string name="meeting_allday">"ڪڏهن: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (سڄو ڏينهن) "</string>
+<string name="meeting_allday_recurring">"ڪڏهن: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (سڄو ڏينهن، بار بار ٿيندڙ"</string>
+<string name="app_name">" سروسن جو تبادلو"</string>
+<string name="exception_cancel">" هي واقعو: <xliff:g id="date">%s</xliff:g> لاءِ موقوف ٿي ويو آهي"</string>
+<string name="exception_updated">"هن واقعي جا تفصيلات: <xliff:g id="date">%s</xliff:g> لاءِ تبديل ڪيا ويا آهن"</string>
+<string name="policy_dont_allow_storage_cards">" ذخيري وارن ڪارڊن جي اجازت نه ڏيو"</string>
+<string name="policy_dont_allow_unsigned_apps">" غير دستخط شده اطلاقات جي اجازت نه ڏيو"</string>
+<string name="policy_dont_allow_unsigned_installers">" غير دستخط شده اطلاقات جي تنصيبڪارن جي اجازت نه ڏيو"</string>
+<string name="policy_dont_allow_wifi">" Wi-Fi جي اجازت نه ڏيو"</string>
+<string name="policy_dont_allow_text_messaging">" متن وارن پيغامات جي اجازت نه ڏيو"</string>
+<string name="policy_dont_allow_pop_imap">"POP3 ۽ IMAP اڪائونٽن جي اجازت نه ڏيو"</string>
+<string name="policy_dont_allow_irda">"انفرا ريڊ مواصلات جي اجازت نه ڏيو"</string>
+<string name="policy_dont_allow_html">"HTML ايميل جي اجازت نه ڏيو"</string>
+<string name="policy_dont_allow_browser">"برائوزرن جي اجازت نه ڏيو"</string>
+<string name="policy_dont_allow_consumer_email">"کپائيندڙ جي ايميل جي اجازت نه ڏيو"</string>
+<string name="policy_dont_allow_internet_sharing">"انترنيٽ جي شراڪت جي اجازت نه ڏيو"</string>
+<string name="policy_require_smime">" SMIME پيغامات گهري ٿو"</string>
+<string name="policy_bluetooth_restricted">" بلو ٽوٿ جي استعمال تي پابندي لڳايو"</string>
+<string name="policy_app_blacklist">"مخصوص ڪيل اطلاقات جي اجازت موقوف ڪريو"</string>
+<string name="policy_app_whitelist">" صرف مخصوص ڪيل اطلاقات جي اجازت ڏيو"</string>
+<string name="policy_text_truncation">"متن واري ايميل جي سائز تي پابندي لڳايو"</string>
+<string name="policy_html_truncation">"HTML ايميل جي سائز تي پابندي لڳايو"</string>
+<string name="policy_require_sd_encryption">"SD ڪارڊ جو تحفظ گهري ٿو"</string>
+<string name="policy_dont_allow_attachments">"منسلڪات جي اجازت نه ڏيو"</string>
+<string name="policy_max_attachment_size">"منسلڪه جي سائز جي پابندي لڳايو"</string>
+<string name="policy_require_manual_sync_roaming">"سفر دوران صرف هٿراڌو سلهاڙ جي اجازت ڏيو"</string>
+<string name="policy_require_encryption">"ڊيوائس جو تحفظ گهري ٿو"</string>
+<string name="account_setup_options_mail_window_auto">" پاڻمرادو"</string>
+<string name="account_setup_options_mail_window_1day">" هڪ ڏينهن"</string>
+<string name="account_setup_options_mail_window_3days">" ٽي ڏينهن"</string>
+<string name="account_setup_options_mail_window_1week">"هڪ هفتو"</string>
+<string name="account_setup_options_mail_window_2weeks">"ٻه هفتا"</string>
+<string name="account_setup_options_mail_window_1month">"هڪ مهينو"</string>
+<string name="account_setup_options_mail_window_all">" سمورا"</string>
+<string name="auth_error_notification_title">" تصديق ۾ خرابي آهي"</string>
+<string name="auth_error_notification_text">"<xliff:g id="account">%s</xliff:g> اڪائونٽ جي ترتيبن جي تدوين ڪرڻ لاءِ ٽچ ڪريو"</string>
+<string name="email_settings_not_available">"ترتيبن کي ڏسڻ لاءِ ايميل جي اطلاق کي ٻيهر فعال ڪريو."</string>
+</resources>

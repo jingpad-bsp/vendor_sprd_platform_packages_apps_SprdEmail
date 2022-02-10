@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted"><xliff:g id="SUBJECT">%s</xliff:g>དང་ལེན་བྱས།</string>
+<string name="meeting_declined"><xliff:g id="SUBJECT">%s</xliff:g>ལ་ཟློག་པ་སྤྲད་ཟིན།</string>
+<string name="meeting_tentative">གནས་སྐབས་སུ་<xliff:g id="SUBJECT">%s</xliff:g>བཀོལ།</string>
+<string name="meeting_canceled"><xliff:g id="SUBJECT">%s</xliff:g>དོར་ཟིན།</string>
+<string name="meeting_updated"><xliff:g id="SUBJECT">%s</xliff:g>གསར་སྒྱུར་བྱས།</string>
+<string name="meeting_when">དུས་ཚོད་<xliff:g id="WHEN">%s</xliff:g></string>
+<string name="meeting_where">ས་གནས་<xliff:g id="WHERE">%s</xliff:g></string>
+<string name="meeting_recurring">དུས་ཚོད་<xliff:g id="EVENTDATE">%s</xliff:g>(རེས་འཁོར།)</string>
+<string name="meeting_allday">ཚེས་གྲངས་<xliff:g id="EVENTDATE">%s</xliff:g>(ཉིན་གང་བོ།)</string>
+<string name="meeting_allday_recurring">ཚེས་གྲངས་<xliff:g id="EVENTDATE">%s</xliff:g>(ཉིན་གང་བོར་རེས་འཁོར་བྱེད།)</string>
+<string name="app_name">"Exchange ཞབས་འདེགས།"</string>
+<string name="exception_cancel">ཚེས་གྲངས་<xliff:g id="DATE">%s</xliff:g>རུ་གཏན་འཁེལ་བྱས་པའི་བྱ་འགུལ་དོར་ཟིན།</string>
+<string name="exception_updated">ཚེས་གྲངས་<xliff:g id="DATE">%s</xliff:g>གཏན་འཁེལ་བྱས་པའི་བྱ་འགུལ་གྱི་གནས་ཚུལ་ཞིབ་ཕྲ་སྒྱུར་ཟིན།</string>
+<string name="policy_dont_allow_storage_cards">"གསོག་ཉར་བྱང་བུ་བཀོལ་མི་ཆོག"</string>
+<string name="policy_dont_allow_unsigned_apps">"མིང་རྟགས་བཀོད་མེད་པའི་ཉེར་སྤྱོད་བྱ་རིམ་སྒྲིག་འཇུག་བྱས་མི་ཆོག"</string>
+<string name="policy_dont_allow_unsigned_installers">མིང་ཐོ་མ་བཀོད་པའི་སྒྲིག་འཇུག་བཀོལ་ནས་ཉེར་སྤྱོད་སྒྲིག་འཇུག་བྱེད་མི་ཆོག</string>
+<string name="policy_dont_allow_wifi">"WiFi བཀོལ་མི་ཆོག"</string>
+<string name="policy_dont_allow_text_messaging">"འཕྲིན་ཐུང་གི་ནུས་པ་བཀོལ་མི་ཆོག"</string>
+<string name="policy_dont_allow_pop_imap">"POP3དང་ IMAPརྩིས་ཐོ་བཀོལ་མི་ཆོག"</string>
+<string name="policy_dont_allow_irda">"དམར་ཕྱིའི་བརྡ་འཕྲིན་བསྐུར་མི་ཆོག"</string>
+<string name="policy_dont_allow_html">"HTMLགློག་རྡུལ་ཡིག་ཟམ་བསྡུ་ལེན་བྱས་མི་ཆོག"</string>
+<string name="policy_dont_allow_browser">"མིག་གཤར་ཆས་ཀྱི་ཐོ་འགོད་བཀོལ་མི་ཆོག"</string>
+<string name="policy_dont_allow_consumer_email">"མཛད་སྤྱོད་པའི་གློག་རྡུལ་ཡིག་ཟམ་དང་ལེན་བྱས་མི་ཆོག"</string>
+<string name="policy_dont_allow_internet_sharing">"དྲ་རྒྱ་སྦྲེལ་མཐུད་མཉམ་སྤྱོད་བྱས་མི་ཆོག"</string>
+<string name="policy_require_smime">SMIMEའཕྲིན་གཏོང་དགོས་པ།</string>
+<string name="policy_bluetooth_restricted">ལན་ཡ་བེད་སྤྱད་མ་ཆོག།</string>
+<string name="policy_app_blacklist">"གཏན་འཁེལ་གྱི་ཉེར་སྤྱོད་བྱ་རིམ་བཀོལ་མི་ཆོག"</string>
+<string name="policy_app_whitelist">དགོས་ངེས་ཀྱི་ཉེར་སྤྱོས་ལས་གཞན་བེད་སྤྱད་མ་ཆོག།</string>
+<string name="policy_text_truncation">"གློག་རྡུལ་ཡིག་ཟམ་ཡིག་ཆའི་ཆེ་ཆུང་ལ་ཚད་བཀག་བྱེད་པ།"</string>
+<string name="policy_html_truncation">"HTMLགློག་རྡུལ་ཡིག་ཟམ་ཆེ་ཆུང་ལ་ཚད་བཀག་བྱེད་པ།"</string>
+<string name="policy_require_sd_encryption">"SDབྱང་བུ་ལ་གསང་གྲངས་འཇོག་པའི་རེ་ཞུ་བྱེད་པ།"</string>
+<string name="policy_dont_allow_attachments">"ཟུར་འདོགས་ཕབ་ལེན་བྱས་མི་ཆོག"</string>
+<string name="policy_max_attachment_size">"ཟུར་འདོགས་ཀྱི་ཆེ་ཆུང་ལ་ཚད་བཀག་བྱེད་པ།"</string>
+<string name="policy_require_manual_sync_roaming">འཁྱམ་པའི་དུས་གཅིག་པོར་མཉམ་འབྲེལ་བྱས་པ།</string>
+<string name="policy_require_encryption">ཉེར་སྤྱོས་ལ་གསང་བརྡ་བཟོས།</string>
+<string name="account_setup_options_mail_window_auto">རང་འགུལ།</string>
+<string name="account_setup_options_mail_window_1day">ཉིན་གཅིག</string>
+<string name="account_setup_options_mail_window_3days">ཉིན་གསུམ།</string>
+<string name="account_setup_options_mail_window_1week">གཟའ་འཁོར་གཅིག</string>
+<string name="account_setup_options_mail_window_2weeks">གཟའ་འཁོར་གཉིས།</string>
+<string name="account_setup_options_mail_window_1month">ཟླ་གཅིག</string>
+<string name="account_setup_options_mail_window_all">"ཆ་ཚང།"</string>
+<string name="auth_error_notification_title">ཐོབ་ཐང་ར་སྤྲོད་ཕམ།</string>
+<string name="auth_error_notification_text">"རེག་ནས་<xliff:g id="account">%s</xliff:g>ཡི་སྒྲིག་འགོད་སྒྱུར།"</string>
+<string name="email_settings_not_available">སླར་གློག་རྡུལ་སྦྲག་ཡིག་ཉེར་སྤྱོད་ཀྱི་སྒུལ་བསླངས་བ་ན་སྒྲིག་འགོད་ལ་ལྟ་ཐུབ།</string>
+</resources>

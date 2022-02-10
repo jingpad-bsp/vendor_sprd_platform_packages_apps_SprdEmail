@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="from">"Ka imaanaaya"</string>
+<string name="to">"Ilaa"</string>
+<string name="cc">"Cc"</string>
+<string name="bcc">"Bcc"</string>
+<string name="subject_hint">"Mawduuca"</string>
+<string name="body_hint">"Qor email"</string>
+<string name="add_file_attachment">"Fayl lifaaq"</string>
+<string name="add_photo_attachment">"Sawir lifaaq"</string>
+<string name="save_draft">"Seefgaree qoraal aan ladirin"</string>
+<string name="discard">"Tuur"</string>
+<string name="compose">"Fariin qor"</string>
+<string name="compose_title">"Fariin qor"</string>
+<string-array name="compose_modes">
+<item>"Ujawaab"</item>
+<item>"Ujawaab dhamaan"</item>
+<item>"Xawilid"</item>
+</string-array>
+<string name="reply_attribution">"wuxuu <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g>qoray:"</string>
+<string name="forward_attribution">"---------- Gudbi fariinta ----------&lt;br&gt;Katimid:  <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;taariikhda:  <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;Maadada:  <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;Kusocota:  <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;"</string>
+<string name="forward_attribution_no_headers">"---------- Fariin laxawilay----------"</string>
+<string name="cc_attribution">"Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;"</string>
+<string name="select_attachment_type">"Dooro nooca lifaaqa"</string>
+<string name="too_large_to_attach_single">"Laguma lifaaqi karo fayl <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+<string name="too_large_to_attach_multiple">"Hal ama kabadan oo faylal ah ayaan lasoo lifaaqin. Xadayn <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+<string name="too_large_to_attach_additional">"Faylka lama lifaaqin. <xliff:g id="maxSize">%1$s</xliff:g> Xadka ayaa lagaaray."</string>
+<string name="generic_attachment_problem">"Faylka lama lifaaqi karo."</string>
+<string name="attachment_permission_denied">"Ogolaansho waa loo diiday lifaaqa."</string>
+<string name="recipient_needed">"Kudar ugu yaraan hal loodire."</string>
+<string name="confirm_send_message_with_no_subject">"Waxba kuma qorna mawduuca fariinta."</string>
+<string name="confirm_send_message_with_no_body">"Waxba kuma qorna gudaha qaybta fariinta."</string>
+<string name="confirm_send_message">"Dir fariintaan?"</string>
+<string name="message_discarded">"Fariinta waa latuuray."</string>
+<string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+<string name="custom_from_account_label">"Udir mailka sida:"</string>
+<string name="send">"Dir"</string>
+<string name="mark_read">"U astee mid la aqriyay ahaan"</string>
+<string name="mark_unread">"U astee midaan la aqrin"</string>
+<string name="toggle_read_unread">"Ubadal aqri kaan la aqrin"</string>
+<string name="mute">"AAMUSAN"</string>
+<string name="add_star">"Xidig kudar"</string>
+<string name="remove_star">"Kasaar xidigta"</string>
+<string name="remove_folder">"Kasaar <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="archive">"Kayd"</string>
+<string name="report_spam">"Waa maalaayacni dheh"</string>
+<string name="mark_not_spam">"Ma aha maalaayacni dheh"</string>
+<string name="report_phishing">"Waa tuugo dheh"</string>
+<string name="delete">"tirtir"</string>
+<string name="discard_drafts">"Tuur fariimaha aan ladirin"</string>
+<string name="discard_failed">"Tuurista laguma guulaysan"</string>
+<string name="refresh">"Cusboonaysiin"</string>
+<string name="reply">"Ujawaab"</string>
+<string name="reply_all">"Ujawaab dhamaan"</string>
+<string name="resume_draft">"Waxkabadal"</string>
+<string name="forward">"Xawilid"</string>
+<string name="menu_compose">"Fariin qor"</string>
+<string name="menu_change_folders">"Badal sanduuqyada"</string>
+<string name="menu_move_to">"Urar"</string>
+<string name="menu_move_to_inbox">"Urar Galka kujira fariimaha aan akhrin"</string>
+<string name="menu_manage_folders">"Qaabaynada sanduuqa"</string>
+<string name="menu_show_original">"Leexi simida iskeed ah"</string>
+<string name="menu_settings">"Qaabaynada"</string>
+<string name="menu_search">"Baar"</string>
+<string name="menu_toggle_drawer">"Badal sawiraha"</string>
+<string name="drawer_title">"Socodsiin"</string>
+<string name="mark_important">"U atee mid muhiim ah"</string>
+<string name="mark_not_important">"U astee midaan muhiim ahayn"</string>
+<string name="add_cc_label">"Kudar Cc/Bcc"</string>
+<string name="add_bcc_label">"Kudar Bcc"</string>
+<string name="quoted_text">"Kudar qoraal horay loo yiri"</string>
+<string name="quoted_text_label">"Soo xigo qoraal"</string>
+<string name="respond_inline">"Kujawaab laynka"</string>
+<string name="bytes">"<xliff:g id="count">%s</xliff:g>&#160;B"</string>
+<string name="kilobytes">"<xliff:g id="count">%s</xliff:g>&#160;KB"</string>
+<string name="megabytes">"<xliff:g id="count">%s</xliff:g>&#160;MB"</string>
+<string name="attachment_image">"Sawir"</string>
+<string name="attachment_video">"Fiidyoow"</string>
+<string name="attachment_audio">"Cod"</string>
+<string name="attachment_text">"Fariin udir"</string>
+<string name="attachment_application_msword">"Dukumiinti"</string>
+<string name="attachment_application_vnd_ms_powerpoint">"Soo bandhigid"</string>
+<string name="attachment_application_vnd_ms_excel">"Spreadsheet"</string>
+<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> Fayl"</string>
+<string name="preview_attachment">"Dulmarid"</string>
+<string name="save_attachment">"Keydi"</string>
+<string name="download_again">"Markale soo daji"</string>
+<string name="remove_attachment_desc">"Kasaar lifaaqa <xliff:g id="attachmentName">%s</xliff:g>"</string>
+<string name="more_info_attachment">"Macluumaadka"</string>
+<string name="no_application_found">"Majiro app furi kara lifaaqaan si loo arko."</string>
+<string name="fetching_attachment">"Sooqabashada lifaaqa"</string>
+<string name="please_wait">"Fadlan sug\u2026"</string>
+<string name="saved">"Lakaydiyay,&#160;<xliff:g id="size">%s</xliff:g>"</string>
+<string name="download_failed">"Lama soodajin karo. Taabo si aad iskudaydo markale."</string>
+<string name="menu_photo_save_all">"Keydi dhamaan"</string>
+<string name="menu_photo_share">"Wadaag"</string>
+<string name="menu_photo_share_all">"Lawadaag dhamaan"</string>
+<string name="menu_photo_print">"Daabicid"</string>
+<string name="saving">"Seefgaraynaaya&#8230;"</string>
+<string name="choosertitle_sharevia">"Ku wadaag"</string>
+<string name="contextmenu_openlink">"Kufur Browser ha"</string>
+<string name="contextmenu_copy">"Koobi garee"</string>
+<string name="contextmenu_copylink">"Koobi garee URL-ka xiriirka"</string>
+<string name="contextmenu_view_image">"Fiiri sawirka"</string>
+<string name="contextmenu_dial_dot">"Wac\u2026"</string>
+<string name="contextmenu_sms_dot">"Fariinta\u2026"</string>
+<string name="contextmenu_add_contact">"Kudar Contact-ga"</string>
+<string name="contextmenu_send_mail">"Udir email"</string>
+<string name="contextmenu_map">"Qariirada"</string>
+<string name="contextmenu_sharelink">"Lawadaag xiriirka"</string>
+<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> quseeya <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> ee <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> quseeya <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> ee <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> quseeya <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> ee <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, calaamadaha: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="content_description_today_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> quseeya <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> ee <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, calaamadaha: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="read_string">"Wada sheekaysiga waa la aqriyay"</string>
+<string name="unread_string">"Wadasheekaysiga aan la aqrin"</string>
+<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="badge_and_subject">"<xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g>"</string>
+<plurals name="draft">
+<item quantity="one">"Qoraalka aan ladirin"</item>
+<item quantity="other">"Khaanadda ay kujiraan iimaylada aad soodiraysaa"</item>
+</plurals>
+<string name="sending">"Dirayaa\u2026"</string>
+<string name="message_retrying">"Iskuday markale\u2026"</string>
+<string name="message_failed">"Laguma guulaysan"</string>
+<string name="send_failed">"Fariinta lama dirin."</string>
+<string name="me_object_pronoun">"Aniga"</string>
+<string name="me_subject_pronoun">"Aniga"</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">"Tir wadasheekaysigaan?"</item>
+<item quantity="other">"Tirtir wada <xliff:g id="count">%1$d</xliff:g> sheekaysiyadaan?"</item>
+</plurals>
+<plurals name="confirm_archive_conversation">
+<item quantity="one">"Kaydi wadasheekaysigaan?"</item>
+<item quantity="other">"Kaydi wada <xliff:g id="count">%1$d</xliff:g> sheekaysiyadaan?"</item>
+</plurals>
+<plurals name="confirm_discard_drafts_conversation">
+<item quantity="one">"Tuur fariintaan?"</item>
+<item quantity="other">"Tuur <xliff:g id="count">%1$d</xliff:g> fariimahaan?"</item>
+</plurals>
+<string name="confirm_discard_text">"Tuur fariintaan?"</string>
+<string name="loading_conversations">"Raadinaya\u2026"</string>
+<string name="empty_inbox">"Waad dhamaysay dhamaan! Fadlan maalintu hakuu wacnaato."</string>
+<string name="empty_search">"Whoops! Waxba umaanaan helin \"<xliff:g id="search_query">%1$s</xliff:g>\""</string>
+<string name="empty_spam_folder">"Horay, wax maalaayacni ah halkaan kuma jiraan!"</string>
+<string name="empty_trash_folder">"Wax qashin ah kuma jiraan halkaa. Waad kumahadsantahay xaaqida!"</string>
+<string name="empty_folder">"Fariin iimayl kuma jiro halkaan."</string>
+<string name="getting_messages">"Helaaya fariimahaaga"</string>
+<string name="undo">"DIB UGU NOQO"</string>
+<plurals name="conversation_unstarred">
+<item quantity="one">"Wadasheekaysi <xliff:g id="count">%1$d</xliff:g> aan la aqrin"</item>
+<item quantity="other">"Wadasheekaysiyo <xliff:g id="count">%1$d</xliff:g> aan la aqrin"</item>
+</plurals>
+<plurals name="conversation_muted">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> codka laga xiray"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> codka laga xiray"</item>
+</plurals>
+<plurals name="conversation_spammed">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> lagu sheegay ugooyada"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> lagu sheegay ugooyada"</item>
+</plurals>
+<plurals name="conversation_not_spam">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> lagu sheegay lugooyada"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> lagu sheegay lugooyada"</item>
+</plurals>
+<plurals name="conversation_not_important">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> lagu asteeyay mid aan muhim ahayn"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> lagu asteeyay mid aan muhim ahayn"</item>
+</plurals>
+<plurals name="conversation_phished">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> lagu asteeyay mid tuugnimo ah"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> lagu asteeyay mid tuugnimo ah"</item>
+</plurals>
+<plurals name="conversation_archived">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> la galiyay arjiiyada"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> la galiyay arjiiyada"</item>
+</plurals>
+<plurals name="conversation_deleted">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> latirtiray"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> latirtiray"</item>
+</plurals>
+<string name="deleted">"Latiray"</string>
+<string name="archived">"La kaydiyay"</string>
+<string name="folder_removed">"Kasaar <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<plurals name="conversation_folder_changed">
+<item quantity="one">"Sanduuq la badalay"</item>
+<item quantity="other">"Sanduuqyo la badaly"</item>
+</plurals>
+<string name="conversation_folder_moved">"Urar <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="search_results_header">"Natiijooyinka"</string>
+<string name="search_unsupported">"Baaritaanka kuma shaqaynaayo koontadaan."</string>
+<string name="search_suggestion_desc">"Soojeedin: <xliff:g id="suggestion">%s</xliff:g>"</string>
+<string name="add_label">"Kudar sanduuqaq"</string>
+<plurals name="new_incoming_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> Fariin cusub"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> Fariimo cusub"</item>
+</plurals>
+<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Fiiri macluumaadka&lt;/a&gt;"</string>
+<string name="hide_details">"Qari faahfaahinta"</string>
+<string name="to_message_header">"ilaa <xliff:g id="recipients">%1$s</xliff:g>"</string>
+<string name="bcc_header_for_recipient_summary">"Bcc:\u0020"</string>
+<string name="contact_info_string">"Muuji macluumadka contactga ee <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="contact_info_string_default">"Muuji macluumadka contactga"</string>
+<plurals name="show_messages_read">
+<item quantity="other">"Balaari <xliff:g id="count" example="4">%1$d</xliff:g> farrimaha hore"</item>
+</plurals>
+<plurals name="super_collapsed_block_accessibility_announcement">
+<item quantity="other">"La balaariyay <xliff:g id="count" example="4">%1$d</xliff:g> farrimaha hore"</item>
+</plurals>
+<string name="from_heading">"Kasocota:"</string>
+<string name="replyto_heading">"Ujawaab:"</string>
+<string name="to_heading">"Kusocota:\u0020"</string>
+<string name="to_heading_no_space">"Kusocota:"</string>
+<string name="cc_heading">"Cc:"</string>
+<string name="bcc_heading">"Bcc:"</string>
+<string name="date_heading">"Taariikhda:"</string>
+<string name="show_images">"Muuji sawirada"</string>
+<string name="always_show_images">"Markasta muuji sawirada ka imaanaya soo dirahaan"</string>
+<string name="always_show_images_toast">"Sawirada ka imaanaya soo dirahaan si iskood ah ayaa loomuujinayaa."</string>
+<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> Soo maraya <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+<string name="message_saved">"Fariinta waxaa loo keydiyay wax laga shaqaynayo."</string>
+<string name="sending_message">"Fariin dirid\u2026"</string>
+<string name="invalid_recipient">"Ciwaanka <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> waa qalad."</string>
+<string name="show_elided">"Muuji qoraalka horay loo yiri"</string>
+<string name="hide_elided">"\u25BC Qari qoraalka horay loo yiri"</string>
+<string name="message_invite_title">"Caasumaada calendarka"</string>
+<string name="message_invite_calendar_view">"Kafiiri calendarka"</string>
+<string name="message_invite_label_attending">"Soconaaya?"</string>
+<string name="message_invite_accept">"Haa"</string>
+<string name="message_invite_tentative">"Waa suuragal"</string>
+<string name="message_invite_decline">"Maya"</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="send_anyway">"Dir sikasta"</string>
+<string name="ok">"OK"</string>
+<string name="done">"Waa lafuliyay"</string>
+<string name="cancel">"Jooji"</string>
+<string name="clear">"Xaaq"</string>
+<string name="next">"Kuxiga"</string>
+<string name="previous">"Hore"</string>
+<string-array name="sync_status">
+<item>"Guul"</item>
+<item>"Majiro wax xiriir ah"</item>
+<item>"Awoodi waayay in la gudaha galo"</item>
+<item>"Cilad amaan"</item>
+<item>"La iskuma keeni karo"</item>
+<item>"Cilad gudaha ah"</item>
+<item>"Cilad serverka ah"</item>
+</string-array>
+<string name="tap_to_configure">"Taabo si aad udajiso"</string>
+<string name="non_synced_folder_description">"Si aad u aragto wadasheekaysiyada, iskugee sanduuqa."</string>
+<string name="tap_to_configure_folder_sync">"Iskugee sanduuqa"</string>
+<string name="large_unseen_count">"<xliff:g id="count" example="99">%d</xliff:g>+ cusub"</string>
+<string name="unseen_count">"<xliff:g id="count" example="4">%d</xliff:g> cusub"</string>
+<plurals name="actionbar_unread_messages">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> Aan la akhrin"</item>
+</plurals>
+<string name="view_more_conversations">"Arag wada sheekaysiyo badan"</string>
+<string name="loading_conversation">"Raadinaya\u2026"</string>
+<string name="activity_mailbox_selection">"Dooro koontada"</string>
+<string name="activity_folder_selection">"Dooro sanduuq"</string>
+<string name="folder_shortcut_widget_label">"Sanduuqa email ka"</string>
+<string name="change_folders_selection_dialog_title">"Badal sanduuqyada"</string>
+<string name="move_to_selection_dialog_title">"Urar"</string>
+<string name="search_hint">"Baar"</string>
+<string name="voice_search_not_supported">"Baaritaanka codka kumashaqaynaayo aaladaan."</string>
+<string name="search_back_desc">"Xir baarista"</string>
+<string name="search_voice_desc">"Biloow raadinta codka ah"</string>
+<string name="search_clear_desc">"Tirtir qoraalka baarista"</string>
+<string name="network_error">"Majiro wax xiriir ah"</string>
+<string name="retry">"Kuceli"</string>
+<string name="load_more">"Raadi wax badan"</string>
+<string name="shortcut_name_title">"Magacaw soogabista sanduuqa"</string>
+<string name="wait_for_sync_title">"Sugaya in la iskgeeyo"</string>
+<string name="not_synced_title">"Koontada la iskuma gayn"</string>
+<string name="wait_for_manual_sync_body">"Koontadaan looguma tala galin in la iskugeeyo si iskeed ah.\n Taabo <b>Isku gee Hada </b> si aad iskugayso mailka halmar, ama <b>Aad ubadasho qaabaynada iskugaynta</b> si aad koontadaan ugu dajiso si ay iskugayso si iskedd ah."</string>
+<string name="manual_sync">"Iskugayn hada"</string>
+<string name="change_sync_settings">"Badal qaabaynada waafajinta"</string>
+<string name="photo_load_failed">"Ma dejin karo sawirka"</string>
+<string name="cant_move_or_change_labels">"Lama rari karo waayo waad dooratay koontooyin badan."</string>
+<string name="multiple_new_message_notification_item">"<b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="ignore_spam_warning">"Iskadiid, waan kukalsoonahay fariintaan"</string>
+<string name="via_domain">"Soo maraya <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+<string name="signin">"Gal"</string>
+<string name="info">"Macluumaadka"</string>
+<string name="report">"Waxbixin"</string>
+<string name="show">"Muuji"</string>
+<string name="sync_error">"La iskuma waafajin karo."</string>
+<string name="sync_error_message">"Aaladaada kama banaana boos kufilan kaydkaaga si laysugu geeyo."</string>
+<string name="storage">"Kaydiye"</string>
+<string name="senders_split_token">",\u00A0"</string>
+<string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+<string name="all_folders_heading">"Dhamaan sanduuqyada"</string>
+<string name="recent_folders_heading">"Sanduuqyadii dhawaa"</string>
+<string name="message_details_title">"Faahfaahinta fariinta"</string>
+<string name="preference_advance_to_title">"Faahfaahinta iskeed ah"</string>
+<string-array name="prefEntries_autoAdvance">
+<item>"Kacusub"</item>
+<item>"Kawayn"</item>
+<item>"Liiska Wadasheekaysiga"</item>
+</string-array>
+<string-array name="prefSummaries_autoAdvance">
+<item>"Muuji wada sheekaysiyada cusub kadib markaad tirto"</item>
+<item>"Muuji wada sheekaysiyada hore kadib markaad tirtirid"</item>
+<item>"Muuji liiska wada sheekaysiyada kadib markaad tirtirid"</item>
+</string-array>
+<string name="prefDialogTitle_autoAdvance">"Usii gudub"</string>
+<string name="clear_display_images_whitelist_title">"Masax sawiro gudbiyaasha"</string>
+<string name="clear_display_images_whitelist_dialog_title">"Masax sawiro gudbiyaasha?"</string>
+<string name="clear_display_images_whitelist_dialog_message">"Jooji muujinta sawira laynka kujira ee ka imaanaaya soo dirayaasha aad horay u ogolaatay."</string>
+<string name="sender_whitelist_cleared">"Sawir si iskiisa la iskuma tusaayo."</string>
+<string name="preferences_signature_title">"Saxiix"</string>
+<string name="preferences_signature_dialog_title">"Saxiix"</string>
+<string name="preferences_signature_summary_not_set">"Lama dajin"</string>
+<string name="notification_action_reply">"Ujawaab"</string>
+<string name="notification_action_reply_all">"Ujawaab dhamaan"</string>
+<string name="notification_action_archive">"Kayd"</string>
+<string name="notification_action_remove_label">"Kasaar calaamada"</string>
+<string name="notification_action_delete">"tirtir"</string>
+<string name="notification_action_undo_archive">"La kaydiyay"</string>
+<string name="notification_action_undo_remove_label">"Calaamada waa laga saaray"</string>
+<string name="notification_action_undo_delete">"Latiray"</string>
+<string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+<plurals name="new_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> Fariin cusub"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> Fariimo cusub"</item>
+</plurals>
+<string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="silent_ringtone">"Aamusin"</string>
+<string name="preference_removal_action_title">"Falka Rasmig ah"</string>
+<string-array name="prefEntries_removal_action">
+<item>"Kayd"</item>
+<item>"tirtir"</item>
+</string-array>
+<string-array name="prefSummaries_removal_action_summary">
+<item>"Kayd"</item>
+<item>"tirtir"</item>
+</string-array>
+<string name="prefDialogTitle_removal_action">"Falka Rasmig ah"</string>
+<string name="preferences_default_reply_all_title">"Ujawaab dhamaan"</string>
+<string name="preferences_default_reply_all_summary_impl">"U adeegso fariin kajawaabaha rasmiga ah"</string>
+<string name="preference_swipe_title">"Ficilo dadban"</string>
+<string name="preference_swipe_description">"Ee liiska wada sheekaysiga"</string>
+<string name="preference_sender_image_title">"Sawirka soo diraha"</string>
+<string name="preference_sender_image_description">"Kumuuji dhinaca magaca kujira liiska wadasheekaysiga"</string>
+<string name="empty_trash">"Qashin maran"</string>
+<string name="empty_spam">"Maalaayacni kuma jiro"</string>
+<string name="empty_trash_dialog_title">"Qub Qashinka?"</string>
+<string name="empty_spam_dialog_title">"Maalaayacni kuma jiro?"</string>
+<plurals name="empty_folder_dialog_message">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> fariinta waa latirayaa si rasmi ah."</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> fariimahaa waa latirayaa si rasmi ah."</item>
+</plurals>
+<string name="drawer_open">"Fur badmaax sawirah"</string>
+<string name="drawer_close">"Xir badmaax sawirah"</string>
+<string name="conversation_photo_welcome_text">"Taabo sawirka soo diraha si aad wadasheekaysi udoorato."</string>
+<string name="long_press_to_select_tip">"Taabo &amp; qabo si aad udoorato hal wada sheekaysi, kadibna taabo si aad dheeraad udoorato."</string>
+<string name="folder_icon_desc">"Calaamada sanduuqa"</string>
+<string name="add_account">"Kudar akoonka"</string>
+<string name="dismiss_tip_hover_text">"Iska tuur tiirka"</string>
+<string name="auto_sync_off">"Isku-waafajinta waa laxiray. Taabo si aad ushido."</string>
+<string name="account_sync_off">"Isku-waafajinta waa la damiyay. Kudaar &lt;a href=\'http://www.example.com\'&gt;Akoonka\u00A0settings-ka.&lt;/a&gt;"</string>
+<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g>aan ladajin <xliff:g id="outbox">%2$s</xliff:g>"</string>
+<string name="turn_auto_sync_on_dialog_title">"Daar isku-waafajinta?"</string>
+<string name="turn_auto_sync_on_dialog_body">"Isbadalada aad kusamayso dhamaan appska iyo koontooyinka, ma ahan kaliya Gmail, waxaa laysagayn doonaa inta udhaxaysa webka, aaladahaaga kale, iyo <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+<string name="phone">"Teleefoon"</string>
+<string name="tablet">"Tablet"</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">"Daar"</string>
+<string name="show_n_more_folders">"Muuji <xliff:g id="number">%1$s</xliff:g> sanduuqyada"</string>
+<string name="hide_folders">"Qari sanduuqyada"</string>
+<string name="print">"Daabicid"</string>
+<string name="print_all">"Daabac dhamaan"</string>
+<plurals name="num_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> fariin"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> fariimo"</item>
+</plurals>
+<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> meesha <xliff:g id="time">%2$s</xliff:g>"</string>
+<string name="draft_to_heading">"Lagu kaydshay:"</string>
+<string name="draft_heading">"Qoraalka aan ladirin"</string>
+<string name="quoted_text_hidden_print">"Qoraalka lasoo xigtay waa la qariyay"</string>
+<plurals name="num_attachments">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> lifaaq"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> lifaaqyo"</item>
+</plurals>
+<string name="no_subject">"(Ciwaan malaha)"</string>
+<string name="vacation_responder">"Jawaab bixiyaha xiliga fasaxa"</string>
+<string name="preferences_vacation_responder_title">"Jawaab bixiyaha xiliga fasaxa"</string>
+<string name="vacation_responder_body_hint_text">"fariin"</string>
+<string name="send_to_contacts_text">"Udir kaliya contactskayga"</string>
+<string name="send_to_domain_text">"Udir kaliya <xliff:g id="domain">%1$s</xliff:g>"</string>
+<string name="pick_start_date_title">"Qiimaynta"</string>
+<string name="pick_end_date_title">"Way dhamaatay (ikhtiyaari ah)"</string>
+<string name="date_not_set">"Lama dajin"</string>
+<string name="set_end_date_dialog_title">"Taariikha ladhamaynaayo (ikhtiyaari)"</string>
+<string name="custom_date">"Maamule"</string>
+<string name="date_none">"Midna"</string>
+<string name="discard_changes">"Istuur isbadalada?"</string>
+<string name="vacation_responder_changes_saved">"Isbadalada jawaab bixiyaha xiliga fasaxa waa laseefgareeyay"</string>
+<string name="vacation_responder_changes_discarded">"Isbadalada jawaab bixiyaha xiliga fasaxa wala tuuray"</string>
+<string name="vacation_responder_off">"Dansan"</string>
+<string name="vacation_responder_on">"Shidan, kasocda <xliff:g id="date">%1$s</xliff:g>"</string>
+<string name="vacation_responder_on_with_end_date">"shidan, kasocda <xliff:g id="start-date">%1$s</xliff:g> usocda <xliff:g id="end-date">%2$s</xliff:g>"</string>
+<string name="vacation_responder_empty_subject_and_body_warning">"Kudar mawduuc ama fariin"</string>
+<string name="view_entire_message">"Fiiri fariinta oodhan"</string>
+<string name="eml_loader_error_toast">"Faylkaan lama furi karo"</string>
+<string name="help_and_info">"caawimaad"</string>
+<string name="help_and_feedback">"Jawaabta &amp; caawimadda"</string>
+<string name="feedback">"Jawaab dir"</string>
+<string name="copyright">"&#169;<xliff:g id="year" example="2010">%1$d</xliff:g> Google Inc."</string>
+<string name="version">"<xliff:g id="app_name" example="Email">%1$s</xliff:g> Soosaaris <xliff:g id="version" example="2.2.1">%2$s</xliff:g>"</string>
+<string name="print_dialog">"Daabicid\u2026"</string>
+<string name="copyright_information">"Macluumaadka xuquuqd soosaarista"</string>
+<string name="privacy_policy">"Siyaasada arimaha khaaska ah"</string>
+<string name="open_source_licenses">"Fur shaatiyada ilaha"</string>
+<string name="reply_choice_yes">"Haa"</string>
+<string name="reply_choice_no">"Maya"</string>
+<string name="reply_choice_ok">"OK"</string>
+<string name="reply_choice_hehe">"hehe"</string>
+<string name="reply_choice_thanks">"Mahadsanid"</string>
+<string name="reply_choice_i_agree">"Waa ogolahay"</string>
+<string name="reply_choice_nice">"Hagaag"</string>
+<string name="reply_on_my_way">"Waan soosocdaa"</string>
+<string name="reply_choice_later">"Haye, aan kugu soo noqdo"</string>
+<string name="preference_header_action_confirmations">"Xaqiijinada falka"</string>
+<string name="preference_confirm_before_delete_title">"Xaqiiji intaadan tirin"</string>
+<string name="preference_confirm_before_archive_title">"Xaqiiji intaadan kaydin"</string>
+<string name="preference_confirm_before_send_title">"Xaqiiji intaadan dirin"</string>
+<string name="preferences_conversation_mode_title">"Iskuaadinta fariimaha ee iskeed ah"</string>
+<string name="preferences_conversation_mode_summary">"Isku aruuri fariimaha si aad udeeqsiiso shaashada"</string>
+<string name="preferences_disable_snap_headers_title">"Falalka fariinta"</string>
+<string-array name="prefSummaries_snapHeader">
+<item>"Markasta kumuuji falalka fariinta qaybta kore ee shaashada"</item>
+<item>"Kaliye kumuuji falalka fariinta qaybta kore ee shaashada markii loo wareejiyo protraitka"</item>
+<item>"Hamuujinhawlaha fariinta meel kabaxsan fariin taagaha"</item>
+</string-array>
+<string-array name="prefEntries_snapHeader">
+<item>"Markasta tus"</item>
+<item>"Kaliya kumuuji potraitka"</item>
+<item>"Ha muujin"</item>
+</string-array>
+<string name="clear_history_title">"Tirtir taariikhda baarista"</string>
+<string name="search_history_cleared">"Taariikhda baarista wala tirtiray."</string>
+<string name="clear_history_dialog_title">"Tirtir taariikhda baarista?"</string>
+<string name="clear_history_dialog_message">"Dhamaan baarisyadii aad horay usamaysay waa laga saarayaa."</string>
+<string name="manage_accounts_menu_item">"Maaree koontooyinka"</string>
+<string name="general_preferences_title">"Qaabaynada guud"</string>
+<string name="activity_preferences">"Qaabaynada"</string>
+<string name="overflow_description">"Ikhtiyaaraha dheraad ah"</string>
+<string name="security_hold_required_text">"Cusboonaysiin amaan ayaa loobaahanyahay <xliff:g id="email_address">%1$s</xliff:g>"</string>
+<string name="update_security_text">"Hada cusboonaysii"</string>
+<string name="forms_are_disabled">"Fomamka waa laga xiray Gmailka dhexdiisa"</string>
+<string name="add_contacts_too_much">"Nambarka ugu badan ee loodirayaasha waa 50."</string>
+<string name="account_delete_dlg_title">"Kasaar akoonka"</string>
+<string name="account_delete_waiting">"Kasaaraaya, fadlan sug..."</string>
+<string name="filter_all">"Dhammaan"</string>
+<string name="filter_receiver">"Qaate"</string>
+<string name="filter_sender">"Dire"</string>
+<string name="filter_subject">"Mawduuca"</string>
+<string name="filter_content">"mawduuca"</string>
+<string name="search_on_server">"Kabaar serverka"</string>
+<string name="download_confirm_msg">"Khadka maaha WLAN, lifaaqana waa balaaranyahay, fadlan xaqiiji hadii lasii wadaayo"</string>
+<string name="download_deny_malware">"Waxay noqolkarkaa fayriska malware ga. Lama soodajin karo."</string>
+<string name="download_deny_wifionly">"Kaliya waxaa lasoo dajin karaa markuu WLAN yahay."</string>
+<string name="download_deny_nointent">"Majiro app furi kara. Lama soodajin karo."</string>
+<string name="download_deny_nosideload">"Dib isuguday kadib markaad ogolaato kasoodajinta appska meel aan la aqoon."</string>
+<string name="download_deny_apkinstall">"Masoo dajin karo wax app ah. Lama soodajin karo."</string>
+<string name="download_deny_policy">"Looma soodajin karo siyaasada koontada ahaan."</string>
+<string name="download_att_external">"Taabo dagso si aad udagsato"</string>
+<string name="save_to_where">"Lifaaaqa si guul ah ayaa loogu seefgareeyay:&#160;"</string>
+<string name="missing_required_permission">"Waxaad iskaga xirtay ogoolaansho loo baahanyahay."</string>
+<string name="permission_change">"Maadaama ogolaanshiyaasha labadalay, fadlan markale soodooro faylka."</string>
+<string name="permission_change_redo">"Maadaama ogolaanshiyada labadalay, fadlan kuceli."</string>
+<string name="preference_default_signature_title">"Saxiix"</string>
+<string name="signature_default">"Lagasoo diray teleefankayga"</string>
+<string name="set_priority_high">"kadhig muhimada mid sare"</string>
+<string name="set_priority_normal">"kadhig muhimada mid caadi ah"</string>
+<string name="set_priority_low">"kadhig muhimada mid hoose"</string>
+<string name="file_not_exist">"Lifaaqa maxaliga ah majiro, fadlan markale soodaji!"</string>
+<string name="body_input_more">"Waanu kaxunahay, kaliya waxaa lagalin karaa %1$s xarfo"</string>
+<string name="attachment_rename_to_legal">"Lifaaqa magaca waa laga badalay maadaama magacii hore sharci daro ahaa"</string>
+<string name="account_changed_load_account_inbox">"Akoonka ku aadan sanduuqa waa labadalay, ubadal inbokiska."</string>
+<string name="no_available_storage">"Majiro kaydiya laheli karo"</string>
+<string name="attachment">"Lifaaqa"</string>
+<string name="confirm_compress_tittle">"Isku aruuri"</string>
+<string name="confirm_compress_msg">"Xajmiga sawirka wuu kabadanyahay <xliff:g id="size">%s</xliff:g>, iskuday inaad isku aruuriso?"</string>
+<string name="compressed_failed">"Layskuma aruurin karo sawirka hoose <xliff:g id="size">%s</xliff:g>"</string>
+<string name="save_draft_msg">"Kukaydi qaybta qabyada?"</string>
+<string name="menu_sorting_method">"Nooca isku aadinta"</string>
+<string name="oarder_by_timestamp_asc">"Taariikhda (Ugu horeeya)"</string>
+<string name="oarder_by_timestamp_desc">"Taariikhda (Ugu danbeeyay)"</string>
+<string name="oarder_by_sender_asc">"Diraha (A To Z)"</string>
+<string name="oarder_by_sender_desc">"Diraha (Z To A)"</string>
+<string name="oarder_by_recipient_asc">"Loodiraha (A To Z)"</string>
+<string name="oarder_by_recipient_desc">"Loodiraha (Z To A)"</string>
+<string name="oarder_by_subject_asc">"Mawduuca (A To Z)"</string>
+<string name="oarder_by_subject_desc">"Mawduuca (Z To A)"</string>
+<string name="select_all">"Dooro dhamaan"</string>
+<string name="cancel_all">"Jooji dhammaan"</string>
+<string name="preference_snippetShowLines_to_title">"Fiirinta mawduuca"</string>
+<string-array name="prefEntries_snippetShowLines">
+<item>"Midna"</item>
+<item>"1 layn"</item>
+<item>"2 layn"</item>
+<item>"3 layn"</item>
+</string-array>
+<string name="contacts_tab_tittle">"Xiriiradda"</string>
+<string name="favorite_tab_tittle">"la jecelyahay"</string>
+<string name="checked_contacts_exceeds_max">"Ilaa iyo <xliff:g id="count">%s</xliff:g> contact-yada waa ladooran karaa"</string>
+<string name="vip">"Sanduuqa VIP"</string>
+<string name="vip_settings">"SETTINGS-ka VIP"</string>
+<string name="vip_members">"Contact-yada VIP"</string>
+<string name="vip_members_count">"Contact-yada VIP (<xliff:g example="2">%1$d</xliff:g>)"</string>
+<string name="vip_members_list_empty">"Majiro xubin VIP ah oo laheli karo"</string>
+<string name="vip_remove_title">"Kasaar liiska VIP ga"</string>
+<string name="vip_add">"Kudar VIP ga"</string>
+<string name="vip_add_from_contacts">"Kaga dar contact-yada"</string>
+<string name="vip_add_from_input">"Ciwaanka si caadi ah ugu dar"</string>
+<string name="vip_choose_contact">"Kudar VIP ga"</string>
+<string name="vip_remove_prompt">"<xliff:g example="2">%1$s</xliff:g> waa laga saaray xubinta VIP."</string>
+<string name="not_add_duplicate_vip">"Contact-ga labada xabo ah ayaa lagu darayaa liiska VIP da."</string>
+<string name="can_not_add_vip_over">"Laguma dari karo xubinta VIP ga <xliff:g id="count">%s</xliff:g>"</string>
+<string name="message_compose_error_invalid_email">"Ciwaanada emailka waa khalad"</string>
+<string name="duplicate_address_removed_msg">"Ciwaanada laba jibaaran laguma darin liiska ciwaanka"</string>
+<string name="gallery_not_found">"Gallery ga lama helin"</string>
+<string name="sound_recorder_not_found">"Cod duubaha lama helin"</string>
+<string name="attachment_documents_label">"Maaraynta Faylka"</string>
+<string name="create_image_file_failed">"Abuurista sawirka waa lagu fashilmay, fadlan hubi xaalada kaydiayah kahor intaadan isticmaalin kaamirada"</string>
+<string name="cancel_attachment">"Dami Soodajinta"</string>
+</resources>

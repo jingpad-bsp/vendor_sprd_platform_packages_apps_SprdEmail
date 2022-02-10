@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">" Fudhaatame <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">" Jibbaame <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">" Yeroo muraasaf: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">" Haqame: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">" Hareeffame: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">" Yoom: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">" Eesssaa: <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">" Yoom: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (tarreessuu) "</string>
+<string name="meeting_allday">" Yoom: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (guyyaa mara) "</string>
+<string name="meeting_allday_recurring">" Yoom: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (guyyaa mara tarreessuu) "</string>
+<string name="app_name">"Taajiiloota Jijjiiruu"</string>
+<string name="exception_cancel">" Ragaan kun kan haqamef: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="exception_updated">" Gadi fageenyaan ragaan kun kan jijjiirame: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="policy_dont_allow_storage_cards">"Kuusaa kaardiiwwaan hi\n eeyyaamu"</string>
+<string name="policy_dont_allow_unsigned_apps">"Appiliikeeshinii argamne hi\n eeyyaamuu"</string>
+<string name="policy_dont_allow_unsigned_installers">"Appiliikeeshiini dalagee argamne hi\n eeyyaamuu"</string>
+<string name="policy_dont_allow_wifi">"Hi\n eeyyaamu WiFi"</string>
+<string name="policy_dont_allow_text_messaging">"Hi\n eeyyaamuu barreeffama erguu"</string>
+<string name="policy_dont_allow_pop_imap">"Hi\n eeyyaamuherreegoota POP3 yookiin  IMAP"</string>
+<string name="policy_dont_allow_irda">"Hi\n eeyyaamuu dubbiiwwan maagineetii elektriikiii"</string>
+<string name="policy_dont_allow_html">"Hi\n eeyyaamuu imeelii HTML"</string>
+<string name="policy_dont_allow_browser">"Hi\n eeyyaamuu hidhaatoota"</string>
+<string name="policy_dont_allow_consumer_email">"Hi\n eeyyaamuu imeelii maamiilaa"</string>
+<string name="policy_dont_allow_internet_sharing">"Hi\n eeyyaamuu interneetii hiruu"</string>
+<string name="policy_require_smime">"Ergaawwaan SMIME barbaaduu"</string>
+<string name="policy_bluetooth_restricted">"Walqunnamsiistuu faayidaa daangeessuu"</string>
+<string name="policy_app_blacklist">"Hi\n eeyyaamuu appilkikeeshiinii adda hin baane"</string>
+<string name="policy_app_whitelist">"Eeyyaammi appilikeeshinii adda bahe qofaa"</string>
+<string name="policy_text_truncation">"Hamma barreeffama imeelii daangeessi"</string>
+<string name="policy_html_truncation">"Hamma HTML imeelii daangeessi"</string>
+<string name="policy_require_sd_encryption">"Barbaaduu barreeffama SD kaardii"</string>
+<string name="policy_dont_allow_attachments">"Hi\n eeyyaami maxxansawwaan"</string>
+<string name="policy_max_attachment_size">"Hama maxxaansaa daangeesi"</string>
+<string name="policy_require_manual_sync_roaming">"Eeyyaami qofaa waraqaa sync yeroo deemuu"</string>
+<string name="policy_require_encryption">"Meeshaa barreeffama barbaaduu"</string>
+<string name="account_setup_options_mail_window_auto">"Saffiisaa"</string>
+<string name="account_setup_options_mail_window_1day">"Guyyaa tokko"</string>
+<string name="account_setup_options_mail_window_3days">"Guyyota sadii"</string>
+<string name="account_setup_options_mail_window_1week">"Torbee took"</string>
+<string name="account_setup_options_mail_window_2weeks">"Torbeewwaaan lama"</string>
+<string name="account_setup_options_mail_window_1month">"Ji’a tokko"</string>
+<string name="account_setup_options_mail_window_all">"Hunda"</string>
+<string name="auth_error_notification_title">"Dhugoomsa dogoggooraa"</string>
+<string name="auth_error_notification_text">"Tuuqi gara gulaaluu yoomeessaawwan herregaaf <xliff:g id="account">%s</xliff:g>"</string>
+<string name="email_settings_not_available">"Deebiisi-jalqabsiisi appilikeeshiinii Imeelii gara yoomeesaawwaan ilaaluu."</string>
+</resources>

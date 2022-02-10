@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="drm_protected_file">"* DRM ঙাকথোকপা ফাইল *"</string>
+<string name="not_add_drm_file">"drm ফাইলশীং হাপচিনবা য়াদে."</string>
+<string name="not_support_open_drm">"ফাইল অদু হাংদোক্নবা সপোর্ট তৌদে, নহাক্না মদু হাংদোকপা য়াবা মফম অদুদা সেব তৌবিয়ু."</string>
+</resources>

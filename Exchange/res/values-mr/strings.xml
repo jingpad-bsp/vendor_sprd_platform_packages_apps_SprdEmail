@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"<xliff:g id="subject">%s</xliff:g> स्विकारले" </string>
+<string name="meeting_declined">"<xliff:g id="subject">%s</xliff:g> नकार दिला"</string>
+<string name="meeting_tentative">"<xliff:g id="subject">%s</xliff:g> निश्चित नाही"</string>
+<string name="meeting_canceled">"<xliff:g id="subject">%s</xliff:g> रद्द केले"</string>
+<string name="meeting_updated">"<xliff:g id="subject">%s</xliff:g> अपडेट केले"</string>
+<string name="meeting_when">"<xliff:g id="when">%s</xliff:g> केव्हाः "</string>
+<string name="meeting_where">"<xliff:g id="where">%s</xliff:g> कोठेः"</string>
+<string name="meeting_recurring">"केव्हाः<xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (पुन्हा पुन्हा होणारे)" </string>
+<string name="meeting_allday">"केव्हाः<xliff:g id="eventdate" example="Tue, Mar 10, 2010">%s</xliff:g> (दिवसभर)" </string>
+<string name="meeting_allday_recurring">"केव्हाः<xliff:g id="eventdate" example="Tue, Mar 10, 2010">%s</xliff:g> (दिवसभर, पुन्हा पुन्हा होणारे)"</string>
+<string name="app_name">"एक्सचेंज सेवा"</string>
+<string name="exception_cancel">"हा कार्यक्रम <xliff:g id="date">%s</xliff:g> साठी रद्द झाला आहे"</string>
+<string name="exception_updated">"या कार्यक्रमाचे डिटेल्स <xliff:g id="date">%s</xliff:g> साठी बदलले गेले आहेत" </string>
+<string name="policy_dont_allow_storage_cards">"स्टोअरेज कार्ड्सना अनुमति देऊ नका" </string>
+<string name="policy_dont_allow_unsigned_apps">"साइन न केलेल्या ऍप्सना अनुमति देऊ नका"</string>
+<string name="policy_dont_allow_unsigned_installers">"साइन न केलेल्या ऍपइन्सटॉलर्सना अनुमति देऊ नका"</string>
+<string name="policy_dont_allow_wifi">"WI-FIला अनुमति देऊ नका"</string>
+<string name="policy_dont_allow_text_messaging">"टेक्स्ट संदेशाला अनुमति देऊ नका"</string>
+<string name="policy_dont_allow_pop_imap">"POP3 किंवा IMAP अकाउंट्सना अनुमति देऊ नका" </string>
+<string name="policy_dont_allow_irda">"इन्फ्रारेड कम्युनिकेशन्सला अनुमति देऊ नका"</string>
+<string name="policy_dont_allow_html">"HTML इमेलला अनुमति देऊ नका "</string>
+<string name="policy_dont_allow_browser">"ब्राउझर्सना अनुमति देऊ नका"</string>
+<string name="policy_dont_allow_consumer_email">"ग्राहक इमेलला अनुमति देऊ नका"</string>
+<string name="policy_dont_allow_internet_sharing">"इंटरनेट शेअर करण्यास अनुमति देऊ नका"</string>
+<string name="policy_require_smime">"SMIME संदेश आवश्यक आहेत "</string>
+<string name="policy_bluetooth_restricted">"ब्ल्युटूथ वापर मर्यादित करा"</string>
+<string name="policy_app_blacklist">"निर्दिष्ट ऍप्सना अनुमति देऊ नका"</string>
+<string name="policy_app_whitelist">"फक्त निर्दिष्ट ऍप्सनाच अनुमति द्या"</string>
+<string name="policy_text_truncation">"टेक्स्ट इमेलचा आकार मर्यादित करा"</string>
+<string name="policy_html_truncation">"HTML इमेल आकार मर्यादित करा" </string>
+<string name="policy_require_sd_encryption">"SD कार्डचे एनक्रिप्शन आवश्यक आहे" </string>
+<string name="policy_dont_allow_attachments">"ऍटॅचमेन्टना अनुमति देऊ नका"</string>
+<string name="policy_max_attachment_size">"ऍटॅचमेन्ट आकार मर्यादित करा"</string>
+<string name="policy_require_manual_sync_roaming">"रोमिंग करताना फक्त मॅन्युअल सिंकला अनुमति द्या"</string>
+<string name="policy_require_encryption">"डिव्हाइस एनक्रिप्शन आवश्यक आहे"</string>
+<string name="account_setup_options_mail_window_auto">"आपोआप"</string>
+<string name="account_setup_options_mail_window_1day">"एक दिवस"</string>
+<string name="account_setup_options_mail_window_3days">"तीन दिवस"</string>
+<string name="account_setup_options_mail_window_1week">"एक आठवडा"</string>
+<string name="account_setup_options_mail_window_2weeks">"दोन आठवडे"</string>
+<string name="account_setup_options_mail_window_1month">"एक महिना"</string>
+<string name="account_setup_options_mail_window_all">"सर्व"</string>
+<string name="auth_error_notification_title">"प्रमाणीकरणात त्रुटी"</string>
+<string name="auth_error_notification_text">"<xliff:g id="account">%s</xliff:g> साठी अकाउंट एडिट करण्यास स्पर्श करा" </string>
+<string name="email_settings_not_available">"सेटिंग्ज पाहण्यासाठी ईमेल अॅप्लिकेशन पुन्हा कार्यान्वित करा."</string>
+</resources>

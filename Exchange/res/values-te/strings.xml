@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"అంగీకరించబడినది: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_declined">"తిరస్కరించబడినది: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_tentative">"తాత్కాలికముగా: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_canceled">"రద్దు: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_updated">"నవీకరించబడింది: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_when">"ఎప్పుడైతే: <xliff:g id="when">%s</xliff:g>"</string>
+<string name="meeting_where">"ఎక్కడైతే: <xliff:g id="where">%s</xliff:g>"    </string>
+<string name="meeting_recurring">"ఎప్పుడైతే: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (పునరావృతం)"   </string>
+<string name="meeting_allday">"ఎప్పుడైతే: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (రోజంతా)"</string>
+<string name="meeting_allday_recurring">"ఎప్పుడైతే: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>(రోజంతా, పునరావృతం)"</string>
+<string name="app_name">ఎక్స్చేంజ్ క్యాలెండర్ జోడించిన</string>
+<string name="exception_cancel">"దీని కోసం సంఘటన తిరస్కరించబడింది: <xliff:g id="date">%s</xliff:g>"</string>
+<string name="exception_updated">"దీని కోసం సంఘటన వివరాలు మార్చబడినవి: <xliff:g id="date">%s</xliff:g>"</string>
+<string name="policy_dont_allow_storage_cards">నిల్వ కార్డులు అనుమతించదు</string>
+<string name="policy_dont_allow_unsigned_apps">సైన్ చేయని అప్లికేషన్ అనుమతించదు</string>
+<string name="policy_dont_allow_unsigned_installers">"సైన్ చేయని అప్లికేషన్ ఇనస్టలర్స్ అనుమతించదు"</string>
+<string name="policy_dont_allow_wifi">WiFi అనుమతించదు</string>
+<string name="policy_dont_allow_text_messaging">టెక్స్ట్ సందేశాలు అనుమతించదు</string>
+<string name="policy_dont_allow_pop_imap">POP3 లేదా IMAP ఖాతాలను అనుమతించదు</string>
+<string name="policy_dont_allow_irda">పరారుణ సమాచార అనుమతించదు</string>
+<string name="policy_dont_allow_html">HTML ఇమెయిల్ అనుమతించదు</string>
+<string name="policy_dont_allow_browser">బ్రౌజర్లు అనుమతించవద్దు</string>
+<string name="policy_dont_allow_consumer_email">వినియోగదారుల ఇమెయిల్ అనుమతించవద్దు</string>
+<string name="policy_dont_allow_internet_sharing">ఇంటర్నెట్ భాగస్వామ్యం అనుమతిస్తుంది</string>
+<string name="policy_require_smime">SMIME సందేశాలను అవసరం</string>
+<string name="policy_bluetooth_restricted">bluetooth వినియోగాన్ని పరిమితం చేయి</string>
+<string name="policy_app_blacklist">పేర్కొన్న అప్లికేషన్లను అనుమతించవద్దు</string>
+<string name="policy_app_whitelist">పేర్కొన్న అప్లికేషన్లకు మాత్రమే అనుమతిస్తుంది</string>
+<string name="policy_text_truncation">టెక్స్ట్ ఇమెయిల్ పరిమాణం పరిమితం చేయి</string>
+<string name="policy_html_truncation">HTML ఇమెయిల్ పరిమాణం పరిమితం చేయి</string>
+<string name="policy_require_sd_encryption">SD కార్డ్  ఎన్క్రిప్షన్ అవసరం</string>
+<string name="policy_dont_allow_attachments">జోడింపులను అనుమతించవద్దు</string>
+<string name="policy_max_attachment_size">అటాచ్మెంట్ పరిమాణాన్ని పరిమితం చేయి</string>
+<string name="policy_require_manual_sync_roaming">తిరుగుతూ ఉన్నప్పుడు మాత్రమే మాన్యువల్ సమకాలీకరణ అనుమతించబడుతుంది.</string>
+<string name="policy_require_encryption">పరికరం ఎన్క్రిప్షన్ అవసరం</string>
+<string name="account_setup_options_mail_window_auto">"ఆటోమేటిక్"</string>
+<string name="account_setup_options_mail_window_1day">ఒక రోజు </string>
+<string name="account_setup_options_mail_window_3days">మూడు రోజులు</string>
+<string name="account_setup_options_mail_window_1week">ఒక వారం</string>
+<string name="account_setup_options_mail_window_2weeks">రెండు వారాల</string>
+<string name="account_setup_options_mail_window_1month">ఒక నెల </string>
+<string name="account_setup_options_mail_window_all">"అన్నీ"</string>
+<string name="auth_error_notification_title">ఆథేంటికేషన్ ఎర్రర్</string>
+<string name="auth_error_notification_text">" <xliff:g id="account">%s</xliff:g> కు ఎకౌంట్ సెట్టింగ్స్ ను ఎడిట్ చేసే ముందుగా టచ్ చేయండి"</string>
+<string name="email_settings_not_available">"సెట్టింగ్లను వీక్షించడానికి ఇమెయిల్ యాప్‌ని పునఃప్రారంభించండి."</string>
+</resources>

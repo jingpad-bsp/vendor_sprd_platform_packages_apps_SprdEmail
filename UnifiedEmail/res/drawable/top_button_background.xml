@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <solid android:color="@color/top_button_backgroud_color" />
+
+    <size
+        android:height="@dimen/compose_button_width"
+        android:width="@dimen/compose_button_width" />
+
+</shape>

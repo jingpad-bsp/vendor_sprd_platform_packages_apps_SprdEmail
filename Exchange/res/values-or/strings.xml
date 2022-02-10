@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"ଗୃହୀତ: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_declined">"ଗୃହୀତ ହୋଇନାହିଁ: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_tentative">"ଟେଣ୍ଟେଟିଭ୍: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_canceled">"ବାତିଲ୍ କରାଯାଇଛି: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_updated">"ଅପଡେଟ୍ କରାଯାଇଛି: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_when">"ଯେତେବେଳେ: <xliff:g id="when">%s</xliff:g>"</string>
+<string name="meeting_where">"ଯେଉଁଠାରେ: <xliff:g id="where">%s</xliff:g>"</string>
+<string name="meeting_recurring">"ଯେତେବେଳେ: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g>  (ଆବର୍ତ୍ତି)"</string>
+<string name="meeting_allday">"କେଉଁ ସମୟରେ: <xliff:g id="eventdate" example="Tue, Mar 10, 2010">%s</xliff:g> (ପୁରା ଦିନ)"</string>
+<string name="meeting_allday_recurring">"କେଉଁ ସମୟରେ: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (ପୁରା ଦିନ, ଆବର୍ତ୍ତି)"</string>
+<string name="app_name">"ଅଦଳବଦଳ ସେବା"</string>
+<string name="exception_cancel">"<xliff:g id="date">%s</xliff:g> ପାଇଁ ଏହି କାର୍ଯ୍ୟକ୍ରମ ବାତିଲ୍ କରାଯାଇଛି"</string>
+<string name="exception_updated">"<xliff:g id="date">%s</xliff:g> ପାଇଁ ଏହି କାର୍ଯ୍ୟକ୍ରମର ବିବରଣୀ ପରିବର୍ତ୍ତନ କରାଯାଇଛି"</string>
+<string name="policy_dont_allow_storage_cards">"ଷ୍ଟୋରେଜ୍ କାର୍ଡଗୁଡ଼ିକୁ ଅନୁମତି ଦିଅନ୍ତୁ ନାହିଁ"</string>
+<string name="policy_dont_allow_unsigned_apps">"ଅସ୍ୱାକ୍ଷରିତ ଆପ୍ ଗୁଡ଼ିକୁ ଅନୁମତି ଦିଅନ୍ତୁ ନାହିଁ"</string>
+<string name="policy_dont_allow_unsigned_installers">"ଅସ୍ୱାକ୍ଷରିତ ଆପ୍ ଇନଷ୍ଟଲର୍ ଗୁଡ଼ିକୁ ଅନୁମତି ଦିଅନ୍ତୁ ନାହିଁ"</string>
+<string name="policy_dont_allow_wifi">"Wi-Fiକୁ ଅନୁମତି ଦିଅନ୍ତୁ ନାହିଁ"</string>
+<string name="policy_dont_allow_text_messaging">"ଟେକ୍ସଟ ମେସେଜିଂକୁ ଅନୁମତି ଦିଅନ୍ତୁ ନାହିଁ"</string>
+<string name="policy_dont_allow_pop_imap">"POP3 କିମ୍ବା IMAP ଆକାଉଣ୍ଟଗୁଡ଼ିକୁ ଅନୁମତି ଦିଅନ୍ତୁ ନାହିଁ"</string>
+<string name="policy_dont_allow_irda">"ଇନଫ୍ରାରେଡ୍ ଯୋଗାଯୋଗଗୁଡ଼ିକୁ ଅନୁମତି ଦିଅନ୍ତୁ ନାହିଁ"</string>
+<string name="policy_dont_allow_html">"HTML ଇମେଲ୍ କୁ ଅନୁମତି ଦିଅନ୍ତୁ ନାହିଁ"</string>
+<string name="policy_dont_allow_browser">"ବ୍ରାଉଜରଗୁଡ଼ିକୁ ଅନୁମତି ଦିଅନ୍ତୁ ନାହିଁ"</string>
+<string name="policy_dont_allow_consumer_email">"କଂଜ୍ୟୁମର୍ ଇମେଲ୍ ଗୁଡ଼ିକୁ ଅନୁମତି ଦିଅନ୍ତୁ ନାହିଁ"</string>
+<string name="policy_dont_allow_internet_sharing">"ଇଣ୍ଟରନେଟ୍ ସେୟାରିଂକୁ ଅନୁମତି ଦିଅନ୍ତୁ ନାହିଁ"</string>
+<string name="policy_require_smime">"SMIME ବାର୍ତ୍ତାଗୁଡ଼ିକ ଆବଶ୍ୟକ"</string>
+<string name="policy_bluetooth_restricted">"ବ୍ଲୁଟୁଥ୍ ବ୍ୟବହାର ଉପରେ କଟକଣା ଜାରି କରନ୍ତୁ"</string>
+<string name="policy_app_blacklist">"ଉଲ୍ଲେଖ କରାଯାଇଥିବା ଆପ୍ ଗୁଡ଼ିକୁ ଅନୁମତି ଦିଅନ୍ତୁ ନାହିଁ"</string>
+<string name="policy_app_whitelist">"କେବଳ ଉଲ୍ଲେଖ କରାଯାଇଥିବା ଆପ୍ ଗୁଡ଼ିକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
+<string name="policy_text_truncation">"ଟେକ୍ସଟ ଇମେଲ୍ ସାଇଜ୍ ଉପରେ କଟକଣା ଜାରି କରନ୍ତୁ"</string>
+<string name="policy_html_truncation">"HTML ଇମେଲ୍ ସାଇଜ୍ ଉପରେ କଟକଣା ଜାରି କରନ୍ତୁ"</string>
+<string name="policy_require_sd_encryption">"SD କାର୍ଡ ଏନକ୍ରିପସନ୍ ଆବଶ୍ୟକ"</string>
+<string name="policy_dont_allow_attachments">"ଆଟାଚମେଣ୍ଟଗୁଡ଼ିକୁ ଅନୁମତି ଦିଅନ୍ତୁ ନାହିଁ"</string>
+<string name="policy_max_attachment_size">"ଆଟାଚମେଣ୍ଟ ଆକାର ଉପରେ କଟକଣା ଜାରି କରନ୍ତୁ"</string>
+<string name="policy_require_manual_sync_roaming">"ରୋମିଂ ସମୟରେ କେବଳ ମ୍ୟାନ୍ୟୁଆଲ୍ ସିଙ୍କ୍ କୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
+<string name="policy_require_encryption">"ଡିଭାଇସ୍ ଏନକ୍ରିପସନ୍ ଆବଶ୍ୟକ"</string>
+<string name="account_setup_options_mail_window_auto">"ଅଟୋମେଟିକ୍‌"</string>
+<string name="account_setup_options_mail_window_1day">"ଗୋଟିଏ ଦିନ"</string>
+<string name="account_setup_options_mail_window_3days">"ତିନି ଦିନ"</string>
+<string name="account_setup_options_mail_window_1week">"ଗୋଟିଏ ସପ୍ତାହ"</string>
+<string name="account_setup_options_mail_window_2weeks">"ଦୁଇ ସପ୍ତାହ"</string>
+<string name="account_setup_options_mail_window_1month">"ଗୋଟିଏ ମାସ"</string>
+<string name="account_setup_options_mail_window_all">"ସମସ୍ତ"</string>
+<string name="auth_error_notification_title">"ପ୍ରମାଣିକରଣ ତ୍ରୁଟି"</string>
+<string name="auth_error_notification_text">"<xliff:g id="account">%s</xliff:g> ପାଇଁ ଆକାଉଣ୍ଟ ସେଟିଂସ୍ ସମ୍ପାଦନା କରିବା ପାଇଁ ଟଚ୍ କରନ୍ତୁ"</string>
+<string name="email_settings_not_available">"ସେଟିଂସ୍ ଭିଉ କରିବା ପାଇଁ ଇମେଲ୍-ଆପ୍ଲିକେସନ୍ ପୁଣିଥରେ ଏନାବଲ୍ କରନ୍ତୁ"</string>
+</resources>

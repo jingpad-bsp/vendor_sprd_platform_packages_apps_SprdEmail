@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="from">پیٹھ</string>
+<string name="to">كمس</string>
+<string name="cc">سی سی</string>
+<string name="bcc">بی سی سی</string>
+<string name="subject_hint">موذوه</string>
+<string name="body_hint">لیکھیو ای میل</string>
+<string name="add_file_attachment">منسلک فائل</string>
+<string name="add_photo_attachment">منسلک شکل</string>
+<string name="save_draft">محفوظ ڈرافٹ</string>
+<string name="discard">واپس كر</string>
+<string name="compose">لیکھیو</string>
+<string name="compose_title">لیکھیو</string>
+<string-array name="compose_modes">
+<item>جواب</item>
+<item>رپلائی تمام</item>
+<item>برونٹھ</item>
+</string-array>
+<string name="reply_attribution">ییل <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> لکھا:"</string>
+<string name="forward_attribution_no_headers">------------- برونٹھکرمژ میسیج ------------</string>
+<string name="select_attachment_type">چنو مسلكك كسم</string>
+<string name="too_large_to_attach_single">ہیکءنه فائل منسلک كریتھ <xliff:g id="maxSize">%1$s</xliff:g>." </string>
+<string name="too_large_to_attach_multiple">اكھ اس وارياه فائلیں چھنءه منسلک. حد <xliff:g id="maxSize">%1$s</xliff:g>." </string>
+<string name="too_large_to_attach_additional">فائل چھنءه منسلک. <xliff:g id="maxSize">%1$s</xliff:g> حد ووت."</string>
+<string name="generic_attachment_problem">ہکنءه منسلک فائل كریتھ.</string>
+<string name="attachment_permission_denied">اجازت مسوك منسلک کھتر.</string>
+<string name="recipient_needed">جوڈو کم از کم اكھ رٹنوول.</string>
+<string name="confirm_send_message_with_no_subject">انتہائی چھنءه ٹیکسٹ میسیج موذوه منز.</string>
+<string name="confirm_send_message_with_no_body">انتہائی چھنءه ٹیکسٹ میسیج باڈی منز.</string>
+<string name="confirm_send_message">سوزیو یء میسسگ؟</string>
+<string name="message_discarded">میسیج کاءم مسوك كرنه.</string>
+<string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+<string name="custom_from_account_label">سوزیو میل یتھ:</string>
+<string name="send">"سوذو"</string>
+<string name="mark_read">مارک پرمت</string>
+<string name="mark_unread">مارک پرمت بغیر</string>
+<string name="toggle_read_unread">ٹوگل پرمت پرمت بغیر</string>
+<string name="mute">"ژوپ"</string>
+<string name="add_star">جوڈو سٹار</string>
+<string name="remove_star">موكلايو سٹار</string>
+<string name="remove_folder">كڈو نیبر یمءپیٹھ <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="archive">مهاپھذ</string>
+<string name="report_spam">سپام درج کریو</string>
+<string name="mark_not_spam">سپام چھونه درج کریو</string>
+<string name="report_phishing">فشنگ درج کریو</string>
+<string name="delete">"رد"</string>
+<string name="discard_drafts">واپس کرییو ڈراپھٹس</string>
+<string name="discard_failed">ناکاءم گو ڈراپھٹس</string>
+<string name="refresh">دبار تاذه ...</string>
+<string name="reply">جواب</string>
+<string name="reply_all">رپلائی تمام</string>
+<string name="resume_draft">درستت كرن</string>
+<string name="forward">برونٹھ</string>
+<string name="menu_compose">لیکھیو</string>
+<string name="menu_change_folders">بدلايو فولڈر</string>
+<string name="menu_move_to">پكنايو یتھ</string>
+<string name="menu_move_to_inbox">پكنايو ان باکس منز</string>
+<string name="menu_manage_folders">فولڈر کی ترتیبات</string>
+<string name="menu_show_original">رورٹ آٹو-سذگ</string>
+<string name="menu_settings">"ترتیبات"</string>
+<string name="menu_search">"ژانڈن"</string>
+<string name="menu_toggle_drawer">ٹوگل ڈرآو‌ر</string>
+<string name="drawer_title">نیویگیشن</string>
+<string name="mark_important">مارک خاص</string>
+<string name="mark_not_important">مارک چھنه خاص</string>
+<string name="add_cc_label">جوڈو سی سی / بی سی سی</string>
+<string name="add_bcc_label">جوڈو بی سی سی</string>
+<string name="quoted_text">نشاندار ٹیکسٹ هیتھ</string>
+<string name="quoted_text_label">نشان تھاوتھ ٹیکسٹ</string>
+<string name="respond_inline">ریسپوڈ ان لائن</string>
+<string name="attachment_image">شکل</string>
+<string name="attachment_video">ویڈیو</string>
+<string name="attachment_audio">آواز</string>
+<string name="attachment_text">ٹیکسٹ</string>
+<string name="attachment_application_msword">کاغذات</string>
+<string name="attachment_application_vnd_ms_powerpoint">پیشكس</string>
+<string name="attachment_application_vnd_ms_excel">سپریڈ شیٹ</string>
+<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> فائل"</string>
+<string name="preview_attachment">ہاییو</string>
+<string name="save_attachment">"محفوظ تھايو"</string>
+<string name="download_again">ڈاؤن لوڈ بیی</string>
+<string name="remove_attachment_desc">نیبر كڈومسلك <xliff:g id="attachmentName">%s</xliff:g>" </string>
+<string name="more_info_attachment">انفارمیشن</string>
+<string name="no_application_found">كاه ایپس ہیکءنه ییل كریتھ یتھ منسلک وچچھنه کھتر.</string>
+<string name="fetching_attachment">باذياپھت منسلک</string>
+<string name="please_wait">مہربانی كریتھ پریرو ...</string>
+<string name="download_failed">ہیکءنه ڈاؤن لوڈ كریتھ. زیر کری بیی کوشش کریو.</string>
+<string name="menu_photo_save_all">تمام محفوظ</string>
+<string name="menu_photo_share">"پھلاییو"</string>
+<string name="menu_photo_share_all">تمام باٹو</string>
+<string name="menu_photo_print">"پرنٹ"</string>
+<string name="choosertitle_sharevia">"پھلاییو ذري"</string>
+<string name="contextmenu_openlink">براوزرس منز کرییو ییل</string>
+<string name="contextmenu_copy">"نقل"</string>
+<string name="contextmenu_copylink">نقل کرییو یو آر ایل</string>
+<string name="contextmenu_view_image">وچھو شكل</string>
+<string name="contextmenu_dial_dot">رالايو ...</string>
+<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+<string name="contextmenu_add_contact">هرريو رابتء</string>
+<string name="contextmenu_send_mail">سوزیو ای میل</string>
+<string name="contextmenu_map">نقشء</string>
+<string name="contextmenu_sharelink">پھلاییو لنک</string>
+<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> یمک <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> یتھ پیٹھ <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> یمک <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> یتء پیٹھ <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> یمک <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> یتھ پیٹھ <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>، لیبلز <xliff:g id="folders">%7$s</xliff:g> "</string>
+<string name="content_description_today_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> یمک <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> یتء پیٹھ <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>، لیبلز <xliff:g id="folders">%7$s</xliff:g> "</string>
+<string name="read_string">كٹھباتھ کاءم پرنه</string>
+<string name="unread_string">كٹھباتھ اينه پرنه</string>
+<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="badge_and_subject">"<xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g>"</string>
+<plurals name="draft">
+<item quantity="one">ڈرافٹ</item>
+<item quantity="other">ڈراپھٹس</item>
+</plurals>
+<string name="sending">"سوذان ۔۔۔"</string>
+<string name="message_retrying">بییكوشش کران تھی ...</string>
+<string name="message_failed">ناکاءم گمت</string>
+<string name="send_failed">میسیج اينه سوذنه.</string>
+<string name="me_object_pronoun">"بہ"</string>
+<string name="me_subject_pronoun">"بہ"</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">هٹايو ي خطاب</item>
+<item quantity="other">خائریج يم "<xliff:g id="count">%1$d</xliff:g> خطاب؟"</item>
+</plurals>
+<plurals name="confirm_archive_conversation">
+<item quantity="one">ارچو یء خطاب؟</item>
+<item quantity="other">ارچو يم "<xliff:g id="count">%1$d</xliff:g> خطاب؟"</item>
+</plurals>
+<plurals name="confirm_discard_drafts_conversation">
+<item quantity="one">واپس کرییو یء میسیج؟</item>
+<item quantity="other">واپس کرییو يم "<xliff:g id="count">%1$d</xliff:g> مسیجس؟"</item>
+</plurals>
+<string name="confirm_discard_text">واپس کرییو یء میسیج؟</string>
+<string name="loading_conversations">"لوڈ گسان"</string>
+<string name="empty_inbox">توہی كوروه تمام مكمل! مهرباني كریتھ تلیو دوهس لتف.</string>
+<string name="empty_search">افوہ! اس لوب نه کہانء یتھکھتر \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+<string name="empty_spam_folder">ہری، يیتن چھنءه كاه سپام!</string>
+<string name="empty_trash_folder">کنتءریش چھنءه يیتن. شکریہ ری سائیکلنگ!</string>
+<string name="empty_folder">يیتي چھونه كاه میل.</string>
+<string name="getting_messages">پنن مسیجس رٹان</string>
+<string name="undo">واپس كرن</string>
+<plurals name="conversation_unstarred">
+<item quantity="one">چھونه شروگسان "<xliff:g id="count">%1$d</xliff:g> خطاب"</item>
+<item quantity="other">چھونه شروگسان "<xliff:g id="count">%1$d</xliff:g> خطاب"</item>
+</plurals>
+<string name="deleted">هٹاون امت</string>
+<string name="archived">مهاپھذ گمت</string>
+<string name="folder_removed">نیبر آو كڑنه یمءپیٹھ <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<plurals name="conversation_folder_changed">
+<item quantity="one">فولڈر آو بدلاونه</item>
+<item quantity="other">فولڈرس کاءم بدلاونه</item>
+</plurals>
+<string name="conversation_folder_moved">پاكناونه آو یتھ <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="search_results_header">نتيج</string>
+<string name="search_unsupported">ژانڈن چھونه مددگار سپدان یتھ اکاونٹس پیٹھ.</string>
+<string name="search_suggestion_desc">مشورہ: <xliff:g id="suggestion">%s</xliff:g>"</string>
+<string name="add_label">هرريو فولڈر</string>
+<plurals name="new_incoming_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> نو میسیج"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> نو مسیجس"</item>
+</plurals>
+<string name="hide_details">چھپايو تفصیل</string>
+<string name="to_message_header">از <xliff:g id="recipients">%1$s</xliff:g>" </string>
+<string name="bcc_header_for_recipient_summary">بی بی: \u0020</string>
+<string name="contact_info_string">هايو رابتء ذانكاري یتھکھتر <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="contact_info_string_default">هايو ربت ذانكاري</string>
+<plurals name="show_messages_read">
+<item quantity="other">بڈايو <xliff:g id="count" example="4">%1$d</xliff:g> پرياني مسیجس"</item>
+</plurals>
+<plurals name="super_collapsed_block_accessibility_announcement">
+<item quantity="other">بڈاوتھ <xliff:g id="count" example="4">%1$d</xliff:g> پرياني مسیجس"</item>
+</plurals>
+<string name="from_heading">"پیٹھ:"</string>
+<string name="replyto_heading">رپلائی -یتھ:</string>
+<string name="to_heading">كمس: \u0020</string>
+<string name="to_heading_no_space">"كوت:"</string>
+<string name="cc_heading">سی سی:</string>
+<string name="bcc_heading">بی سی سی:</string>
+<string name="date_heading">تاریخ</string>
+<string name="show_images">هايو تصويره</string>
+<string name="always_show_images">ہمیش هايو شكله یمء سینڈر پیٹھ</string>
+<string name="always_show_images_toast">شكله یمء سینڈر پیٹھ يين پانپانی ہاونءه.</string>
+<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g><xliff:g id="email">%2$s</xliff:g> یمء سیتھ <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+<string name="message_saved">میسیج اي بطورء ڈرافٹ محفوظ كرن</string>
+<string name="sending_message">هاوان میسیج ...</string>
+<string name="invalid_recipient">یء پتہ <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> چھونه درستت."</string>
+<string name="show_elided">هايو نشاندار ٹیکسٹ</string>
+<string name="hide_elided">\u25BC چھپايو نشاندار ٹیکسٹ</string>
+<string name="message_invite_title">قلندر دعوت</string>
+<string name="message_invite_calendar_view">وچھیو كلدرست منز</string>
+<string name="message_invite_label_attending">گسان؟</string>
+<string name="message_invite_accept">"اوا"</string>
+<string name="message_invite_tentative">شاید</string>
+<string name="message_invite_decline">"نہ"</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="send_anyway">سوزیو كنتء پٹھ</string>
+<string name="ok">"ٹھیک"</string>
+<string name="done">"پوره"</string>
+<string name="cancel">"خائریج"</string>
+<string name="clear">"صاف"</string>
+<string name="next">"بياكھ"</string>
+<string name="previous">"پاءتم"</string>
+<string-array name="sync_status">
+<item>کاءمیاب</item>
+<item>كه کنکشن نہ</item>
+<item>ہیکنء كریتھ سائن ان</item>
+<item>سکیورٹی نكس</item>
+<item>ہکنءه سنک</item>
+<item>اندرم نكس</item>
+<item>سرور نكس</item>
+</string-array>
+<string name="tap_to_configure">"دباییو سٹ آپ کرنء کھتر"</string>
+<string name="non_synced_folder_description">وچھیو خطاب، سنک یء فولڈر.</string>
+<string name="tap_to_configure_folder_sync">سنک فولڈر</string>
+<string name="large_unseen_count">"<xliff:g id="count" example="99">%d</xliff:g>+ نوو"</string>
+<string name="unseen_count">"<xliff:g id="count" example="4">%d</xliff:g> نوو"</string>
+<plurals name="actionbar_unread_messages">
+<item quantity="other">"<xliff:g id="count" example="4">%d</xliff:g></item>
+</plurals>
+<string name="view_more_conversations">وچھیو واريه خطاب</string>
+<string name="loading_conversation">"لوڈ گسان"</string>
+<string name="activity_mailbox_selection">چنو اکاؤنٹ</string>
+<string name="activity_folder_selection">چنو فولڈر</string>
+<string name="folder_shortcut_widget_label">ای میل فولڈر</string>
+<string name="change_folders_selection_dialog_title">بدلايو فولڈر</string>
+<string name="move_to_selection_dialog_title">پكنايو یتھ</string>
+<string name="search_hint">"ژانڈن"</string>
+<string name="voice_search_not_supported">آواز ژانڈن چھنءه مددگار یتھ الس پیٹھ.</string>
+<string name="search_back_desc">بند کرییو ژانڈن</string>
+<string name="search_voice_desc">شروع کرییو آواز لبن</string>
+<string name="search_clear_desc">بند کرییو ژانڈن ٹیکسٹ</string>
+<string name="network_error">كه کنکشن نہ</string>
+<string name="retry">"دبارء کرییو کوشش"</string>
+<string name="load_more">لوڈ وارياه</string>
+<string name="shortcut_name_title">ناو فولڈر شورٹكٹ</string>
+<string name="wait_for_sync_title">انتظار سنک کھتر</string>
+<string name="not_synced_title">اکاؤنٹ چھونه سكڈ</string>
+<string name="wait_for_manual_sync_body">یء اکاؤنٹ چھونه سیٹ كریتھ پانپانی سنک كرنه کھتر. \nزیر <b> سنک ونكین </b> سنک میل اكلاٹي كرنه کھتر، یا <b> بدلايو سنک ترتیبات </b> یء اکاؤنٹ سیٹ كرنه کھتر تاکہ سنک کری پانپانی.</string>
+<string name="manual_sync">سنک ونكین</string>
+<string name="change_sync_settings">بدلايو سنک ترتیبات</string>
+<string name="photo_load_failed">ہکنء تصویر کھلیتھ</string>
+<string name="cant_move_or_change_labels">ہیکءنه پكناوتھ تكياذ پسند منز چھ مكھتجاۓ اکاؤنٹس.</string>
+<string name="multiple_new_message_notification_item">"<b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="ignore_spam_warning">نظر انداز، یتھ میسیج پیٹھ چھو میه بروس "</string>
+<string name="via_domain">یمءسيت <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+<string name="signin">سائن ان</string>
+<string name="info">انفارمیشن</string>
+<string name="report">"شکایت"</string>
+<string name="show">هايو</string>
+<string name="sync_error">ہیکءنه كریتھ ڈوب.</string>
+<string name="sync_error_message">تهندس الس چھنءه واريه اسٹوریج کشادگی سنک کھتر.</string>
+<string name="storage">"اسٹوریج"</string>
+<string name="senders_split_token">",\u00A0"</string>
+<string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+<string name="all_folders_heading">تمام فولڈر</string>
+<string name="recent_folders_heading">تاج فولڈر</string>
+<string name="message_details_title">میسیج تفصیل</string>
+<string name="preference_advance_to_title">آٹو-ایڈوانس</string>
+<string-array name="prefEntries_autoAdvance">
+<item>نيي</item>
+<item>"پريون"</item>
+<item>خطاب فہرست</item>
+</string-array>
+<string-array name="prefSummaries_autoAdvance">
+<item>هايو نيي خطاب تہندي مسترد كرنه پت</item>
+<item>هايو پرياني خطاب تہندي مسترد كرنه پت</item>
+<item>هايو خطاب فہرست تہندي مسترد كرنه پت</item>
+</string-array>
+<string name="prefDialogTitle_autoAdvance">گوڈی یتھ</string>
+<string name="clear_display_images_whitelist_title">صاف کرییو شكله رضامندی</string>
+<string name="clear_display_images_whitelist_dialog_title">صاف کرییو شكله رضامندی؟</string>
+<string name="clear_display_images_whitelist_dialog_message">بند کرییو هاوین ان لائن تصویر سوزنواليو پیٹھ يس پتملٹي اجازت وس.</string>
+<string name="sender_whitelist_cleared">شكله يیننه ہاونءه پانپانی.</string>
+<string name="preferences_signature_title">دستخط</string>
+<string name="preferences_signature_dialog_title">دستخط</string>
+<string name="preferences_signature_summary_not_set">چھن سیٹ</string>
+<string name="notification_action_reply">جواب</string>
+<string name="notification_action_reply_all">رپلائی تمام</string>
+<string name="notification_action_archive">مهاپھذ</string>
+<string name="notification_action_remove_label">لیبل ڈویژن"</string>
+<string name="notification_action_delete">"رد"</string>
+<string name="notification_action_undo_archive">مهاپھذ گمت</string>
+<string name="notification_action_undo_remove_label">لیبل کاءم كڑنه</string>
+<string name="notification_action_undo_delete">هٹاون امت</string>
+<string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+<plurals name="new_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> نو میسیج"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> نو مسیجس"</item>
+</plurals>
+<string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="silent_ringtone">خاموش</string>
+<string name="preference_removal_action_title">ڈیفالٹ عمل</string>
+<string-array name="prefEntries_removal_action">
+<item>مهاپھذ</item>
+<item>"رد"</item>
+</string-array>
+<string-array name="prefSummaries_removal_action_summary">
+<item>مهاپھذ</item>
+<item>"رد"</item>
+</string-array>
+<string name="prefDialogTitle_removal_action">ڈیفالٹ عمل</string>
+<string name="preferences_default_reply_all_title">رپلائی تمام</string>
+<string name="preferences_default_reply_all_summary_impl">استعمال کرییو ڈیفالٹ میسیج جوابن کھتر</string>
+<string name="preference_swipe_title">سوائپ امل</string>
+<string name="preference_swipe_description">كاٹھباتھ فہرستس منز</string>
+<string name="preference_sender_image_title">سینڈر تصویر</string>
+<string name="preference_sender_image_description">هايو ناوبدله كاٹھباتھ فہرستس منز</string>
+<string name="empty_trash">خالی تراش</string>
+<string name="empty_spam">خالی سپام</string>
+<string name="empty_trash_dialog_title">خالی تراش؟</string>
+<string name="empty_spam_dialog_title">خالی سپام؟</string>
+<plurals name="empty_folder_dialog_message">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> میسیج گسنء  مكلپتھ خائریج."</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> میسیج گسنء  مكلپتھ خائریج."</item>
+</plurals>
+<string name="drawer_open">ییل تروو نیوی گیشن ڈرآو‌ر</string>
+<string name="drawer_close">بند کرییو نیوی گیشن ڈرآو‌ر</string>
+<string name="conversation_photo_welcome_text">زیر اكھ سینڈر تصویر سوه خطاب چننه کھتر.</string>
+<string name="folder_icon_desc">فولڈر آئکن</string>
+<string name="add_account">"هرريو اکاؤنٹ"</string>
+<string name="dismiss_tip_hover_text">ڈسمس ٹپ</string>
+<string name="auto_sync_off">آٹو سنک چھو بند. زیر ییل كرنه کھتر.</string>
+<string name="unsent_messages_in_outbox">" <xliff:g id="number">%1$s</xliff:g> ينسیٹ منز <xliff:g id="outbox">%2$s</xliff:g>"</string>
+<string name="turn_auto_sync_on_dialog_title">"آٹو سنک ترايو ییل؟"</string>
+<string name="turn_auto_sync_on_dialog_body">"تبدیلی يم توہی کروہ تمام ایپس تھا اکاونٹس سن، جی میل نه خالی، يي سينکرییوناذ ویب درمیان، تہ تہند باقی ال، تہ تہند <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+<string name="phone">"فون"</string>
+<string name="tablet">"ٹیبلیٹ"</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">"ترايو ییل"</string>
+<string name="show_n_more_folders">هايو " <xliff:g id="number">%1$s</xliff:g> فولڈر"</string>
+<string name="hide_folders">"چھپيو فولڈر"</string>
+<string name="print">"پرنٹ"</string>
+<string name="print_all">"تمام پرنٹ"</string>
+<plurals name="num_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> میسیج"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> مسیجس"</item>
+</plurals>
+<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> یتھ <xliff:g id="time">%2$s</xliff:g>"</string>
+<string name="draft_to_heading">"ڈرافٹ از:"</string>
+<string name="draft_heading">ڈرافٹ</string>
+<string name="quoted_text_hidden_print">"واذي كرنه اممت ٹیکسٹ چھو چھپايتھ"</string>
+<plurals name="num_attachments">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> منسلک"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> مسلكه"</item>
+</plurals>
+<string name="no_subject">(كه موذو چھنء)</string>
+<string name="vacation_responder">"خالی سوزیو ميانین ربتن"</string>
+<string name="preferences_vacation_responder_title">"خالی سوزیو ميانین ربتن"</string>
+<string name="vacation_responder_body_hint_text">میسیج</string>
+<string name="send_to_contacts_text">"سوذیو صرف میانن کنٹکٹن منز"</string>
+<string name="send_to_domain_text">سوزیو خالی یتھ <xliff:g id="domain">%1$s</xliff:g>" </string>
+<string name="pick_start_date_title">"واكیشن جوابوول:"</string>
+<string name="pick_end_date_title">"شروگو"</string>
+<string name="date_not_set">چھن سیٹ</string>
+<string name="set_end_date_dialog_title">"ختم (متبدل)"</string>
+<string name="custom_date">"ریواج"</string>
+<string name="date_none">"کہانء"</string>
+<string name="discard_changes">"ختم تاركھ (متبدل)"</string>
+<string name="vacation_responder_changes_saved">"واپس تبدیلی؟"</string>
+<string name="vacation_responder_changes_discarded">"واكیشن جوابوول بادلاو کاءم واپس كرنه"</string>
+<string name="vacation_responder_off">"بند"</string>
+<string name="vacation_responder_on">"كتھ، كوتپیٹھ <xliff:g id="date">%1$s</xliff:g>"</string>
+<string name="vacation_responder_on_with_end_date">"كتھ، كوتپیٹھ <xliff:g id="start-date">%1$s</xliff:g> یتھ <xliff:g id="end-date">%2$s</xliff:g>"</string>
+<string name="vacation_responder_empty_subject_and_body_warning">"جوڈو اكھ موذوه یا میسیج"</string>
+<string name="view_entire_message">"وچھیو سارئی میسیج"</string>
+<string name="eml_loader_error_toast">"ہکنءه ییل تراوتھ یء فائل"</string>
+<string name="help_and_info">مدد</string>
+<string name="feedback">سوزیو جواب</string>
+<string name="version">"<xliff:g id="app_name" example="Email">%1$s</xliff:g> ورجن <xliff:g id="version" example="2.2.1">%2$s</xliff:g>"</string>
+<string name="print_dialog">"پرنٹ …"</string>
+<string name="copyright_information">"حقوق نقل و معلومات"</string>
+<string name="privacy_policy">"نجی پالیسی"</string>
+<string name="open_source_licenses">یلء ذريه لاسن</string>
+<string name="reply_choice_yes">"اوا"</string>
+<string name="reply_choice_no">"نہ"</string>
+<string name="reply_choice_ok">"ٹھیک"</string>
+<string name="reply_choice_hehe">هیهی</string>
+<string name="reply_choice_thanks">شکریہ</string>
+<string name="reply_choice_i_agree">ب چھس متاپھك</string>
+<string name="reply_choice_nice">اصل</string>
+<string name="reply_on_my_way">مياني وت منز</string>
+<string name="reply_choice_later">"ٹھیک ہی، میه ديو واپس يناه"</string>
+<string name="preference_header_action_confirmations">"عمل وجاہت"</string>
+<string name="preference_confirm_before_delete_title">"واذي کرییو خائریج كرنه برونٹھ"</string>
+<string name="preference_confirm_before_archive_title">"واذي کرییو ارچوگ كرنه برونٹھ"</string>
+<string name="preference_confirm_before_send_title">"واذي کرییو سوذنه برونٹھ"</string>
+<string name="preferences_conversation_mode_title">"آٹو فٹ میسیج"</string>
+<string name="preferences_conversation_mode_summary">"لوكٹ کرییو میسیج سكرينس پیٹھ ین کھتر"</string>
+<string name="preferences_disable_snap_headers_title">"میسیج عملء"</string>
+<string-array name="prefSummaries_snapHeader">
+<item>خالی هيو میسیج عمل سكرينس پیٹھكین "</item>
+<item>"خالی هيو میسیج عمل سكرينس پیٹھكین یمءسات پورٹریٹ اس پرناونه يوان"</item>
+<item>"مہ هايو میسیج عمل میسیج ہیڈر نیبر"</item>
+</string-array>
+<string-array name="prefEntries_snapHeader">
+<item>"ہمیش هویو"</item>
+<item>"خالی هاوو پورٹریٹ منز"</item>
+<item>"مہ هاوو"</item>
+</string-array>
+<string name="clear_history_title">ژانڈن هسٹري مٹايو</string>
+<string name="search_history_cleared">ژانڈن ہسٹری گي صاف.</string>
+<string name="clear_history_dialog_title">"صاف کرییو ژانڈن ہسٹری"</string>
+<string name="clear_history_dialog_message">"تمام ژانڈن یس توہی پتملٹي کروہ کاءم نیبر كڑنه."</string>
+<string name="manage_accounts_menu_item">"مینج اکاؤنٹس"</string>
+<string name="general_preferences_title">عام ترتیبات</string>
+<string name="activity_preferences">"ترتیبات"</string>
+<string name="overflow_description">"واريه متبادل"</string>
+<string name="security_hold_required_text">"سکیورٹی کوئی بھی اپ چھ ضرورت یتھ کھتر <xliff:g id="email_address">%1$s</xliff:g>"</string>
+<string name="update_security_text">"اپ ڈیٹ ونكین"</string>
+<string name="forms_are_disabled">"فارم چھنءاكار جيمیلس منز "</string>
+<string name="add_contacts_too_much">"ذیادء كھوت ذیادء رٹنوال چھ 50."</string>
+<string name="account_delete_dlg_title">هٹايو اکاؤنٹ</string>
+<string name="account_delete_waiting">"نیبر كڈان، مهرباني كریتھ کرییو انتظار ..."</string>
+<string name="filter_all">تمام "</string>
+<string name="filter_receiver">روسیور</string>
+<string name="filter_sender">"سینڈر"</string>
+<string name="filter_subject">موذوه</string>
+<string name="filter_content">کنٹینٹ</string>
+<string name="search_on_server">"ژانڈن ییل سرور"</string>
+<string name="download_confirm_msg">"نیٹ ورک چھو نه ڈبليولین، تہ منسلک چھ بڈ، مهرباني كریتھ کرییو واذياه ذ جاری ٹھاوه كنه ن"</string>
+<string name="download_deny_malware">"میلویئر ہیکء اسيتھ. ہیکءنه ڈاؤن لوڈ كریتھ."</string>
+<string name="download_deny_wifionly">"خالی گاس ڈاؤن لوڈ ڈبليولین دوران."</string>
+<string name="download_deny_nointent">"كاه اپلیکیشن ہیکءنه كھلاوتھ. ہیکءنه ڈاؤن لوڈ كریتھ."</string>
+<string name="download_deny_nosideload">"بیكوشش نامولوم اگر ایپس انسٹال كرنك اجازت پت."</string>
+<string name="download_deny_apkinstall">"كاه apk انسٹال كرنس منز ناکاءم."</string>
+<string name="download_deny_policy">"اکاؤنٹ پالیسی چھ ذ گاس ناه لوڈ، اتارنا."</string>
+<string name="download_att_external">"ڈاؤن لوڈ کھتر ڈاؤن لوڈ"</string>
+<string name="missing_required_permission">توہی كوروه ناكار اكھ ذررتي اجازت.</string>
+<string name="permission_change">"يتسكالس اجازت بدلي، مهرباني كریتھ چنو بیی فائل."</string>
+<string name="permission_change_redo">"يتسكالس اجازت بدلي، مهرباني كریتھ کرییو ريڈو."</string>
+<string name="preference_default_signature_title">دستخط</string>
+<string name="signature_default">"مقرر کرییو ميان فون پیٹھ"</string>
+<string name="set_priority_high">"مقرر کرییو خسوسي وارياه"</string>
+<string name="set_priority_normal">"مقرر کرییو خسوسي عام"</string>
+<string name="set_priority_low">"مقرر کرییو خسوسي کم"</string>
+<string name="file_not_exist">"یء اٹیچمنٹ چھء موجود، مہربانی کریتھ کریو دبارء ڈاونلوڈ!"</string>
+<string name="body_input_more">معاف کرییو، سرپھ کرییو%1$s كریكٹرن منز ان پٹ</string>
+<string name="attachment_rename_to_legal">" یتھ اٹیچمنٹس آو ناو بدلاونء تیکیازء ایمک پنن ناو چھنء صحیح"</string>
+<string name="account_changed_load_account_inbox">" یمء فولڈرک سیتھ وول خاطء آو بدلاونء، بدلایو ان بوکسس منز۔"</string>
+</resources>

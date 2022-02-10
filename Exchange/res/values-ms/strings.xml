@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">" Diterima: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">" Ditolak: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">" Tentatif: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">" Dibatalkan: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">" Dikemas kini: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">" Bila: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">" Di mana: <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">" Bila: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (berulang) "</string>
+<string name="meeting_allday">" Bila: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (sepanjang hari) "</string>
+<string name="meeting_allday_recurring">" Bila: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (sepanjang hari, berulang) "</string>
+<string name="app_name">"Perkhidmatan Exchange"</string>
+<string name="exception_cancel">" Acara ini telah dibatalkan untuk: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="exception_updated">" Butiran acara ini telah ditukar untuk: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="policy_dont_allow_storage_cards">"Jangan benarkan kad storan"</string>
+<string name="policy_dont_allow_unsigned_apps">"Jangan benarkan aplikasi yang tidak ditandatangani"</string>
+<string name="policy_dont_allow_unsigned_installers">"Jangan benarkan pemasang aplikasi yang tidak ditandatangani"</string>
+<string name="policy_dont_allow_wifi">"Jangan benarkan Wi-Fi"</string>
+<string name="policy_dont_allow_text_messaging">"Jangan benarkan pemesejan teks"</string>
+<string name="policy_dont_allow_pop_imap">"Jangan benarkan akaun POP3 atau IMAP"</string>
+<string name="policy_dont_allow_irda">"Jangan benarkan komunikasi infra merah"</string>
+<string name="policy_dont_allow_html">"Jangan benarkan e-mel HTML"</string>
+<string name="policy_dont_allow_browser">"Jangan benarkan pelayar"</string>
+<string name="policy_dont_allow_consumer_email">"Jangan benarkan e-mel pengguna"</string>
+<string name="policy_dont_allow_internet_sharing">"Jangan benarkan perkongsian Internet"</string>
+<string name="policy_require_smime">"Memerlukan mesej SMIME"</string>
+<string name="policy_bluetooth_restricted">"Hadkan penggunaan Bluetooth"</string>
+<string name="policy_app_blacklist">"Jangan benarkan aplikasi tertentu"</string>
+<string name="policy_app_whitelist">"Benarkan aplikasi tertentu sahaja"</string>
+<string name="policy_text_truncation">"Hadkan saiz e-mel teks"</string>
+<string name="policy_html_truncation">"Hadkan saiz e-mel HTML"</string>
+<string name="policy_require_sd_encryption">"Memerlukan penyulitan kad SD"</string>
+<string name="policy_dont_allow_attachments">"Jangan benarkan lampiran"</string>
+<string name="policy_max_attachment_size">"Hadkan saiz lampiran"</string>
+<string name="policy_require_manual_sync_roaming">"Hanya benarkan penyegerakan manual semasa dalam perayauan"</string>
+<string name="policy_require_encryption">"Memerlukan penyulitan peranti"</string>
+<string name="account_setup_options_mail_window_auto">"Automatik"</string>
+<string name="account_setup_options_mail_window_1day">"Satu hari"</string>
+<string name="account_setup_options_mail_window_3days">"Tiga hari"</string>
+<string name="account_setup_options_mail_window_1week">"Seminggu"</string>
+<string name="account_setup_options_mail_window_2weeks">"Dua minggu"</string>
+<string name="account_setup_options_mail_window_1month">"Satu bulan"</string>
+<string name="account_setup_options_mail_window_all">"Semua"</string>
+<string name="auth_error_notification_title">Ralat pengesahan</string>
+<string name="auth_error_notification_text">"Sentuh untuk mengedit tetapan akaun untuk <xliff:g id="account">%s</xliff:g>"</string>
+<string name="email_settings_not_available">"Dayakan semula aplikasi E-mel untuk melihat tetapan."</string>
+</resources>

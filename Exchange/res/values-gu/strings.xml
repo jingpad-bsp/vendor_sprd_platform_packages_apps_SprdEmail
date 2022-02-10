@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted"> સ્વીકારી લીધેલ: <xliff:g id="subject">%s</xliff:g> </string>
+<string name="meeting_declined">"ઈન્કાર કરવામાં આવ્યો હતો: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">"ટેન્ટેટીવ: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">"રદ્દ કરવામાં આવેલ છે: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">" અપડેટ કરવામાં આવેલ છે: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">" જ્યારે: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">" જ્યાં: <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">" જ્યારે: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (રિકરીંગ) "</string>
+<string name="meeting_allday">" જ્યારે: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (તમામ દિવસ) "</string>
+<string name="meeting_allday_recurring">" જ્યારે: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (તમામ દિવસ, રિકરીંગ) "</string>
+<string name="app_name">એક્સચેંજ સેવાઓ</string>
+<string name="exception_cancel">"આ માટે આ ઘટનાને રદ્દ કરવામાં આવી છે: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="exception_updated">"આ માટે આ ઘટનાની વિગતોમાં ફેરફાર કરવામાં આવ્યા છે: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="policy_dont_allow_storage_cards">સ્ટોરેજ કાર્ડ઼ની પરવાનગી આપશો નહી. </string>
+<string name="policy_dont_allow_unsigned_apps">અનસાઇન્ડ એપ્લિકેશનની પરવાનગી આપશો નહી</string>
+<string name="policy_dont_allow_unsigned_installers">"સહીં કરાયેલ એપ ઈન્સ્ટોલર્સને પરવાનગી આપશો નહીં"</string>
+<string name="policy_dont_allow_wifi">Wi-Fiની પરવાની આપશો નહી</string>
+<string name="policy_dont_allow_text_messaging">ટેક્સ્ટ મેસેજીંગની પરવાનગી આપશો નહી.</string>
+<string name="policy_dont_allow_pop_imap">POP3 અથવા IMAP એકાઉન્ટસની પરવાનગી આપશો નહી</string>
+<string name="policy_dont_allow_irda">ઇન્ફ્રારેડ સંદેશાવ્યવહારની પરવાનીગી આપશો નહી</string>
+<string name="policy_dont_allow_html">HTML ઇમેલની પરવાનગી આપશો નહી.</string>
+<string name="policy_dont_allow_browser">બ્રાઉઝર્સની પરવાનગી આપશો નહી.</string>
+<string name="policy_dont_allow_consumer_email">ઉપભોક્તા ઇમેઇલની પરવાનગી આપશો નહી.</string>
+<string name="policy_dont_allow_internet_sharing">ઇન્ટરેનેટ શેરીંગને પરવાનગી આપશો નહી</string>
+<string name="policy_require_smime">SMIME સંદેશાઓની આવશ્યકતા</string>
+<string name="policy_bluetooth_restricted">બ્લ્યૂટૂથ વપરાશ નિયંત્રિત કરો</string>
+<string name="policy_app_blacklist">નિર્દિષ્ટ એપ્લિકેશનને પરવાનગી આપશો નહી</string>
+<string name="policy_app_whitelist">ફક્ત નિર્દિષ્ટ એપ્લિકેશનને પરવાનગી આપો.</string>
+<string name="policy_text_truncation">ટેક્સ્ટ ઇમેઇલ સાઇઝને નિર્દિષ્ટ કરો</string>
+<string name="policy_html_truncation">HTML ઇમેઇલ સાઇઝને નિયંત્રિત કરો</string>
+<string name="policy_require_sd_encryption">SD કાર્ડ એનક્રિપ્શન જરૂરી છે</string>
+<string name="policy_dont_allow_attachments">જોડાણોની પરવાનગી આપશો નહી</string>
+<string name="policy_max_attachment_size">જોડાણ સાઇઝને નિયંત્રિત કરો</string>
+<string name="policy_require_manual_sync_roaming">ફક્ત રોમીંગ સમયે જ મેન્યુઅલ સિંકની પરવાનગી આપો.</string>
+<string name="policy_require_encryption">ડિવાઇસ એનક્રિપ્શન જરૂરી</string>
+<string name="account_setup_options_mail_window_auto">સ્વચાલિત</string>
+<string name="account_setup_options_mail_window_1day">એક દિવસ</string>
+<string name="account_setup_options_mail_window_3days">ત્રણ દિવસ</string>
+<string name="account_setup_options_mail_window_1week">એક સપ્તાહ</string>
+<string name="account_setup_options_mail_window_2weeks">બે સપ્તાહ</string>
+<string name="account_setup_options_mail_window_1month">એક મહિનો</string>
+<string name="account_setup_options_mail_window_all">તમામ</string>
+<string name="auth_error_notification_title">પ્રમાણીકરણ ભૂલ </string>
+<string name="auth_error_notification_text">" <xliff:g id="account">%s</xliff:g>ના માટે એકાઉન્ટ સેટ્ટીંગ્સ માટે સ્પર્શ કરો."</string>
+<string name="email_settings_not_available">"સેટિગ્સ જોવા માટે ઇમેલ એપ્લિકેશનને ફરી સક્ષમ કરો."</string>
+</resources>

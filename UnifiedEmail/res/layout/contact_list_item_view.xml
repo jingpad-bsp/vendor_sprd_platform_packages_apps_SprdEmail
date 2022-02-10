@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sprd.mail.ui.CheckableContactsListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/contacts_picker_list_item_height" >
+
+    <ImageView
+        android:id="@+id/contact_image"
+        android:layout_width="@dimen/contacts_picker_image_size"
+        android:layout_height="@dimen/contacts_picker_image_size"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="@dimen/contacts_picker_image_margin_end"
+        android:layout_marginStart="@dimen/contacts_picker_image_margin_start"
+        android:layout_marginTop="@dimen/contacts_picker_name_margin_top" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/contact_image"
+        android:layout_marginEnd="40dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/contact_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/contacts_picker_name_margin_top"
+            android:textSize="@dimen/contacts_picker_name_text_size" />
+
+        <TextView
+            android:id="@+id/contact_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/contacts_picker_email_margin_bottom"
+            android:layout_marginTop="@dimen/contacts_picker_email_margin_top"
+            android:textSize="@dimen/contacts_picker_email_text_size" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/contact_check_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/contacts_picker_checkbox_margin_end"
+        android:layout_marginTop="@dimen/contacts_picker_checkbox_margin_top" />
+
+</com.sprd.mail.ui.CheckableContactsListItem>

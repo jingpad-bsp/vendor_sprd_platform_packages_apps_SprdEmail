@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contacts_picker_search_container"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:layout_marginBottom="@dimen/contacts_picker_search_margin_vertical"
+    android:layout_marginEnd="@dimen/contacts_picker_search_margin_horizontal"
+    android:layout_marginStart="@dimen/contacts_picker_search_margin_horizontal"
+    android:layout_marginTop="@dimen/contacts_picker_search_margin_vertical"
+    android:background="@drawable/rounded_corner"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/contacts_pikcer_search_box_left_padding" >
+
+    <ImageView
+        android:id="@+id/contacts_picker_search_magnifying_glass"
+        android:layout_width="@dimen/contacts_pikcer_search_box_icon_size"
+        android:layout_height="@dimen/contacts_pikcer_search_box_icon_size"
+        android:importantForAccessibility="no"
+        android:padding="@dimen/contacts_pikcer_search_box_search_icon_padding"
+        android:scaleType="center"
+        android:src="@drawable/ic_ab_search"
+        android:tint="@color/contacts_picker_searchbox_icon_tint" />
+
+    <EditText
+        android:id="@+id/search_box_start_search"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/contacts_pikcer_search_box_collapsed_text_margin_left"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:hint="@string/search_hint"
+        android:textColorHint="@color/contacts_picker_searchbox_hint_text_color"
+        android:textSize="@dimen/contacts_pikcer_search_collapsed_text_size" />
+
+    <ImageButton
+        android:id="@+id/contacts_picker_clear_button"
+        android:layout_width="@dimen/contacts_pikcer_search_box_icon_size"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:paddingEnd="@dimen/contacts_pikcer_search_box_right_padding"
+        android:scaleType="center"
+        android:src="@drawable/ic_cancel_24dp"
+        android:tint="@color/contacts_picker_searchbox_icon_tint" />
+
+</LinearLayout>

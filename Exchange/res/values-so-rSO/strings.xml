@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">" La ogoolaaday: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">" La diiday: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">" Aan go\'nayn: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">" La joojiyay: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">" La cusbooneysiiyay: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">" Goorma: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">" Xagee: <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">" Goorma: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (soo noqnoqonaya) "</string>
+<string name="meeting_allday">" Goorma: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (maalinta oo dhan) "</string>
+<string name="meeting_allday_recurring">" Goorma: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (maalinta oo dhan, soo noqnoqonaya) "</string>
+<string name="app_name">"Adeegyada Wareejinta"</string>
+<string name="exception_cancel">" Dhacdadan waxaa lagu joojiyay: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="exception_updated">" Faahfaahinta dhacdadan waxaa lagu bedelay: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="policy_dont_allow_storage_cards">"Ha ogoolaan kaararka keydinta"</string>
+<string name="policy_dont_allow_unsigned_apps">"Ha ogoolaan barnamiijyada aan loo kur galin"</string>
+<string name="policy_dont_allow_unsigned_installers">"Ha ogoolaan rakiibiyaha barnamiijyada aan loo kur galin"</string>
+<string name="policy_dont_allow_wifi">"Ha ogoolaan Wi-Fi"</string>
+<string name="policy_dont_allow_text_messaging">"Ha ogoolaan fariin diirinta qoraalka"</string>
+<string name="policy_dont_allow_pop_imap">"Ha ogoolaan POP3 ama akoomada IMAP"</string>
+<string name="policy_dont_allow_irda">"Ha ogoolaan isgaarsiinta infrared"</string>
+<string name="policy_dont_allow_html">"Ha ogoolaan iimaylka HTML"</string>
+<string name="policy_dont_allow_browser">"Ha ogoolaan dalaacashiyaha"</string>
+<string name="policy_dont_allow_consumer_email">"Ha ogoolaan iimaylka macmiilka"</string>
+<string name="policy_dont_allow_internet_sharing">"Ha ogoolaan wadaagida Internet-ka"</string>
+<string name="policy_require_smime">"U baahan fariimaha SMIME"</string>
+<string name="policy_bluetooth_restricted">"Xadiid isticmaalka Bluetooth-ka"</string>
+<string name="policy_app_blacklist">"Ha ogoolaan barnamiijyada khaas ah"</string>
+<string name="policy_app_whitelist">"Keliya ogooloow barnamiijyada khaas ah"</string>
+<string name="policy_text_truncation">"Xadiid qiyaasta qoraalka iimaylka"</string>
+<string name="policy_html_truncation">"Xadiid qiyaasta iimaylka HTML"</string>
+<string name="policy_require_sd_encryption">"U baahan sir u xiridda kaarka SD-ga"</string>
+<string name="policy_dont_allow_attachments">"Ha ogoolaan lifaaqyada"</string>
+<string name="policy_max_attachment_size">"Xadiid qiyaasta lifaaqa"</string>
+<string name="policy_require_manual_sync_roaming">"Keliya ogooloow waafajinta gacanta inta lagu jiro mushaax ah"</string>
+<string name="policy_require_encryption">"U baahanyahay sir u xiridda aaladda"</string>
+<string name="account_setup_options_mail_window_auto">"Otoomatik ah"</string>
+<string name="account_setup_options_mail_window_1day">"Hal maalin"</string>
+<string name="account_setup_options_mail_window_3days">"Saddex maalmood"</string>
+<string name="account_setup_options_mail_window_1week">"Hal asbuuc"</string>
+<string name="account_setup_options_mail_window_2weeks">"Labo asbuuc"</string>
+<string name="account_setup_options_mail_window_1month">"Hal bil"</string>
+<string name="account_setup_options_mail_window_all">"Dhammaan"</string>
+<string name="auth_error_notification_title">"Cillad run baarida"</string>
+<string name="auth_error_notification_text">"Taabo si aad wax uga bedeshid qaabaynada lagu talagalay <xliff:g id="account">%s</xliff:g>"</string>
+<string name="email_settings_not_available">"Dib u daar barnamiijka Iimaylka si aad u eegtid qaabaynada."</string>
+</resources>

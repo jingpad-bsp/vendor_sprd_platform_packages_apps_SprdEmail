@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="from">"ପ୍ରେରକ"</string>
+<string name="to">"ପ୍ରାପ୍ତେଷୁ"</string>
+<string name="cc">"ସିସି"</string>
+<string name="bcc">"ବିସିସି"</string>
+<string name="subject_hint">"ବିଷୟ"</string>
+<string name="body_hint">"ଇମେଲ୍ କମ୍ପୋଜ୍ କରନ୍ତୁ"</string>
+<string name="add_file_attachment">"ଫାଇଲ୍ ଆଟାଚ୍ କରନ୍ତୁ"</string>
+<string name="add_photo_attachment">"ପିକଚର୍ ଆଟାଚ୍ କରନ୍ତୁ"</string>
+<string name="save_draft">"ଡ୍ରାଫ୍ଟ ସେଭ୍ କରନ୍ତୁ"</string>
+<string name="discard">"ବର୍ଜନ"</string>
+<string name="compose">"କମ୍ପୋଜ୍"</string>
+<string name="compose_title">"କମ୍ପୋଜ୍"</string>
+<string-array name="compose_modes">
+<item>"ଉତ୍ତର"</item>
+<item>"ସମସ୍ତଙ୍କୁ ଉତ୍ତର ଦିଅନ୍ତୁ"</item>
+<item>"ଫର୍ୱାର୍ଡ଼"</item>
+</string-array>
+<string name="reply_attribution">"<xliff:g id="date">%s</xliff:g>, ଦିନ <xliff:g id="person">%s</xliff:g> ଲେଖିଛନ୍ତି:"</string>
+<string name="forward_attribution">"---------- ଫରୱାର୍ଡ କରାଯାଇଥିବା ମେସେଜ୍ ----------&lt;br&gt;<xliff:g id="from">%1$s</xliff:g>&lt;br&gt;ତାରିଖରୁ: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;ବିଷୟ: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt; <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;କୁ"</string>
+<string name="forward_attribution_no_headers">"---------- ଫରୱାର୍ଡ କରାଯାଇଥିବା ମେସେଜ୍ ---------"</string>
+<string name="cc_attribution">"ସିସି: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;"</string>
+<string name="select_attachment_type">"ଆଟାଚମେଣ୍ଟର ପ୍ରକାର ଚୟନ କରନ୍ତୁ"</string>
+<string name="too_large_to_attach_single">"<xliff:g id="maxSize">%1$s</xliff:g> ରୁ ଅଧିକ ଫାଇଳ୍ ଆଟାଚ୍ କରିପାରିବ ନାହିଁ"</string>
+<string name="too_large_to_attach_multiple">"ଗୋଟିଏ କିମ୍ବା ଅଧିକ ଫାଇଲ୍ ଆଟାଚ୍ ହୋଇନାହିଁ । <xliff:g id="maxSize">%1$s</xliff:g> ସୀମିତ କରନ୍ତୁ ।"</string>
+<string name="too_large_to_attach_additional">"ଫାଇଲ୍ ଆଟାଚ୍ ହୋଇ ନାହିଁ । <xliff:g id="maxSize">%1$s</xliff:g> ସୀମା ଶେଷ ହୋଇଛି ।"</string>
+<string name="generic_attachment_problem">"ଫାଇଲ୍ ଆଟାଚ୍ କରିପାରିଲା ନାହିଁ ।"</string>
+<string name="attachment_permission_denied">"ଆଟାଚମେଣ୍ଟ ପାଇଁ ଅନୁମତି ମନା କରାଯାଇଛି ।"</string>
+<string name="recipient_needed">"ଅତି କମ୍ ରେ ଗୋଟିଏ ଗ୍ରହୀତା ଯୋଡ଼ନ୍ତୁ ।"</string>
+<string name="confirm_send_message_with_no_subject">"ମେସେଜ୍ ସବଜେକ୍ଟରେ କୌଣସି ଟେକ୍ସଟ ନାହିଁ ।"</string>
+<string name="confirm_send_message_with_no_body">"ମେସେଜ୍ ବଡିରେ କୌଣସି ଟେକ୍ସଟ ନାହିଁ ।"</string>
+<string name="confirm_send_message">"ଏହି ମେସେଜ୍ ପଠାଇବେ କି?"</string>
+<string name="message_discarded">"ମେସେଜ୍ ଡିସକାର୍ଡ ହୋଇଯାଇଛି ।"</string>
+<string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+<string name="custom_from_account_label">"ମେଲ୍ ଏହି ଭାବରେ ପଠାନ୍ତୁ:"</string>
+<string name="send">"ପଠାନ୍ତୁ"</string>
+<string name="mark_read">"ପଢ଼ାଯାଇଛି ଭାବରେ ଚିହ୍ନଟ କରନ୍ତୁ"</string>
+<string name="mark_unread">"ପଢ଼ାଯାଇନାହିଁ ଭାବରେ ଚିହ୍ନଟ କରନ୍ତୁ"</string>
+<string name="toggle_read_unread">"ପଢ଼ାଯାଇଛି ପଢ଼ାଯାଇନାହିଁ ଟଗଲ୍ କରନ୍ତୁ"</string>
+<string name="mute">"ମୁକ"</string>
+<string name="add_star">"ତାରା ଚିହ୍ନ ଯୋଡ଼ନ୍ତୁ"</string>
+<string name="remove_star">"ତାରା ଚିହ୍ନ ହଟାନ୍ତୁ"</string>
+<string name="remove_folder">"<xliff:g id="folderName">%1$s</xliff:g> ରୁ ହଟାନ୍ତୁ"</string>
+<string name="archive">"ଆର୍କାଇଭ୍"</string>
+<string name="report_spam">"ସ୍ପାମ୍ ରିପୋର୍ଟ କରନ୍ତୁ"</string>
+<string name="mark_not_spam">"ସ୍ପାମ୍ ରିପୋର୍ଟ କରନ୍ତୁ ନାହିଁ"</string>
+<string name="report_phishing">"ଫିସିଂ ରିପୋର୍ଟ କରନ୍ତୁ"</string>
+<string name="delete">"କାଟ"</string>
+<string name="discard_drafts">"ଡ୍ରାଫ୍ଟ ଅଦରକାରୀ ଭାବରେ ପ୍ରତ୍ୟାଖ୍ୟାନ କରନ୍ତୁ"</string>
+<string name="discard_failed">"ଅଦରକାରୀ ଭାବରେ ପ୍ରତ୍ୟାଖ୍ୟାନ କରିବା ବିଫଳ ହୋଇଛି"</string>
+<string name="refresh">"ରିଫ୍ରେସ୍‌"</string>
+<string name="reply">"ଉତ୍ତର"</string>
+<string name="reply_all">"ସମସ୍ତଙ୍କୁ ଉତ୍ତର ଦିଅନ୍ତୁ"</string>
+<string name="resume_draft">"ସଂଶୋଧନ କରନ୍ତୁ"</string>
+<string name="forward">"ଫର୍ୱାର୍ଡ଼"</string>
+<string name="menu_compose">"କମ୍ପୋଜ୍"</string>
+<string name="menu_change_folders">"ଫୋଲ୍ଡର ବଦଳାନ୍ତୁ"</string>
+<string name="menu_move_to">"କୁ ମୁଭ୍ କରନ୍ତୁ"</string>
+<string name="menu_move_to_inbox">"ଇନବକ୍ସକୁ ମୁଭ୍ କରନ୍ତୁ"</string>
+<string name="menu_manage_folders">"ଫୋଲ୍ଡର ସେଟିଂ"</string>
+<string name="menu_show_original">"ଅଟୋ-ସାଇଜିଂ ପୂର୍ବ ଭଳି ରଖନ୍ତୁ"</string>
+<string name="menu_settings">"ସଂସ୍ଥାପନା"</string>
+<string name="menu_search">"ଖୋଜ"</string>
+<string name="menu_toggle_drawer">"ଟଗଲ୍ ଡ୍ରର୍"</string>
+<string name="drawer_title">"ନ୍ୟାଭିଗେସନ୍"</string>
+<string name="mark_important">"ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଚିହ୍ନଟ କରନ୍ତୁ"</string>
+<string name="mark_not_important">"ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଚିହ୍ନଟ କରନ୍ତୁ ନାହିଁ"</string>
+<string name="add_cc_label">"ସିସି/ବିସିସି ଯୋଡ଼ନ୍ତୁ"</string>
+<string name="add_bcc_label">"ବିସିସି ଯୋଡ଼ନ୍ତୁ"</string>
+<string name="quoted_text">"କୋଟ୍ ହୋଇଥିବା ଟେକ୍ସଟ ଅନ୍ତର୍ଭୁକ୍ତ କରନ୍ତୁ"</string>
+<string name="quoted_text_label">"ଟେକ୍ସଟ କୋଟ୍ କରନ୍ତୁ"</string>
+<string name="respond_inline">"ଏକ କ୍ରମରେ ଉତ୍ତର ଦିଅନ୍ତୁ"</string>
+<string name="bytes">"<xliff:g id="count">%s</xliff:g>:B"</string>
+<string name="kilobytes">"<xliff:g id="count">%s</xliff:g>:KB"</string>
+<string name="megabytes">"<xliff:g id="count">%s</xliff:g>:MB"</string>
+<string name="attachment_image">"ଛବି"</string>
+<string name="attachment_video">"ଭିଡ଼ିଓ"</string>
+<string name="attachment_audio">"ଅଡ଼ିଓ"</string>
+<string name="attachment_text">"ଲେଖନ୍ତୁ"</string>
+<string name="attachment_application_msword">"ଡକ୍ୟୁମେଣ୍ଟ"</string>
+<string name="attachment_application_vnd_ms_powerpoint">"ପ୍ରେଜେଣ୍ଟେସନ୍"</string>
+<string name="attachment_application_vnd_ms_excel">"ସ୍ପ୍ରେଡସିଟ୍"</string>
+<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> ଫାଇଲ୍"</string>
+<string name="preview_attachment">"ପୁର୍ବାଲୋକନ"</string>
+<string name="save_attachment">"ସଞ୍ଚୟ କରନ୍ତୁ"</string>
+<string name="download_again">"ପୁଣି ଥରେ ଡାଉନଲୋଡ୍ କରନ୍ତୁ"</string>
+<string name="remove_attachment_desc">"<xliff:g id="attachmentName">%s</xliff:g> ଆଟାଚମେଣ୍ଟ ହଟାନ୍ତୁ"</string>
+<string name="more_info_attachment">"ସୂଚନା"</string>
+<string name="no_application_found">"ଦେଖିବା ପାଇଁ କୌଣସି ଆପ୍ ଏହି ଆଟାଚମେଣ୍ଟ ଓପନ୍ କରିପାରିବେ ନାହିଁ ।"</string>
+<string name="fetching_attachment">"ଆଟାଚମେଣ୍ଟ ଆଣୁଛି"</string>
+<string name="please_wait">"ଦୟାକରି ଅପେକ୍ଷାକରନ୍ତୁ..."</string>
+<string name="saved">":<xliff:g id="size">%s</xliff:g> ସେଭ୍ ହୋଇଛି"</string>
+<string name="download_failed">"ଡାଉନଲୋଡ୍ କରିପାରିଲା ନାହିଁ । ପୁଣି ଥରେ ଚେଷ୍ଟା କରିବା ପାଇଁ ଟଚ୍ କରନ୍ତୁ ।"</string>
+<string name="menu_photo_save_all">"ସବୁଗୁଡ଼ିକ ସେଭ୍ କରନ୍ତୁ"</string>
+<string name="menu_photo_share">"ଭାଗୀଦାରୀତା କରନ୍ତୁ"</string>
+<string name="menu_photo_share_all">"ସବୁଗୁଡ଼ିକ ସେୟାର୍ କରନ୍ତୁ"</string>
+<string name="menu_photo_print">"ପ୍ରିଣ୍ଟ କରନ୍ତୁ"</string>
+<string name="saving">"... ସେଭ୍ କରୁଛି"</string>
+<string name="choosertitle_sharevia">"ମଧ୍ୟ ଦେଇ ଭାଗୀଦାରୀତା କରନ୍ତୁ"</string>
+<string name="contextmenu_openlink">"ବ୍ରାଉଜରରେ ଓପନ୍ କରନ୍ତୁ"</string>
+<string name="contextmenu_copy">"ନକଲ କରନ୍ତୁ"</string>
+<string name="contextmenu_copylink">"ଲିଙ୍କ ୟୁଆର୍‌ଏଲ୍‌ କପିକରନ୍ତୁ"</string>
+<string name="contextmenu_view_image">"ଛବି ଭିଉକରନ୍ତୁ"</string>
+<string name="contextmenu_dial_dot">"ଡାଏଲକରନ୍ତୁ..."</string>
+<string name="contextmenu_sms_dot">"SMS..."</string>
+<string name="contextmenu_add_contact">"କଣ୍ଟାକ୍ଟ ଯୋଗକରନ୍ତୁ"</string>
+<string name="contextmenu_send_mail">"ଇମେଲ ପଠାନ୍ତୁ"</string>
+<string name="contextmenu_map">"ମ୍ୟାପ"</string>
+<string name="contextmenu_sharelink">"ଲିଙ୍କ ସେଆର୍‌ କରନ୍ତୁ"</string>
+<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> <xliff:g id="subject">%3$s</xliff:g>ବିଷୟରେ, <xliff:g id="snippet">%4$s</xliff:g> <xliff:g id="date">%5$s</xliff:g>ଉପରେ, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_today">"<xliff:g iid="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> <xliff:g id="subject">%3$s</xliff:g>ବିଷୟରେ, <xliff:g id="snippet">%4$s</xliff:g> <xliff:g id="time">%5$s</xliff:g>ରେ, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> <xliff:g id="subject">%3$s</xliff:g>ବିଷୟରେ, <xliff:g id="snippet">%4$s</xliff:g> <xliff:g id="date">%5$s</xliff:g>ରେ, <xliff:g id="readstate">%6$s</xliff:g>, ଲେବେଲ୍ ଗୁଡ଼ିକରେ: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="content_description_today_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> <xliff:g id="subject">%3$s</xliff:g>ବିଷୟରେ, <xliff:g id="snippet">%4$s</xliff:g> <xliff:g id="time">%5$s</xliff:g> ରେ, <xliff:g id="readstate">%6$s</xliff:g>, ଲେବେଲ୍ ଗୁଡ଼ିକରେ: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="read_string">"ବାର୍ତ୍ତାଳାପ ପଢ଼ାଯାଇଛି"</string>
+<string name="unread_string">"ବାର୍ତ୍ତାଳାପ ପଢ଼ାଯାଇ ନାହିଁ"</string>
+<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="badge_and_subject">"<xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g>"</string>
+<plurals name="draft">
+<item quantity="one">"ଡ୍ରାଫ୍ଟ"</item>
+<item quantity="other">"ଡ୍ରାଫ୍‌ଟ୍‌ସ୍‌"</item>
+</plurals>
+<string name="sending">"...ପଠେଇବା"</string>
+<string name="message_retrying">"ପୁଣିଥରେ ଚେଷ୍ଟା କରୁଛି…"</string>
+<string name="message_failed">"ବିଫଳ ହୋଇଛି"</string>
+<string name="send_failed">"ମେସେଜ୍ ପଠାଯାଇ ନାହିଁ ।"</string>
+<string name="me_object_pronoun">"ମତେ"</string>
+<string name="me_subject_pronoun">"ମତେ"</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">"ଏହି ବାର୍ତ୍ତାଳାପ ଡିଲିଟ୍ କରିବେ କି?"</item>
+<item quantity="other">"ଏହି <xliff:g id="count">%1$d</xliff:g> ବାର୍ତ୍ତାଳାପଗୁଡ଼ିକ ଡିଲିଟ୍ କରିବେ କି?"</item>
+</plurals>
+<plurals name="confirm_archive_conversation">
+<item quantity="one">"ଏହି ବାର୍ତ୍ତାଳାପଗୁଡ଼ିକ ଆର୍କାଇଭ୍ କରିବେ କି?"</item>
+<item quantity="other">"ଏହି <xliff:g id="count">%1$d</xliff:g> ବାର୍ତ୍ତାଳାପଗୁଡ଼ିକ ଆର୍କାଇଭ୍ କରିବେ କି?"</item>
+</plurals>
+<plurals name="confirm_discard_drafts_conversation">
+<item quantity="one">"ଏହି ବାର୍ତ୍ତା ଅଦରକାରୀଭାବରେ ପ୍ରତ୍ୟାଖ୍ୟାନ କରିବେ କି?"</item>
+<item quantity="other">"ଏହି <xliff:g id="count">%1$d</xliff:g> ବାର୍ତ୍ତାଗୁଡ଼ିକ ଅଦରକାରୀଭାବରେ ପ୍ରତ୍ୟାଖ୍ୟାନ କରିବେ କି?"</item>
+</plurals>
+<string name="confirm_discard_text">"ଏହି ବାର୍ତ୍ତା ଅଦରକାରୀଭାବରେ ପ୍ରତ୍ୟାଖ୍ୟାନ କରିବେ କି?"</string>
+<string name="loading_conversations">"ପଠାଇବା..."</string>
+<string name="empty_inbox">"ଆପଣ ସବୁ କାମ କରିସାରିଛନ୍ତି ! ଆପଣଙ୍କ ଦିନ ଉପଭୋଗ କରନ୍ତୁ ।"</string>
+<string name="empty_search">"ଓଃ ! ଆମେ \"<xliff:g id="search_query">%1$s</xliff:g>\" ପାଇଁ କିଛି ପାଇଲୁ ନାହିଁ ।"</string>
+<string name="empty_spam_folder">"ବଢ଼ିଆ, ଏଠାରେ କୌଣସି ସ୍ପାମ୍ ନାହିଁ!"</string>
+<string name="empty_trash_folder">"ଏଠାରେ କୌଣସି ଆବର୍ଜନା ନାହିଁ । ପୁନଃଚକ୍ରଣ ପାଇଁ ଧନ୍ୟବାଦ !"</string>
+<string name="empty_folder">"ଏଠାରେ କୌଣସି ମେଲ୍ ନାହିଁ ।"</string>
+<string name="getting_messages">"ଆପଣଙ୍କ ମେସେଜ୍ ପାଇବା ପାଇଁ ଚେଷ୍ଟା କରୁଛି ।"</string>
+<string name="undo">"ଫୂର୍ବବତ"</string>
+<plurals name="conversation_unstarred">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ବାର୍ତ୍ତାଳାପରୁ ତାରାଚିହ୍ନ ହଟାଉଛି"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ବାର୍ତ୍ତାଳାପରୁ ତାରାଚିହ୍ନ ହଟାଉଛି"</item>
+</plurals>
+<plurals name="conversation_muted">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ମୌନ ହୋଇରହିଲା"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ମୌନ ହୋଇରହିଲା"</item>
+</plurals>
+<plurals name="conversation_spammed">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ସ୍ପାମ୍‍ ଭାବରେ ରିପୋର୍ଟ ହେଲା"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ସ୍ପାମ୍‍ ଭାବରେ ରିପୋର୍ଟ ହେଲା"</item>
+</plurals>
+<plurals name="conversation_not_spam">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ସ୍ପାମ୍‍ ନାହିଁ ଭାବରେ ରିପୋର୍ଟ ହେଲା"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ସ୍ପାମ୍‍ ନାହିଁ ଭାବରେ ରିପୋର୍ଟ ହେଲା"</item>
+</plurals>
+<plurals name="conversation_not_important">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ନାହିଁ ବୋଲି ଚିହ୍ନିତ ହେଲା"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ନାହିଁ ବୋଲି ଚିହ୍ନିତ ହେଲା"</item>
+</plurals>
+<plurals name="conversation_phished">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ଫିସିଙ୍ଗ୍ ବୋଲି ରିପୋର୍ଟ ହେଲା"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ଫିସିଙ୍ଗ୍ ବୋଲି ରିପୋର୍ଟ ହେଲା"</item>
+</plurals>
+<plurals name="conversation_archived">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ଆର୍‍‍କିଭ୍‍ ହେଲା"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ଆର୍‍‍କିଭ୍‍ ହେଲା"</item>
+</plurals>
+<plurals name="conversation_deleted">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ବିଲୋପ ହେଲା"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ବିଲୋପ ହେଲା"</item>
+</plurals>
+<string name="deleted">"ଅପସାରିତ"</string>
+<string name="archived">"ଆର୍କାଇଭ୍ ହୋଇଛି"</string>
+<string name="folder_removed">"<xliff:g id="folderName">%1$s</xliff:g> ରୁ ହଟାଇ ଦିଆଯାଇଛି"</string>
+<plurals name="conversation_folder_changed">
+<item quantity="one">"ବଦଳାଯାଇଥିବା ଫୋଲ୍ଡର"</item>
+<item quantity="other">"ବଦଳାଯାଇଥିବା ଫୋଲ୍ଡରଗୁଡ଼ିକ"</item>
+</plurals>
+<string name="conversation_folder_moved">"<xliff:g id="folderName">%1$s</xliff:g> କୁ ମୁଭ୍ କରାଯାଇଛି"</string>
+<string name="search_results_header">"ପରିଣାମ"</string>
+<string name="search_unsupported">"ଏହି ଆକାଉଣ୍ଟରେ ସର୍ଚ୍ଚ ସପୋର୍ଟ କରାଯାଉ ନାହିଁ ।"</string>
+<string name="search_suggestion_desc">"ପ୍ରସ୍ତାବ: <xliff:g id="suggestion">%s</xliff:g>"</string>
+<string name="add_label">"ଫୋଲଡ଼ର୍‌ ଯୋଗକରନ୍ତୁ"</string>
+<plurals name="new_incoming_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ନୂଆ ବାର୍ତ୍ତା"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ନୂଆ ବାର୍ତ୍ତାଗୁଡ଼ିକ"</item>
+</plurals>
+<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt; ସବିଶେଷ ବିବରଣୀ ଦର୍ଶନ କରନ୍ତୁ&lt;/a&gt;"</string>
+<string name="hide_details">"ବିବରଣି ଉହ୍ୟ ରଖନ୍ତୁ"</string>
+<string name="to_message_header">"<xliff:g id="recipients">%1$s</xliff:g> ଙ୍କୁ"</string>
+<string name="bcc_header_for_recipient_summary">"ବିସିସି: \u0020"</string>
+<string name="contact_info_string">"<xliff:g id="name">%1$s</xliff:g> ପାଇଁ ଯୋଗାଯୋଗ ସୂଚନା ଦର୍ଶାନ୍ତୁ"</string>
+<string name="contact_info_string_default">"ଯୋଗାଯୋଗ ସୂଚନା ଦର୍ଶାନ୍ତୁ"</string>
+<plurals name="show_messages_read">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> ପୁରୁଣା ବାର୍ତ୍ତାଗୁଡ଼ିକ ସଂପ୍ରସାରିତ କରନ୍ତୁ"</item>
+</plurals>
+<plurals name="super_collapsed_block_accessibility_announcement">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> ପୁରୁଣା ବାର୍ତ୍ତାଗୁଡ଼ିକ ସଂପ୍ରସାରିତ ହୋଇଛି"</item>
+</plurals>
+<string name="from_heading">"ଠାରୁ"</string>
+<string name="replyto_heading">"କୁ ଉତ୍ତର ଦିଅନ୍ତୁ:"</string>
+<string name="to_heading">"କୁ:\u0020"</string>
+<string name="to_heading_no_space">"ଙ୍କୁ:"</string>
+<string name="cc_heading">"ସିସି:"</string>
+<string name="bcc_heading">"ବିସିସି:"</string>
+<string name="date_heading">"ତାରିଖ:"</string>
+<string name="show_images">"ଚିତ୍ରଗୁଡ଼ିକ ଦର୍ଶାନ୍ତୁ"</string>
+<string name="always_show_images">"ଏହି ପ୍ରେରକଙ୍କଠାରୁ ଚିତ୍ରଗୁଡ଼ିକ ସବୁବେଳେ ଦର୍ଶାନ୍ତୁ"</string>
+<string name="always_show_images_toast">"ଏହି ପ୍ରେରକଙ୍କଠାରୁ ଚିତ୍ରଗୁଡ଼ିକ ସ୍ୱୟଂକ୍ରିୟ ଭାବରେ ଦେଖାଯିବ ।"</string>
+<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> <xliff:g id="via_domain">%3$s</xliff:g> ଜରିଆରେ"</string>
+<string name="message_saved">"ବାର୍ତ୍ତା ଡ୍ରାଫ୍ଟଭାବରେ ସେଭ୍ ହୋଇଛି ।"</string>
+<string name="sending_message">"ମେସେଜ୍‍ ପଠାଉଛି..."</string>
+<string name="invalid_recipient">"<xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> ଆଡ୍ରେସ୍ ଅବୈଧ ।"</string>
+<string name="show_elided">"କୋଟ୍ କରାଯାଇଥିବା ଟେକ୍ସଟ ଦର୍ଶାନ୍ତୁ"</string>
+<string name="hide_elided">"\u25BC କୋଟ୍ କରାଯାଇଥିବା ଟେକ୍ସଟ ଉହ୍ୟ ରଖନ୍ତୁ"</string>
+<string name="message_invite_title">"କ୍ୟାଲେଣ୍ଡର ଆମନ୍ତ୍ରଣ"</string>
+<string name="message_invite_calendar_view">"କ୍ୟାଲେଣ୍ଡରରେ ଦେଖନ୍ତୁ"</string>
+<string name="message_invite_label_attending">"ଯାଉଛି କି?"</string>
+<string name="message_invite_accept">"ହଁ"</string>
+<string name="message_invite_tentative">"ହୋଇପାରେ"</string>
+<string name="message_invite_decline">"ନାହିଁ"</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="send_anyway">"ଯାହା ହେଲେ ମଧ୍ୟ ପଠାନ୍ତୁ"</string>
+<string name="ok">"ଠିକଠାକ"</string>
+<string name="done">"ହୋଇଗଲା"</string>
+<string name="cancel">"ବାତିଲ କରନ୍ତୁ"</string>
+<string name="clear">"ସଫା କରାନ୍ତୁ"</string>
+<string name="next">"ପର"</string>
+<string name="previous">"ପୁର୍ବବର୍ତ୍ତି"</string>
+<string-array name="sync_status">
+<item>"ସଫଳ"</item>
+<item>"କନେକସନ ନାହିଁ"</item>
+<item>"ସାଇନ‌ ଇନ୍‌ କରିହେଲା ନାହିଁ"</item>
+<item>"ସୁରକ୍ଷାଜନିତ ତ୍ରୁଟି"</item>
+<item>"ସିଙ୍କ୍ ହୋଇପାରିଲା ନାହିଁ"</item>
+<item>"ଆଭ୍ୟନ୍ତରୀଣ ତ୍ରୁଟି"</item>
+<item>"ସର୍ଭର ତ୍ରୁଟି"</item>
+</string-array>
+<string name="tap_to_configure">"ସେଟ୍ କରିବା ପାଇଁ ଟଚ୍ କରନ୍ତୁ"</string>
+<string name="non_synced_folder_description">"ବାର୍ତ୍ତାଳାପଗୁଡ଼ିକ ଦେଖିବା ପାଇଁ, ଏହି ଫୋଲ୍ଡର ସିଙ୍କ୍ କରନ୍ତୁ ।"</string>
+<string name="tap_to_configure_folder_sync">"ସିଙ୍କ୍ ଫୋଲ୍ଡର"</string>
+<string name="large_unseen_count">"<xliff:g id="count" example="99">%d</xliff:g>+ ନୂଆ"</string>
+<string name="unseen_count">"<xliff:g id="count" example="4">%d</xliff:g> ନୂଆ"</string>
+<plurals name="actionbar_unread_messages">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> ପଢ଼ାଯାଇ ନାହିଁ"</item>
+</plurals>
+<string name="view_more_conversations">"ଅଧିକ ବାର୍ତ୍ତାଳାପଗୁଡ଼ିକ ଦେଖନ୍ତୁ"</string>
+<string name="loading_conversation">"ପଠାଇବା..."</string>
+<string name="activity_mailbox_selection">"ଆକାଉଣ୍ଟ ବାଛନ୍ତୁ"</string>
+<string name="activity_folder_selection">"ଫୋଲ୍ଡର ଚୟନ କରନ୍ତୁ"</string>
+<string name="folder_shortcut_widget_label">"ଇମେଲ୍ ଫୋଲ୍ଡର"</string>
+<string name="change_folders_selection_dialog_title">"ଫୋଲ୍ଡର ବଦଳାନ୍ତୁ"</string>
+<string name="move_to_selection_dialog_title">"କୁ ମୁଭ୍ କରନ୍ତୁ"</string>
+<string name="search_hint">"ଖୋଜ"</string>
+<string name="voice_search_not_supported">"ଏହି ଡିଭାଇସରେ ଭଏସ୍ ସର୍ଚ୍ଚ ସପୋର୍ଟ କରୁନାହିଁ ।"</string>
+<string name="search_back_desc">"ସର୍ଚ୍ଚ ବନ୍ଦ କରନ୍ତୁ"</string>
+<string name="search_voice_desc">"ଭଏସ୍‌ ସର୍ଚ୍ଚ ଅରମ୍ଭ କରନ୍ତୁ"</string>
+<string name="search_clear_desc">"ସର୍ଚ୍ଚ ଟେକ୍ସଟ କ୍ଲିଅର୍ କରନ୍ତୁ"</string>
+<string name="network_error">"କନେକସନ ନାହିଁ"</string>
+<string name="retry">"ପୁନଃ ଚେଷ୍ଟା"</string>
+<string name="load_more">"ଅଧିକ ଲୋଡ୍ କରନ୍ତୁ"</string>
+<string name="shortcut_name_title">"ନାମ ଫୋଲ୍ଡର ସର୍ଟକଟ୍"</string>
+<string name="wait_for_sync_title">"ସିଙ୍କ୍ ପାଇଁ ଅପେକ୍ଷା କରୁଛି"</string>
+<string name="not_synced_title">"ଆକାଉଣ୍ଟ ସିଙ୍କ୍ ହୋଇନାହିଁ"</string>
+<string name="wait_for_manual_sync_body">"ଏହି ଆକାଉଣ୍ଟ ସ୍ୱୟଂକ୍ରିୟଭାବରେ ସିଙ୍କ୍ ହେବା ପାଇଁ ସେଟ୍ ହୋଇ ନାହିଁ । \nଥରେ ମେଲ୍ ସିଙ୍କ କରିବା ପାଇଁ ଟଚ୍ କରନ୍ତୁ<b>ସିଙ୍କ୍ ନାଓ</b> କିମ୍ବା ସ୍ୱୟଂକ୍ରିୟଭାବରେ ଏହି ଆକାଉଣ୍ଟ ସିଙ୍କ୍ ମେଲ୍ କୁ ସେଟ୍ କରିବା ପାଇଁ ସେଟ୍ କରିବା ପାଇଁ <b>ଚେଞ୍ଜ୍ ସିଙ୍କ୍ ସେଟିଂସ୍</b> ।"</string>
+<string name="manual_sync">"ବର୍ତ୍ତମାନ ସିଙ୍କ୍ କରନ୍ତୁ"</string>
+<string name="change_sync_settings">"ସିଙ୍କ୍ ସେଟିଂସ୍ ବଦଳାନ୍ତୁ"</string>
+<string name="photo_load_failed">"ପ୍ରତିରୂପ ପ୍ରେରଣ କରାଯାଇପାରୁନି"</string>
+<string name="cant_move_or_change_labels">"ମୁଭ୍ କରିପାରିବ ନାହିଁ କାରଣ ଚୟନରେ ଏକାଧିକ ଆକାଉଣ୍ଟ ଥାଏ ।"</string>
+<string name="multiple_new_message_notification_item">"<b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="ignore_spam_warning">"ଉପେକ୍ଷା କରନ୍ତୁ, ମୁଁ ଏହି ବାର୍ତ୍ତାକୁ ବିଶ୍ୱାସ କରେ"</string>
+<string name="via_domain">"<xliff:g id="viaDomain">%1$s</xliff:g> ଜରିଆରେ"</string>
+<string name="signin">"ସାଇନ୍-ଇନ୍"</string>
+<string name="info">"ସୂଚନା"</string>
+<string name="report">"ରିପୋର୍ଟ କରନ୍ତୁ"</string>
+<string name="show">"ଦର୍ଶାନ୍ତୁ"</string>
+<string name="sync_error">"ସିଙ୍କ୍ କରିପାରିଲା ନାହିଁ ।"</string>
+<string name="sync_error_message">"ସିଙ୍କ୍ କରିବା ପାଇଁ ଆପଣଙ୍କ ଡିଭାଇସରେ ଯଥେଷ୍ଟ ସ୍ଥାନ ନାହିଁ ।"</string>
+<string name="storage">"ସଂରକ୍ଷକ"</string>
+<string name="senders_split_token">",\u00A0"</string>
+<string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+<string name="all_folders_heading">"ସବୁ ଫୋଲ୍ଡର ଗୁଡ଼ିକ"</string>
+<string name="recent_folders_heading">"ନିକଟରେ ବନିଥିବା ଫୋଲ୍ଡରଗୁଡ଼ିକ"</string>
+<string name="message_details_title">"ବାର୍ତ୍ତା ବିବରଣିଗୁଡ଼ିକ"</string>
+<string name="preference_advance_to_title">"ଅଟୋ-ଆଡଭାନସ୍ଡ"</string>
+<string-array name="prefEntries_autoAdvance">
+<item>"ଅଳ୍ପ ନୂଆ"</item>
+<item>"ଅଧିକତର ପୁରୁଣା"</item>
+<item>"ବାର୍ତ୍ତାଳାପ ତାଲିକା"</item>
+</string-array>
+<string-array name="prefSummaries_autoAdvance">
+<item>"ଆପଣ ଡିଲିଟ୍ କରିବା ପରେ ଅଳ୍ପ ନୂଆ ବାର୍ତ୍ତାଳାପ ଦର୍ଶାନ୍ତୁ"</item>
+<item>"ଆପଣ ଡିଲିଟ୍ କରିବା ପରେ ଅଳ୍ପ ପୁରୁଣା ବାର୍ତ୍ତାଳାପ ଦର୍ଶାନ୍ତୁ"</item>
+<item>"ଆପଣ ଡିଲିଟ୍ କରିବା ପରେ ବାର୍ତ୍ତାଳାପ ତାଲିକା ଦର୍ଶାନ୍ତୁ"</item>
+</string-array>
+<string name="prefDialogTitle_autoAdvance">"ଆଡଭାନସ୍ଡ ଟୁ"</string>
+<string name="clear_display_images_whitelist_title">"ପିକ୍ଚର୍ ଆପ୍ରୁଭାଲ୍ ଗୁଡ଼ିକ କ୍ଲିଅର କରନ୍ତୁ"</string>
+<string name="clear_display_images_whitelist_dialog_title">"ପିକ୍ଚର୍ ଆପ୍ରୁଭାଲ୍ ଗୁଡ଼ିକ କ୍ଲିଅର କରିବେ କି?"</string>
+<string name="clear_display_images_whitelist_dialog_message">"ଆପଣ ପୂର୍ବରୁ ଅନୁମତି ଦେଇଥିବା ପ୍ରେରକମାନଙ୍କଠାରୁ ଆସିଥିବା ଇନଲାଇନ୍ ଇମେଜଗୁଡ଼ିକ ଡିସପ୍ଲେ କରିବା ବନ୍ଦ କରନ୍ତୁ ।"</string>
+<string name="sender_whitelist_cleared">"ସ୍ୱୟଂକ୍ରିୟଭାବରେ ଚିତ୍ରଗୁଡ଼ିକ ଦର୍ଶାଇବ ନାହିଁ ।"</string>
+<string name="preferences_signature_title">"ଦସ୍ତଖତ"</string>
+<string name="preferences_signature_dialog_title">"ଦସ୍ତଖତ"</string>
+<string name="preferences_signature_summary_not_set">"ସେଟ୍ ହୋଇ ନାହିଁ"</string>
+<string name="notification_action_reply">"ଉତ୍ତର"</string>
+<string name="notification_action_reply_all">"ସମସ୍ତଙ୍କୁ ଉତ୍ତର ଦିଅନ୍ତୁ"</string>
+<string name="notification_action_archive">"ଆର୍କାଇଭ୍"</string>
+<string name="notification_action_remove_label">"ଲେବେଲ୍ ହଟାନ୍ତୁ"</string>
+<string name="notification_action_delete">"କାଟ"</string>
+<string name="notification_action_undo_archive">"ଆର୍କାଇଭ୍ ହୋଇଛି"</string>
+<string name="notification_action_undo_remove_label">"ଲେବେଲ୍ ହଟାଯାଇଛି"</string>
+<string name="notification_action_undo_delete">"ଅପସାରିତ"</string>
+<string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+<plurals name="new_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ନୂଆ ବାର୍ତ୍ତା"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ନୂଆ ବାର୍ତ୍ତାଗୁଡ଼ିକ"</item>
+</plurals>
+<string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="silent_ringtone">"ନିରବ"</string>
+<string name="preference_removal_action_title">"ଡିଫଲ୍ଟ ପଦକ୍ଷେପ"</string>
+<string-array name="prefEntries_removal_action">
+<item>"ଆର୍କାଇଭ୍"</item>
+<item>"କାଟ"</item>
+</string-array>
+<string-array name="prefSummaries_removal_action_summary">
+<item>"ଆର୍କାଇଭ୍"</item>
+<item>"କାଟ"</item>
+</string-array>
+<string name="prefDialogTitle_removal_action">"ଡିଫଲ୍ଟ ପଦକ୍ଷେପ"</string>
+<string name="preferences_default_reply_all_title">"ସମସ୍ତଙ୍କୁ ଉତ୍ତର ଦିଅନ୍ତୁ"</string>
+<string name="preferences_default_reply_all_summary_impl">"ବାର୍ତ୍ତା ଉତ୍ତର ପାଇଁ ଡିଫଲ୍ଟ ଭାବରେ ବ୍ୟବହାର କରନ୍ତୁ"</string>
+<string name="preference_swipe_title">"ପଦକ୍ଷେପଗୁଡ଼ିକ ଅଦଳବଦଳ କରନ୍ତୁ"</string>
+<string name="preference_swipe_description">"ବାର୍ତ୍ତାଳାପ ତାଲିକାରେ"</string>
+<string name="preference_sender_image_title">"ପ୍ରେରକ ଚିତ୍ର"</string>
+<string name="preference_sender_image_description">"ବାର୍ତ୍ତାଳାପ ତାଲିକାରେ ପାଖ ନାମ ଦର୍ଶାନ୍ତୁ"</string>
+<string name="empty_trash">"ଆବର୍ଜନା ଖାଲି କରନ୍ତୁ"</string>
+<string name="empty_spam">"ସ୍ପାମ୍ ଖାଲି କରନ୍ତୁ"</string>
+<string name="empty_trash_dialog_title">"ଆବର୍ଜନା ଖାଲି କରିବେ କି?"</string>
+<string name="empty_spam_dialog_title">"ସ୍ପାମ୍ ଖାଲି କରିବେ କି?"</string>
+<plurals name="empty_folder_dialog_message">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ବାର୍ତ୍ତା ସ୍ଥାୟୀ ଭାବରେ ଡିଲିଟ୍ ହୋଇଯିବ ।"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g>ବାର୍ତ୍ତାଗୁଡ଼ିକ ସ୍ଥାୟୀ ଭାବରେ ଡିଲିଟ୍ ହୋଇଯିବ ।"</item>
+</plurals>
+<string name="drawer_open">"ନ୍ୟାଭିଗେସନ୍ ଡ୍ରର୍ ଓପନ୍ କରନ୍ତୁ"</string>
+<string name="drawer_close">"ନ୍ୟାଭିଗେସନ୍ ଡ୍ରର୍ କ୍ଲୋଜ୍ କରନ୍ତୁ"</string>
+<string name="conversation_photo_welcome_text">"ସେହି ବାର୍ତ୍ତାଳାପ ଚୟନ କରିବା ପାଇଁ ଏକ ପ୍ରେରକ ଚିତ୍ର ଟଚ୍ କରନ୍ତୁ"</string>
+<string name="long_press_to_select_tip">"&amp; ଟଚ୍ କରନ୍ତୁ ଗୋଟିଏ ବାର୍ତ୍ତାଳାପ ଚୟନ କରିବା ପାଇଁ ହୋଲ୍ଡ କରନ୍ତୁ, ତାପରେ ଅଧିକ ଚୟନ କରିବା ପାଇଁ ଟଚ୍ କରନ୍ତୁ ।"</string>
+<string name="folder_icon_desc">"ଫୋଲ୍ଡର ଆଇକନ୍"</string>
+<string name="add_account">"ଅକାଉଣ୍ଟ ଯୋଗ କରନ୍ତୁ"</string>
+<string name="dismiss_tip_hover_text">"ଡିସମିସ୍ ଟିପ୍"</string>
+<string name="auto_sync_off">"ଅଟୋ-ସିଙ୍କ୍ ବନ୍ଦ ଅଛି । ଅନ୍ କରିବା ପାଇଁ ଟଚ୍ କରନ୍ତୁ ।"</string>
+<string name="account_sync_off">"ସିଙ୍କ୍ରୋନାଇଜ୍‍ ଆକାଉଣ୍ଟ ଅଫ୍‍ ହୋଇଛି । &lt;a href=\'http://www.example.com\'&gt;ଆକାଉଣ୍ଟ୍\u00A0ସେଟିଂ.&lt;/a&gt;ଠାରେ ଅନ୍‍ କରନ୍ତୁ""</string>
+<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> <xliff:g id="outbox">%2$s</xliff:g> ରେ ପଠାଯାଇନାହିଁ" </string>
+<string name="turn_auto_sync_on_dialog_title">"ଅଟୋ-ସିଙ୍କ୍ ଅନ୍ କରିବେ କି?"</string>
+<string name="turn_auto_sync_on_dialog_body">"କେବଳ ଜିମେଲ୍ ନୁହେଁ, ଆପଣ ସମସ୍ତ ଆପ୍ ଏବଂ ଆକାଉଣ୍ଟରେ କରିଥିବା ପରିବର୍ତ୍ତନ ୱେବ୍, ଆପଣଙ୍କ ଅନ୍ୟ ଡିଭାଇସ୍ ଏବଂ ଆପଣଙ୍କର <xliff:g id="phone_or_tablet">%1$s</xliff:g> ମଧ୍ୟରେ ସିଙ୍କ୍ରୋନାଇଜ୍ ହେବ ।"</string>
+<string name="phone">"ଫୋନ"</string>
+<string name="tablet">"ଟେବ୍ଲଟ"</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">"ସକ୍ରିୟ କରନ୍ତୁ"</string>
+<string name="show_n_more_folders">"<xliff:g id="number">%1$s</xliff:g> ଫୋଲ୍ଡରଗୁଡ଼ିକ ଦର୍ଶାନ୍ତୁ"</string>
+<string name="hide_folders">"ଫୋଲ୍ଡରଗୁଡ଼ିକ ଉହ୍ୟ ରଖନ୍ତୁ"</string>
+<string name="print">"ପ୍ରିଣ୍ଟ କରନ୍ତୁ"</string>
+<string name="print_all">"ସବୁଗୁଡ଼ିକ ପ୍ରିଣ୍ଟ କରନ୍ତୁ"</string>
+<plurals name="num_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ମେସେଜ୍"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ମେସେଜଗୁଡ଼ିକ"</item>
+</plurals>
+<string name="date_message_received_print">"<xliff:g id="time">%2$s</xliff:g> ରେ <xliff:g id="day_and_date">%1$s</xliff:g>"</string>
+<string name="draft_to_heading">"କୁ ଡ୍ରାଫ୍ଟ:"</string>
+<string name="draft_heading">"ଡ୍ରାଫ୍ଟ"</string>
+<string name="quoted_text_hidden_print">"କୋଟ୍ କରାଯାଇଥିବା ଟେକ୍ସଟ ଉହ୍ୟ ରଖାଯାଇଛି"</string>
+<plurals name="num_attachments">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ଆଟାଚମେଣ୍ଟ"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ଆଟାଚମେଣ୍ଟଗୁଡ଼ିକ"</item>
+</plurals>
+<string name="no_subject">"(କୌଣସି ବିଷୟ ନୁହେଁ)"</string>
+<string name="vacation_responder">"ଭ୍ୟାକେସନ୍ ରେସ୍ପଣ୍ଡର"</string>
+<string name="preferences_vacation_responder_title">"ଭ୍ୟାକେସନ୍ ରେସ୍ପଣ୍ଡର"</string>
+<string name="vacation_responder_body_hint_text">"ମେସେଜ"</string>
+<string name="send_to_contacts_text">"କେବଳ ମୋ କଣ୍ଟାକ୍ଟଗୁଡ଼ିକୁ ପଠାନ୍ତୁ"</string>
+<string name="send_to_domain_text">"କେବଳ <xliff:g id="domain">%1$s</xliff:g> କୁ ପଠାନ୍ତୁ"</string>
+<string name="pick_start_date_title">"ଆରମ୍ଭ ହୁଏ"</string>
+<string name="pick_end_date_title">"ଶେଷ ହୁଏ (ବୈକଳ୍ପିକ)"</string>
+<string name="date_not_set">"ସେଟ୍ ହୋଇ ନାହିଁ"</string>
+<string name="set_end_date_dialog_title">"ଶେଷ ତାରିଖ (ବୈକଳ୍ପିକ)"</string>
+<string name="custom_date">"ପରମ୍ପରା"</string>
+<string name="date_none">"କେହି ନାହିଁ"</string>
+<string name="discard_changes">"ପରିବର୍ତ୍ତନଗୁଡ଼ିକ ଅଦରାକରୀଭାବରେ ପ୍ରତ୍ୟାଖ୍ୟାନ କରିବେ କି?"</string>
+<string name="vacation_responder_changes_saved">"ଭ୍ୟାକେସନ୍ ରେସ୍ପଣ୍ଡର ପରିବର୍ତ୍ତନଗୁଡ଼ିକ ସେଭ୍ ହୋଇଛି"</string>
+<string name="vacation_responder_changes_discarded">"ଭ୍ୟାକେସନ୍ ରେସ୍ପଣ୍ଡର ପରିବର୍ତ୍ତନଗୁଡ଼ିକ ଅଦରାକରୀଭାବରେ ପ୍ରତ୍ୟାଖ୍ୟାନ ହୋଇଛି"</string>
+<string name="vacation_responder_off">"ନିଷ୍କ୍ରିୟ"</string>
+<string name="vacation_responder_on">"<xliff:g id="date">%1$s</xliff:g> ରୁ, ରେ"</string>
+<string name="vacation_responder_on_with_end_date">"<xliff:g id="start-date">%1$s</xliff:g> ରୁ <xliff:g id="end-date">%2$s</xliff:g> କୁ, ରେ"</string>
+<string name="vacation_responder_empty_subject_and_body_warning">"ଏକ ବିଷୟ କିମ୍ବା ବାର୍ତ୍ତା ଯୋଡ଼ନ୍ତୁ"</string>
+<string name="view_entire_message">"ସମ୍ପୂର୍ଣ୍ଣ ବାର୍ତ୍ତା ଦେଖନ୍ତୁ"</string>
+<string name="eml_loader_error_toast">"ଏହି ଫାଇଲ୍ ଖୋଲିପାରିବ ନାହିଁ"</string>
+<string name="help_and_info">"ସାହାଯ୍ୟ"</string>
+<string name="help_and_feedback">"ସାହାଯ୍ୟ ଓ ମତାମତ"</string>
+<string name="feedback">"ମତାମତ ପଠାନ୍ତୁ"</string>
+<string name="copyright">"&#169;<xliff:g id="year" example="2010">%1$d</xliff:g> Google Inc."</string>
+<string name="version">"<xliff:g id="app_name" example="Email">%1$s</xliff:g> ଭର୍ସନ୍ <xliff:g id="version" example="2.2.1">%2$s</xliff:g>"</string>
+<string name="print_dialog">"ପ୍ରିଣ୍ଟ…"</string>
+<string name="copyright_information">"କପିରାଇଟ୍ ସୂଚନା"</string>
+<string name="privacy_policy">"ଗୋପନୀୟତା ନୀତି"</string>
+<string name="open_source_licenses">"ଓପନ୍‌ ସୋର୍ସ୍‌ ଲାଇସେନ୍ସଗୁଡିକ"</string>
+<string name="reply_choice_yes">"ହଁ"</string>
+<string name="reply_choice_no">"ନାହିଁ"</string>
+<string name="reply_choice_ok">"ଠିକଠାକ"</string>
+<string name="reply_choice_hehe">"ହେ ହେ"</string>
+<string name="reply_choice_thanks">"ଧନ୍ୟବାଦ"</string>
+<string name="reply_choice_i_agree">"ମୁଁ ସହମତ"</string>
+<string name="reply_choice_nice">"ଭଲ"</string>
+<string name="reply_on_my_way">"ମୋ ଉପାୟରେ"</string>
+<string name="reply_choice_later">"ଠିକ୍ ଅଛି, ମୋତେ ଆପଣଙ୍କ ପାଖକୁ ଫେରିବାକୁ ଦିଅନ୍ତୁ"</string>
+<string name="preference_header_action_confirmations">"ପଦକ୍ଷେପ ସୁନିଶ୍ଚିତତା"</string>
+<string name="preference_confirm_before_delete_title">"ଡିଲିଟ୍ କରିବା ପୂର୍ବରୁ ସୁନିଶ୍ଚିତ କରନ୍ତୁ"</string>
+<string name="preference_confirm_before_archive_title">"ଆର୍କାଇଭ୍ କରିବା ପୂର୍ବରୁ ସୁନିଶ୍ଚିତ କରନ୍ତୁ"</string>
+<string name="preference_confirm_before_send_title">"ପଠାଇବା ପୂର୍ବରୁ ସୁନିଶ୍ଚିତ କରନ୍ତୁ"</string>
+<string name="preferences_conversation_mode_title">"ଅଟୋ-ଫିଟ୍ ବାର୍ତ୍ତାଗୁଡ଼ିକ"</string>
+<string name="preferences_conversation_mode_summary">"ସ୍କ୍ରିନ୍ କୁ ଫିଟ୍ ହେବା ପାଇଁ ମେସେଜ୍ ଛୋଟ କରନ୍ତୁ"</string>
+<string name="preferences_disable_snap_headers_title">"ମେସେଜ୍ ଆକସନ୍ ଗୁଡ଼ିକ"</string>
+<string-array name="prefSummaries_snapHeader">
+<item>"ସବୁବେଳେ ସ୍କ୍ରିନ୍ ର ଉପର ଭାଗରେ ମେସେଜ୍ ଆକସନ୍ ଗୁଡ଼ିକ ଦର୍ଶାନ୍ତୁ"</item>
+<item>"ପୋର୍ଟ୍ରେଟ୍ କରିବା ପାଇଁ ଘୂରାଇବା ସମୟରେ ସ୍କ୍ରିନ୍ ର ଉପର ଭାଗରେ କେବଳ ମେସେଜ୍ ଆକସନ୍ ଗୁଡ଼ିକ ଦର୍ଶାନ୍ତୁ"</item>
+<item>"ମେସେଜ୍ ହିଡର ବାହାରେ ମେସେଜ୍ ଆକସନ୍ ଗୁଡ଼ିକ ଦର୍ଶାନ୍ତୁ ନାହିଁ"</item>
+</string-array>
+<string-array name="prefEntries_snapHeader">
+<item>"ସବୁବେଳେ ମନ୍ଥର"</item>
+<item>"କେବଳ ପୋର୍ଟ୍ରେଟରେ ହିଁ ଦେଖାନ୍ତୁ"</item>
+<item>"ଦର୍ଶାନ୍ତୁ ନାହିଁ"</item>
+</string-array>
+<string name="clear_history_title">"ସର୍ଚ୍ଚ ହିଷ୍ଟ୍ରି ପରିଷ୍କାର କରନ୍ତୁ"</string>
+<string name="search_history_cleared">"ସର୍ଚ୍ଚ ହିଷ୍ଟ୍ରି କ୍ଲିଅର ହୋଇଯାଇଛି ।"</string>
+<string name="clear_history_dialog_title">"ସର୍ଚ୍ଚ ହିଷ୍ଟ୍ରି କ୍ଲିଅର କରିବେ କି?"</string>
+<string name="clear_history_dialog_message">"ଆପଣ ପୂର୍ବରୁ କରିଥିବା ସମସ୍ତ ସର୍ଚ୍ଚଗୁଡ଼ିକ ହଟିଯିବ ।"</string>
+<string name="manage_accounts_menu_item">"ଆକାଉଣ୍ଟ ପରିଚାଳନା କରନ୍ତୁ"</string>
+<string name="general_preferences_title">"ସାଧାରଣ ସେଟିଂସ୍‌"</string>
+<string name="activity_preferences">"ସଂସ୍ଥାପନା"</string>
+<string name="overflow_description">"ଅଧିକ ବିକଳ୍ପ"</string>
+<string name="security_hold_required_text">"<xliff:g id="email_address">%1$s</xliff:g> ପାଇଁ ସିକ୍ୟୁରିଟି ଅପଡେଟ୍ ଆବଶ୍ୟକ"</string>
+<string name="update_security_text">"ବର୍ତ୍ତମାନ ଅପଡେଟ୍ କରନ୍ତୁ"</string>
+<string name="forms_are_disabled">"ଜିମେଲ୍ ରେ ଫର୍ମଗୁଡ଼ିକ ଡିଜେବଲ୍ ହୋଇଛି"</string>
+<string name="add_contacts_too_much">"ସର୍ବାଧିକ ସଂଖ୍ୟକ ଗ୍ରହୀତା ହେଉଛନ୍ତି 50 ।"</string>
+<string name="account_delete_dlg_title">"ରିମୁଭ୍ ଆକାଉଣ୍ଟ"</string>
+<string name="account_delete_waiting">"ହଟାଉଛି, ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ…"</string>
+<string name="filter_all">"ସମସ୍ତ"</string>
+<string name="filter_receiver">"ଗ୍ରହୀତା"</string>
+<string name="filter_sender">"ପ୍ରେରକ"</string>
+<string name="filter_subject">"ବିଷୟ"</string>
+<string name="filter_content">"ବିଷୟବସ୍ତୁ"</string>
+<string name="search_on_server">"ସର୍ଭରରେ ସର୍ଚ୍ଚ କରନ୍ତୁ"</string>
+<string name="download_confirm_msg">"ନେଟୱ୍ରକ WLAN ନୁହେଁ, ଏବଂ ଆଟାଚମେଣ୍ଟ ହେଉଛି ବଡ଼, ଦୟାକରି ଜାରି ରଖିବେ କି ନାହିଁ ସୁନିଶ୍ଚିତ କରନ୍ତୁ"</string>
+<string name="download_deny_malware">"ମାଲୱେୟାର ହୋଇଥାଇପାରେ । ଡାଉନଲୋଡ୍ ହୋଇପାରିଲା ନାହିଁ ।"</string>
+<string name="download_deny_wifionly">"WLAN ସମୟରେ କେବଳ ଡାଉନଲୋଡ୍ ହୋଇପାରିବ ।"</string>
+<string name="download_deny_nointent">"କୌଣସି ଆପ୍ ଏହାକୁ ଓପନ୍ କରିପାରିବ ନାହିଁ । ଡାଉନଲୋଡ୍ ହୋଇପାରିଲା ନାହିଁ ।"</string>
+<string name="download_deny_nosideload">"ଅଜଣା ଉତ୍ସ ଆପ୍ ଇନଷ୍ଟଲେସନ୍ ଅନୁମତି ପରେ ପୁଣି ଥରେ ଚେଷ୍ଟା କରନ୍ତୁ ।"</string>
+<string name="download_deny_apkinstall">"କୌଣସି apk ଇନଷ୍ଟଲା କରିବା ପାଇଁ ଅସମର୍ଥ । ଡାଉନଲୋଡ୍ କରିପାରିଲା ନାହିଁ ।"</string>
+<string name="download_deny_policy">"ଆକାଉଣ୍ଟ ପଲିସି ଯୋଗୁଁ ଡାଉନଲୋଡ୍ କରିପାରିଲା ନାହିଁ ।"</string>
+<string name="download_att_external">"ଡାଉନଲୋଡ୍ କରିବା ପାଇଁ ଡାଉନଲୋଡ୍ କରନ୍ତୁ"</string>
+<string name="save_to_where">"ଆଟାଚମେଣ୍ଟ ସପଳତାର ସହ :ରେ ସେଭ୍ ହୋଇଛି"</string>
+<string name="missing_required_permission">"ଆପଣ ଏକ ଆବଶ୍ୟକୀୟ ଅନୁମତିକୁ ଅକ୍ଷମ କରିଛନ୍ତି |"</string>
+<string name="permission_change">"ଯେହେତୁ ଅନୁମତି ପରିବର୍ତ୍ତନ ହୋଇଛି, ଦୟାକରି ଫାଇଲ୍ ପୁଣି ଥରେ ଚୟନ କରନ୍ତୁ ।"</string>
+<string name="permission_change_redo">"ଯେହେତୁ ଅନୁମତି ପରିବର୍ତ୍ତନ ହୋଇଛି, ଦୟାକରି ଫାଇଲ୍ ପୁଣି ଥରେ କରନ୍ତୁ ।"</string>
+<string name="preference_default_signature_title">"ଦସ୍ତଖତ"</string>
+<string name="signature_default">"ମୋ ଫୋନ୍ ରୁ ପଠାଯାଇଛି"</string>
+<string name="set_priority_high">"ପ୍ରାଥମିକତା ଉଚ୍ଚରେ ସେଟ୍ କରନ୍ତୁ"</string>
+<string name="set_priority_normal">"ପ୍ରାଥମିକତା ସାଧାରଣରେ ସେଟ୍ କରନ୍ତୁ"</string>
+<string name="set_priority_low">"ପ୍ରାଥମିକତା ନିମ୍ନରେ ସେଟ୍ କରନ୍ତୁ"</string>
+<string name="file_not_exist">"ସ୍ଥାନୀୟ ସଂଲଗ୍ନ ନାହିଁ, ଦୟାକରି ପୁନର୍ବାର ଡାଉନ୍‍‍ଲୋଡ୍‍ କରନ୍ତୁ!"</string>
+<string name="body_input_more">"ଦୁଃଖିତ, କେବଳ %1$s କ୍ୟାରେକ୍ଟର ଇନପୁଟ୍ କରିପାରିବେ"</string>
+<string name="attachment_rename_to_legal">"ଯେହେତୁ ପ୍ରକୃତ ନାମ ବେଆଇନ୍ ଆଟାଚମେଣ୍ଟ ରିନେମ୍ କରାଯାଇଛି"</string>
+</resources>

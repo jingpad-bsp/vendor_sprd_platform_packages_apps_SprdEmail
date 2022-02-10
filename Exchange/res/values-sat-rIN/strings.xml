@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"आङ्गोच: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">"तोपाग: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">"नाहीनिधान: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">"बातिल: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">"नावाआरो: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">"जोखेच्: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">"ओकारे: <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">"जोखेच्: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (इदीआरो) "</string>
+<string name="meeting_allday">"जोखेच्: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (जोतो माहाँ) "</string>
+<string name="meeting_allday_recurring">"जोखेच् : <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (जोतो माहाँ, इदीआरो) "</string>
+<string name="app_name">"एपेम सेवा"</string>
+<string name="exception_cancel">"नोवा हान को बातिल लागित् ते: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="exception_updated">"हान को रेनाक् बेवरा फेराव लागित् ते: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="policy_dont_allow_storage_cards">"जोगाव कार्ड बाङ गानोक्आ"</string>
+<string name="policy_dont_allow_unsigned_apps">"बेसुही एप्प को बाङ गानोक्आ"</string>
+<string name="policy_dont_allow_unsigned_installers">"बेसुही एप्प इंस्टल बाङ गानोक्आ"</string>
+<string name="policy_dont_allow_wifi">"वाई-फाई बाङ गानोक्"</string>
+<string name="policy_dont_allow_text_messaging">"बाङ् गानोक्आ सान्देसकोल"</string>
+<string name="policy_dont_allow_pop_imap">"बाङ गानोक् POP3 या IMAP खाताको"</string>
+<string name="policy_dont_allow_irda">"सामाङ दापराम जोनोड़ाव बाङ गानोक्आ"</string>
+<string name="policy_dont_allow_html">"HTML ईमेल बाङ् गानोक्आ"</string>
+<string name="policy_dont_allow_browser">"ब्राउजर बाङ गानोक्आ"</string>
+<string name="policy_dont_allow_consumer_email">"गाहकी ईमेल हाटिञ बाङ गानोक्आ"</string>
+<string name="policy_dont_allow_internet_sharing">"इंटरनेट हाटिञ बाङ गानोक्आ"</string>
+<string name="policy_require_smime">"SMIME सान्देसको लाकतीया"</string>
+<string name="policy_bluetooth_restricted">"ब्लूटुथ बेभार बारोन"</string>
+<string name="policy_app_blacklist">"आसोल एप्प दाँव बाङएम"</string>
+<string name="policy_app_whitelist">"एकेल आसोलाक् एप्प को दाँवएम"</string>
+<string name="policy_text_truncation">"पाट ईमेल साइज बारोन"</string>
+<string name="policy_html_truncation">"HTML ईमेल साइज बारोन"</string>
+<string name="policy_require_sd_encryption">"SD कार्ड एन्स्क्रीपसन लाकतीमेनाक्आ"</string>
+<string name="policy_dont_allow_attachments">"सेलेद दांव बानुक्आ"</string>
+<string name="policy_max_attachment_size">"सेलेद साइज बारोन"</string>
+<string name="policy_require_manual_sync_roaming">"रोमिंग ओकते रे एकेन ती ते सिंग रेयाक् दावे एमोक् काना"</string>
+<string name="policy_require_encryption">"डिवाइस एन्स्क्रीपसन लाकती काना"</string>
+<string name="account_setup_options_mail_window_auto">"आच् ते"</string>
+<string name="account_setup_options_mail_window_1day">"मित् माहाँ"</string>
+<string name="account_setup_options_mail_window_3days">"पे माहाँ"</string>
+<string name="account_setup_options_mail_window_1week">"मित् हापता"</string>
+<string name="account_setup_options_mail_window_2weeks">"बार हापता"</string>
+<string name="account_setup_options_mail_window_1month">"मित् चाँदो"</string>
+<string name="account_setup_options_mail_window_all">"जोतो"</string>
+<string name="auth_error_notification_title">"साबुद तापुक"</string>
+<string name="auth_error_notification_text">"सेटिंग लागित् सासापड़ाव खाता जागमे<xliff:g id="account">%s</xliff:g>"</string>
+<string name="email_settings_not_available">"ईमेल रेयाक् एप्लीकेसन बेवरा दोहड़ा सोमोला"</string>
+</resources>

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="from">"ಕಳುಹಿಸಿದವರ "</string>
+<string name="to">"ಗೆ"</string>
+<string name="cc">"Cc"</string>
+<string name="bcc">"Bcc"</string>
+<string name="subject_hint">"ವಿಷಯ"</string>
+<string name="body_hint">"ಇಮೇಲ್ ಕಂಪೋಸ್ ಮಾಡಿ"</string>
+<string name="add_file_attachment">"ಫೈಲ್ ಅನ್ನು ಅಟ್ಯಾಚ್ ಮಾಡಿ"</string>
+<string name="add_photo_attachment">"ಚಿತ್ರವನ್ನು ಅಟ್ಯಾಚ್ ಮಾಡಿ"</string>
+<string name="save_draft">"ಡ್ರಾಫ್ಟ್ ಸೇವ್ ಮಾಡಿ"</string>
+<string name="discard">"ತ್ಯಜಿಸಿ"</string>
+<string name="compose">"ಸಂಕಲನ ಮಾಡಿ"</string>
+<string name="compose_title">"ಸಂಕಲನ ಮಾಡಿ"</string>
+<string-array name="compose_modes">
+<item>"ಉತ್ತರಿಸಿ"</item>
+<item>"ಉತ್ತರವನ್ನು ಎಲ್ಲರಿಗೂ ಕಳುಹಿಸಿ"</item>
+<item>"ಮುಂದಕ್ಕೆ"</item>
+</string-array>
+<string name="reply_attribution">"ಈ ದಿನಾಂಕದಂದು <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g>ಇವರು ಬರೆದರು:"</string>
+<string name="forward_attribution">"---------- ಫಾರ್ವರ್ಡ್ ಮಾಡಲಾದ ಸಂದೇಶ ---------- &lt;br&gt; ಇಂದ:<xliff:g id="from">%1$s</xliff:g>&lt;br&gt;ದಿನಾಂಕ: <xliff:g  id="date">%2$s</xliff:g>&lt;br&gt;ವಿಷಯ:<xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;ಗೆ:<xliff:g id="to">%4$s</xliff:g>&lt;br&gt;"</string>
+<string name="forward_attribution_no_headers">"---------- ಫಾರ್ವರ್ಡ್ ಮಾಡಿದ ಸಂದೇಶ ----------"</string>
+<string name="cc_attribution">"ಸಿಸಿ: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;"</string>
+<string name="select_attachment_type">"ಅಟ್ಯಾಚ್ಮೆಂಟ್ ನ ವಿಧವನ್ನು ಆಯ್ಕೆಮಾಡಿ"</string>
+<string name="too_large_to_attach_single">"ಈ ಗಾತ್ರಕ್ಕಿಂತ ದೊಡ್ಡ ಫೈಲ್ ಅನ್ನು ಅಟ್ಯಾಚ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+<string name="too_large_to_attach_multiple">"ಒಂದು ಅಥವಾ ಹೆಚ್ಚು ಫೈಲ್ಗಳು ಅಟ್ಯಾಚ್ ಆಗಿಲ್ಲ. ಮಿತಿ <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+<string name="too_large_to_attach_additional">"ಫೈಲ್ ಅಟ್ಯಾಚ್ ಆಗಿಲ್ಲ.<xliff:g id="maxSize">%1$s</xliff:g>ಮಿತಿ ತಲುಪಿಯಾಗಿದೆ."</string>
+<string name="generic_attachment_problem">"ಫೈಲ್ ಅನ್ನು ಅಟ್ಯಾಚ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."</string>
+<string name="attachment_permission_denied">"ಲಗತ್ತಿಗಾಗಿ ಅನುಮತಿ ನಿರಾಕರಿಸಿದೆ."</string>
+<string name="recipient_needed">"ಕನಿಷ್ಠ ಒಬ್ಬರು ಸ್ವೀಕೃತಿದಾರರನ್ನು ಸೇರಿಸಿ."</string>
+<string name="confirm_send_message_with_no_subject">"ಸಂದೇಶದ ವಿಷಯದಲ್ಲಿ ಯಾವುದೇ ಪಠ್ಯ ಇಲ್ಲ."</string>
+<string name="confirm_send_message_with_no_body">"ಸಂದೇಶದ ಪ್ರಧಾನಭಾಗದಲ್ಲಿ ಯಾವುದೇ ಪಠ್ಯ ಇಲ್ಲ."</string>
+<string name="confirm_send_message">"ಈ ಸಂದೇಶವನ್ನು ಕಳಿಸುವುದೇ?"</string>
+<string name="message_discarded">"ಸಂದೇಶವನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ."</string>
+<string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+<string name="custom_from_account_label">"ಮೇಲ್ ಅನ್ನು ಹೀಗೆಂದು ಕಳಿಸಿ:"</string>
+<string name="send">"ಕಳುಹಿಸಿ"</string>
+<string name="mark_read">"ಓದಿಯಾಗಿದೆಯೆಂದು ಗುರುತಿಸಿ"</string>
+<string name="mark_unread">"ಓದಿಯಾಗಿಲ್ಲವೆಂದು ಗುರುತಿಸಿ"</string>
+<string name="toggle_read_unread">"ಟಾಗಲ್ ರೀಡ್ ಅನ್‌ರೀಡ್"</string>
+<string name="mute">"ಮೌನ"</string>
+<string name="add_star">"ನಕ್ಷತ್ರವನ್ನು ಸೇರಿಸಿ"</string>
+<string name="remove_star">"ನಕ್ಷತ್ರವನ್ನು ತೆಗೆದುಹಾಕಿ"</string>
+<string name="remove_folder">"ಇಲ್ಲಿಂದ ತೆಗೆದುಹಾಕಿ <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="archive">"ಸ್ಟೋರೇಜ್ಕ್ಕೆ ಸೇರಿಸಿ"</string>
+<string name="report_spam">"ಸ್ಪ್ಯಾಮ್ ಎಂದು ವರದಿ ಮಾಡಿ"</string>
+<string name="mark_not_spam">"ಸ್ಪ್ಯಾಮ್ ಅಲ್ಲವೆಂದು ವರದಿ ಮಾಡಿ"</string>
+<string name="report_phishing">"ಮೋಸವೆಂದು ವರದಿ ಮಾಡಿ"</string>
+<string name="delete">"ಅಳಿಸಿ"</string>
+<string name="discard_drafts">"ಡ್ರಾಫ್ಟ್ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ"</string>
+<string name="discard_failed">"ತ್ಯಜಿಸು ವಿಫಲವಾಗಿದೆ"</string>
+<string name="refresh">"ರಿಫ್ರೆಷ್"</string>
+<string name="reply">"ಉತ್ತರಿಸಿ"</string>
+<string name="reply_all">"ಉತ್ತರವನ್ನು ಎಲ್ಲರಿಗೂ ಕಳುಹಿಸಿ"</string>
+<string name="resume_draft">"ಸಂಪಾದಿಸಿ"</string>
+<string name="forward">"ಮುಂದಕ್ಕೆ"</string>
+<string name="menu_compose">"ಸಂಕಲನ ಮಾಡಿ"</string>
+<string name="menu_change_folders">"ಫೋಲ್ಡರ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ"</string>
+<string name="menu_move_to">"ಇಲ್ಲಿಗೆ ವರ್ಗಾಯಿಸಿ"</string>
+<string name="menu_move_to_inbox">"ಇನ್ ಬಾಕ್ಸಿಗೆ ವರ್ಗಾಯಿಸಿ"+E7852</string>
+<string name="menu_manage_folders">"ಫೋಲ್ಡರ್ ಸೆಟ್ಟಿಂಗ್ಗಳು"</string>
+<string name="menu_show_original">"ಆಟೋ-ಸೈಜಿಂಗ್ ಅನ್ನು ಹಿಂದಿದ್ದಂತೆ ಮಾಡಿ"</string>
+<string name="menu_settings">"ಸೆಟ್ಟಿಂಗ್ ಗಳು"</string>
+<string name="menu_search">"ಹುಡುಕಾಟ"</string>
+<string name="menu_toggle_drawer">"ಟಾಗಲ್ ಡ್ರಾವರ್"</string>
+<string name="drawer_title">"ನ್ಯಾವಿಗೇಷನ್"</string>
+<string name="mark_important">"ಮುಖ್ಯವಾದುದು ಎಂದು ಗುರುತಿಸಿ"</string>
+<string name="mark_not_important">"ಮುಖ್ಯವಾದುದಲ್ಲ ಎಂದು ಗುರುತಿಸಿ"</string>
+<string name="add_cc_label">"Cc/Bcc ಸೇರಿಸಿ"</string>
+<string name="add_bcc_label">"Bcc ಸೇರಿಸಿ"</string>
+<string name="quoted_text">"ಉಲ್ಲೇಖಿಸಿದ ಬರಹವನ್ನು ಸೇರಿಸಿ"</string>
+<string name="quoted_text_label">"ಬರಹವನ್ನು ಉಲ್ಲೇಖಿಸಿ"</string>
+<string name="respond_inline">"ಇನ್ಲೈನ್ ಪ್ರತಿಕ್ರಿಯಿಸಿ"</string>
+<string name="bytes">"<xliff:g id="count">%s</xliff:g>&#160;B"</string>
+<string name="kilobytes">"<xliff:g id="count">%s</xliff:g>&#160;KB"</string>
+<string name="megabytes">"<xliff:g id="count">%s</xliff:g>&#160;MB"</string>
+<string name="attachment_image">"ಚಿತ್ರ"</string>
+<string name="attachment_video">"ವಿಡಿಯೋ"</string>
+<string name="attachment_audio">"ಶ್ರವ್ಯ"</string>
+<string name="attachment_text">"ಸಂದೇಶ"</string>
+<string name="attachment_application_msword">"ದಸ್ತಾವೇಜು"</string>
+<string name="attachment_application_vnd_ms_powerpoint">"ಪ್ರೆಸೆಂಟೇಷನ್"</string>
+<string name="attachment_application_vnd_ms_excel">"ಸ್ಪ್ರೆಡ್ ಶೀಟ್"</string>
+<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> ಫೈಲ್"</string>
+<string name="preview_attachment">"ಮುನ್ನೋಟ"</string>
+<string name="save_attachment">"ಉಳಿಸಿ"</string>
+<string name="download_again">"ಪುನಃ ಡೌನ್ಲೋಡ್ ಮಾಡಿ"</string>
+<string name="remove_attachment_desc">"ಲಗತ್ತು ತೆಗೆಯಿರಿ <xliff:g id="attachmentName">%s</xliff:g>"</string>
+<string name="more_info_attachment">"ಮಾಹಿತಿ"</string>
+<string name="no_application_found">"ಈ ಅಟ್ಯಾಚ್ಮೆಂಟ್ ಅನ್ನು ನೋಡುವುದಕ್ಕಾಗಿ ಯಾವುದೇ ಅಪ್ಲಿಕೇಶನ್ ನಿಂದ ತೆರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ."</string>
+<string name="fetching_attachment">"ಅಟ್ಯಾಚ್ಮೆಂಟ್ ಪಡೆಯಲಾಗುತ್ತಿದೆ"</string>
+<string name="please_wait">"ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ\u2026"</string>
+<string name="saved">"ಉಳಿಸಲಾಗಿದೆ,&#160;<xliff:g id="size">%s</xliff:g>"</string>
+<string name="download_failed">"ಡೌನ್ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ. ಮರುಪ್ರಯತ್ನಿಸಲು ಸ್ಪರ್ಶಿಸಿ."</string>
+<string name="menu_photo_save_all">"ಎಲ್ಲವನ್ನೂ ಸೇವ್ ಮಾಡಿ"</string>
+<string name="menu_photo_share">"ಹಂಚಿಕೊಳ್ಳಿ"</string>
+<string name="menu_photo_share_all">"ಎಲ್ಲವನ್ನೂ ಹಂಚಿಕೊಳ್ಳಿ"</string>
+<string name="menu_photo_print">"ಮುದ್ರಿಸಿ"</string>
+<string name="saving">"ಉಳಿಸುವುದು&#8230;"</string>
+<string name="choosertitle_sharevia">"ಮೂಲಕ ಹಂಚಿಕೊಳ್ಳಿ"</string>
+<string name="contextmenu_openlink">"ಬ್ರೌಸರ್ ನಲ್ಲಿ ತೆರೆಯಿರಿ"</string>
+<string name="contextmenu_copy">"ನಕಲು ಮಾಡಿ"</string>
+<string name="contextmenu_copylink">"ಸಂಪರ್ಕಕೊಂಡಿ URL ಅನ್ನು ನಕಲಿಸಿ"</string>
+<string name="contextmenu_view_image">"ಚಿತ್ರವನ್ನು ನೋಡಿ"</string>
+<string name="contextmenu_dial_dot">"ಡಯಲ್\u2026"</string>
+<string name="contextmenu_sms_dot">"ಸಂದೇಶ ..."</string>
+<string name="contextmenu_add_contact">"ಸಂಪರ್ಕ ಸೇರಿಸಿ"</string>
+<string name="contextmenu_send_mail">"ಇಮೇಯ್ಲ್ ಕಳುಹಿಸಿ"</string>
+<string name="contextmenu_map">"ನಕ್ಷೆ"</string>
+<string name="contextmenu_sharelink">"ಸಂಪರ್ಕಕೊಂಡಿಯನ್ನು ಹಂಚಿಕೊಳ್ಳಿ"</string>
+<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g>ಕುರಿತಾಗಿ<xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g>ಮೇಲೆ<xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> ಕುರಿತಾಗಿ <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g>ಮೇಲೆ<xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> ಕುರಿತು <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> ಮೇಲೆ <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, ಲೇಬಲ್ಗಳು: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="content_description_today_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> ಕುರಿತು <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> ನಲ್ಲಿ <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, ಲೇಬಲ್ಗಳು: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="read_string">"ಸಂಭಾಷಣೆಯನ್ನು ಓದಿಯಾಗಿದೆ"</string>
+<string name="unread_string">"ಸಂಭಾಷಣೆಯನ್ನು ಓದಿಯಾಗಿಲ್ಲ"</string>
+<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="badge_and_subject">"<xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g>"</string>
+<plurals name="draft">
+<item quantity="one">"ಕರಡು"</item>
+<item quantity="other">"ಡ್ರಾಫ಼್ಟ್ಸ್"</item>
+</plurals>
+<string name="sending">"ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ\u2026"</string>
+<string name="message_retrying">"ಮರುಪ್ರಯತ್ನಿಸಲಾಗುತ್ತಿದೆ ..."</string>
+<string name="message_failed">"ವಿಫಲ"</string>
+<string name="send_failed">"ಸಂದೇಶವನ್ನು ಕಳುಹಿಸಲಾಗಿಲ್ಲ."</string>
+<string name="me_object_pronoun">"ನಾನು"</string>
+<string name="me_subject_pronoun">"ನಾನು"</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">"ಈ ಸಂಭಾಷಣೆಯನ್ನು ಅಳಿಸಬೇಕೇ?"</item>
+<item quantity="other">"ಈ <xliff:g id="count">%1$d</xliff:g> ಸಂಭಾಷಣೆಗಳನ್ನು ಅಳಿಸುವುದೇ?"</item>
+</plurals>
+<plurals name="confirm_archive_conversation">
+<item quantity="one">"ಈ ಸಂಭಾಷಣೆಯನ್ನು ಸ್ಟೋರೇಜ್ಕ್ಕೆ ಸೇರಿಸಬೇಕೇ?"</item>
+<item quantity="other">"ಈ <xliff:g id="count">%1$d</xliff:g> ಸಂಭಾಷಣೆಗಳನ್ನು ಸ್ಟೋರೇಜ್ಕ್ಕೆ ಸೇರಿಸಬೇಕೇ?"</item>
+</plurals>
+<plurals name="confirm_discard_drafts_conversation">
+<item quantity="one">"ಈ ಸಂದೇಶವನ್ನು ಅಳಿಸಬೇಕೇ?"</item>
+<item quantity="other">"ಈ<xliff:g id="count">%1$d</xliff:g> ಸಂದೇಶಗಳನ್ನು ತ್ಯಜಿಸಿ?"</item>
+</plurals>
+<string name="confirm_discard_text">"ಈ ಸಂದೇಶವನ್ನು ಅಳಿಸಬೇಕೇ?"</string>
+<string name="loading_conversations">"ಲೋಡ್ ಆಗುತ್ತಿದೆ \u2026"</string>
+<string name="empty_inbox">"ನೀವು ಮುಗಿಸಿದ್ದೀರಿ! ದಯವಿಟ್ಟು ನಿಮ್ಮ ದಿನವನ್ನು ಆನಂದಿಸಿ."</string>
+<string name="empty_search">"ಓಹ್! ನಾವು ಏನನ್ನೂ ಹುಡುಕಲಿಲ್ಲ "<xliff:g id="search_query">%1$s</xliff:g>"."</string>
+<string name="empty_spam_folder">"ಹುರ್ರೇ, ಇಲ್ಲಿ ಯಾವುದೇ ಸ್ಪ್ಯಾಮ್ ಇಲ್ಲ!"</string>
+<string name="empty_trash_folder">"ಇಲ್ಲಿ ಯಾವುದೇ ಅನುಪಯುಕ್ತ ಇಲ್ಲ ಮರುಬಳಕೆಯ ಧನ್ಯವಾದಗಳು!"</string>
+<string name="empty_folder">"ಇಲ್ಲಿ ಯಾವುದೇ ಮೇಲ್ ಇಲ್ಲ."</string>
+<string name="getting_messages">"ನಿಮ್ಮ ಸಂದೇಶಗಳನ್ನು ಪಡೆಯಲಾಗುತ್ತಿದೆ"</string>
+<string name="undo">"ಮಾಡಿದ್ದನ್ನು ವ್ಯತಿರಿಕ್ತವಾಗಿ ಮಾಡಿ"</string>
+<plurals name="conversation_unstarred">
+<item quantity="one">"ಅನ್ಸ್ಟರಿಂಗ್<xliff:g id="count">%1$d</xliff:g>ಸಂಭಾಷಣೆ"</item>
+<item quantity="other">"ಅನ್ಸ್ಟರಿಂಗ್<xliff:g id="count">%1$d</xliff:g> ಸಂಭಾಷಣೆಗಳು"</item>
+</plurals>
+<plurals name="conversation_muted">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ಮ್ಯೂಟ್ ಮಾಡಲಾಗಿದೆ"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ಅನ್ನು ಮ್ಯೂಟ್ ಮಾಡಲಾಗಿದೆ"</item>
+</plurals>
+<plurals name="conversation_spammed">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ಸ್ಪ್ಯಾಮ್ ಎಂದು ವರದಿ ಮಾಡಿದೆ"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ಅನ್ನು ಸ್ಪ್ಯಾಮ್ ಎಂದು ವರದಿ ಮಾಡಲಾಗಿದೆ"</item>
+</plurals>
+<plurals name="conversation_not_spam">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ಸ್ಪ್ಯಾಮ್ ಅಲ್ಲ ಎಂದು ವರದಿ ಮಾಡಿದೆ"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ಅನ್ನು ಸ್ಪ್ಯಾಮ್ ಅಲ್ಲ ಎಂದು ವರದಿ ಮಾಡಲಾಗಿದೆ"</item>
+</plurals>
+<plurals name="conversation_not_important">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ಪ್ರಮುಖವಲ್ಲ ಎಂದು ಗುರುತಿಸಲಾಗಿದೆ"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ಅನ್ನು ಮುಖ್ಯವಾದುದಲ್ಲ ಎಂದು ಗುರುತಿಸಲಾಗಿದೆ"</item>
+</plurals>
+<plurals name="conversation_phished">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ಫಿಶಿಂಗ್ ಎಂದು ವರದಿ ಮಾಡಲಾಗಿದೆ"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ಅನ್ನು ಫಿಶಿಂಗ್ ಎಂದು ವರದಿ ಮಾಡಲಾಗಿದೆ"</item>
+</plurals>
+<plurals name="conversation_archived">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ಆರ್ಕೈವ್ ಮಾಡಲಾಗಿದೆ"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ಅನ್ನು ಆರ್ಕೈವ್ ಮಾಡಲಾಗಿದೆ"</item>
+</plurals>
+<plurals name="conversation_deleted">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ಅಳಿಸಲಾಗಿದೆ"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ಅನ್ನು ಅಳಿಸಲಾಗಿದೆ"</item>
+</plurals>
+<string name="deleted">"ಅಳಿಸಲಾಗಿದೆ"</string>
+<string name="archived">"ಸ್ಟೋರೇಜ್ಕ್ಕೆ ಸೇರಿಸಲಾಗಿದೆ"</string>
+<string name="folder_removed">"ಇಲ್ಲಿಂದ ತೆಗೆಯಾಲಾಗಿದೆ <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<plurals name="conversation_folder_changed">
+<item quantity="one">"ಬದಲಾಯಿಸಿದ ಫೋಲ್ಡರ್"</item>
+<item quantity="other">"ಬದಲಾಯಿಸಲಾದ ಫೋಲ್ಡರ್ಗಳು"</item>
+</plurals>
+<string name="conversation_folder_moved">"ಇಲ್ಲಿಗೆ ವರ್ಗಾಯಿಸಲಾಗಿದೆ <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="search_results_header">"ಫಲಿತಾಂಶಗಳು"</string>
+<string name="search_unsupported">"ಈ ಅಕೌಂಟಿನಲ್ಲಿ ಹುಡುಕಾಟ ಬೆಂಬಲಿತವಾಗಿಲ್ಲ."</string>
+<string name="search_suggestion_desc">"ಸಲಹೆ: <xliff:g id="suggestion">%s</xliff:g>"</string>
+<string name="add_label">"ಫೋಲ್ಡರ್ ಸೇರಿಸಿ"</string>
+<plurals name="new_incoming_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ಹೊಸ ಸಂದೇಶ"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g>ಹೊಸ ಸಂದೇಶಗಳು"</item>
+</plurals>
+<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಿ&lt;/a&gt;"</string>
+<string name="hide_details">"ವಿವರಗಳನ್ನು ಮರೆಮಾಡಿ"</string>
+<string name="to_message_header">"<xliff:g id="recipients">%1$s</xliff:g> ಗೆ"</string>
+<string name="bcc_header_for_recipient_summary">"Bcc:\u0020"</string>
+<string name="contact_info_string">"<xliff:g id="name">%1$s</xliff:g> ಇವರ ಸಂಪರ್ಕ ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಿ."</string>
+<string name="contact_info_string_default">"ಸಂಪರ್ಕ ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಿ."</string>
+<plurals name="show_messages_read">
+<item quantity="other">"ವಿಸ್ತರಿಸಿ<xliff:g id="count" example="4">%1$d</xliff:g> ಹಳೆಯ ಸಂದೇಶಗಳು"</item>
+</plurals>
+<plurals name="super_collapsed_block_accessibility_announcement">
+<item quantity="other">"ವಿಸ್ತೃತ <xliff:g id="count" example="4">%1$d</xliff:g>  ಹಳೆಯ ಸಂದೇಶಗಳು"</item>
+</plurals>
+<string name="from_heading">"ಕಳುಹಿಸಿದವರ:"</string>
+<string name="replyto_heading">"ಪ್ರತ್ಯುತ್ತರ-ಗೆ:"</string>
+<string name="to_heading">"ಸ್ವೀಕರಿಸುವವರ:\u0020"</string>
+<string name="to_heading_no_space">"ಸ್ವೀಕರಿಸುವವರ:"</string>
+<string name="cc_heading">"Cc:"</string>
+<string name="bcc_heading">"Bcc:"</string>
+<string name="date_heading">"ದಿನಾಂಕ:"</string>
+<string name="show_images">"ಚಿತ್ರಗಳನ್ನು ತೋರಿಸಿ"</string>
+<string name="always_show_images">"ಯಾವಾಗಲೂ ಇವರು ಕಳಿಸಿದ ಚಿತ್ರಗಳನ್ನು ತೋರಿಸಿ"</string>
+<string name="always_show_images_toast">"ಇವರು ಕಳಿಸಿದ ಚಿತ್ರಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ತೋರಿಸಲಾಗುತ್ತದೆ."</string>
+<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> ಇದರ ಮೂಲಕ <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+<string name="message_saved">"ಸಂದೇಶವನ್ನು ಕರಡಾಗಿ ಉಳಿಸಲಾಗಿದೆ."</string>
+<string name="sending_message">"ಸಂದೇಶ ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ\u2026"</string>
+<string name="invalid_recipient">"<xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> ಈ ವಿಳಾಸ ಮಾನ್ಯವಾದುದಲ್ಲ."</string>
+<string name="show_elided">"ಉಲ್ಲೇಖಿಸಿದ ಪಠ್ಯವನ್ನು ತೋರಿಸು"</string>
+<string name="hide_elided">"\u25BC ಉಲ್ಲೇಖಿಸಿದ ಬರಹವನ್ನು ಅಡಗಿಸಿ"</string>
+<string name="message_invite_title">"ಕ್ಯಾಲೆಂಡರ್ ಆಹ್ವಾನ"</string>
+<string name="message_invite_calendar_view">"ಕ್ಯಾಲೆಂಡರ್ ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ"</string>
+<string name="message_invite_label_attending">"ಹೋಗುತ್ತಿದ್ದೀರಾ?"</string>
+<string name="message_invite_accept">"ಹೌದು"</string>
+<string name="message_invite_tentative">"ಇರಬಹುದು"</string>
+<string name="message_invite_decline">"ಇಲ್ಲ"</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="send_anyway">"ಹೇಗಾದರೂ ಕಳುಹಿಸು"</string>
+<string name="ok">"ಸರಿ"</string>
+<string name="done">"ಆಯ್ತು"</string>
+<string name="cancel">"ರದ್ದು"</string>
+<string name="clear">"ತೆರವುಗೊಳಿಸಿ"</string>
+<string name="next">"ಮುಂದಿನದು"</string>
+<string name="previous">"ಹಿಂದಿನ"</string>
+<string-array name="sync_status">
+<item>"ಯಶಸ್ವಿ"</item>
+<item>"ಸಂಪರ್ಕ ಇಲ್ಲ"</item>
+<item>"ಸೈನ್ ಇನ್ ಮಾಡಲಾಗಲಿಲ್ಲ"</item>
+<item>"ಭದ್ರತಾ ದೋಷ"</item>
+<item>"ಸಿಂಕ್ ಮಾಡಲಾಗಲಿಲ್ಲ"</item>
+<item>"ಆಂತರಿಕ ದೋಷ"</item>
+<item>"ಸರ್ವರ್ ದೋಷ"</item>
+</string-array>
+<string name="tap_to_configure">"ಸೆಟಪ್ ಮಾಡಲು ಸ್ಪರ್ಶಿಸಿ"</string>
+<string name="non_synced_folder_description">"ಸಂಭಾಷಣೆಗಳನ್ನು ವೀಕ್ಷಿಸಲು, ಈ ಫೋಲ್ಡರ್ ಅನ್ನು ಸಿಂಕ್ ಮಾಡಿ."</string>
+<string name="tap_to_configure_folder_sync">"ಫೋಲ್ಡರ್ ಅನ್ನು ಸಿಂಕ್ ಮಾಡಿ"</string>
+<string name="large_unseen_count">"<xliff:g id="count" example="99">%d</xliff:g>+ ಹೊಸ"</string>
+<string name="unseen_count">"<xliff:g id="count" example="4">%d</xliff:g> ಹೊಸ"</string>
+<plurals name="actionbar_unread_messages">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g>ಅನ್ನು ಓದಲಾಗಿಲ್ಲ"</item>
+</plurals>
+<string name="view_more_conversations">"ಹೆಚ್ಚು ಸಂವಾದಗಳನ್ನು ವೀಕ್ಷಿಸಿ"</string>
+<string name="loading_conversation">"ಲೋಡ್ ಆಗುತ್ತಿದೆ \u2026"</string>
+<string name="activity_mailbox_selection">"ಅಕೌಂಟ್ ಆಯ್ಕೆ ಮಾಡಿ"</string>
+<string name="activity_folder_selection">"ಫೋಲ್ಡರ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"</string>
+<string name="folder_shortcut_widget_label">"ಫೋಲ್ಡರ್ ಅನ್ನು ಇಮೇಲ್ ಮಾಡಿ"</string>
+<string name="change_folders_selection_dialog_title">"ಫೋಲ್ಡರ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ"</string>
+<string name="move_to_selection_dialog_title">"ಇಲ್ಲಿಗೆ ವರ್ಗಾಯಿಸಿ"</string>
+<string name="search_hint">"ಹುಡುಕಾಟ"</string>
+<string name="voice_search_not_supported">"ಧ್ವನಿ ಹುಡುಕಾಟವು ಈ ಸಾಧನದಲ್ಲಿ ಬೆಂಬಲಿಸಿಲ್ಲ."</string>
+<string name="search_back_desc">"ಹುಡುಕಾಟ ಮುಚ್ಚಿ"</string>
+<string name="search_voice_desc">"ವಾಯ್ಸ್ ಸರ್ಚ್ ಆರಂಭಿಸಿ"</string>
+<string name="search_clear_desc">"ಹುಡುಕಾಟ ಪಠ್ಯ ತೆರವು"</string>
+<string name="network_error">"ಸಂಪರ್ಕ ಇಲ್ಲ"</string>
+<string name="retry">"ಮರುಪ್ರಯತ್ನಿಸಿ"</string>
+<string name="load_more">"ಇನ್ನಷ್ಟು ಲೋಡ್ ಮಾಡಿ"</string>
+<string name="shortcut_name_title">"ಫೋಲ್ಡರ್ ಕಿರುಹಾದಿ ಗೆ ಹೆಸರಿಡಿ"</string>
+<string name="wait_for_sync_title">"ಸಿಂಕ್ ಅನ್ನು ನಿರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ"</string>
+<string name="not_synced_title">"ಅಕೌಂಟ್ ಸಿಂಕ್ ಆಗಿಲ್ಲ"</string>
+<string name="wait_for_manual_sync_body">"ಈ ಅಕೌಂಟ್ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಿಂಕ್ ಆಗುವಂತೆ ಸೆಟಪ್ ಆಗಿಲ್ಲ.\n ಮೇಲ್ ಅನ್ನು ಒಮ್ಮೆ ಸಿಂಕ್ ಮಾಡಲು <b>ಈಗ ಸಿಂಕ್ ಮಾಡಿ</b> ಇದನ್ನು,ಅಥವಾ ಈ ಅಕೌಂಟ್ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಮೇಲ್ ಸಿಂಕ್ ಮಾಡುವಂತೆ ಸೆಟಪ್ ಮಾಡಲು <b>ಸಿಂಕ್ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ</b> ಇದನ್ನು ಸ್ಪರ್ಶಿಸಿ."</string>
+<string name="manual_sync">"ಈಗ ಸಿಂಕ್ ಮಾಡಿ"</string>
+<string name="change_sync_settings">"ಸಿಂಕ್ ಸೆಟ್ಟಿಂಗ್ಗಳನ್ನು ಬದಲಾಯಿಸಿ"</string>
+<string name="photo_load_failed">"ಚಿತ್ರವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಲಿಲ್ಲ"</string>
+<string name="cant_move_or_change_labels">"ಸರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಆಯ್ಕೆ ಬಹು ಖಾತೆಗಳನ್ನು ಒಳಗೊಂಡಿದೆ. "</string>
+<string name="multiple_new_message_notification_item">"<b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="ignore_spam_warning">"ನಿರ್ಲಕ್ಷಿಸಿ, ಈ ಸಂದೇಶವನ್ನು ನಾನು ನಂಬುತ್ತೇನೆ"</string>
+<string name="via_domain">"<xliff:g id="viaDomain">%1$s</xliff:g>ಮೂಲಕ"</string>
+<string name="signin">"ಸೈನ್ ಇನ್"</string>
+<string name="info">"ಮಾಹಿತಿ"</string>
+<string name="report">"ವರದಿ"</string>
+<string name="show">"ತೋರಿಸಿ"</string>
+<string name="sync_error">"ಸಿಂಕ್ ಮಾಡಲಾಗಲಿಲ್ಲ."</string>
+<string name="sync_error_message">"ನಿಮ್ಮ ಡಿವೈಸ್ವು ಸಿಂಕ್ ಮಾಡಲು ಸಾಕಷ್ಟು ಶೇಖರಣಾ ಸ್ಥಳವನ್ನು ಹೊಂದಿಲ್ಲ."</string>
+<string name="storage">"ಸ್ಟೋರೇಜ್"</string>
+<string name="senders_split_token">",\u00A0"</string>
+<string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+<string name="all_folders_heading">"ಎಲ್ಲಾ ಫೋಲ್ಡರ್ಗಳು"</string>
+<string name="recent_folders_heading">"ಇತ್ತೀಚಿನ ಫೋಲ್ಡರ್ಗಳು"</string>
+<string name="message_details_title">"ಸಂದೇಶದ ವಿವರಗಳು"</string>
+<string name="preference_advance_to_title">"ಆಟೋ-ಅಡ್ವಾನ್ಸ್"</string>
+<string-array name="prefEntries_autoAdvance">
+<item>"ಹೊಸದು"</item>
+<item>"ಹಳೆಯ"</item>
+<item>"ಸಂಭಾಷಣೆಯ ಪಟ್ಟಿ"</item>
+</string-array>
+<string-array name="prefSummaries_autoAdvance">
+<item>"ನೀವು ಅಳಿಸಿದ ನಂತರ ಹೊಸ ಸಂಭಾಷಣೆಯನ್ನು ತೋರಿಸಿ"</item>
+<item>"ನೀವು ಅಳಿಸಿದ ನಂತರ ಹಳೆಯ ಸಂಭಾಷಣೆಯನ್ನು ತೋರಿಸಿ"</item>
+<item>"ನೀವು ಅಳಿಸಿದ ನಂತರ ಸಂಭಾಷಣೆಯ ಪಟ್ಟಿಯನ್ನು ತೋರಿಸಿ"</item>
+</string-array>
+<string name="prefDialogTitle_autoAdvance">"ಮುಂದಕ್ಕೆ"</string>
+<string name="clear_display_images_whitelist_title">"ಚಿತ್ರ ಅನುಮೋದನೆಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ"</string>
+<string name="clear_display_images_whitelist_dialog_title">"ಚಿತ್ರ ಅನುಮೋದನೆಗಳನ್ನು ತೆರವುಗೊಳಿಸಬೇಕೇ?"</string>
+<string name="clear_display_images_whitelist_dialog_message">"ನೀವು ಈ ಹಿಂದೆ ಅನುಮತಿಸಿದ ಕಳುಹಿಸುವವರಿಂದ ಬಂದ ಇನ್ಲೈನ್ ಚಿತ್ರಗಳನ್ನು ಪ್ರದರ್ಶಿಸುವುದನ್ನುತಡೆಯಿರಿ."</string>
+<string name="sender_whitelist_cleared">"ಚಿತ್ರಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ತೋರಿಸಲಾಗುವುದಿಲ್ಲ."</string>
+<string name="preferences_signature_title">"ಸಿಗ್ನೇಚರ್"</string>
+<string name="preferences_signature_dialog_title">"ಸಿಗ್ನೇಚರ್"</string>
+<string name="preferences_signature_summary_not_set">"ಸ್ಥಾಪಿತವಾಗಿಲ್ಲ"</string>
+<string name="notification_action_reply">"ಉತ್ತರಿಸಿ"</string>
+<string name="notification_action_reply_all">"ಉತ್ತರವನ್ನು ಎಲ್ಲರಿಗೂ ಕಳುಹಿಸಿ"</string>
+<string name="notification_action_archive">"ಸ್ಟೋರೇಜ್ಕ್ಕೆ ಸೇರಿಸಿ"</string>
+<string name="notification_action_remove_label">"ಲೇಬಲ್ ತೆಗೆದುಹಾಕಿ"</string>
+<string name="notification_action_delete">"ಅಳಿಸಿ"</string>
+<string name="notification_action_undo_archive">"ಸ್ಟೋರೇಜ್ಕ್ಕೆ ಸೇರಿಸಲಾಗಿದೆ"</string>
+<string name="notification_action_undo_remove_label">"ಲೇಬಲ್ ತೆಗೆದುಹಾಕಲಾಗಿದೆ"</string>
+<string name="notification_action_undo_delete">"ಅಳಿಸಲಾಗಿದೆ"</string>
+<string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+<plurals name="new_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ಹೊಸ ಸಂದೇಶ"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g>ಹೊಸ ಸಂದೇಶಗಳು"</item>
+</plurals>
+<string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="silent_ringtone">"ನಿಃಶಬ್ದ"</string>
+<string name="preference_removal_action_title">"ಡೀಫಾಲ್ಟ್ ಆಕ್ಷನ್"</string>
+<string-array name="prefEntries_removal_action">
+<item>"ಸ್ಟೋರೇಜ್ಕ್ಕೆ ಸೇರಿಸಿ"</item>
+<item>"ಅಳಿಸಿ"</item>
+</string-array>
+<string-array name="prefSummaries_removal_action_summary">
+<item>"ಸ್ಟೋರೇಜ್ಕ್ಕೆ ಸೇರಿಸಿ"</item>
+<item>"ಅಳಿಸಿ"</item>
+</string-array>
+<string name="prefDialogTitle_removal_action">"ಡೀಫಾಲ್ಟ್ ಕ್ರಮ"</string>
+<string name="preferences_default_reply_all_title">"ಉತ್ತರವನ್ನು ಎಲ್ಲರಿಗೂ ಕಳುಹಿಸಿ"</string>
+<string name="preferences_default_reply_all_summary_impl">"ಸಂದೇಶದ ಪ್ರತ್ಯುತ್ತರಗಳಿಗೆ ಡೀಫಾಲ್ಟ್ ಆಗಿ ಬಳಸಿ"</string>
+<string name="preference_swipe_title">"ಸ್ವೈಪ್ ಕ್ರಿಯೆಗಳು"</string>
+<string name="preference_swipe_description">"ಸಂಭಾಷಣೆಯ ಪಟ್ಟಿಯಲ್ಲಿ"</string>
+<string name="preference_sender_image_title">"ಕಳುಹಿಸಿದವರ ಚಿತ್ರ"</string>
+<string name="preference_sender_image_description">"ಸಂಭಾಷಣೆಯ ಪಟ್ಟಿಯಲ್ಲಿ ಹೆಸರಿನ ಪಕ್ಕದಲ್ಲಿ ತೋರಿಸಿ"</string>
+<string name="empty_trash">"ಟ್ರ್ಯಾಷ್ ಅನ್ನು ಖಾಲಿಗೊಳಿಸಿ"</string>
+<string name="empty_spam">"ಸ್ಪಾಮ್ ಅನ್ನು ಖಾಲಿಗೊಳಿಸಿ"</string>
+<string name="empty_trash_dialog_title">"ಟ್ರ್ಯಾಷ್ ಅನ್ನು ಖಾಲಿಗೊಳಿಸಬೇಕೇ?"</string>
+<string name="empty_spam_dialog_title">"ಸ್ಪಾಮ್ ಅನ್ನು ಖಾಲಿಗೊಳಿಸಬೇಕೇ?"</string>
+<plurals name="empty_folder_dialog_message">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ಸಂದೇಶವನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲಾಗುತ್ತದೆ."</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ಸಂದೇಶಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲಾಗುತ್ತದೆ."</item>
+</plurals>
+<string name="drawer_open">"ನ್ಯಾವಿಗೇಶನ್ ಡ್ರಾಯರ್ ಅನ್ನು ತೆರೆಯಿರಿ"</string>
+<string name="drawer_close">"ನ್ಯಾವಿಗೇಶನ್ ಡ್ರಾಯರ್ ಅನ್ನು ಮುಚ್ಚಿ"</string>
+<string name="conversation_photo_welcome_text">"ಆ ಸಂಭಾಷಣೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಕಳುಹಿಸಿದವರ ಚಿತ್ರವನ್ನು ಸ್ಪರ್ಶಿಸಿ"</string>
+<string name="long_press_to_select_tip">"ಟಚ್ ಮಾಡಿ &amp; ಒಂದು ಸಂಭಾಷಣೆಯನ್ನು ಆಯ್ಕೆಮಾಡಲು ಹಿಡಿದಿಡಿ, ಆಮೇಲೆ ಮತ್ತಷ್ಟು ಆಯ್ಕೆಮಾಡಲು ಟಚ್ ಮಾಡಿ."</string>
+<string name="folder_icon_desc">"ಫೋಲ್ಡರ್ ಐಕಾನ್"</string>
+<string name="add_account">"ಅಕೌಂಟ್ ಸೇರಿಸಿ"</string>
+<string name="dismiss_tip_hover_text">"ಸಲಹೆಯನ್ನು ವಜಾಗೊಳಿಸಿ"</string>
+<string name="auto_sync_off">"ಅಟೋ-ಸಿಂಕ್ ಆಫ್ ಆಗಿದೆ. ಆನ್ ಮಾಡಲು ಸ್ಪರ್ಶಿಸಿ."</string>
+<string name="account_sync_off">"ಅಕೌಂಟ್ ಸಿಂಕ್ ಆಫ್ ಆಗಿದೆ.&lt;a href=\'http://www.example.com\'&gt; ಖಾತೆ\u00A0 ಸೆಟ್ಟಿಂಗ್ಗಳು.&lt;/a&gt; ನಲ್ಲಿ ಆನ್ ಮಾಡಿ"</string>
+<string name="unsent_messages_in_outbox">"<xliff:g id="outbox">%2$s</xliff:g> ನಲ್ಲಿ <xliff:g id="number">%1$s</xliff:g> ಕಳುಹಿಸಲಾಗಿಲ್ಲ."</string>
+<string name="turn_auto_sync_on_dialog_title">"ಸ್ವಯಂ-ಸಿಂಕ್ ಆನ್ ಮಾಡಬೇಕೇ?"</string>
+<string name="turn_auto_sync_on_dialog_body">"ಕೇವಲ ಜಿಮೇಲಿಗೆ ಮಾತ್ರವಲ್ಲದೆ, ಎಲ್ಲಾ ಅಪ್ಲಿಕೇಶನ್ಗಳಿಗೆ ಮತ್ತು ಅಕೌಂಟ್ಗಳಿಗೆ ನೀವು ಮಾಡುವ ಬದಲಾವಣೆಗಳು, ವೆಬ್,ನಿಮ್ಮ ಇತರ ಡಿವೈಸ್ಗಳು,ಮತ್ತು ನಿಮ್ಮ <xliff:g id="phone_or_tablet">%1$s</xliff:g> ನಡುವೆ ಸಿಂಕ್ರೊನೈಜ್ ಆಗುತ್ತವೆ."</string>
+<string name="phone">"ಫೋನ್"</string>
+<string name="tablet">"ಟ್ಯಾಬ್ಲೆಟ್"</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">"ಆನ್ ಮಾಡಿ"</string>
+<string name="show_n_more_folders">"<xliff:g id="number">%1$s</xliff:g> ಫೋಲ್ಡರ್ಗಳನ್ನು ತೋರಿಸು"</string>
+<string name="hide_folders">"ಫೋಲ್ಡರ್ ಗಳನ್ನು ಅಡಗಿಸಿ"</string>
+<string name="print">"ಮುದ್ರಿಸಿ"</string>
+<string name="print_all">"ಎಲ್ಲವನ್ನೂ ಮುದ್ರಿಸು"</string>
+<plurals name="num_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ಸಂದೇಶ"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ಸಂದೇಶಗಳು"</item>
+</plurals>
+<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g>ನಲ್ಲಿ<xliff:g id="time">%2$s</xliff:g>ನಲ್ಲಿ"</string>
+<string name="draft_to_heading">"ಡ್ರಾಫ್ಟ್ ಟು:"</string>
+<string name="draft_heading">"ಕರಡು"</string>
+<string name="quoted_text_hidden_print">"ಉಲ್ಲೇಖಿಸಿದ ಪಠ್ಯ ಮರೆಯಾಗಿದೆ"</string>
+<plurals name="num_attachments">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ಲಗತ್ತು"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ಲಗತ್ತುಗಳು"</item>
+</plurals>
+<string name="no_subject">"(ವಿಷಯವಿಲ್ಲ)"</string>
+<string name="vacation_responder">"ರಜಾ ಪ್ರತಿಕ್ರಿಯೆ"</string>
+<string name="preferences_vacation_responder_title">"ರಜಾ ಕಾಲದ ಪ್ರತ್ಯುತ್ತರ"</string>
+<string name="vacation_responder_body_hint_text">"ಸಂದೇಶ"</string>
+<string name="send_to_contacts_text">"ನನ್ನ ಸಂಪರ್ಕಗಳಿಗೆ ಮಾತ್ರ ಕಳುಹಿಸಿ"</string>
+<string name="send_to_domain_text">"ಕೇವಲ<xliff:g id="domain">%1$s</xliff:g>ಗೆ ಕಳುಹಿಸಿ"</string>
+<string name="pick_start_date_title">"ಪ್ರಾರಂಭವಾಗುತ್ತದೆ"</string>
+<string name="pick_end_date_title">"ಎಂಡ್ಸ್ (ಐಚ್ಛಿಕ)"</string>
+<string name="date_not_set">"ಸ್ಥಾಪಿತವಾಗಿಲ್ಲ"</string>
+<string name="set_end_date_dialog_title">"ಅಂತಿಮ ದಿನಾಂಕ (ಐಚ್ಛಿಕ)"</string>
+<string name="custom_date">"ಕಸ್ಟಮ್"</string>
+<string name="date_none">"ಯಾವುದೂ ಇಲ್ಲ"</string>
+<string name="discard_changes">"ಬದಲಾವಣೆಗಳನ್ನು ತ್ಯಜಿಸುತ್ತದೆ?"</string>
+<string name="vacation_responder_changes_saved">"ರಜಾ ಪ್ರತಿಕ್ರಿಯೆ ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ"</string>
+<string name="vacation_responder_changes_discarded">"ರಜೆ ಪ್ರತಿಕ್ರಿಯೆ ಬದಲಾವಣೆಗಳನ್ನು ತಿರಸ್ಕರಿಸಲಾಗಿದೆ"</string>
+<string name="vacation_responder_off">"ಆಫ್"</string>
+<string name="vacation_responder_on">" <xliff:g id="date">%1$s</xliff:g>"ನಿಂದ,ಮೇಲೆ</string>
+<string name="vacation_responder_on_with_end_date"><xliff:g id="start-date">%1$s</xliff:g> ಗೆ <xliff:g id="end-date">%2$s</xliff:g>"ನಿಂದ,ಮೇಲೆ"</string>
+<string name="vacation_responder_empty_subject_and_body_warning">"ವಿಷಯ ಅಥವಾ ಸಂದೇಶವನ್ನು ಸೇರಿಸು"</string>
+<string name="view_entire_message">"ಸಂಪೂರ್ಣ ಸಂದೇಶವನ್ನು ವೀಕ್ಷಿಸಿ"</string>
+<string name="eml_loader_error_toast">"ಈ ಫೈಲ್ ತೆರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ"</string>
+<string name="help_and_info">"ಸಹಾಯ"</string>
+<string name="help_and_feedback">"ಸಹಾಯ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆ"</string>
+<string name="feedback">"ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಕಳುಹಿಸಿ"</string>
+<string name="copyright">"&#169;<xliff:g id="year" example="2010">%1$d</xliff:g> Google Inc."</string>
+<string name="version">"<xliff:g id="app_name" example="Email">%1$s</xliff:g> ಆವೃತ್ತಿ <xliff:g id="version" example="2.2.1">%2$s</xliff:g>"</string>
+<string name="print_dialog">"ಮುದ್ರಿಸಿ …"</string>
+<string name="copyright_information">"ಹಕ್ಕುಸ್ವಾಮ್ಯ ಮಾಹಿತಿ"</string>
+<string name="privacy_policy">"ಗೌಪ್ಯತಾ ನೀತಿ"</string>
+<string name="open_source_licenses">"ಮುಕ್ತ ಮೂಲ ಪರವಾನಗಿಗಳು"</string>
+<string name="reply_choice_yes">"ಹೌದು"</string>
+<string name="reply_choice_no">"ಇಲ್ಲ"</string>
+<string name="reply_choice_ok">"ಸರಿ"</string>
+<string name="reply_choice_hehe">"ಹೆಹೆ"</string>
+<string name="reply_choice_thanks">"ಧನ್ಯವಾದಗಳು"</string>
+<string name="reply_choice_i_agree">"ಒಪ್ಪುತ್ತೇನೆ"</string>
+<string name="reply_choice_nice">"ಉತ್ತಮ"</string>
+<string name="reply_on_my_way">"ನನ್ನ ಹಾದಿಯಲ್ಲಿದ್ದೇನೆ"</string>
+<string name="reply_choice_later">"ಸರಿ, ನಾನು ನಿಮ್ಮನ್ನು ಮತ್ತೆ ನೋಡುತ್ತೇನೆ"</string>
+<string name="preference_header_action_confirmations">"ಆಕ್ಷನ್ ದೃಢೀಕರಣಗಳು"</string>
+<string name="preference_confirm_before_delete_title">"ಅಳಿಸುವ ಮೊದಲು ದೃಢಪಡಿಸಿ"</string>
+<string name="preference_confirm_before_archive_title">"ಆರ್ಕೈವ್ ಮಾಡುವ ಮೊದಲು ದೃಢೀಕರಿಸಿ"</string>
+<string name="preference_confirm_before_send_title">"ಕಳುಹಿಸುವ ಮುನ್ನ ಖಚಿತ ಪಡಿಸಿ"</string>
+<string name="preferences_conversation_mode_title">"ಸ್ವಯಂ-ಹೊಂದಿಕೊಳ್ಳುವ ಸಂದೇಶಗಳು"</string>
+<string name="preferences_conversation_mode_summary">"ಸ್ಕ್ರೀನ್ ಅನ್ನು ಸರಿಹೊಂದಿಸಲು ಸಂದೇಶಗಳನ್ನು ಕುಗ್ಗಿಸಿ"</string>
+<string name="preferences_disable_snap_headers_title">"ಸಂದೇಶ ಕ್ರಮಗಳು"</string>
+<string-array name="prefSummaries_snapHeader">
+<item>"ಪರದೆಯ ಮೇಲ್ಭಾಗದಲ್ಲಿ ಯಾವಾಗಲೂ ಸಂದೇಶ ಕ್ರಿಯೆಗಳನ್ನು ತೋರಿಸು"</item>
+<item>"ಪೋಟ್ರೇಟ್ಗೆ ತಿರುಗಿಸಿದಾಗ ಪರದೆಯ ಮೇಲ್ಭಾಗದಲ್ಲಿ ಸಂದೇಶ ಕ್ರಿಯೆಗಳನ್ನು ಮಾತ್ರ ತೋರಿಸು"</item>
+<item>"ಮೇಸೆಜ್ ಹೆಡರ್ ಹೊರಗೆ ಸಂದೇಶ ಕ್ರಮಗಳನ್ನು ತೋರಿಸಬೇಡಿ"</item>
+</string-array>
+<string-array name="prefEntries_snapHeader">
+<item>"ಯಾವಾಗಲೂ ತೋರಿಸಿ"</item>
+<item>"ಭಾವಚಿತ್ರದಲ್ಲಿ ಮಾತ್ರ ತೋರಿಸು"</item>
+<item>"ತೋರಿಸಬೇಡ"</item>
+</string-array>
+<string name="clear_history_title">"ಹುಡುಕು ಚರಿತ್ರೆಯನ್ನು ತೆರವುಗೊಳಿಸಿ"</string>
+<string name="search_history_cleared">"ಹುಡುಕು ಚರಿತ್ರೆ ತೆರವಾಗಿದೆ"</string>
+<string name="clear_history_dialog_title">"ಸರ್ಚ್ ಹಿಸ್ಟರಿ ಕ್ಲಿಯರ್ ಮಾಡಬೇಕೆ?"</string>
+<string name="clear_history_dialog_message">"ನೀವು ಹಿಂದೆ ನಡೆಸಿದ ಎಲ್ಲ ಹುಡುಕಾಟಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ."</string>
+<string name="manage_accounts_menu_item">"ಖಾತೆಗಳನ್ನು ನಿರ್ವಹಿಸಿ "</string>
+<string name="general_preferences_title">"ಸಾಮಾನ್ಯ ಅಳವಡಿಕೆಗಳು"</string>
+<string name="activity_preferences">"ಸೆಟ್ಟಿಂಗ್ ಗಳು"</string>
+<string name="overflow_description">"ಮತ್ತಷ್ಟು ಆಯ್ಕೆಗಳು"</string>
+<string name="security_hold_required_text">"<xliff:g id="email_address">%1$s</xliff:g> ಗಾಗಿ ಭದ್ರತಾ ಅಪ್‌ಡೇಟ್ ಅಗತ್ಯವಿದೆ"</string>
+<string name="update_security_text">"ಈಗ ಅಪ್‌ಡೇಟ್ ಮಾಡಿ"</string>
+<string name="forms_are_disabled">"Gmail ನಲ್ಲಿ ಫಾರ್ಮ್‌ಗಳು ನಿಷ್ಕ್ರಿಯವಾಗಿವೆ"</string>
+<string name="add_contacts_too_much">"ಸ್ವೀಕೃತಿದಾರರರ ಗರಿಷ್ಠ ಸಂಖ್ಯೆ 50"</string>
+<string name="account_delete_dlg_title">"ಅಕೌಂಟ್ ತೆಗೆದುಹಾಕಿಬಿಡಿ"</string>
+<string name="account_delete_waiting">"ತೆಗೆದುಹಾಕಲಾಗುತ್ತಿದೆ, ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ ..."</string>
+<string name="filter_all">"ಎಲ್ಲ"</string>
+<string name="filter_receiver">"ಸ್ವೀಕರಿಸುವವರು"</string>
+<string name="filter_sender">"ಕಳುಹಿಸುವಾತ"</string>
+<string name="filter_subject">"ವಿಷಯ"</string>
+<string name="filter_content">"ಅಂಶ"</string>
+<string name="search_on_server">"ಸರ್ವರ್‌ನಲ್ಲಿ ಹುಡುಕಿ"</string>
+<string name="download_confirm_msg">"ನೆಟ್ವರ್ಕ್ WLAN ಅಲ್ಲ, ಹಾಗೂ ಲಗತ್ತು ಇರುವ ಫೈಲ್ ದೊಡ್ಡದು; ಮುಂದುವರೆಯಬಹುದೇ ಎಂದು ದಯವಿಟ್ಟು ಖಚಿತಪಡಿಸಿ"</string>
+<string name="download_deny_malware">"ಮಾಲ್‌ವೇರ್ ಇರಬಹುದು. ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗಲಿಲ್ಲ."</string>
+<string name="download_deny_wifionly">"WLAN ಇದ್ದಾಗ ಮಾತ್ರ ಡೌನ್ಲೋಡ್ ಮಾಡಬಹುದು."</string>
+<string name="download_deny_nointent">"ಇದನ್ನು ಯಾವುದೇ ಅನುಪ್ರಯೋಗವೂ ತರೆಯಲಾಗುವುದಿಲ್ಲ. ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗಲಿಲ್ಲ."</string>
+<string name="download_deny_nosideload">"ಅಪರಿಚಿತ ಮೂಲದ ಅನುಪ್ರಯೋಗಗಳ ಅನುಸ್ಥಾಪನೆಗೆ ಅನುಮತಿ ನೀಡಿದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."</string>
+<string name="download_deny_apkinstall">"ಯಾವುದೇ ಅನುಪ್ರಯೋಗವನ್ನು ಅನುಸ್ಥಾಪಿಸಲು ಆಗುತ್ತಿಲ್ಲ. ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗಲಿಲ್ಲ."</string>
+<string name="download_deny_policy">"ಖಾತೆಯ ನೀತಿಯ ಕಾರಣದಿಂದ ಡೌನ್ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."</string>
+<string name="download_att_external">"ಡೌನ್ಲೋಡ್ ಮಾಡಲು ಡೌನ್ಲೋಡ್ ಮಾಡಿ"</string>
+<string name="save_to_where">"ಲಗತ್ತು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ ::"</string>
+<string name="missing_required_permission">"ನೀವು ಅಗತ್ಯವಿರುವ ಅನುಮತಿಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದೀರಿ."</string>
+<string name="permission_change">"ಅನುಮತಿಗಳು ಬದಲಾಗುವುದರಿಂದ ದಯವಿಟ್ಟು ಕಡತವನ್ನು ಮರು ಆಯ್ಕೆ ಮಾಡಿ."</string>
+<string name="permission_change_redo">"ಅನುಮತಿಗಳು ಬದಲಾಗುವುದರಿಂದ ದಯವಿಟ್ಟು ಮರಳಿ ಮಾಡಿ."</string>
+<string name="preference_default_signature_title">"ಸಿಗ್ನೇಚರ್"</string>
+<string name="signature_default">"ನನ್ನ ಫೋನಿನಿಂದ ಕಳುಹಿಸಲಾಗಿದೆ"</string>
+<string name="set_priority_high">"ಆದ್ಯತೆಯನ್ನು ಉನ್ನತ ಮಟ್ಟದಲ್ಲಿ ಸೆಟ್ ಮಾಡಿ"</string>
+<string name="set_priority_normal">" ಆದ್ಯತೆಯನ್ನು ಸಾಮಾನ್ಯದಲ್ಲಿ ಸೆಟ್ ಮಾಡಿ"</string>
+<string name="set_priority_low">"ಆದ್ಯತೆಯನ್ನು ಕೆಳಮಟ್ಟದಲ್ಲಿ ಸೆಟ್ ಮಾಡಿ"</string>
+<string name="file_not_exist">"ಸ್ಥಳೀಯ ಲಗತ್ತು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ,ದಯವಿಟ್ಟು ಇನ್ನೊಮ್ಮೆ ಡೌನ್ಲೋಡ್ ಮಾಡಿ!"</string>
+<string name="body_input_more">"ಕ್ಷಮಿಸಿ, ಕೇವಲ %1$s ಲಕ್ಷಣಗಳನ್ನು ಆದಾನ ಮಾಡಬಹುದು"</string>
+<string name="attachment_rename_to_legal">"ಮೂಲ ಹೆಸರು ಕಾನೂನುಬಾಹಿರವಾಗಿರುವುದರಿಂದ ಲಗತ್ತನ್ನು ಮರುಹೆಸರಿಸಲಾಗಿದೆ"</string>
+<string name="account_changed_load_account_inbox">"ವ್ಯವಹಾರಕ್ಕೆ ಅನುಗುಣವಾಗಿ ಫೋಲ್ಡರ್ ಖಾತೆ ಬದಲಾಗಿದೆ, ಇನ್ಬಾಕ್ಸ್‌ಗೆ ಬದಲಿಸಿ."</string>
+<string name="no_available_storage">"ಶೇಖರಣಾ ಸ್ಥಳ ಲಭ್ಯವಿಲ್ಲ"</string>
+<string name="attachment">"ಲಗತ್ತು"</string>
+<string name="confirm_compress_tittle">"ಕುಗ್ಗಿಸು"</string>
+<string name="confirm_compress_msg">"ಫೋಟೊದ ಗಾತ್ರವು <xliff:g id="size">%s</xliff:g>ಅನ್ನು ಮೀರಿದೆ,ಅದನ್ನು ಕಾಂಪ್ರೆಸ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸುವುದೇ?"</string>
+<string name="compressed_failed">"<xliff:g id="size">%s</xliff:g>ಕ್ಕಿಂತಲೂ ಕಡಿಮೆ ಗಾತ್ರದ ಫೋಟೊವನ್ನು ಕಂಫ್ರೆಸ್‌ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ."</string>
+<string name="save_draft_msg">"ಕರಡು ಉಳಿಸಲು ಬಯಸುವಿರಾ?"</string>
+<string name="menu_sorting_method">"ವಿಂಗಡನಾ ವಿಧಾನ"</string>
+<string name="oarder_by_timestamp_asc">"ದಿನಾಂಕ (ಮುಂಚಿನ)"</string>
+<string name="oarder_by_timestamp_desc">"ದಿನಾಂಕ (ಇತ್ತೀಚಿನ)"</string>
+<string name="oarder_by_sender_asc">"ಕಳುಹಿಸುವವರು (A ನಿಂದ Z)"</string>
+<string name="oarder_by_sender_desc">"ಕಳುಹಿಸುವವರು (Z ನಿಂದ A)"</string>
+<string name="oarder_by_recipient_asc">"ಸ್ವೀಕರಿಸುವವರು (A ನಿಂದ Z)"</string>
+<string name="oarder_by_recipient_desc">"ಸ್ವೀಕರಿಸುವವರು (Z ನಿಂದ A)"</string>
+<string name="oarder_by_subject_asc">"ವಿಷಯ (A ನಿಂದ Z)"</string>
+<string name="oarder_by_subject_desc">"ವಿಷಯ (Z ನಿಂದ A)"</string>
+<string name="select_all">"ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿ"</string>
+<string name="cancel_all">"ಎಲ್ಲವನ್ನೂ ರದ್ದುಗೊಳಿಸಿ"</string>
+<string name="preference_snippetShowLines_to_title">"ವಿಷಯ ಪೂರ್ವವೀಕ್ಷಣೆ"</string>
+<string-array name="prefEntries_snippetShowLines">
+<item>"ಯಾವುದೂ ಇಲ್ಲ"</item>
+<item>"1 ಸಾಲು"</item>
+<item>"2 ಸಾಲುಗಳು"</item>
+<item>"3 ಸಾಲುಗಳು"</item>
+</string-array>
+<string name="contacts_tab_tittle">"ಸಂಪರ್ಕಗಳು"</string>
+<string name="favorite_tab_tittle">"ಫೇವರೈಟ್ "</string>
+<string name="checked_contacts_exceeds_max">"<xliff:g id="count">%s</xliff:g> ವರೆಗೆ ಸಂಪರ್ಕಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು"</string>
+<string name="vip">"ವಿಐಪಿ ಫೋಲ್ಡರ್"</string>
+<string name="vip_settings">"ವಿಐಪಿ ಸೆಟ್ಟಿಂಗ್ಗಳು"</string>
+<string name="vip_members">"ವಿಐಪಿ ಸಂಪರ್ಕಗಳು"</string>
+<string name="vip_members_count">"(<xliff:g example="2">%1$d</xliff:g>)ವಿಐಪಿ ಸಂಪರ್ಕಗಳು"</string>
+<string name="vip_members_list_empty">"ವಿಐಪಿ ಸದಸ್ಯರ ಪಟ್ಟಿ ಖಾಲಿಯಾಗಿದೆ"</string>
+<string name="vip_remove_title">"ವಿಐಪಿಪಟ್ಟಿಯಿಂದ ತೆಗೆದುಹಾಕಿ"</string>
+<string name="vip_add">"ವಿಐಪಿಗೆ ಪಟ್ಟಿಗೆ ಸೇರಿಸು"</string>
+<string name="vip_add_from_contacts">"ಸಂಪರ್ಕಗಳಿಂದ ಸೇರಿಸು"</string>
+<string name="vip_add_from_input">"ವಿಳಾಸವನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ಸೇರಿಸು"</string>
+<string name="vip_choose_contact">"ವಿಐಪಿಗೆ ಪಟ್ಟಿಗೆ ಸೇರಿಸು"</string>
+<string name="vip_remove_prompt">"ವಿಐಪಿ ಸದಸ್ಯರ ಪಟ್ಟಿಯಿಂದ <xliff:g example="2">%1$s</xliff:g> ಅನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ."</string>
+<string name="not_add_duplicate_vip">"ನಕಲಿ ಸಂಪರ್ಕವನ್ನು ವಿಐಪಿ ಪಟ್ಟಿಯಲ್ಲಿ ಸೇರಿಸಲಾಗುವುದಿಲ್ಲ."</string>
+<string name="can_not_add_vip_over">"<xliff:g id="count">%s</xliff:g> ಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ವಿಐಪಿ ಸದಸ್ಯರನ್ನು ಸೇರಿಸಲಾಗುವುದಿಲ್ಲ"</string>
+<string name="message_compose_error_invalid_email">"ಇಮೇಲ್ ವಿಳಾಸಗಳು ಅಮಾನ್ಯವಾಗಿದೆ."</string>
+<string name="duplicate_address_removed_msg">"ನಕಲಿ ವಿಳಾಸಗಳು ವಿಳಾಸದ ಪಟ್ಟಿಗೆ ಸೇರಿಸಲ್ಪಡುವುದಿಲ್ಲ"</string>
+<string name="gallery_not_found">"ಗ್ಯಾಲರಿ ಕಂಡುಬಂದಿಲ್ಲ"</string>
+<string name="sound_recorder_not_found">"ಸೌಂಡ್ ರೆಕಾರ್ಡರ್ ಕಂಡುಬಂದಿಲ್ಲ"</string>
+<string name="attachment_documents_label">"ಫೈಲ್ ನಿರ್ವಹಣೆ"</string>
+<string name="create_image_file_failed">"ಫೋಟೊ ರಚಿಸುವುದು ವಿಫಲವಾಗಿದೆ, ದಯವಿಟ್ಟು ಕ್ಯಾಮೆರಾ ಬಳಸುವ ಮೊದಲು ಶೇಖರಣಾ ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ"</string>
+<string name="cancel_attachment">"ಡೌನ್ಲೋಡ್ ಮಾಡುವುದನ್ನು ರದ್ದು ಮಾಡು"</string>
+</resources>

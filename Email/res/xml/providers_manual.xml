@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<providers>
+    <!-- SPRD: Modify for bug716355, 726104 @{ -->
+    <!-- domain pop imap eas port sport-->
+    <!--139 -->
+    <provider domain="139.com"
+        pop="pop3://pop3.10086.cn"
+        imap="imap+ssl+://imap.10086.cn"
+        eas="eas+ssl+://ex.mail.10086.cn"
+        smtp="smtp+ssl+://smtp.10086.cn">
+    </provider>
+
+    <provider domain="gmail.com" imap="imap+ssl+://imap.gmail.com" smtp="smtp+ssl+://smtp.gmail.com:465" eas="eas+ssl+://m.google.com">
+    </provider>
+
+    <provider domain="hotmail.com" eas="eas+ssl+://s.outlook.com">
+    </provider>
+
+    <provider domain="qq.com" eas="eas+ssl+://ex.qq.com">
+    </provider>
+
+    <provider domain="126.com" eas="eas+ssl+://i.163.com">
+    </provider>
+
+    <provider domain="163.com" eas="eas+ssl+://i.163.com">
+    </provider>
+
+    <provider domain="unisoc.com" eas="eas+ssl+://exmail.unisoc.com">
+    </provider>
+
+    <provider domain="mail.ru" pop="pop3+ssl+://pop.mail.ru" imap="imap+ssl+://imap.mail.ru" smtp="smtp+ssl+://smtp.mail.ru">
+    </provider>
+
+    <provider domain="list.ru" pop="pop3+ssl+://pop.mail.ru" imap="imap+ssl+://imap.mail.ru" smtp="smtp+ssl+://smtp.mail.ru">
+    </provider>
+
+    <provider domain="inbox.ru" pop="pop3+ssl+://pop.mail.ru" imap="imap+ssl+://imap.mail.ru" smtp="smtp+ssl+://smtp.mail.ru">
+    </provider>
+
+    <provider domain="bk.ru" pop="pop3+ssl+://pop.mail.ru" imap="imap+ssl+://imap.mail.ru" smtp="smtp+ssl+://smtp.mail.ru">
+    </provider>
+
+    <provider domain="corp.mail.ru" pop="pop3+ssl+://pop.mail.ru" imap="imap+ssl+://imap.mail.ru" smtp="smtp+ssl+://smtp.mail.ru">
+    </provider>
+
+    <provider domain="Yandex.ru" pop="pop3+ssl+://pop.yandex.ru" imap="imap+ssl+://imap.yandex.ru" smtp="smtp+ssl+://smtp.yandex.ru">
+    </provider>
+
+    <provider domain="Rambler.ru" pop="pop3+ssl+://pop.rambler.ru" imap="imap+ssl+://imap.rambler.ru" smtp="smtp+ssl+://smtp.rambler.ru">
+    </provider>
+    <!-- @} -->
+
+</providers>

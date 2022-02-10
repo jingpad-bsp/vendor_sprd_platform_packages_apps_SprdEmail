@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted"> Aceptado:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+<string name="meeting_declined">Rexeitado:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+<string name="meeting_tentative">
+Tentativa:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+<string name="meeting_canceled">Cancelado:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+<string name="meeting_updated">
+Actualizado:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+<string name="meeting_when">Cando:
+        <xliff:g id="when">%s</xliff:g>
+    </string>
+<string name="meeting_where">Onde:
+        <xliff:g id="where">%s</xliff:g>
+    </string>
+<string name="meeting_recurring">
+Cando:
+        <xliff:g id="eventdate" example="Tue, Mar 1, 21 at 2:3 pm">%s</xliff:g>
+        (recorrendo)
+    </string>
+<string name="meeting_allday">Cando:
+        <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+        (todos os días)
+    </string>
+<string name="meeting_allday_recurring">Cando:
+        <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+        (todos os días, recorrente)
+    </string>
+<string name="app_name">Servizos de intercambio</string>
+<string name="exception_cancel">Este evento cancelouse por:
+        <xliff:g id="date">%s</xliff:g>
+    </string>
+<string name="exception_updated"> Os detalles deste evento cambiaron para:
+        <xliff:g id="date">%s</xliff:g>
+    </string>
+<string name="policy_dont_allow_storage_cards">Non permitir tarxetas de memoria</string>
+<string name="policy_dont_allow_unsigned_apps">Non permitir apps sen designar</string>
+<string name="policy_dont_allow_unsigned_installers">Non permitir instaladores app sen designar</string>
+<string name="policy_dont_allow_wifi">Non permitir a Wi-Fi</string>
+<string name="policy_dont_allow_text_messaging">Non permitir mensaxes de texto</string>
+<string name="policy_dont_allow_pop_imap">Non permitir contas POP3 ou IMAP</string>
+<string name="policy_dont_allow_irda">Non permitir comunicacións de infravermellos</string>
+<string name="policy_dont_allow_html">Non permitir o e-mail HTML</string>
+<string name="policy_dont_allow_browser">Non permitir navegador</string>
+<string name="policy_dont_allow_consumer_email">Non permitir o e-mail do consumidor</string>
+<string name="policy_dont_allow_internet_sharing">Non permitir compartir Internet</string>
+<string name="policy_require_smime">Solicitar mensaxes SMIME</string>
+<string name="policy_bluetooth_restricted">Restrinxir o uso Bluetooth</string>
+<string name="policy_app_blacklist">Non permitir as apps específicas</string>
+<string name="policy_app_whitelist">Permitir só apps específicas</string>
+<string name="policy_text_truncation">Restrinxir o tamaño do e-mail de texto</string>
+<string name="policy_html_truncation">Restrinxir o tamaño do e-mail HTML</string>
+<string name="policy_require_sd_encryption">Solicitar encristación da tarxeta SD</string>
+<string name="policy_dont_allow_attachments">Non permitir anexos</string>
+<string name="policy_max_attachment_size">Tamaño de anexo restrinxido</string>
+<string name="policy_require_manual_sync_roaming">Só permitir a sincronización manual durante o roaming</string>
+<string name="policy_require_encryption">Solicitar encristación do dispositivo</string>
+<string name="account_setup_options_mail_window_auto">Automático</string>
+<string name="account_setup_options_mail_window_1day">Un día</string>
+<string name="account_setup_options_mail_window_3days">Tres días</string>
+<string name="account_setup_options_mail_window_1week">Unha semana</string>
+<string name="account_setup_options_mail_window_2weeks">Dúas semanas</string>
+<string name="account_setup_options_mail_window_1month">Un mes</string>
+<string name="account_setup_options_mail_window_all">Todo</string>
+<string name="auth_error_notification_title">Erro de autenticación</string>
+<string name="auth_error_notification_text">Tocar para editar os axustes da conta para <xliff:g id="account">%s</xliff:g></string>
+<string name="email_settings_not_available">Volver a aplicar a aplicación do e-mail para ver axustes.</string>
+</resources>

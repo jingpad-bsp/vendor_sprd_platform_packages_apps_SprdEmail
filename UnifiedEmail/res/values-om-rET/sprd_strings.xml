@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="drm_protected_file">"* galmee DRM tiin eegamu*"</string>
+<string name="not_add_drm_file">"galmeewwan drm dabaluu hin dandeessu."</string>
+<string name="not_support_open_drm">"Galmeen banamuuf hin deeggaramne, bakka banuu dandeessutti olkaa’i."</string>
+</resources>

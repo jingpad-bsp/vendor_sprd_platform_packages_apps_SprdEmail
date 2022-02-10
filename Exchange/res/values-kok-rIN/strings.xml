@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">" मान्य: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">" अमान्य: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">" भोवतेक: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">" रद्द: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">" अपडेटेड: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">" केन्ना: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">" खंय: <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">" केन्ना: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (आवर्ती) "</string>
+<string name="meeting_allday">" केन्ना: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (सदाकाळ) "</string>
+<string name="meeting_allday_recurring">"केन्ना: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (सदाकाळ, आवर्ती) "</string>
+<string name="app_name">"बदली सेवा"</string>
+<string name="exception_cancel">" खातीर ही घडना रद्द केल्या: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="exception_updated">" हे घटनेचो तपशील बदलल्यात: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="policy_dont_allow_storage_cards">"सांठो कार्डांक अनुमती दियनाकात"</string>
+<string name="policy_dont_allow_unsigned_apps">"सायन्ड करुंक नाशिल्ल्या ॲपाक मान्यताय दियनाकात"</string>
+<string name="policy_dont_allow_unsigned_installers">"सायन्ड करुंक नाशिल्ल्या ॲप इन्स्टोलर्सांक अनुमती दिवनाकात"</string>
+<string name="policy_dont_allow_wifi">"Wi-Fi क अनुमती दिवनाकात"</string>
+<string name="policy_dont_allow_text_messaging">"टॅक्स्ट संदेशाक अनुमती दिवनाकात"</string>
+<string name="policy_dont_allow_pop_imap">"POP3 वा IMAP खात्याक अनुमती दिवनाकात"</string>
+<string name="policy_dont_allow_irda">"इन्फ्रारेड दळणवळणाक अनुमती दिवनाकात"</string>
+<string name="policy_dont_allow_html">"HTML ईमेलाक अनुमती दिवनाकात"</string>
+<string name="policy_dont_allow_browser">"ब्रावजराक email क अनुमती दिवनाकात"</string>
+<string name="policy_dont_allow_consumer_email">"गिरायक ईमेलाक अनुमती दिवनाकात"</string>
+<string name="policy_dont_allow_internet_sharing">"इंटरनॅट शॅयरींगाक अनुमती दिवनाकात"</string>
+<string name="policy_require_smime">"SMIME संदेशाची गरज आसा"</string>
+<string name="policy_bluetooth_restricted">"ब्लुटुथ वापर मर्यादीत करात"</string>
+<string name="policy_app_blacklist">"निश्चीत केल्ल्या ॲपाक मान्यताय दिवं नाकात"</string>
+<string name="policy_app_whitelist">"फकत निश्चीत केल्ले ॲपांक अनुमती दियात"</string>
+<string name="policy_text_truncation">"टेक्स्ट ईमेल आकार मर्यादीत करात"</string>
+<string name="policy_html_truncation">"HTML ईमेल आकार मर्यादीत करात"</string>
+<string name="policy_require_sd_encryption">"SD कार्ड एन्क्रिप्शनाची गरज आसा"</string>
+<string name="policy_dont_allow_attachments">"अटेचमेंटांक अनुमती दिव नाकात"</string>
+<string name="policy_max_attachment_size">"अटेचमेंट आकार मर्यादीत करात"</string>
+<string name="policy_require_manual_sync_roaming">"रोमींगार आसतना फकत मॅन्युएल समक्रमीत मान्यताय दियात"</string>
+<string name="policy_require_encryption">"यंत्राच्या एन्क्रिपशनाची गरज आसा"</string>
+<string name="account_setup_options_mail_window_auto">"स्वयंचलीत"</string>
+<string name="account_setup_options_mail_window_1day">"एक दीस"</string>
+<string name="account_setup_options_mail_window_3days">"तीन दीस"</string>
+<string name="account_setup_options_mail_window_1week">"एक सप्तक"</string>
+<string name="account_setup_options_mail_window_2weeks">"दोन सप्तक"</string>
+<string name="account_setup_options_mail_window_1month">"एक म्हयनो"</string>
+<string name="account_setup_options_mail_window_all">"सगले"</string>
+<string name="auth_error_notification_title">"प्रमाणीकरण त्रुटी"</string>
+<string name="auth_error_notification_text">"शातीर खात्याची सेटिंग्स संपादीत करुंक स्पर्श करात <xliff:g id="account">%s</xliff:g>"</string>
+<string name="email_settings_not_available">"सेटिंग्स पळोवंक ईमेल ॲपाक परतून सक्षम करात."</string>
+</resources>

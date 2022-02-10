@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">منظور گمت: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">زوال پذیر گمت؛ <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">ارذي: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">منسوخ گمت: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">اپ ڈیٹ گمت: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">کارء: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">كت: <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">کارء: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (ریكيرگ)"</string>
+<string name="meeting_allday">کارء: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (تمام دوه)"</string>
+<string name="meeting_allday_recurring">کارء: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (تمام دوه ریكيرگ)"</string>
+<string name="app_name">تبادل سہولیات</string>
+<string name="exception_cancel">ي واكه آو منسوخ كرنه کھتر: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="exception_updated">یمء واكہیکء تفسیر آو بدلاون کھتر: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="policy_dont_allow_storage_cards">م کرییو منظور اسٹوریج کارڈ</string>
+<string name="policy_dont_allow_unsigned_apps">م کرییو منظور انسانڈ اپلیکیشن</string>
+<string name="policy_dont_allow_unsigned_installers">م کرییو منظور انسانڈ اپلیکیشن انسٹال کرن ویل</string>
+<string name="policy_dont_allow_wifi">م کرییو منظور Wi-Fi</string>
+<string name="policy_dont_allow_text_messaging">م کرییو منظور ٹیکسٹ میسیج کرییون</string>
+<string name="policy_dont_allow_pop_imap">م کرییو منظور POP3 یا IMAP اکاونٹس</string>
+<string name="policy_dont_allow_irda">م کرییو منظور انفرادیڈ رابتء</string>
+<string name="policy_dont_allow_html">نہ منظور کرییو HTML ای میل</string>
+<string name="policy_dont_allow_browser">نہ منظور کرییو تمام براؤزر</string>
+<string name="policy_dont_allow_consumer_email">نہ منظور کرییو كنذيومر ای میل</string>
+<string name="policy_dont_allow_internet_sharing">نہ منظور کرییو انٹرنیٹ باگراون</string>
+<string name="policy_require_smime">ضرورت SMIME میسیج</string>
+<string name="policy_bluetooth_restricted">پابند بلوٹوت استعمال کرنچ</string>
+<string name="policy_app_blacklist">نامنظور خاص اپلیکیشن</string>
+<string name="policy_app_whitelist">منظور کرییو خالی خاص اپلیکیشن</string>
+<string name="policy_text_truncation">پابند ٹیکسٹ ای میل مقدار</string>
+<string name="policy_html_truncation">پابند HTML ای میل مقدار</string>
+<string name="policy_require_sd_encryption">ضرورت SD کارڈ ژورء تھاون آمت</string>
+<string name="policy_dont_allow_attachments">نامنظور منسلک</string>
+<string name="policy_max_attachment_size">پابند منسلک مقدار</string>
+<string name="policy_require_manual_sync_roaming">منظور کرییو خالی دستی سنکرونایز رومنگ دوران</string>
+<string name="policy_require_encryption">ضرورت آلء ژورء تھاون آمت</string>
+<string name="account_setup_options_mail_window_auto">حاصل</string>
+<string name="account_setup_options_mail_window_1day">اكھ دوه</string>
+<string name="account_setup_options_mail_window_3days">تری دوه</string>
+<string name="account_setup_options_mail_window_1week">اكھ ہفتء</string>
+<string name="account_setup_options_mail_window_2weeks">ز ہفتء</string>
+<string name="account_setup_options_mail_window_1month">اكھ ریتھ</string>
+<string name="account_setup_options_mail_window_all">تمام "</string>
+<string name="auth_error_notification_title">تصدیق غلطی</string>
+<string name="auth_error_notification_text">ذير کرییو اکاؤنٹ کی ترتیبات درست كرن باپتھ <xliff:g id="account">%s</xliff:g>"</string>
+<string name="email_settings_not_available">دبار-هايو ای میل اپلیکیشن ترتیب وچھن کھتر.</string>
+</resources>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="from">"निफ्राइ"</string>
+<string name="to">"टु"</string>
+<string name="cc">"सिसि"</string>
+<string name="bcc">"बिसिसि"</string>
+<string name="subject_hint">"आयदा"</string>
+<string name="body_hint">"इमेल दा"</string>
+<string name="add_file_attachment">"सरजाबनाय फाइल"</string>
+<string name="add_photo_attachment">"सरजाबनाय सावगारि"</string>
+<string name="save_draft">"ड्राफखौ सेभ खालाम"</string>
+<string name="discard">"ऐंगार"</string>
+<string name="compose">"लिर"</string>
+<string name="compose_title">"लिर"</string>
+<string-array name="compose_modes">
+<item>"फिन हरफिन"</item>
+<item>गासैनोबो फिन हर</item>
+<item>"दानहर"</item>
+</string-array>
+<string name="reply_attribution">"आव <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> लिर:"</string>
+<string name="forward_attribution_no_headers">"---------- बारहोनाय मेसेस ----------"</string>
+<string name="select_attachment_type">"सरजाबदेरनायनि रोखोमखौ बासि"</string>
+<string name="too_large_to_attach_single">"फाइलखौ सरजाबनो हायाखै <xliff:g id="maxSize">%1$s</xliff:g>।"</string>
+<string name="too_large_to_attach_multiple">"मोनसे एबा बेनि बांसिन फाइला सरजाब जाया। सिमा <xliff:g id="maxSize">%1$s</xliff:g>।"</string>
+<string name="too_large_to_attach_additional">"फाइला सरजाब जायाखै। <xliff:g id="maxSize">%1$s</xliff:g> सिमा बारबाय।"</string>
+<string name="generic_attachment_problem">"फाइलखौ सरजाबनो हायाखै।"</string>
+<string name="attachment_permission_denied">"सरजाबदेरनायनि थाखाय गनायथिखौ नेवसिबाय।"</string>
+<string name="recipient_needed">"खमैबो मोनसे नाजावग्रा दाजाब।"</string>
+<string name="confirm_send_message_with_no_subject">"मेसेसनि आयदायाव जेबो लिरनाय गैया।"</string>
+<string name="confirm_send_message_with_no_body">"मेसेसनि बडियाव जेबो लिरनाय गैया।"</string>
+<string name="confirm_send_message">"बे मेसेसखौ दैथाइहरनो?"</string>
+<string name="message_discarded">"मेसेसा दानगारजाबाय।"</string>
+<string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+<string name="custom_from_account_label">"मेलखौ दैथाइहर महरै:"</string>
+<string name="send">"दैथाय हर"</string>
+<string name="mark_read">"फरायनायखौ दागो हो"</string>
+<string name="mark_unread">"फरायिखौ दागो हो"</string>
+<string name="toggle_read_unread">"फरायनाय फरायिखौ टगल खालाम"</string>
+<string name="mute">"मिउट"</string>
+<string name="add_star">"हाथरखि दाजाब"</string>
+<string name="remove_star">"हाथरखिखौ बोखार"</string>
+<string name="remove_folder">"बोखार <xliff:g id="folderName">%1$s</xliff:g> निफ्राय"</string>
+<string name="archive">"आरसिफ"</string>
+<string name="report_spam">"रिप्रट स्पाम"</string>
+<string name="mark_not_spam">"स्पामाव रिप्रट दाहो"</string>
+<string name="report_phishing">"फिसिंखौ रिपर्ट खालाम"</string>
+<string name="delete">"डिलेट"</string>
+<string name="discard_drafts">"ड्राफ्ट्सखौ दानगार"</string>
+<string name="discard_failed">"दानगारनाया फेलें जाबाय"</string>
+<string name="refresh">"फोसाबखां"</string>
+<string name="reply">"फिन हरफिन"</string>
+<string name="reply_all">गासैनोबो फिन हर</string>
+<string name="resume_draft">"एडिट"</string>
+<string name="forward">"दानहर"</string>
+<string name="menu_compose">"लिर"</string>
+<string name="menu_change_folders">"फलदारखौ सोलाय"</string>
+<string name="menu_move_to">"सिम थां"</string>
+<string name="menu_move_to_inbox">"इनबक्साव थां"</string>
+<string name="menu_manage_folders">"फलडार सेटिंग्स"</string>
+<string name="menu_show_original">"रिभार्ट-अट-साइजिं"</string>
+<string name="menu_settings">"सेटिंगस"</string>
+<string name="menu_search">"चार्स"</string>
+<string name="menu_toggle_drawer">"टग्ग्ल बोग्रा"</string>
+<string name="drawer_title">"नेभिगेसन"</string>
+<string name="mark_important">"गोनांफोरखौ दागो हो"</string>
+<string name="mark_not_important">"गोनांथि गोयिफोरखौ दागो हो"</string>
+<string name="add_cc_label">"सिसि/बिसिसिखौ दाजाब"</string>
+<string name="add_bcc_label">"बिसिसिखौ दाजाब"</string>
+<string name="quoted_text">"कुवाटेट टेक्सखौ दागो हो"</string>
+<string name="quoted_text_label">"कुवाटेट टेक्स"</string>
+<string name="respond_inline">"फारियाव फिननाय हो"</string>
+<string name="attachment_image">"सावगारि"</string>
+<string name="attachment_video">"भिडिअ"</string>
+<string name="attachment_audio">"अडिअ\'"</string>
+<string name="attachment_text">"टेक्स"</string>
+<string name="attachment_application_msword">"दकुमेन्ट"</string>
+<string name="attachment_application_vnd_ms_powerpoint">"प्रेसेनटेसन"</string>
+<string name="attachment_application_vnd_ms_excel">"स्प्रिडसिट"</string>
+<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> फाइल"</string>
+<string name="preview_attachment">"प्रिभिउ"</string>
+<string name="save_attachment">"सेभ"</string>
+<string name="download_again">"डाउनलड खालामफिन"</string>
+<string name="remove_attachment_desc">"सरजाबदेरनायखौ बोखार <xliff:g id="attachmentName">%s</xliff:g>"</string>
+<string name="more_info_attachment">"इनफ"</string>
+<string name="no_application_found">"नायनो थाखाय बे सरजाबनायखौनो जेबो एप्सानो खेवनो हायाखै।"</string>
+<string name="fetching_attachment">"सरजाबनायखौ फेटसिं खालाम"</string>
+<string name="please_wait">"अननानै थाथ\'..."</string>
+<string name="download_failed">"डाउनलड खालामनो हायाखै। नाजाफिननो थुना हो।"</string>
+<string name="menu_photo_save_all">"गासैखौबो सेभ खालाम"</string>
+<string name="menu_photo_share">"सेयार"</string>
+<string name="menu_photo_share_all">"गासैखौबो सेयार खालाम"</string>
+<string name="menu_photo_print">"प्रिन्त"</string>
+<string name="choosertitle_sharevia">"जोहै दैथाय"</string>
+<string name="contextmenu_openlink">"ब्राउजाराव खेव"</string>
+<string name="contextmenu_copy">"क\'पि"</string>
+<string name="contextmenu_copylink">"URL लिंकखौ कपि खालाम"</string>
+<string name="contextmenu_view_image">"सावगारिखौ नाय"</string>
+<string name="contextmenu_dial_dot">"डाइल खालाम..."</string>
+<string name="contextmenu_sms_dot">"SMS..."</string>
+<string name="contextmenu_add_contact">"कन्टेक्ट दाजाब"</string>
+<string name="contextmenu_send_mail">"इमेल हर"</string>
+<string name="contextmenu_map">"मानसावगारि"</string>
+<string name="contextmenu_sharelink">"लिंकखौ शेयार खालाम"</string>
+<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> सोमोन्दै <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> सायाव <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> सोमोन्दै <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> आव <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> सोमोन्दै <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> सायाव <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, लेबेलफोर: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="content_description_today_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> सोमोन्दै <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> आव <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, लेबेलफोर: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="read_string">"फरायनाय कनभारसेसन"</string>
+<string name="unread_string">"फरायि कनभारसेसन"</string>
+<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="badge_and_subject">"<xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g>"</string>
+<plurals name="draft">
+<item quantity="one">"ड्राफट"</item>
+<item quantity="other">"ड्राफ्ट्स"</item>
+</plurals>
+<string name="sending">"हरगासिनो..."</string>
+<string name="message_retrying">"नाजाफिनदों..."</string>
+<string name="message_failed">"फेलें जाबाय"</string>
+<string name="send_failed">"मेसेसा हरजायाखैमोन।"</string>
+<string name="me_object_pronoun">"आं"</string>
+<string name="me_subject_pronoun">"आं"</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">"बे कनभारसेसनखौ डिलेट खालामनो?"</item>
+<item quantity="other">"बेफोर कनभारसेसनखौ <xliff:g id="count">%1$d</xliff:g> डिलेट खालामनो?"</item>
+</plurals>
+<plurals name="confirm_archive_conversation">
+<item quantity="one">"बे कनभारसेसनखौ आरसिफ खालामनो?"</item>
+<item quantity="other">"बेफोर कनभारसेसनखौ <xliff:g id="count">%1$d</xliff:g> दोनथुमनो?"</item>
+</plurals>
+<plurals name="confirm_discard_drafts_conversation">
+<item quantity="one">"बे मेसेसखौ दानगारनो?"</item>
+<item quantity="other">"बेफोर मेसेसफोरखौ <xliff:g id="count">%1$d</xliff:g> दानगारनो?"</item>
+</plurals>
+<string name="confirm_discard_text">"बे मेसेसखौ दानगारनो?"</string>
+<string name="loading_conversations">"लदिं"</string>
+<string name="empty_inbox">"नोंथाङा गासैखौबो मावजोबबाय! अननानै नोंथांनि सनखौ रंजा।"</string>
+<string name="empty_search">"युप्स! जों जेबो मोनाखै \"<xliff:g id="search_query">%1$s</xliff:g>\" नि थाखाय"</string>
+<string name="empty_spam_folder">"ओहै, बेयाव जेबो स्पाम गैया!"</string>
+<string name="empty_trash_folder">"बेयाव जेबो दाखोर गैया। रिसाइक्लिं खालामनायनि थाखाय साबायखर!"</string>
+<string name="empty_folder">"बेयाव जेबो मेल गैया।"</string>
+<string name="getting_messages">"नोंथांनि मेसेसफोरखौ मोननाय"</string>
+<string name="undo">"आनड\'"</string>
+<plurals name="conversation_unstarred">
+<item quantity="one">"कनभारसेसनखौ <xliff:g id="count">%1$d</xliff:g> दादेनै।"</item>
+<item quantity="other">"कनभारसेसनखौ <xliff:g id="count">%1$d</xliff:g> दादेनै।"</item>
+</plurals>
+<string name="deleted">"दानजानाय"</string>
+<string name="archived">"देनथुमजाबाय"</string>
+<string name="folder_removed">"<xliff:g id="folderName">%1$s</xliff:g> निफ्राय बोखार"</string>
+<plurals name="conversation_folder_changed">
+<item quantity="one">"सोलायनाय फलडार"</item>
+<item quantity="other">"सोलायनाय फलडारफोर"</item>
+</plurals>
+<string name="conversation_folder_moved">"थांहो <xliff:g id="folderName">%1$s</xliff:g> सिम"</string>
+<string name="search_results_header">"फिथाइफोर"</string>
+<string name="search_unsupported">"बे एकाउन्टआव नागिरनायखौ गनायिया।"</string>
+<string name="search_suggestion_desc">"बिथोन: <xliff:g id="suggestion">%s</xliff:g>"</string>
+<string name="add_label">"फल्डार दाजाब"</string>
+<plurals name="new_incoming_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> गोदान मेसेस"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> गोदान मोसोसफोर"</item>
+</plurals>
+<string name="hide_details">"गुमुरखौ दोनखोमा"</string>
+<string name="to_message_header">"सिम <xliff:g id="recipients">%1$s</xliff:g>"</string>
+<string name="bcc_header_for_recipient_summary">"बिचिचि:\u0020"</string>
+<string name="contact_info_string">"कन्टेकनि मिथिथाइखौ दिन्थि <xliff:g id="name">%1$s</xliff:g> नि थाखाय"</string>
+<string name="contact_info_string_default">"कन्टेक्टनि मिथिथाइफोरखौ दिन्थि"</string>
+<plurals name="show_messages_read">
+<item quantity="other">"Expand <xliff:g id="count" example="4">%1$d</xliff:g> गोजामद्राय मेसेसफोर"</item>
+</plurals>
+<plurals name="super_collapsed_block_accessibility_announcement">
+<item quantity="other">"बांहोजाबाय <xliff:g id="count" example="4">%1$d</xliff:g> गोजाम मेसेसफोर"</item>
+</plurals>
+<string name="from_heading">"फ्राय:"</string>
+<string name="replyto_heading">"फिन हर- सिम:"</string>
+<string name="to_heading">"सिम:\u0020"</string>
+<string name="to_heading_no_space">"सिम:"</string>
+<string name="cc_heading">"सिसि:"</string>
+<string name="bcc_heading">"बिसिसि:"</string>
+<string name="date_heading">"अख्त"</string>
+<string name="show_images">"सावगारिफोरखौ दिन्थि"</string>
+<string name="always_show_images">"बे हरग्रानिफ्राय सावगारिखौ जेब्लाबो दिन्थि"</string>
+<string name="always_show_images_toast">"बे हरग्रानिफ्राय सावगारिखौ गावनो गाव दिन्थिगोन"</string>
+<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> जानानै <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+<string name="message_saved">"मेसेजा ड्राप्टआव सेप जाबाय"</string>
+<string name="sending_message">"मेसेस हरदों..."</string>
+<string name="invalid_recipient">"थङा <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> उदायला।"</string>
+<string name="show_elided">"होनाय टेक्सखौ दिन्थि"</string>
+<string name="hide_elided">"\u25BC टेक्सखौ दोनखोमा"</string>
+<string name="message_invite_title">"केलेन्डार खावलायनाय"</string>
+<string name="message_invite_calendar_view">"केलेन्डाराव नाय"</string>
+<string name="message_invite_label_attending">"थांगासिनो"</string>
+<string name="message_invite_accept">"नंगौ"</string>
+<string name="message_invite_tentative">"जानो हागौ"</string>
+<string name="message_invite_decline">"नङा"</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="send_anyway">"जेरैखिजाया दैथाय"</string>
+<string name="ok">"अके"</string>
+<string name="done">"डान"</string>
+<string name="cancel">"केन्चेल"</string>
+<string name="clear">"खोमोर"</string>
+<string name="next">"उनाव"</string>
+<string name="previous">"सिगांनि"</string>
+<string-array name="sync_status">
+<item>"जाफुंबाय"</item>
+<item>"कानेक्शन गैया"</item>
+<item>"साइन इन खालामनो हायाखै"</item>
+<item>"रैखाथिया गोरोन्थि दं"</item>
+<item>"साइन खालामनो हायाखै"</item>
+<item>"इसिङारि गोरोन्थि दं"</item>
+<item>"सार्भार गोरोन्थि दं"</item>
+</string-array>
+<string name="tap_to_configure">"सेट आप खालामनो दां"</string>
+<string name="non_synced_folder_description">"खन्भारसेसनखौ नायनो थाखाय बे फलडारखौ साइन खालाम"</string>
+<string name="tap_to_configure_folder_sync">"फलडाराव साइन खालाम"</string>
+<string name="large_unseen_count">"<xliff:g id="count" example="99">%d</xliff:g>+ गोदान"</string>
+<string name="unseen_count">"<xliff:g id="count" example="4">%d</xliff:g> गोदान"</string>
+<plurals name="actionbar_unread_messages">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> फरायि"</item>
+</plurals>
+<string name="view_more_conversations">"गोबां कनभार्सेसनखौ नाय"</string>
+<string name="loading_conversation">"लदिं"</string>
+<string name="activity_mailbox_selection">"एकाउन्टखौ सायख\'"</string>
+<string name="activity_folder_selection">"फलडारखौ सायख\'"</string>
+<string name="folder_shortcut_widget_label">"इमेल फलडार"</string>
+<string name="change_folders_selection_dialog_title">"फलदारखौ सोलाय"</string>
+<string name="move_to_selection_dialog_title">"सिम थां"</string>
+<string name="search_hint">"चार्स"</string>
+<string name="voice_search_not_supported">"बे डिभाइसाव भइस नागिरनायखौ गनायथि होआखै।"</string>
+<string name="search_back_desc">"नागिरनायखौ बन्द खालाम"</string>
+<string name="search_voice_desc">"बुंनानै नागिरनायखौ जागाय"</string>
+<string name="search_clear_desc">"नागिरनाय टेक्सखौ स्रां खालाम"</string>
+<string name="network_error">"कानेक्शन गैया"</string>
+<string name="retry">"नाजाफिन"</string>
+<string name="load_more">"आरोबाव लड खालाम"</string>
+<string name="shortcut_name_title">"सुथाबै फलडारनि मुं हो"</string>
+<string name="wait_for_sync_title">"साइनखौ नेगासिनो दं"</string>
+<string name="not_synced_title">"एकाउन्टआ साइन जायाखै"</string>
+<string name="wait_for_manual_sync_body">"बे एकाउन्टआ गावनो गाव साइन जानायनि थाखाय दाजायाखै। \nदां <b>दानो साइन खालाम</b> मेलखौ खेबसे साइन खालामनो, एबा <b>साइन सेटिंग्सखौ सोलायनो</b> मेलखौ गावनो गाव साइन जाहोनो थाखाय बे एकाउन्टखौ सेट खालाम।"</string>
+<string name="manual_sync">"दानो सिंक खालाम"</string>
+<string name="change_sync_settings">"साइन सेटिंग्सखौ सोलाय"</string>
+<string name="photo_load_failed">"सावगारिखौ लड खालामनो हायाखै"</string>
+<string name="cant_move_or_change_labels">"दोरोदहोनो हायाखै मानोना सायखनायाव गोबां एकाउन्टफोर दं।"</string>
+<string name="multiple_new_message_notification_item">"<b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="ignore_spam_warning">"नेवसिगार, आं बे मेसेसखौ फोथायो"</string>
+<string name="via_domain">"जानानै <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+<string name="signin">"साइन-इन"</string>
+<string name="info">"इनफ"</string>
+<string name="report">"रिपर्ट"</string>
+<string name="show">"दिन्थि"</string>
+<string name="sync_error">"साइन खालामनो हायाखै"</string>
+<string name="sync_error_message">"साइन खालामनो थाखाय नोंथांनि डिभाइसह थोजासे दोनथुमनो हानाय जायगा गैया।"</string>
+<string name="storage">"बाख्रि"</string>
+<string name="senders_split_token">",\u00A0"</string>
+<string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+<string name="all_folders_heading">"गासै फलडारफोर"</string>
+<string name="recent_folders_heading">"दाबावैनि फलडारफोर"</string>
+<string name="message_details_title">"मेसेसनि आबुं फोरमायथि"</string>
+<string name="preference_advance_to_title">"अट-एडभान्स"</string>
+<string-array name="prefEntries_autoAdvance">
+<item>"माब्लाबाबो नङा"</item>
+<item>"गोजामसिन"</item>
+<item>"कनभारसेसन फारिलाइ"</item>
+</string-array>
+<string-array name="prefSummaries_autoAdvance">
+<item>"नोंथाङा डिलोट खालामखांनायनि उनाव गोदान कनभारसेसन जानायखौ दिन्थि"</item>
+<item>"नोंथाङा डिलोट खालामखांनायनि उनाव गोजाम कनभारसेसन जानायखौ दिन्थि"</item>
+<item>"नोंथाङा डिलोट खालामखांनायनि उनाव कनभारसेसन जानायनि फारिलाइखौ दिन्थि"</item>
+</string-array>
+<string name="prefDialogTitle_autoAdvance">"सिम सिगां"</string>
+<string name="clear_display_images_whitelist_title">"सावगारि गनायथिनायखौ स्रां खालाम"</string>
+<string name="clear_display_images_whitelist_dialog_title">"सावगारि गनायथिनायखौ स्रां खालामनो?"</string>
+<string name="clear_display_images_whitelist_dialog_message">"सिगाङाव नोंथाङा गनायथि होनाय दैथायगरग्रानिफ्राय इमेसनि लाइनाव नुजानायफोरखौ बन्द खालाम।"</string>
+<string name="sender_whitelist_cleared">"सावगारिया गावनो गाव नुजानाय नङा।"</string>
+<string name="preferences_signature_title">"सिगनेसार"</string>
+<string name="preferences_signature_dialog_title">"सिगनेसार"</string>
+<string name="preferences_signature_summary_not_set">"सेट खालामाखै"</string>
+<string name="notification_action_reply">"फिन हरफिन"</string>
+<string name="notification_action_reply_all">गासैनोबो फिन हर</string>
+<string name="notification_action_archive">"आरसिफ"</string>
+<string name="notification_action_remove_label">"थोरफोखौ बोखार"</string>
+<string name="notification_action_delete">"डिलेट"</string>
+<string name="notification_action_undo_archive">"देनथुमजाबाय"</string>
+<string name="notification_action_undo_remove_label">"थोरफोआ बोखारजाबाय"</string>
+<string name="notification_action_undo_delete">"दानजानाय"</string>
+<string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+<plurals name="new_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> गोदान मेसेस"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> गोदान मोसोसफोर"</item>
+</plurals>
+<string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="silent_ringtone">"सिरि"</string>
+<string name="preference_removal_action_title">"डिफाउल्ड एक्सन"</string>
+<string-array name="prefEntries_removal_action">
+<item>"आरसिफ"</item>
+<item>"डिलेट"</item>
+</string-array>
+<string-array name="prefSummaries_removal_action_summary">
+<item>"आरसिफ"</item>
+<item>"डिलेट"</item>
+</string-array>
+<string name="prefDialogTitle_removal_action">"डिफाउल्ड एक्सन"</string>
+<string name="preferences_default_reply_all_title">गासैनोबो फिन हर</string>
+<string name="preferences_default_reply_all_summary_impl">"मेसेसखौ फिनफिननो थाखाय डिफाउल्ड महरै बाहाय"</string>
+<string name="preference_swipe_title">"सुवाइप एक्सन"</string>
+<string name="preference_swipe_description">"कनभारसेसन फारिलायाव"</string>
+<string name="preference_sender_image_title">"हरग्रानि इमेज"</string>
+<string name="preference_sender_image_description">"कनभारसेसन फारिलाइनि मुंनि सेराव दिन्थि"</string>
+<string name="empty_trash">"खालि ट्रेस"</string>
+<string name="empty_spam">"खालि स्पाम"</string>
+<string name="empty_trash_dialog_title">"ट्रेसखौ खालि खालामनो?"</string>
+<string name="empty_spam_dialog_title">"स्पामखौ खालि खालामनो?"</string>
+<plurals name="empty_folder_dialog_message">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> मेसेसा अरायसमनि थाखाय डिलोट जासिगोन।"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> मेसेसा अरायसमनि थाखाय डिलोट जासिगोन।"</item>
+</plurals>
+<string name="drawer_open">"नेभिगेसन बोग्राखौ खुलि"</string>
+<string name="drawer_close">"नेभिगेसन बोग्राखौ बन्द खालाम"</string>
+<string name="conversation_photo_welcome_text">"बे कनभारसेसनखौ सायखनो थाखाय हरग्रानि इमेजाव थुना हो।"</string>
+<string name="folder_icon_desc">"फलडार आइकन"</string>
+<string name="add_account">"एड एकाउन्ट"</string>
+<string name="dismiss_tip_hover_text">"फेलें टिप"</string>
+<string name="auto_sync_off">"अट-साइनआ बन्द दं। खुलिनो थाखाय थुना हो।"</string>
+<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> आव हरै <xliff:g id="outbox">%2$s</xliff:g>"</string>
+<string name="turn_auto_sync_on_dialog_title">"अट-साइनखौ खुला लाखिनो?"</string>
+<string name="turn_auto_sync_on_dialog_body">"गासै एप्स आरो एकाउन्टपोरनि थाखाय नोंथाङा सोलायनायफोर, Gmail आल\' वेबनि गेजेराव साइनक्रनाइस जानाय  नङा, नोंथांनि गुबुन डिभाइसफोर आरो नोंथांनि <xliff:g id="phone_or_tablet">%1$s</xliff:g> आबो जागोन।"</string>
+<string name="phone">"फन"</string>
+<string name="tablet">"टेब्लेट"</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">"अन खालाम"</string>
+<string name="show_n_more_folders">"दिन्थि <xliff:g id="number">%1$s</xliff:g> फलडारफोर"</string>
+<string name="hide_folders">"फलडारफोरखौ दोनखुमा"</string>
+<string name="print">"प्रिन्त"</string>
+<string name="print_all">"गासैखौबो फ्रिन्ट खालाम"</string>
+<plurals name="num_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> मेसेस"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> मेसेस"</item>
+</plurals>
+<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> आव <xliff:g id="time">%2$s</xliff:g>"</string>
+<string name="draft_to_heading">"ड्राफ सिम:"</string>
+<string name="draft_heading">"ड्राफट"</string>
+<string name="quoted_text_hidden_print">"कुवाटेट टेक्सआ थाखोमानाय"</string>
+<plurals name="num_attachments">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> सरजाबदेरनाय"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> सरजाबदेरनाय"</item>
+</plurals>
+<string name="no_subject">"(आयदा गैया)"</string>
+<string name="vacation_responder">"भकेसन फिनग्रा"</string>
+<string name="preferences_vacation_responder_title">"भकेसन फिनग्रा"</string>
+<string name="vacation_responder_body_hint_text">"मेसेज"</string>
+<string name="send_to_contacts_text">"आंनि कनटेक्सावल दैथायहर"</string>
+<string name="send_to_domain_text">"दैथायहर <xliff:g id="domain">%1$s</xliff:g> सिमल"</string>
+<string name="pick_start_date_title">"स्टार्ट"</string>
+<string name="pick_end_date_title">"जोबथा (अपसनेल)"</string>
+<string name="date_not_set">"सेट खालामाखै"</string>
+<string name="set_end_date_dialog_title">"जोबथा अक्ट (अपसनेल)"</string>
+<string name="custom_date">"कास्टम"</string>
+<string name="date_none">"न\'न"</string>
+<string name="discard_changes">"सोलायनायखौ दानगारनो?"</string>
+<string name="vacation_responder_changes_saved">"भकेसन फिनग्रानि सोलायनाया सेभ जाबाय"</string>
+<string name="vacation_responder_changes_discarded">"भकेसन फिनग्रानि सोलायनाया दानगार जाबाय"</string>
+<string name="vacation_responder_off">"अफ"</string>
+<string name="vacation_responder_on">"अन, <xliff:g id="date">%1$s</xliff:g> निफ्राय"</string>
+<string name="vacation_responder_on_with_end_date">"अन, <xliff:g id="start-date">%1$s</xliff:g> निफ्राय <xliff:g id="end-date">%2$s</xliff:g> सिम"</string>
+<string name="vacation_responder_empty_subject_and_body_warning">"मोनसे आयदा एबा मेसेस दाजाब"</string>
+<string name="view_entire_message">"गासै मेसेसखौ दिन्थि"</string>
+<string name="eml_loader_error_toast">"बे फाइलखौ खेवनो हाया"</string>
+<string name="help_and_info">"हेफाजाब"</string>
+<string name="feedback">"फिनबुंथिखौ दैथायहर"</string>
+<string name="version">"<xliff:g id="app_name" example="Email">%1$s</xliff:g> भार्सन <xliff:g id="version" example="2.2.1">%2$s</xliff:g>"</string>
+<string name="print_dialog">"प्रिन्ट"</string>
+<string name="copyright_information">"कपिराइट मिथिथाइ"</string>
+<string name="privacy_policy">"प्राइभेसि बिथांखि"</string>
+<string name="open_source_licenses">"लाइचेन्स चर्चखौ खुलि"</string>
+<string name="reply_choice_yes">"नंगौ"</string>
+<string name="reply_choice_no">"नङा"</string>
+<string name="reply_choice_ok">"अके"</string>
+<string name="reply_choice_hehe">"हेहे"</string>
+<string name="reply_choice_thanks">"गोजोन्थों"</string>
+<string name="reply_choice_i_agree">"आं गनायो"</string>
+<string name="reply_choice_nice">"मोजां"</string>
+<string name="reply_on_my_way">"आंनि लामायाव दं"</string>
+<string name="reply_choice_later">"जागोन, आंखौ नोंनिसिम फैफिननो हो।"</string>
+<string name="preference_header_action_confirmations">"एक्सन कनभिगारेसन"</string>
+<string name="preference_confirm_before_delete_title">"डिलेट खालामनायनि सिगाङावनो थि खालाम"</string>
+<string name="preference_confirm_before_archive_title">"दोनथुमनायनि सिगाङावनो थि खालाम"</string>
+<string name="preference_confirm_before_send_title">"दैथायहरनायनि सिगाङावनो थि खालाम"</string>
+<string name="preferences_conversation_mode_title">"अट-फिट मेसेसफोर"</string>
+<string name="preferences_conversation_mode_summary">"स्क्रिनाव फिट खालामनो थाखाय मेसेसफोरखौ स्रिंक खालाम"</string>
+<string name="preferences_disable_snap_headers_title">"मेसेस एक्सन"</string>
+<string-array name="prefSummaries_snapHeader">
+<item>"स्क्रिननि साथाराव जेब्लाबो मेसेसनि हाबा मावनायखौ दिन्थि"</item>
+<item>"जेब्ला पर्ट्रेटआव गिदिङो अब्लाल\' स्क्रिननि साथाराव मेसेसनि हाबा मावनायखौ दिन्थिनो गनायथि हो"</item>
+<item>"मेसेस हिडारनि बायजोआव मेसेसनि हाबाखौ दादिन्थि"</item>
+</string-array>
+<string-array name="prefEntries_snapHeader">
+<item>"जेब्लायबो दिन्थिबायथा"</item>
+<item>"पर्ट्रेटआवल\' दिन्थि"</item>
+<item>"दादिन्थि"</item>
+</string-array>
+<string name="clear_history_title">"जारिमिन नागिरनायखौ खोमोर"</string>
+<string name="search_history_cleared">"जारिमिन नागिरनाया गैला"</string>
+<string name="clear_history_dialog_title">"नागिरनाय जारिमिनखौ स्रां खालाम"</string>
+<string name="clear_history_dialog_message">"नोंथाङा सिगाङाव नागिरनाय गासैबो गोमोरजोबसिगोन।"</string>
+<string name="manage_accounts_menu_item">"मेसेस एकाउन्ट्स"</string>
+<string name="general_preferences_title">"सरासनस्रा सेटिंफोर"</string>
+<string name="activity_preferences">"सेटिंगस"</string>
+<string name="overflow_description">"बुरजा सायख\'नाय"</string>
+<string name="security_hold_required_text">"<xliff:g id="email_address">%1$s</xliff:g> नि थाखाय रैखाथिखौ फोदाननायनि गोनांथि दं।"</string>
+<string name="update_security_text">"दानो आपडेट खालाम"</string>
+<string name="forms_are_disabled">"फर्मफोरा Gmail आव डिसाबल जादों"</string>
+<string name="add_contacts_too_much">"नाजावनायनि अनजामाया बांसिनै 50 सिमल\'"</string>
+<string name="account_delete_dlg_title">"एखावन्थखौ खोमोर"</string>
+<string name="account_delete_waiting">"खोमोरदों, अननानै नेथ\'..."</string>
+<string name="filter_all">"गासैबो"</string>
+<string name="filter_receiver">"नाजावग्रा"</string>
+<string name="filter_sender">"दैथायहरग्रा"</string>
+<string name="filter_subject">"आयदा"</string>
+<string name="filter_content">"थाफादेर"</string>
+<string name="search_on_server">"सारभाराव नागिर"</string>
+<string name="download_confirm_msg">"WLAN नेटवर्क नङा आरो नांजाबनाया गिदोर,अननानै सोलिबाय थागोन्ना थाया थि खालाम"</string>
+<string name="download_deny_malware">"मालवेर जानो हागौ। डाउनलड खालामनो हायाखै।"</string>
+<string name="download_deny_wifionly">"WLAN जायोब्लाल डाउनलड खालामनो हायो।"</string>
+<string name="download_deny_nointent">"बेखौ जेबो एपआनो खेवनो हाया। डाउनलड खालामनो हाया।"</string>
+<string name="download_deny_nosideload">"मिथिमोनि फुंखानि एप्सफोरखौ इन्सटल खालामनो गनायथि होखांनायनि उनाव नाजाफिन।"</string>
+<string name="download_deny_apkinstall">"जेबो एपखौनो इन्सटल खालामनो हायाखै। डाउनलड खालामनो हायाखै।"</string>
+<string name="download_deny_policy">"एकाउन्ट बिथांखि बादियै डाउनलड खालामनो हायाखै"</string>
+<string name="download_att_external">"डाउनलड खालामनो डाउनलड खालाम"</string>
+<string name="missing_required_permission">"नांगौ पार्मिशनखौ नोंथाङा डिसएबोल खालामना दोनदों।"</string>
+<string name="permission_change">"अनुम\'थिया सोलायनायलाय अननानै फाइलखौ सेलेक खालामफिन।"</string>
+<string name="permission_change_redo">"अनुम\'थिया सोलाय नायलाय अननानै हाबाखौ मावफिन।"</string>
+<string name="preference_default_signature_title">"सिगनेसार"</string>
+<string name="signature_default">"आंनि प\'ननिफ्राय दैथायहर"</string>
+<string name="set_priority_high">"गोजौ प्रायरइटियाव सेट खालाम"</string>
+<string name="set_priority_normal">"सरासन्स्रा प्रायरइटियाव सेट खालाम"</string>
+<string name="set_priority_low">"खम प्रायरइटियाव सेट खालाम"</string>
+<string name="file_not_exist">"जायगायारि नांजाबनाया गैया,अननानै डाउनलड खालामफिन!"</string>
+<string name="body_input_more">"आवबा, %1$s आखुथाइखौल\' सोनो हायो"</string>
+<string name="attachment_rename_to_legal">"गुबै मुङा इलिगेल थाजासिम हालागै सरजाबफानायखौ फिन मुं होफिननांगोन"</string>
+<string name="account_changed_load_account_inbox">"फलडारनि जगाजग खालामनाय एकाउन्टआ सोलायबाय, इनबक्साल सोलाय।"</string>
+</resources>

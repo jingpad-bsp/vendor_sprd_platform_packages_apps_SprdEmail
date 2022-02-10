@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"تاپشۇرۇۋېلىندى<xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_declined">"رەت قىلىندى<xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_tentative">"ۋاقىتلىق بەلگىلەندى<xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_canceled">"ئەمەلدىن قالدۇرۇلدى<xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_updated">"يېڭىلاندى<xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_when">"<xliff:g id="when">%s</xliff:g> :ۋاقىت"</string>
+<string name="meeting_where">"<xliff:g id="where">%s</xliff:g> :ئورۇن"</string>
+<string name="meeting_recurring">"(قايتىلاندى)<xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> :ۋاقىت"</string>
+<string name="meeting_allday">"(پۈتۈن كۈن)<xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> :ۋاقىت"</string>
+<string name="meeting_allday_recurring">"(پۈتۈن كۈن، قايتىلاش)<xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> :ۋاقىت"</string>
+<string name="app_name">"Exchange مۇلازىمىتى"</string>
+<string name="exception_cancel">"غا بېكىتىلگەن پائالىيەت ئەمەلدىن قالدۇرۇلدى<xliff:g id="date">%s</xliff:g>"</string>
+<string name="exception_updated">"غا بېكىتىلگەن پائالىيەتنىڭ تەپسىلىي ئۇچۇرى ئۆزگەرتىلدى<xliff:g id="date">%s</xliff:g>"</string>
+<string name="policy_dont_allow_storage_cards">"ساقلاش كارتىسىنى ئىشلىتىشنى رەت قىلىش"</string>
+<string name="policy_dont_allow_unsigned_apps">"قول قويۇلمىغان پىروگراممىنى قاچىلاشنى رەت قىلىش"</string>
+<string name="policy_dont_allow_unsigned_installers">"تىزىملاپ كىرمىگەن ئەپ ئورناتقۇچىلارنى قوللىمايدۇ"</string>
+<string name="policy_dont_allow_wifi">"WiFi ئىشلىتىشكە يول قويۇلمايدۇ"</string>
+<string name="policy_dont_allow_text_messaging">"قىسقا ئۇچۇر ئىقتىدارىنى ئىشلىتىشنى رەت قىلىش"</string>
+<string name="policy_dont_allow_pop_imap">"POP3 ياكى IMAP ھېسابات نۇمۇرىنى ئىشلىتىشنى رەت قىلىش"</string>
+<string name="policy_dont_allow_irda">"ئىنفرا قىزىل نۇرلۇق ئالاقىنى رەت قىلىش"</string>
+<string name="policy_dont_allow_html">"ئىستىمالچى ئېلخېتىنى قوبۇل قىلىشنى رەت قىلىش"</string>
+<string name="policy_dont_allow_browser">"كۆز يۈگۈرتكۈچ ئابونتىنى رەت قىلىش"</string>
+<string name="policy_dont_allow_consumer_email">"ئىستىمالچى ئېلخېتىنى قوبۇل قىلىشنى رەت قىلىش"</string>
+<string name="policy_dont_allow_internet_sharing">"ئىنتېرنېت تورى ئۇلىنىشىگە ھەمبەھرى بولۇشنى رەت قىلىش"</string>
+<string name="policy_require_smime">"تىزىمغا ئېلىشنى تەلەپ قىلىش."</string>
+<string name="policy_bluetooth_restricted">"كۆك چىش ئىقتىدارىنى چەكلەش"</string>
+<string name="policy_app_blacklist">"بېكىتىلگەن پىروگراممىنى ئىشلىتىشنى رەت قىلىش"</string>
+<string name="policy_app_whitelist">پەقەت ئالاھىدە ئەپلەرگىلا رۇخسەت قىلىش</string>
+<string name="policy_text_truncation">"ئېلخەت تېكىست چوڭ-كىچىكلىكىنى چەكلەش"</string>
+<string name="policy_html_truncation">"HTML ئېلخەت چوڭ-كىچىكلىكىنى چەكلەش"</string>
+<string name="policy_require_sd_encryption">"SD كارتىسىغا پارول ئورنىتىشنى تەلەپ قىلىش"</string>
+<string name="policy_dont_allow_attachments">"قوشۇمچە ھۆججەت چۈشۈرۈشنى رەت قىلىش"</string>
+<string name="policy_max_attachment_size">"قوشۇمچە ھۈججەتنىڭ چوڭ-كىچىكلىكىنى چەكلەش"</string>
+<string name="policy_require_manual_sync_roaming">كەزمە مۇلازىمەتتە پەقەت قولدا قەدەملەشكە رۇخسەت قىلىش</string>
+<string name="policy_require_encryption">"ئۈسكىنىگە پارول ئورنىتىش"</string>
+<string name="account_setup_options_mail_window_auto">ئاپتۇماتىك</string>
+<string name="account_setup_options_mail_window_1day">بىر كۈن</string>
+<string name="account_setup_options_mail_window_3days">ئۈچ كۈن</string>
+<string name="account_setup_options_mail_window_1week">بىر ھەپتە</string>
+<string name="account_setup_options_mail_window_2weeks">ئىككى ھەپتە</string>
+<string name="account_setup_options_mail_window_1month">بىر ئاي</string>
+<string name="account_setup_options_mail_window_all">ھەممە</string>
+<string name="auth_error_notification_title">سالاھىيەت دەلىللەش خاتالىقى</string>
+<string name="auth_error_notification_text">"ھېسابات نۇمۇرىنىڭ تەڭشىكىنى ئۆزگەرتكىلى بولىدۇ<xliff:g id="account">%s</xliff:g>چېكىش ئارقىلىق"</string>
+<string name="email_settings_not_available">"ئېلىخەت ئەپىنى قايتا قوزغىتىش ئارقىلىق تەڭشەكنى كۆرۈش"</string>
+</resources>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="from">"कतय सं"</string>
+<string name="to">"एतय सं"</string>
+<string name="cc">"सीसी"</string>
+<string name="bcc">"बीसीसी"</string>
+<string name="subject_hint">"विषय"</string>
+<string name="body_hint">"ईमेल लिखू"</string>
+<string name="add_file_attachment">"पोथी क जोड़ू"</string>
+<string name="add_photo_attachment">"फोटो क जोड़ू"</string>
+<string name="save_draft">लेख क जोगाऊ"</string>
+<string name="discard">"खोलि दिऔ"</string>
+<string name="compose">"लिखल"</string>
+<string name="compose_title">"लिखल"</string>
+<string-array name="compose_modes">
+<item>"जवाब"</item>
+<item>"सबटा क जवाब दिऔ"</item>
+<item>"आगां"</item>
+</string-array>
+<string name="reply_attribution">"पर  <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> लिखू:"</string>
+<string name="forward_attribution">"----------अग्रसारित संदेश ----------&lt;br&gt;सँ: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;तिथि: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;विषय: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt; केर: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;"</string>
+<string name="forward_attribution_no_headers">"---------- भेजल संदेश ----------"</string>
+<string name="cc_attribution">"सीसी: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;"</string>
+<string name="select_attachment_type">"जुड़ल चीज क प्रकार क चुनू"</string>
+<string name="too_large_to_attach_single">"एहि पर पोथी क नहिं जोड़ल जा सकैय <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+<string name="too_large_to_attach_multiple">"एक आ ओहि सं बेसी पोथी नहिं जुड़त. सीमा <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+<string name="too_large_to_attach_additional">"पोथी नहिं जोड़ल जा सकल <xliff:g id="maxSize">%1$s</xliff:g> सीमा पहुंच गेल."</string>
+<string name="generic_attachment_problem">"फाइल क जोड़ल नहिं जा सकल"</string>
+<string name="attachment_permission_denied">"कोनो चीज जोड़य क आज्ञा क मना कय देल गेल"</string>
+<string name="recipient_needed">"कम सं कम एकटा पाबय बला क जोड़ू"</string>
+<string name="confirm_send_message_with_no_subject">"संदेशक विषय मं कोनो टैक्ट्स नहिं अछि"</string>
+<string name="confirm_send_message_with_no_body">"संदेशक हिस्सा मं कोनो टैक्ट्स नहिं अछि"</string>
+<string name="confirm_send_message">"एहि संदेश कय भेजू?"</string>
+<string name="message_discarded">"संदेश क रोकि दिऔ"</string>
+<string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+<string name="custom_from_account_label">"मेल क ऐना भेजू"</string>
+<string name="send">"भेजू"</string>
+<string name="mark_read">"ललका निशान"</string>
+<string name="mark_unread">"बिना पढ़ल निशान"</string>
+<string name="toggle_read_unread">"पढ़ल आ बिना पढ़ल क बान्हू"</string>
+<string name="mute">"चुपेचाप"</string>
+<string name="add_star">"तारा क जोड़ू"</string>
+<string name="remove_star">"तारा क हंटाऊ"</string>
+<string name="remove_folder">"एतय सं हंटाऊ <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="archive">"पुरनका चीज रखय बला जगह"</string>
+<string name="report_spam">"रद्दी सूचना"</string>
+<string name="mark_not_spam">"सूचना रद्दी नैय"</string>
+<string name="report_phishing">"सूचना छिपैनय"</string>
+<string name="delete">"मेंटाऊ"</string>
+<string name="discard_drafts">"खाका क छोड़ू"</string>
+<string name="discard_failed">"छोड़ल नहिं जा सकल"</string>
+<string name="refresh">"तरोताजा"</string>
+<string name="reply">"जवाब"</string>
+<string name="reply_all">"सबटा क जवाब दिऔ"</string>
+<string name="resume_draft">"ठीक करू"</string>
+<string name="forward">"आगां"</string>
+<string name="menu_compose">"लिखल"</string>
+<string name="menu_change_folders">"फोल्डर क बदलू"</string>
+<string name="menu_move_to">"आगां बढ़ू"</string>
+<string name="menu_move_to_inbox">"बक्सा क तरफ बढ़ू"</string>
+<string name="menu_manage_folders">"फोल्डरक सजावट"</string>
+<string name="menu_show_original">"अपने आप आकार बनबय बला का वापिस पाऊ"</string>
+<string name="menu_settings">"सजाबय बला"</string>
+<string name="menu_search">"खोजू"</string>
+<string name="menu_toggle_drawer">"गिल्ली खिंचय बला"</string>
+<string name="drawer_title">"घूमनैय फिरनैय"</string>
+<string name="mark_important">"महत्व बला निशान"</string>
+<string name="mark_not_important">"नहिं महत्व बला निशान"</string>
+<string name="add_cc_label">"सीसी/बीसीसी जोड़ू"</string>
+<string name="add_bcc_label">"बीसीसी जोड़ू"</string>
+<string name="quoted_text">"कहल गेल टैक्ट्स क शामिल"</string>
+<string name="quoted_text_label">"कहल टैक्ट्स"</string>
+<string name="respond_inline">"एक लाइन मं जवाब"</string>
+<string name="bytes">"<xliff:g id="count">%s</xliff:g>:B"</string>
+<string name="kilobytes">"<xliff:g id="count">%s</xliff:g>:KB"</string>
+<string name="megabytes">"<xliff:g id="count">%s</xliff:g>:MB"</string>
+<string name="attachment_image">"चित्र"</string>
+<string name="attachment_video">"चलचित्र"</string>
+<string name="attachment_audio">"आवाज"</string>
+<string name="attachment_text">"टैक्ट्स"</string>
+<string name="attachment_application_msword">"पोथी"</string>
+<string name="attachment_application_vnd_ms_powerpoint">"पेश कैनेय"</string>
+<string name="attachment_application_vnd_ms_excel">"पैघ शीट"</string>
+<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> पोथी"</string>
+<string name="preview_attachment">"एहि क्षणक गुगल (लैब्स)"</string>
+<string name="save_attachment">"जोगैल"</string>
+<string name="download_again">"दोसर बेर जमा करू"</string>
+<string name="remove_attachment_desc">"जुड़ावक विस्तार जुड़ाव क हंटाऊ <xliff:g id="attachmentName">%s</xliff:g>"</string>
+<string name="more_info_attachment">"सूचना"</string>
+<string name="no_application_found">"एहि एपक कोनो जुड़ाव क देखय लेल नहिं खोलल जा सकय"</string>
+<string name="fetching_attachment">"खिलल जुड़ाव"</string>
+<string name="please_wait">"कनेक देर रूकू"</string>
+<string name="saved">"जोगैल,:<xliff:g id="size">%s</xliff:g>"</string>
+<string name="download_failed">"जमा नहिं कयल जा सकल। दोसर बेर लेल छुअू"</string>
+<string name="menu_photo_save_all">"सबटा क जोगाऊ"</string>
+<string name="menu_photo_share">"बांटू"</string>
+<string name="menu_photo_share_all">"सबटा क साझा करू"</string>
+<string name="menu_photo_print">"नकल"</string>
+<string name="saving">"जोगै रहल अछि-रु8230यष्"</string>
+<string name="choosertitle_sharevia">"एहि सं साझा करू"</string>
+<string name="contextmenu_openlink">"घूमय बला क खोलू"</string>
+<string name="contextmenu_copy">"नकल कय लिअ"</string>
+<string name="contextmenu_copylink">"यूआरएल जुड़ाव क नकल करू"</string>
+<string name="contextmenu_view_image">"फोटो क देखू"</string>
+<string name="contextmenu_dial_dot">"डॉयल भय रहल अछि..."</string>
+<string name="contextmenu_sms_dot">"एसएमएस..."</string>
+<string name="contextmenu_add_contact">"संपर्क क जोड़ू"</string>
+<string name="contextmenu_send_mail">"ईमेल भेजू"</string>
+<string name="contextmenu_map">"मानचित्र"</string>
+<string name="contextmenu_sharelink">"जुड़ाव क साझा करू"</string>
+<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> क बारे में <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> पर <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> क बारे में <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> पर <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> क बारे में <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> पर <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, लेबल : <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="content_description_today_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> क बारे में <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> पर <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, लेबल: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="read_string">"पढ़ल बातचीत"</string>
+<string name="unread_string">"नहिं पढ़ल बातचीत"</string>
+<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="badge_and_subject">"<xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g>"</string>
+<plurals name="draft">
+<item quantity="one">"चिट्ठी"</item>
+<item quantity="other">"लिखनाय"</item>
+</plurals>
+<string name="sending">"भेजि रहल अछि…"</string>
+<string name="message_retrying">"दोसर बेर कोशिश कय रहल अछि..."</string>
+<string name="message_failed">"नहिं भय सकल"</string>
+<string name="send_failed">"संदेश नहिं भेजल गेल"</string>
+<string name="me_object_pronoun">"हम।"</string>
+<string name="me_subject_pronoun">"हम।"</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">"एहि बातचीत क मेंटाऊ"</item>
+<item quantity="other">"मेंटाऊ <xliff:g id="count">%1$d</xliff:g> बातचीत?"</item>
+</plurals>
+<plurals name="confirm_archive_conversation">
+<item quantity="one">"एहि बातचीत क आर्काइव मं राखू?"</item>
+<item quantity="other">"आर्काइव मं राखू <xliff:g id="count">%1$d</xliff:g> बातचीत?"</item>
+</plurals>
+<plurals name="confirm_discard_drafts_conversation">
+<item quantity="one">"एहि संदेश क छोड़ि दिअ?"</item>
+<item quantity="other">"छोड़ि दिअ <xliff:g id="count">%1$d</xliff:g> संदेश?"</item>
+</plurals>
+<string name="confirm_discard_text">"एहि संदेश क छोड़ि दिअ?"</string>
+<string name="loading_conversations">"जमा भय रहल अछि..."</string>
+<string name="empty_inbox">"अहां सबटा कय लेलौं! कृपा कय क अपन दिन क खुशी से मनाऊ"</string>
+<string name="empty_search">"एकरा लेल किछु नहिं भेटल \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+<string name="empty_spam_folder">"हुर्रे, कोनो रद्दी नहिं बचल!"</string>
+<string name="empty_trash_folder">"कोनो कचरा एतय नहिं अछि, फेर सं नीक बनबय क लेल धन्यवाद!"</string>
+<string name="empty_folder">"एतय कोनो मेल नहिं अछि"</string>
+<string name="getting_messages">"अहां क संदेश क हासिल कयल जा रहल"</string>
+<string name="undo">"वापस लिअ"</string>
+<plurals name="conversation_unstarred">
+<item quantity="one">"बिना तारा बला <xliff:g id="count">%1$d</xliff:g> बातचीत"</item>
+<item quantity="other">"बिना तारा बला <xliff:g id="count">%1$d</xliff:g> बातचीत"</item>
+</plurals>
+<plurals name="conversation_muted">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; चुपचाप"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; चुपचाप"</item>
+</plurals>
+<plurals name="conversation_spammed">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; स्पाम क सूचना"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; स्पाम क सूचना"</item>
+</plurals>
+<plurals name="conversation_not_spam">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; स्पाम सूचना नहिं"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; स्पाम सूचना नहिं"</item>
+</plurals>
+<plurals name="conversation_not_important">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; खास बला निशान"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; खास बला निशान"</item>
+</plurals>
+<plurals name="conversation_phished">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; फिशिंग बला सूचना"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; फिशिंग बला सूचना"</item>
+</plurals>
+<plurals name="conversation_archived">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; आर्काइव"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; आर्काइव"</item>
+</plurals>
+<plurals name="conversation_deleted">
+<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; मेंटायल"</item>
+<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; मेंटायल"</item>
+</plurals>
+<string name="deleted">"मेंटायल"</string>
+<string name="archived">"पुरनका समान राखय बला"</string>
+<string name="folder_removed">"एतय सं हंटा देल गेल <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<plurals name="conversation_folder_changed">
+<item quantity="one">"फोल्डर क बदलू"</item>
+<item quantity="other">"फोल्डर्स क बदलू"</item>
+</plurals>
+<string name="conversation_folder_moved">"आगां बढ़ायल <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="search_results_header">"परिणाम"</string>
+<string name="search_unsupported">"एहि खाता मं खोज क मदद नहिं भेटि रहल अछि"</string>
+<string name="search_suggestion_desc">"सुझाव: <xliff:g id="suggestion">%s</xliff:g>"</string>
+<string name="add_label">"पोथी क जोड़ू"</string>
+<plurals name="new_incoming_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> नबका  संदेश"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> नबका  संदेश"</item>
+</plurals>
+<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;जानकारी क देखाऊ &lt;/a&gt;"</string>
+<string name="hide_details">"जानकारी क छुपाऊ"</string>
+<string name="to_message_header">"कतय तक <xliff:g id="recipients">%1$s</xliff:g>"</string>
+<string name="bcc_header_for_recipient_summary">"बीसीसी:\u0020"</string>
+<string name="contact_info_string">"जुड़ल लोकक सूचना क देखाऊ <xliff:g id="NAME">%1$s</xliff:g>"</string>
+<string name="contact_info_string_default">"जुड़ल लोकक सूचना क देखाऊ"</string>
+<plurals name="show_messages_read">
+<item quantity="other">"बढ़ाऊ  <xliff:g id="count" example="4">%1$d</xliff:g>  पुरनका संदेश"</item>
+</plurals>
+<plurals name="super_collapsed_block_accessibility_announcement">
+<item quantity="other">"बढ़ायल <xliff:g id="count" example="4">%1$d</xliff:g>  पुरनका संदेश"</item>
+</plurals>
+<string name="from_heading">"कतय सं"</string>
+<string name="replyto_heading">"जवाब-एतय सं"</string>
+<string name="to_heading">"ककरा:\u0020"</string>
+<string name="to_heading_no_space">"कतय तक"</string>
+<string name="cc_heading">"सीसी"</string>
+<string name="bcc_heading">"बीसीसी"</string>
+<string name="date_heading">"तारीख"</string>
+<string name="show_images">"फोटो देखाऊ"</string>
+<string name="always_show_images">"एहि भेजय बला क फोटो हमेशा देखाऊ"</string>
+<string name="always_show_images_toast">"एहि भेजय बला का फोटो अपने आप देखैत"</string>
+<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> सं <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+<string name="message_saved">"संदेश क चिट्ठी जेकां जोगाऊ"</string>
+<string name="sending_message">"संदेश भेजल जा रहल..."</string>
+<string name="invalid_recipient">"पता <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> अवैध अछि."</string>
+<string name="show_elided">"टैक्ट्सक भाव देखाऊ"</string>
+<string name="hide_elided">"\u25BCब्टैक्ट्सक भाव कय छुपाऊ"</string>
+<string name="message_invite_title">"कैलेंडरक नोत"</string>
+<string name="message_invite_calendar_view">"कैलेंडर मं देखू"</string>
+<string name="message_invite_label_attending">"जा रहल छी?"</string>
+<string name="message_invite_accept">"हं"</string>
+<string name="message_invite_tentative">"भय सकैय"</string>
+<string name="message_invite_decline">"नैय"</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="send_anyway">"कोनो तरहें भेजू"</string>
+<string name="ok">"ठीक छई"</string>
+<string name="done">"ठीक अछि।"</string>
+<string name="cancel">"हंटाऊ।"</string>
+<string name="clear">"साफ"</string>
+<string name="next">"अगिला"</string>
+<string name="previous">"पिछुलका"</string>
+<string-array name="sync_status">
+<item>"सफल"</item>
+<item>"जुड़ाव नहिं अछि"</item>
+<item>"हस्ताक्षर नहिं भय पैत"</item>
+<item>"सुरक्षा मं गलती"</item>
+<item>"जोड़ल नहिं जा सकल"</item>
+<item>"भीतुरका गलती"</item>
+<item>"सर्वर मं गलती"</item>
+</string-array>
+<string name="tap_to_configure">"सजबैय क लेल छुऊ"</string>
+<string name="non_synced_folder_description">"बातचीत क देखय लेल एहि फोल्डर सं जोड़ू"</string>
+<string name="tap_to_configure_folder_sync">"फोल्डर क जोड़ू"</string>
+<string name="large_unseen_count">"<xliff:g id="count" example="99">%d</xliff:g>+ नबका"</string>
+<string name="unseen_count">"<xliff:g id="count" example="4">%d</xliff:g> नबका"</string>
+<plurals name="actionbar_unread_messages">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> बिना पढ़ल"</item>
+</plurals>
+<string name="view_more_conversations">"बेसी बातचीत देखू"</string>
+<string name="loading_conversation">"जमा भय रहल अछि..."</string>
+<string name="activity_mailbox_selection">"खाता चुनू"</string>
+<string name="activity_folder_selection">"फोल्डर क चुनू"</string>
+<string name="folder_shortcut_widget_label">"फोल्डर क ईमेल करू"</string>
+<string name="change_folders_selection_dialog_title">"फोल्डर क बदलू"</string>
+<string name="move_to_selection_dialog_title">"आगां बढ़ू"</string>
+<string name="search_hint">"खोजू"</string>
+<string name="voice_search_not_supported">"आवाज क जांचय बला एहि उपकरण मं मदद नहिं भेटि रहल"</string>
+<string name="search_back_desc">"नजदीक तकक खोज"</string>
+<string name="search_voice_desc">"अवाज कय खोजय बला क शुरू करू"</string>
+<string name="search_clear_desc">"जांच क टैक्ट्स क साफ करू"</string>
+<string name="network_error">"जुड़ाव नहिं अछि"</string>
+<string name="retry">"एक बेर फेर देखू"</string>
+<string name="load_more">"आओर जमा करू"</string>
+<string name="shortcut_name_title">"फोल्डरक छोटका नाम"</string>
+<string name="wait_for_sync_title">"जुड़य क इंतजार"</string>
+<string name="not_synced_title">"खाता नहिं जुड़ल"</string>
+<string name="wait_for_manual_sync_body">ई खाता अपने आप कोनो चीज सं नहिं जुड़त। \nछुऊ <b>आब जुड़ल</b> एक बेर मेल क जुड़त, या <b> जुड़ावक सजावट क बदलू</b> एहि खाता क एहि तरह से बनाऊ कि ई अपने आप जुड़ैत रहय"</string>
+<string name="manual_sync">"आब जुड़ू"</string>
+<string name="change_sync_settings">"जुड़ाव सजावट क बदलू"</string>
+<string name="photo_load_failed">"चित्र क लोड नहिं कायल जा सकैत अछि"</string>
+<string name="cant_move_or_change_labels">"आगां नहिं भेजल जा सकय किएक त क्यैटा खाता एहि मं चुनायल अछि"</string>
+<string name="multiple_new_message_notification_item">"<b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="ignore_spam_warning">"मना कय दिऔ, हमरा एहि संदेश पर भरोसा अछि"</string>
+<string name="via_domain">"सं <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+<string name="signin">"हस्ताक्षर करू"</string>
+<string name="info">"सूचना"</string>
+<string name="report">"बताऊ"</string>
+<string name="show">"दिखाऊ"</string>
+<string name="sync_error">"जोड़ल नहिं जा सकल"</string>
+<string name="sync_error_message">"अहां क उपकरणक गोदाम मं एतेक जगह नहिं अछि कि किछु आओर चीज क जोड़ल जा सकय"</string>
+<string name="storage">"गोदाम"</string>
+<string name="senders_split_token">",\u00A0"</string>
+<string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+<string name="all_folders_heading">"सबटा फोल्डर"</string>
+<string name="recent_folders_heading">"एखुनका फोल्डर"</string>
+<string name="message_details_title">"संदेशक बेसी जानकारी"</string>
+<string name="preference_advance_to_title">"अपने आप टंच होय बला"</string>
+<string-array name="prefEntries_autoAdvance">
+<item>"टटका"</item>
+<item>"पुरनका"</item>
+<item>"बातचीतक सूची"</item>
+</string-array>
+<string-array name="prefSummaries_autoAdvance">
+<item>"मेंटैला क बाद नबका बातचीत क देखाऊ"</item>
+<item>"मेंटैला क बाद पुरनकका बातचीत क देखाऊ"</item>
+<item>"मेंटैला क बाद बातचीत क सूची देखाऊ"</item>
+</string-array>
+<string name="prefDialogTitle_autoAdvance">"एतय सं टंच करू"</string>
+<string name="clear_display_images_whitelist_title">"फोटो क साफ करय लेल सहमति"</string>
+<string name="clear_display_images_whitelist_dialog_title">"फोटो क साफ करय लेल आज्ञा?"</string>
+<string name="clear_display_images_whitelist_dialog_message">"जकरा अहां पहिने भेजय क आज्ञा देने छलियै ओहि सं भेजल गेल फोटो क देखैनय बंद करू"</string>
+<string name="sender_whitelist_cleared">"फोटो अपने आप नहिं देखायत"</string>
+<string name="preferences_signature_title">"हस्ताक्षर"</string>
+<string name="preferences_signature_dialog_title">"हस्ताक्षर"</string>
+<string name="preferences_signature_summary_not_set">"सजल नहिं"</string>
+<string name="notification_action_reply">"जवाब"</string>
+<string name="notification_action_reply_all">"सबटा क जवाब दिऔ"</string>
+<string name="notification_action_archive">"पुरनका चीज रखय बला जगह"</string>
+<string name="notification_action_remove_label">"सतह क हंटाऊ"</string>
+<string name="notification_action_delete">"मेंटाऊ"</string>
+<string name="notification_action_undo_archive">"पुरनका समान राखय बला"</string>
+<string name="notification_action_undo_remove_label">"सतह हंटि गेल"</string>
+<string name="notification_action_undo_delete">"मेंटायल"</string>
+<string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+<plurals name="new_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> नबका  संदेश"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> नबका  संदेश"</item>
+</plurals>
+<string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="silent_ringtone">चुपचाप</string>
+<string name="preference_removal_action_title">"डिफॉल्ट क काज"</string>
+<string-array name="prefEntries_removal_action">
+<item>"पुरनका चीज रखय बला जगह"</item>
+<item>"मेंटाऊ"</item>
+</string-array>
+<string-array name="prefSummaries_removal_action_summary">
+<item>"पुरनका चीज रखय बला जगह"</item>
+<item>"मेंटाऊ"</item>
+</string-array>
+<string name="prefDialogTitle_removal_action">"डिफॉल्ट क काज"</string>
+<string name="preferences_default_reply_all_title">"सबटा क जवाब दिऔ"</string>
+<string name="preferences_default_reply_all_summary_impl">"संदेशक जवाब देय क लेल डिफॉल्ट क इस्तेमाल करू"</string>
+<string name="preference_swipe_title">"खिसकाबै कला काज"</string>
+<string name="preference_swipe_description">"बातचीतक सूची मं"</string>
+<string name="preference_sender_image_title">"भेजय बला क फोटो"</string>
+<string name="preference_sender_image_description">"बातचीत बला सूची मं नामक अलावो चीज क देखाऊ"</string>
+<string name="empty_trash">"कचरा क खाली करू"</string>
+<string name="empty_spam">"रद्दी क खाली करू"</string>
+<string name="empty_trash_dialog_title">"कचरा क खाली करू?"</string>
+<string name="empty_spam_dialog_title">"रद्दी क खाली करू?"</string>
+<plurals name="empty_folder_dialog_message">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> संदेश हरदम कय लेल मेंटा गेल."</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> सबटा संदेश हरदम कय लेल मेंटा गेल."</item>
+</plurals>
+<string name="drawer_open">"घूमय फिरय बला बक्सा क खोलू"</string>
+<string name="drawer_close">"घूमय फिरय बला बक्सा क बंद करू"</string>
+<string name="conversation_photo_welcome_text">"भेजल गेल फोटो क छुई क ओहि बातचीत क चुनू"</string>
+<string name="long_press_to_select_tip">"छुअू &amp;पकड़ि कय एकटा बातचीत क चुनू आ तखन छुई क बेसी क चुनू"</string>
+<string name="folder_icon_desc">"फोल्डरक पहिचान"</string>
+<string name="add_account">"खाता जोड़ू।"</string>
+<string name="dismiss_tip_hover_text">"टिप क मना करू"</string>
+<string name="auto_sync_off">"अपन आप जुड़नैय बंद अछि। छुए क खोलू"</string>
+<string name="account_sync_off">"अपन आप जुड़नैय बंद अछि. खोलू &lt;a href=\'http://www.example.com\'&gt;खाता\u00A0सजावट.&lt;/a&gt;"</string>
+<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> बिना भेजलाह <xliff:g id="outbox">%2$s</xliff:g>"</string>
+<string name="turn_auto_sync_on_dialog_title">"अपने आप जुड़य बला खोली?"</string>
+<string name="turn_auto_sync_on_dialog_body">सबटा एपक आ खाता क लेल अहां एकरा बदललियै अछि, जीमेले टा लेल ही नहिं। ई अहां क बेव आ दोसर उपकरण क साथ जुड़ल रहत आ अहां क एहि सं <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+<string name="phone">"फोन"</string>
+<string name="tablet">"टैबलेट"</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">"खुजि गेल"</string>
+<string name="show_n_more_folders">"देखाऊ <xliff:g id="number">%1$s</xliff:g> फोल्डर"</string>
+<string name="hide_folders">"फोल्डर्स क छुपाऊ"</string>
+<string name="print">"नकल"</string>
+<string name="print_all">"सबटा क प्रिंट करू"</string>
+<plurals name="num_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> संदेश"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> संदेश"</item>
+</plurals>
+<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> पर <xliff:g id="time">%2$s</xliff:g>"</string>
+<string name="draft_to_heading">"ड्राफ्ट एतय सं"</string>
+<string name="draft_heading">"चिट्ठी"</string>
+<string name="quoted_text_hidden_print">"लिखल टैक्ट्स छुपैल गेल"</string>
+<plurals name="num_attachments">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> जुड़ाव"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> जुड़ाव"</item>
+</plurals>
+<string name="no_subject">"(कोनो विषय नहिं)"</string>
+<string name="vacation_responder">"छुट्टी क जवाब देय बला"</string>
+<string name="preferences_vacation_responder_title">"छुट्टी क जवाब देय बला"</string>
+<string name="vacation_responder_body_hint_text">"संदेश"</string>
+<string name="send_to_contacts_text">"हमरे जुड़ावक टा लेल भेजू"</string>
+<string name="send_to_domain_text">"एहिये टा सं भेजू <xliff:g id="domain">%1$s</xliff:g>"</string>
+<string name="pick_start_date_title">"शुरू"</string>
+<string name="pick_end_date_title">"आखिर (मोन हुअ त)"</string>
+<string name="date_not_set">"सजल नहिं"</string>
+<string name="set_end_date_dialog_title">"आखिर तारीख (मोन हुअ त)"</string>
+<string name="custom_date">"रिवाज"</string>
+<string name="date_none">"किछु नैय"</string>
+<string name="discard_changes">"बदलय बला क रोकू?"</string>
+<string name="vacation_responder_changes_saved">"छुट्टी क जवाब देय बला बदलाव क जोगौऊ"</string>
+<string name="vacation_responder_changes_discarded">"छुट्टी क जवाब देय बला बदलाव क रोकि देल गेल"</string>
+<string name="vacation_responder_off">"बंद भय गेल"</string>
+<string name="vacation_responder_on">"से <xliff:g id="date">%1$s</xliff:g>"</string>
+<string name="vacation_responder_on_with_end_date">"से <xliff:g id="start-date">%1$s</xliff:g> सं <xliff:g id="end-date">%2$s</xliff:g>"</string>
+<string name="vacation_responder_empty_subject_and_body_warning">"विषय या संदेश जोड़ू"</string>
+<string name="view_entire_message">"पूरा संदेश क देखू"</string>
+<string name="eml_loader_error_toast">"एहि पोथी क नहिं खोलल जा सकय"</string>
+<string name="help_and_info">"मदद"</string>
+<string name="help_and_feedback">"मदद आ लोकक राय"</string>
+<string name="feedback">"अपन विचार भेजू"</string>
+<string name="copyright">"&#169;<xliff:g id="year" example="2010">%1$d</xliff:g> Google Inc."</string>
+<string name="version">"<xliff:g id="app_name" example="Email">%1$s</xliff:g> तरीका <xliff:g id="version" example="2.2.1">%2$s</xliff:g>"</string>
+<string name="print_dialog">"पिंरट..."</string>
+<string name="copyright_information">"कॉपीराइटक जानकारी"</string>
+<string name="privacy_policy">"निजता क नीति"</string>
+<string name="open_source_licenses">"स्त्रोतक लाइसेंस क खोलू"</string>
+<string name="reply_choice_yes">"हं"</string>
+<string name="reply_choice_no">"नैय"</string>
+<string name="reply_choice_ok">"ठीक छई"</string>
+<string name="reply_choice_hehe">"हेहे"</string>
+<string name="reply_choice_thanks">"धन्यवाद"</string>
+<string name="reply_choice_i_agree">"हम सहमत छी"</string>
+<string name="reply_choice_nice">"बहुत सुंदर"</string>
+<string name="reply_on_my_way">"हमर रस्ता मं"</string>
+<string name="reply_choice_later">"ठीक छै, आ हमरा अहां क वापिस लबय दिअ"</string>
+<string name="preference_header_action_confirmations">"काजक पुष्टि"</string>
+<string name="preference_confirm_before_delete_title">"मेंटबय सं पहिने क पुष्टि"</string>
+<string name="preference_confirm_before_archive_title">"आर्काइव मं भेजय सं पहिने क पुष्टि"</string>
+<string name="preference_confirm_before_send_title">"भेजय सं पहिने क पुष्टि"</string>
+<string name="preferences_conversation_mode_title">"अपने आप फिट होय बला संदेश"</string>
+<string name="preferences_conversation_mode_summary">"अगिला हिस्सा मं सटीक बैसय लेल संदेश क छोट करू"</string>
+<string name="preferences_disable_snap_headers_title">"संदेशक काज"</string>
+<string-array name="prefSummaries_snapHeader">
+<item>"संदेशक काज क हमेशा अगिला हिस्सा क सबस ऊपर देखाऊ"</item>
+<item>"संदेशक काज क हमेशा अगिला हिस्सा क सबस ऊपर देखाऊ जखन ई चित्रमाला क साथ घुमैत अछि"</item>
+<item>"संदेशक काज क संदेशक हैडर कय बहिरका हिस्सा मं नहिं देखाऊ"</item>
+</string-array>
+<string-array name="prefEntries_snapHeader">
+<item>"हमेशे दिखाऔ"</item>
+<item>"चित्रमाले टा मं देखाऊ"</item>
+<item>"नहिं देखाऊ"</item>
+</string-array>
+<string name="clear_history_title">"खोचय बला इतिहास क साफ करू"</string>
+<string name="search_history_cleared">"जांचय बला इतिहास खाली भय गेल"</string>
+<string name="clear_history_dialog_title">"खोजय बला इतिहास क साफ करू?"</string>
+<string name="clear_history_dialog_message">"जतेक चीज क अहां पहिने खोजिने रही ओ सबटा हंटा देल जायत।"</string>
+<string name="manage_accounts_menu_item">"खाता क व्यवस्थित करू"</string>
+<string name="general_preferences_title">"आम सजावट "</string>
+<string name="activity_preferences">"सजाबय बला"</string>
+<string name="overflow_description">"बेसी विकल्प"</string>
+<string name="security_hold_required_text">"एकरा लेल टंच सुरक्षा क जरूरत अछि <xliff:g id="email_address">%1$s</xliff:g>"</string>
+<string name="update_security_text">"आब नीक बनल"</string>
+<string name="forms_are_disabled">"जीमेल कय फॉर्म्स क बंद कय देल गेल अछि"</string>
+<string name="add_contacts_too_much">"बेसी सं बेसी 50 टा एकरा पाबि सकैय।"</string>
+<string name="account_delete_dlg_title">"खाता क हंटाऊ"</string>
+<string name="account_delete_waiting">"हंटायल जा रहल, कृपा कय क रूकू..."</string>
+<string name="filter_all">"सबटा"</string>
+<string name="filter_receiver">"पाबय बला"</string>
+<string name="filter_sender">"पठौनिहार"</string>
+<string name="filter_subject">"विषय"</string>
+<string name="filter_content">"चीज"</string>
+<string name="search_on_server">"सरवर पर ताकू"</string>
+<string name="download_confirm_msg">"नेटवर्क WLAN नहि अछि, आ संलग्नता पैघ अछि, कृपाकय पुष्टि करू जे करैत रहूँ."</string>
+<string name="download_deny_malware">"भय सकय खराब हुअ। जमा नहिं कयल जा सकल"</string>
+<string name="download_deny_wifionly">"डब्ल्यूएएलएएन सं टा ही एकरा जमा कयल जा सकैय"</string>
+<string name="download_deny_nointent">"कोनो एप एकरा खोलि नहिं सकत। जमा नहिं कयल जा सकल"</string>
+<string name="download_deny_nosideload">"अनचिन्हार स्त्रोतक एप क जमा करय क आज्ञा देलाक बाद फेर सं कोशिश करू"</string>
+<string name="download_deny_apkinstall">"कोनो एपीके क जमा नहिं कयल जा सकैय। जमा नहिं कयल जा सकल"</string>
+<string name="download_deny_policy">"खाता नीति जेकां एकरा जमा नहिं कैल जा सकैय"</string>
+<string name="download_att_external">"डाउनलोडसँ डाउनलोड"</string>
+<string name="save_to_where">"मे संलग्नता सफलतापुर्वक बचाओल गेल ::"</string>
+<string name="missing_required_permission">"अहाँ आवश्यक अनुमति केर असमर्थ कयलौ अछि।"</string>
+<string name="permission_change">"चूकि अनुमति बदलल गेल अछि, कृपाकय दोवारा फाइलक चयन करू."</string>
+<string name="permission_change_redo">"चूकि अनुमति बदलल गेल अछि, कृपाकय वापस करू."</string>
+<string name="preference_default_signature_title">"हस्ताक्षर"</string>
+<string name="signature_default">"हमरा फोनसँ पठाओल"</string>
+<string name="set_priority_high">"वरियता उच्च लगाऊ"</string>
+<string name="set_priority_normal">"वरियता सामान्य लगाऊ"</string>
+<string name="set_priority_low">"वरियता निम्न लगाऊ"</string>
+<string name="file_not_exist">"स्थानिय संलग्नता नहि अछि, कृपाकय दोवारा डाउनलोड़ करू!"</string>
+<string name="body_input_more">"माफ करू, %1$sएतबे करेक्टर क डालल जा सकय"</string>
+<string name="attachment_rename_to_legal">"संलग्नता केर पुन:नामाकन कयल गेल कारण मूल नाम अवैध अछि"</string>
+</resources>

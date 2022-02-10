@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/input_box_padding_start"
+    android:paddingEnd="@dimen/input_box_padding_start"
+    android:paddingTop="@dimen/input_box_padding_top"
+    android:paddingBottom="@dimen/input_box_padding_top">
+   <!-- SPRD: Modify for 697474 @{ -->
+    <EditText
+        android:id="@+id/reply_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColorHint="@color/text_hint_color"
+        android:hint="@string/account_settings_oof_auto_reply_summary"
+        android:maxLines="4"/>
+        <!-- @} -->
+</FrameLayout>

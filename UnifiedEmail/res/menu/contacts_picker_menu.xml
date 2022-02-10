@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/select_all"
+        android:icon="@drawable/ic_select_all_wht_24dp"
+        android:title="@string/select_all"
+        android:visible="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/cancel_all"
+        android:icon="@drawable/ic_cancel_all_wht_24dp"
+        android:title="@string/cancel_all"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/done"
+        android:title="@string/done"
+        android:visible="true"
+        app:showAsAction="always"/>
+
+</menu>

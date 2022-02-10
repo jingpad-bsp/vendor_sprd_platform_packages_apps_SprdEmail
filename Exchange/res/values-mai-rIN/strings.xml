@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"स्वीकार कयल: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_declined">"मना कयल: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_tentative">"किछु कालक लेल: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_canceled">"टंच कयल: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_updated">"मना कयल: <xliff:g id="subject">%s</xliff:g>"</string>
+<string name="meeting_when">"कखन: <xliff:g id="when">%s</xliff:g>"</string>
+<string name="meeting_where">"कतय: <xliff:g id="where">%s</xliff:g>"</string>
+<string name="meeting_recurring">"कखन:  <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (बेर बेर )"</string>
+<string name="meeting_allday">"कखन: <xliff:g id="eventdate" example="Tue, Mar 10, 2010">%s</xliff:g> (सबटा दिन)"</string>
+<string name="meeting_allday_recurring">"कखन: <xliff:g id="eventdate" example="Tue, Mar 10, 2010">%s</xliff:g> (सबटा दिन, बेर बेर )"</string>
+<string name="app_name">"अदलैय बदलैय बला सेवा"</string>
+<string name="exception_cancel">"एकरा लेल एहि काज क मना कय देल गेल: <xliff:g id="date">%s</xliff:g>"</string>
+<string name="exception_updated">"एकरा लेल एहि काज क बेसी जानकारी क बदलि देल गेल अछि: <xliff:g id="date">%s</xliff:g>"</string>
+<string name="policy_dont_allow_storage_cards">"गोदाम कार्ड क आज्ञा नहिं दिऔ"</string>
+<string name="policy_dont_allow_unsigned_apps">"बिना हस्ताक्षर कयल एप्स क आज्ञा नहिं दिऔ"</string>
+<string name="policy_dont_allow_unsigned_installers">"बिना हस्ताक्षर कयल जमा करय बला एप्स क आज्ञा नहिं दिऔ"</string>
+<string name="policy_dont_allow_wifi">"वाई-फाई कय आज्ञा नहिं दिऔ"</string>
+<string name="policy_dont_allow_text_messaging">"टैक्ट्स संदेश क आज्ञा नहिं दिऔ"</string>
+<string name="policy_dont_allow_pop_imap">"पीओपी3 या आईएमएपी खाता कय आज्ञा नहिं दिऔ"</string>
+<string name="policy_dont_allow_irda">"इंफ्रारेड बातचीत कय आज्ञा नहिं दिऔ"</string>
+<string name="policy_dont_allow_html">"एचटीएमएल ईमेल क आज्ञा नहिं दिऔ"</string>
+<string name="policy_dont_allow_browser">"ब्राउजर्स क आज्ञा नहिं दिऔ"</string>
+<string name="policy_dont_allow_consumer_email">"उपभोक्ता ईमेल कय आज्ञा नहिं दिऔ"</string>
+<string name="policy_dont_allow_internet_sharing">"साझा बला इंटरनेट क आज्ञा नहिं दिऔ"</string>
+<string name="policy_require_smime">"एसएमआईएमआई संदेश कय जरूरत"</string>
+<string name="policy_bluetooth_restricted">"ब्लूटूथक इस्तेमाल नहिंयें करू"</string>
+<string name="policy_app_blacklist">"खास एप क मना कय दिऔ"</string>
+<string name="policy_app_whitelist">"खास एपटा कय आज्ञा दिऔ"</string>
+<string name="policy_text_truncation">"टैक्ट्स ईमेलक आकार क बांधू"</string>
+<string name="policy_html_truncation">"एचटीएमलक ईमेलक आकार क बांधू"</string>
+<string name="policy_require_sd_encryption">"एसडी कार्ड कय कूटनैय जरूरी अछि"</string>
+<string name="policy_dont_allow_attachments">"जुड़ल चीज क आज्ञा नहिं दिऔ"</string>
+<string name="policy_max_attachment_size">"जुड़ल चीज कय आकार क बांधू"</string>
+<string name="policy_require_manual_sync_roaming">"जखन अहां घूमि फिर रहल होई तं हाथे बला जुड़ावे टा क आज्ञा दिऔ"</string>
+<string name="policy_require_encryption">"उपकरण कय लेल कूटनैय जरूरी अछि"</string>
+<string name="account_setup_options_mail_window_auto">"अपने आप"</string>
+<string name="account_setup_options_mail_window_1day">"एक दिन"</string>
+<string name="account_setup_options_mail_window_3days">"तीन दिन"</string>
+<string name="account_setup_options_mail_window_1week">"एक हफ्ता"</string>
+<string name="account_setup_options_mail_window_2weeks">"दू हफ्ता"</string>
+<string name="account_setup_options_mail_window_1month">"एक महीना"</string>
+<string name="account_setup_options_mail_window_all">"सबटा"</string>
+<string name="auth_error_notification_title">"भरोसा बला गलती"</string>
+<string name="auth_error_notification_text">"एकरा लेल खाता क सजावट क सुधारै लेल एतय छुअू <xliff:g id="account">%s</xliff:g>"</string>
+<string name="email_settings_not_available">"ईमेल आवेदन कय सजावट क देखय लेल फेर सं खोलू"</string>
+</resources>

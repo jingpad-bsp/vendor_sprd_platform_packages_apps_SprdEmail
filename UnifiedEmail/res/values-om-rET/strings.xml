@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="from">"Irraa"</string>
+<string name="to">"Tiif"</string>
+<string name="cc">"Cc"</string>
+<string name="bcc">"Bcc"</string>
+<string name="subject_hint">"Dhimma"</string>
+<string name="body_hint">"Imeelii uumi"</string>
+<string name="add_file_attachment">"Galmee walitti qabsiisi"</string>
+<string name="add_photo_attachment">"Fakkii walitti qabsiisi"</string>
+<string name="save_draft">"Ibsa olkaa’i"</string>
+<string name="discard">"Gatuu"</string>
+<string name="compose">"Barreeffama erguu"</string>
+<string name="compose_title">"Barreeffama erguu"</string>
+<string-array name="compose_modes">
+<item>"Deebiisi"</item>
+<item>"Hundaa deebisi"</item>
+<item>"Fuulduratti darbuu"</item>
+</string-array>
+<string name="reply_attribution">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> irratti barreessi:"</string>
+<string name="forward_attribution">"---------- Ergaa dabarsi ----------&lt;br&gt;Irraa: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;Guyyaa: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;Dhimma <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;Gara:  <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;"</string>
+<string name="forward_attribution_no_headers">"---------- ergaa ergame ----------"</string>
+<string name="cc_attribution">"Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;"</string>
+<string name="select_attachment_type">"Gosa miiltoo filadhu"</string>
+<string name="too_large_to_attach_single">"<xliff:g id="maxSize">%1$s</xliff:g> irratti galmee walqabsiisuu hin dandeenye."</string>
+<string name="too_large_to_attach_multiple">"Galmeewwan tokko yookan isaa ol walitti hin qabsiifamne. <xliff:g id="maxSize">%1$s</xliff:g> murteessi."</string>
+<string name="too_large_to_attach_additional">"Galmeen walitti hin qabsiifamne. <xliff:g id="maxSize">%1$s</xliff:g> Murtaa’ina bira gaheera."</string>
+<string name="generic_attachment_problem">"Galmee walitti qabsiisuu hin dandeenye."</string>
+<string name="attachment_permission_denied">"Walitti qabsiisuuf eeyyamni dhorkameera."</string>
+<string name="recipient_needed">"Yoo xiqqaate fudhataa tokko dabali."</string>
+<string name="confirm_send_message_with_no_subject">"Kuussa ergaa keessa ergaan gabaabaan hin jiru."</string>
+<string name="confirm_send_message_with_no_body">"Qaama ergaa keessa ergaan gabaabaan hin jiru."</string>
+<string name="confirm_send_message">"Ergaa kana erguu?"</string>
+<string name="message_discarded">"Ergaan balleeffameera."</string>
+<string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+<string name="custom_from_account_label">"Ergaa ergi:"</string>
+<string name="send">"Ergi"</string>
+<string name="mark_read">"Dubbisa mallattoo"</string>
+<string name="mark_unread">"Mallattoon hin dubbifamne"</string>
+<string name="toggle_read_unread">"Dubbisuu hin dubbisuu maxxansi"</string>
+<string name="mute">"SAGALEE CUFUU"</string>
+<string name="add_star">"Urjii dabalii"</string>
+<string name="remove_star">"Urjii balleessii"</string>
+<string name="remove_folder">"Irra balleessi <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="archive">"Faayiilii kuusuu"</string>
+<string name="report_spam">"gabaasaa sirreeffame"</string>
+<string name="mark_not_spam">"Gabaasni hin sirreeffamne"</string>
+<string name="report_phishing">"phishing"</string>
+<string name="delete">"balleessuu"</string>
+<string name="discard_drafts">"Olkaa’amaan balleessuu"</string>
+<string name="discard_failed">"Olkaa’amaan kufe"</string>
+<string name="refresh">"Haareffachuu"</string>
+<string name="reply">"Deebiisi"</string>
+<string name="reply_all">"Hundaa deebisi"</string>
+<string name="resume_draft">"Soroorsuu"</string>
+<string name="forward">"Fuulduratti darbuu"</string>
+<string name="menu_compose">"Barreeffama erguu"</string>
+<string name="menu_change_folders">"Fooldeeroota jijjiiruu"</string>
+<string name="menu_move_to">"Sochoosuu gara"</string>
+<string name="menu_move_to_inbox">"Gara kuusaatti sochoosi"</string>
+<string name="menu_manage_folders">"Seetiingiiwwaan kuusaa"</string>
+<string name="menu_show_original">"Garagarlcha bal’isuu"</string>
+<string name="menu_settings">"Seetiinhiiwwan"</string>
+<string name="menu_search">"Barbaadi"</string>
+<string name="menu_toggle_drawer">"Fakkii kaasaa maxxassi"</string>
+<string name="drawer_title">"Kallattii kennuu"</string>
+<string name="mark_important">"Mallattoon faayidaa qaba"</string>
+<string name="mark_not_important">"Mallattoon faayidaa hin qabu"</string>
+<string name="add_cc_label">"Cc/Bcc dabali"</string>
+<string name="add_bcc_label">"Bcc dabali"</string>
+<string name="quoted_text">"Ergaa jechama of keessaa qaba"</string>
+<string name="quoted_text_label">"Ergaa jechamaa"</string>
+<string name="respond_inline">"Deebiisuun srara keessa jira"</string>
+<string name="bytes">"<xliff:g id="count">%s</xliff:g>&#160;B"</string>
+<string name="kilobytes">"<xliff:g id="count">%s</xliff:g>&#160;KB"</string>
+<string name="megabytes">"<xliff:g id="count">%s</xliff:g>&#160;MB"</string>
+<string name="attachment_image">"Fakkii"</string>
+<string name="attachment_video">"Vidiiyoo"</string>
+<string name="attachment_audio">"Dhaggeetii"</string>
+<string name="attachment_text">"Ergaa"</string>
+<string name="attachment_application_msword">"Sanada"</string>
+<string name="attachment_application_vnd_ms_powerpoint">"Dhiyeeffama"</string>
+<string name="attachment_application_vnd_ms_excel">"Waraqaa hojii"</string>
+<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> Galmee"</string>
+<string name="preview_attachment">"Dursanii ilaaluu"</string>
+<string name="save_attachment">"Olkaa’I"</string>
+<string name="download_again">"Irra deebiin fe’i"</string>
+<string name="remove_attachment_desc">"Miiltoo balleessi <xliff:g id="attachmentName">%s</xliff:g>"</string>
+<string name="more_info_attachment">"Odeeffannoo"</string>
+<string name="no_application_found">"appilikeeshiniin. Miiltoo kana ilaaluuf banuu danda’u hin jiru"</string>
+<string name="fetching_attachment">"Miiltoo waraabuu"</string>
+<string name="please_wait">"Maaloo eegaa\u2026"</string>
+<string name="saved">"olkaayame,&#160;<xliff:g id="size">%s</xliff:g>"</string>
+<string name="download_failed">"Fe’uu hin dandeenye. Irra deebiin yaaluuf xuqi."</string>
+<string name="menu_photo_save_all">"Hundaa olkaa’i"</string>
+<string name="menu_photo_share">"Qooduu"</string>
+<string name="menu_photo_share_all">"Hundaa qoodi"</string>
+<string name="menu_photo_print">"Maxxansi"</string>
+<string name="saving">"Olkaa\'aa jira&#8230;"</string>
+<string name="choosertitle_sharevia">"Hiruu karaa"</string>
+<string name="contextmenu_openlink">"Birowuzariin bani"</string>
+<string name="contextmenu_copy">"Koopii"</string>
+<string name="contextmenu_copylink">"URL linkii koppii godhi"</string>
+<string name="contextmenu_view_image">"Fakkii ilaali"</string>
+<string name="contextmenu_dial_dot">"Bilbiili\u2026"</string>
+<string name="contextmenu_sms_dot">"Ergaa\u2026"</string>
+<string name="contextmenu_add_contact">"Qunnamaa  idaa’i"</string>
+<string name="contextmenu_send_mail">"Emeelii ergi"</string>
+<string name="contextmenu_map">"Kaartaa"</string>
+<string name="contextmenu_sharelink">"Linkii hiri"</string>
+<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> Waa’ee <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> kan  <xliff:g id="date">%5$s</xliff:g>,  irrattii <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> Waa’ee <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> kan <xliff:g id="time">%5$s</xliff:g>, tti <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> Waa’ee <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> sirreessawwan <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, irratti: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="content_description_today_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> Waa’ee <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> sirreessawwan <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>, tti: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="read_string">"Dubbisa haasawaa"</string>
+<string name="unread_string">"Haasawa hin dubbifamne"</string>
+<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="badge_and_subject">"<xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g>"</string>
+<plurals name="draft">
+<item quantity="one">"Gulaalii"</item>
+<item quantity="other">"Hafteewwan"</item>
+</plurals>
+<string name="sending">"Erguu\u2026"</string>
+<string name="message_retrying">"Irra deebiin yaalaa jira\u2026"</string>
+<string name="message_failed">"Kufe"</string>
+<string name="send_failed">"Ergaan hin ergamne."</string>
+<string name="me_object_pronoun">"Ana"</string>
+<string name="me_subject_pronoun">"Ana"</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">"Marii kana haquu?"</item>
+<item quantity="other">"Hasawawwan  <xliff:g id="count">%1$d</xliff:g> kanneen balleessuu?"</item>
+</plurals>
+<plurals name="confirm_archive_conversation">
+<item quantity="one">"Haasawa kana galmeetti galchuu?"</item>
+<item quantity="other">"Haasawawwan <xliff:g id="count">%1$d</xliff:g> kanneen galmeetti galchuu?"</item>
+</plurals>
+<plurals name="confirm_discard_drafts_conversation">
+<item quantity="one">"Ergaa kana balleesuu?"</item>
+<item quantity="other">"Ergaawwan <xliff:g id="count">%1$d</xliff:g>  kanneen  balleesuu?"</item>
+</plurals>
+<string name="confirm_discard_text">"Ergaa kana balleesuu?"</string>
+<string name="loading_conversations">"Fee’uu\u2026"</string>
+<string name="empty_inbox">"Hojjetameera! Maaloo guyyaa keetti gammadi."</string>
+<string name="empty_search">"Iyyawwan! Isa kanaaf \"<xliff:g id="search_query">%1$s</xliff:g>\" homa hin argine."</string>
+<string name="empty_spam_folder">"baga, sirreeffamni as hin jiru!"</string>
+<string name="empty_trash_folder">"Kan sirreeffama barbaachisu as hinjiru. Deebistee waan sirreessiteef galatoomi!"</string>
+<string name="empty_folder">"Ergaan as hin jiru."</string>
+<string name="getting_messages">"Ergaawwan kee argachuu"</string>
+<string name="undo">"DEEBISI"</string>
+<plurals name="conversation_unstarred">
+<item quantity="one">"Haasawa  <xliff:g id="count">%1$d</xliff:g> ifa hin taane"</item>
+<item quantity="other">"Haasawawwan  <xliff:g id="count">%1$d</xliff:g> ifa hin taane"</item>
+</plurals>
+<plurals name="conversation_muted">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> cuqqalame"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> cuqqalame"</item>
+</plurals>
+<plurals name="conversation_spammed">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> akka ispaamii ta\'etti gabaafame"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> akka ispaamii ta\'etti gabaafame"</item>
+</plurals>
+<plurals name="conversation_not_spam">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> akka ispaami hintane gabaasame"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> akka ispaami hintane gabaasame"</item>
+</plurals>
+<plurals name="conversation_not_important">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> barbaachisaa akka ta\'etti adda bahe"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> barbaachisaa akka ta\'etti adda bahe"</item>
+</plurals>
+<plurals name="conversation_phished">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> socho\'aa akka jiruutti gabaasame"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> socho\'aa akka jiruutti gabaasame"</item>
+</plurals>
+<plurals name="conversation_archived">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> galmeetti deebiye."</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> galmeetti deebiye."</item>
+</plurals>
+<plurals name="conversation_deleted">
+<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> haqame"</item>
+<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> haqame"</item>
+</plurals>
+<string name="deleted">"Balleeffameera"</string>
+<string name="archived">"galmeetti galfameera"</string>
+<string name="folder_removed">"Irraa balleeffameera <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<plurals name="conversation_folder_changed">
+<item quantity="one">"Fooldarii jijjiirame"</item>
+<item quantity="other">"Fooldariiwwan jijjiiraman"</item>
+</plurals>
+<string name="conversation_folder_moved">"Sochoofame <xliff:g id="folderName">%1$s</xliff:g>"</string>
+<string name="search_results_header">"Bu’aawwan"</string>
+<string name="search_unsupported">"Barbaachi toora irratti hin deeggaramu."</string>
+<string name="search_suggestion_desc">"Yaada: <xliff:g id="suggestion">%s</xliff:g>"</string>
+<string name="add_label">"Foldera dabaluu"</string>
+<plurals name="new_incoming_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> Ergaa haaraa"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> Ergaawwan haaraa"</item>
+</plurals>
+<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;tarree ilaali&lt;/a&gt;"</string>
+<string name="hide_details">"Ibsawwan dhoksi"</string>
+<string name="to_message_header">"tiif <xliff:g id="recipients">%1$s</xliff:g>"</string>
+<string name="bcc_header_for_recipient_summary">"Bcc:\u0020"</string>
+<string name="contact_info_string">"Odeeffannoo qunnamtiitiif agarsiisi <xliff:g id="name">%1$s</xliff:g>"</string>
+<string name="contact_info_string_default">"Odeeffannoo qunnamtii agarsiisi"</string>
+<plurals name="show_messages_read">
+<item quantity="other">"Ergaawwan gabaabaa <xliff:g id="count" example="4">%1$d</xliff:g> tamsaasi"</item>
+</plurals>
+<plurals name="super_collapsed_block_accessibility_announcement">
+<item quantity="other">"Ergaawwan gabaabaan <xliff:g id="count" example="4">%1$d</xliff:g> tamsaasameera"</item>
+</plurals>
+<string name="from_heading">"Irraa:"</string>
+<string name="replyto_heading">"tti deebisi:"</string>
+<string name="to_heading">"Tiif:\u0020"</string>
+<string name="to_heading_no_space">"Tiif:"</string>
+<string name="cc_heading">"Cc:"</string>
+<string name="bcc_heading">"Bcc:"</string>
+<string name="date_heading">"Guyya:"</string>
+<string name="show_images">"Fakkiiwwan agarsiisi"</string>
+<string name="always_show_images">"Yeroo maraa fakkiiwwan ergaa kanan irraa agarsiisi"</string>
+<string name="always_show_images_toast">"Fakkiiwwan ergaa kana irraa battalumatti ni agarsiifamu."</string>
+<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> keessaan <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+<string name="message_saved">"Ergaa akka ammaa olkaahame."</string>
+<string name="sending_message">"Ergaa erguu\u2026"</string>
+<string name="invalid_recipient">"Teessoon  <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> fudhatama hin qabu."</string>
+<string name="show_elided">"Ergaa jechamaan kaa’aman agarsiisi"</string>
+<string name="hide_elided">"\u25BC Ergaa jechamaan kaa’aman dhoksi"</string>
+<string name="message_invite_title">"Affeerraa lakkoofsa guyyaa"</string>
+<string name="message_invite_calendar_view">"Lakkoofasa guyyaa ilaali"</string>
+<string name="message_invite_label_attending">"Adeemaa jira?"</string>
+<string name="message_invite_accept">"Eeyyee"</string>
+<string name="message_invite_tentative">"Tarii"</string>
+<string name="message_invite_decline">"Lakki"</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="send_anyway">"Erguu waan fedheef iyyuu"</string>
+<string name="ok">"TOLE"</string>
+<string name="done">"Hojjeeteera/dalageera"</string>
+<string name="cancel">"Balleessi"</string>
+<string name="clear">"Qulqulleessi"</string>
+<string name="next">"Itti aanu"</string>
+<string name="previous">"Kan darbe"</string>
+<string-array name="sync_status">
+<item>"Milkaa’ina"</item>
+<item>"Sararri hin jiru"</item>
+<item>"Keessaaattti mallatteesuu hi\n dandeenye"</item>
+<item>"Dogoggora nageenyaa"</item>
+<item>"Qindeessuu hin dandeenye"</item>
+<item>"Dogoggora keessaa"</item>
+<item>"Sarvarii keessa"</item>
+</string-array>
+<string name="tap_to_configure">"Sirreessuuf xuqi"</string>
+<string name="non_synced_folder_description">"Haasawawwan ilaaluuf, fooladara kana qindeessi."</string>
+<string name="tap_to_configure_folder_sync">"Fooldarii qindeessi"</string>
+<string name="large_unseen_count">"<xliff:g id="count" example="99">%d</xliff:g>+ haaraa"</string>
+<string name="unseen_count">"<xliff:g id="count" example="4">%d</xliff:g> haaraa"</string>
+<plurals name="actionbar_unread_messages">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> Dubbisuu dhabuu"</item>
+</plurals>
+<string name="view_more_conversations">"Ilaaluu mariiwwaan baay’ee"</string>
+<string name="loading_conversation">"Fee’uu\u2026"</string>
+<string name="activity_mailbox_selection">"Akkawuntii filadhu"</string>
+<string name="activity_folder_selection">"Fooldarii filachuu"</string>
+<string name="folder_shortcut_widget_label">"Fooladarii erguu"</string>
+<string name="change_folders_selection_dialog_title">"Fooldeeroota jijjiiruu"</string>
+<string name="move_to_selection_dialog_title">"Sochoosuu gara"</string>
+<string name="search_hint">"Barbaadi"</string>
+<string name="voice_search_not_supported">"Barbaachi sagalee meesha kana irratti hin deeggaramu."</string>
+<string name="search_back_desc">"Barbaacha cufi"</string>
+<string name="search_voice_desc">"Barbaacha sagalee jalqabi"</string>
+<string name="search_clear_desc">"Erga barabaaduu balleessi"</string>
+<string name="network_error">"Sararri hin jiru"</string>
+<string name="retry">"Irradeebii yaali"</string>
+<string name="load_more">"Caalaatti fe’i"</string>
+<string name="shortcut_name_title">"Qaxxaamura fooldarii maqaa"</string>
+<string name="wait_for_sync_title">"Qindeessa eeguu"</string>
+<string name="not_synced_title">"Toorri hin qindeeffamne"</string>
+<string name="wait_for_manual_sync_body">"Toorri kun battalumatti qindeessuuf hin sirreefne.\nTxuqi <b>amma kuusi</b> ergaa yeroo tokko kuusuuf,yookan <b>seetiingiiwwan qindeessa jijjiiri</b> kunis qindeessa ergaa kanatti battalumatti toora kana sirreessuufidha ."</string>
+<string name="manual_sync">"Amma sirreessi"</string>
+<string name="change_sync_settings">"Seetiingiiwwan qindeessa jijjiiri"</string>
+<string name="photo_load_failed">"Suuraa buusuu hin danda’u"</string>
+<string name="cant_move_or_change_labels">"Sochoosuu hin dandeenye sababiin isaas filannoon toorawwan heedduu qabu."</string>
+<string name="multiple_new_message_notification_item">"<b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="ignore_spam_warning">"didi, ergaa kana nan abdadha"</string>
+<string name="via_domain">"keessaan <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+<string name="signin">"Itti gali"</string>
+<string name="info">"Odeeffannoo"</string>
+<string name="report">"Gabaasi"</string>
+<string name="show">"agarsiisi"</string>
+<string name="sync_error">"qindeessa hin dandeenye."</string>
+<string name="sync_error_message">"qindeessuuf meeshaan kee iddoo kuusaa gahaa hin qabu."</string>
+<string name="storage">"Kuusaa"</string>
+<string name="senders_split_token">",\u00A0"</string>
+<string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+<string name="all_folders_heading">"Fooldaroota hunda"</string>
+<string name="recent_folders_heading">"Fooldaroota ammaa"</string>
+<string name="message_details_title">"Ergaa gadi fageenyaa"</string>
+<string name="preference_advance_to_title">"Awutoo fooyya’aa"</string>
+<string-array name="prefEntries_autoAdvance">
+<item>"Baay’ee haraa"</item>
+<item>"Dulloomiina"</item>
+<item>"Tartiiba marii"</item>
+</string-array>
+<string-array name="prefSummaries_autoAdvance">
+<item>"Erga balleessitee booddee haasawaa haaraa agarsiisi"</item>
+<item>"Erga balleessitee booddee haasawaa  moofaa agarsiisi"</item>
+<item>"Erga balleessitee booddee tarree haasawaa agarsiisi"</item>
+</string-array>
+<string name="prefDialogTitle_autoAdvance">"Foyyeessi"</string>
+<string name="clear_display_images_whitelist_title">"Mirkaneessawwan fakkii qulaulleessi"</string>
+<string name="clear_display_images_whitelist_dialog_title">"Mirkaneessawwan fakkii qulaulleessuu?"</string>
+<string name="clear_display_images_whitelist_dialog_message">"Ergaa kanaa dura agarsiiste keessaa sarara keessa ta’uu mul’isuu dhaabi."</string>
+<string name="sender_whitelist_cleared">"Fakkiiwwan battalumatti hin agarsiifamne."</string>
+<string name="preferences_signature_title">"Mallattoo"</string>
+<string name="preferences_signature_dialog_title">"Mallattoo"</string>
+<string name="preferences_signature_summary_not_set">"Kan hiin guutamne"</string>
+<string name="notification_action_reply">"Deebiisi"</string>
+<string name="notification_action_reply_all">"Hundaa deebisi"</string>
+<string name="notification_action_archive">"Faayiilii kuusuu"</string>
+<string name="notification_action_remove_label">"Walqixxeessa balleessi"</string>
+<string name="notification_action_delete">"balleessuu"</string>
+<string name="notification_action_undo_archive">"galmeetti galfameera"</string>
+<string name="notification_action_undo_remove_label">"Walqixxeessi balleeffameera"</string>
+<string name="notification_action_undo_delete">"Balleeffameera"</string>
+<string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+<plurals name="new_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> Ergaa haaraa"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> Ergaawwan haaraa"</item>
+</plurals>
+<string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="silent_ringtone">"Callisaa"</string>
+<string name="preference_removal_action_title">"Gocha dogoggoraa"</string>
+<string-array name="prefEntries_removal_action">
+<item>"Faayiilii kuusuu"</item>
+<item>"balleessuu"</item>
+</string-array>
+<string-array name="prefSummaries_removal_action_summary">
+<item>"Faayiilii kuusuu"</item>
+<item>"balleessuu"</item>
+</string-array>
+<string name="prefDialogTitle_removal_action">"Gocha dogoggoraa"</string>
+<string name="preferences_default_reply_all_title">"Hundaa deebisi"</string>
+<string name="preferences_default_reply_all_summary_impl">"Deebiiwwan ergaatiif akka dogoggoraatti itti fayyadami"</string>
+<string name="preference_swipe_title">"Gochoota haxaawuu"</string>
+<string name="preference_swipe_description">"Tarree haasawaa keessatti"</string>
+<string name="preference_sender_image_title">"Fakkii ergaa"</string>
+<string name="preference_sender_image_description">"Tarree haasawaa keessatti maqaa itti aanu agarsiisi"</string>
+<string name="empty_trash">"Kuusaa duwwaa"</string>
+<string name="empty_spam">"Sirreessa duwwaa"</string>
+<string name="empty_trash_dialog_title">"Kuusaa duwwaa?"</string>
+<string name="empty_spam_dialog_title">"Sirreessa duwwaa?"</string>
+<plurals name="empty_folder_dialog_message">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> Ergaan dhaabbiidhaan balleeffamu."</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> Ergaawwan dhaabbiidhaan balleeffamu."</item>
+</plurals>
+<string name="drawer_open">"Baasaa  kallattii bani"</string>
+<string name="drawer_close">"Baasaa  kallattii cufi"</string>
+<string name="conversation_photo_welcome_text">"Haasawa sana filachuuf fakkii ergaa xuqi."</string>
+<string name="long_press_to_select_tip">"Xuqi &amp; haasawa tokko filachuuf qabii turi, kana booddee kana caalaa filachuuf xuqi."</string>
+<string name="folder_icon_desc">"Mallattoo fooldaraa"</string>
+<string name="add_account">"Herreega idaa’i"</string>
+<string name="dismiss_tip_hover_text">"Dabalata balleessi"</string>
+<string name="auto_sync_off">"Qindeessaan awutoo cufaadha. Banuuf xuqi."</string>
+<string name="account_sync_off">"Qindeessan toora ittiin beekamaa cufaadha. Bani keessa irratti &lt;a href=\'http://www.example.com\'&gt;Herreega\u00A0qindaa'inoota.&lt;/a&gt;"</string>
+<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g>Kan hinsirreeffamin <xliff:g id="outbox">%2$s</xliff:g>"</string>
+<string name="turn_auto_sync_on_dialog_title">"Qindeessaa awutoo sirressuu?"</string>
+<string name="turn_auto_sync_on_dialog_body">"Jijjiiramawwan ati appilikeshinootaa fi toorawwan ittiin beekamaa hunda irratti taasistu, Gmail alatti, weebii, your meeshaalee biroo keetii fi, <xliff:g id="phone_or_tablet">%1$s</xliff:g>kee gidduutti akka qindeeffamu taasisa."</string>
+<string name="phone">"Bilbiila"</string>
+<string name="tablet">"Taabileetii"</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">"Irra godhi"</string>
+<string name="show_n_more_folders">"Fooldariiwwan <xliff:g id="number">%1$s</xliff:g> agarsiisi"</string>
+<string name="hide_folders">"Fooldaroota agarsiisi"</string>
+<string name="print">"Maxxansi"</string>
+<string name="print_all">"Hundaa maxxansi"</string>
+<plurals name="num_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> Ergaa"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ergaawwan"</item>
+</plurals>
+<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> itti <xliff:g id="time">%2$s</xliff:g>"</string>
+<string name="draft_to_heading">"Itti yaa’a:"</string>
+<string name="draft_heading">"Gulaalii"</string>
+<string name="quoted_text_hidden_print">"Ergaa jechamaa dhokfame"</string>
+<plurals name="num_attachments">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> miiltoo"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> Miiltoowwan"</item>
+</plurals>
+<string name="no_subject">"(dhimma hin jire)"</string>
+<string name="vacation_responder">"Deebisaa boqonnaa"</string>
+<string name="preferences_vacation_responder_title">"Deebisaa boqonnaa"</string>
+<string name="vacation_responder_body_hint_text">"Ergaa"</string>
+<string name="send_to_contacts_text">"Qunnamtiiwwan koo qofatti ergi"</string>
+<string name="send_to_domain_text">"Qofatti ergi <xliff:g id="domain">%1$s</xliff:g>"</string>
+<string name="pick_start_date_title">"Jalqabbiiwwan"</string>
+<string name="pick_end_date_title">"Dhumawwan  (filannoo kan qabu)"</string>
+<string name="date_not_set">"Kan hiin guutamne"</string>
+<string name="set_end_date_dialog_title">"Guyyaa dhumaa (filannoo kan qabu)"</string>
+<string name="custom_date">"Maamiila"</string>
+<string name="date_none">"Homaa"</string>
+<string name="discard_changes">"Chaarjiiwwab keessaa baasuu?"</string>
+<string name="vacation_responder_changes_saved">"Jijjiiramawwan deebisaa boqonnaa olkaa’ameera"</string>
+<string name="vacation_responder_changes_discarded">"Jijjiiramawwan deebisaa boqonnaa balleeffameera"</string>
+<string name="vacation_responder_off">"Cuufaa"</string>
+<string name="vacation_responder_on">"Gubbaa, irraa <xliff:g id="date">%1$s</xliff:g>"</string>
+<string name="vacation_responder_on_with_end_date">"Gubbaa, irraa <xliff:g id="start-date">%1$s</xliff:g> gara/tiif <xliff:g id="end-date">%2$s</xliff:g>"</string>
+<string name="vacation_responder_empty_subject_and_body_warning">"Dhimma yookan ergaa sirreessi"</string>
+<string name="view_entire_message">"Ergaa guutuu ilaali"</string>
+<string name="eml_loader_error_toast">"Galmee kana banuu hin dandeenye"</string>
+<string name="help_and_info">"Gargaarsa"</string>
+<string name="help_and_feedback">"Gargaaruu &amp; deebduubee"</string>
+<string name="feedback">"Deebduubee erguu"</string>
+<string name="copyright">"&#169;<xliff:g id="year" example="2010">%1$d</xliff:g> Google Inc."</string>
+<string name="version">"<xliff:g id="app_name" example="Email">%1$s</xliff:g> Ibsa <xliff:g id="version" example="2.2.1">%2$s</xliff:g>"</string>
+<string name="print_dialog">"Maxxansi\u2026"</string>
+<string name="copyright_information">"Odeeffannoo kooppiiraayitii"</string>
+<string name="privacy_policy">"Amaammata dhuunfaa"</string>
+<string name="open_source_licenses">"Madda laayiiseensii banuu"</string>
+<string name="reply_choice_yes">"Eeyyee"</string>
+<string name="reply_choice_no">"Lakki"</string>
+<string name="reply_choice_ok">"TOLE"</string>
+<string name="reply_choice_hehe">"Heehee"</string>
+<string name="reply_choice_thanks">"Galatoomi"</string>
+<string name="reply_choice_i_agree">"Ani itti walii gala"</string>
+<string name="reply_choice_nice">"Tolaa"</string>
+<string name="reply_on_my_way">"Karaa koo irra"</string>
+<string name="reply_choice_later">"Eyyee, gara keetti nan deebi’a"</string>
+<string name="preference_header_action_confirmations">"Mirkaneessawwan gochaa"</string>
+<string name="preference_confirm_before_delete_title">"Balleessuun duratti mirkaneessi"</string>
+<string name="preference_confirm_before_archive_title">"Milkeessuun dura mirkaneessi"</string>
+<string name="preference_confirm_before_send_title">"Erguun dura mirkaneessi"</string>
+<string name="preferences_conversation_mode_title">"Ergaawwan awutoo  ta’u"</string>
+<string name="preferences_conversation_mode_summary">"Iskiriiniif akka ta’utti hamma ergaawwanii gadi xiqqeessi"</string>
+<string name="preferences_disable_snap_headers_title">"Gochawwan ergaa"</string>
+<string-array name="prefSummaries_snapHeader">
+<item>"Yeroo hundaa gochawwan ergaa mataa gubbaa iskiriinii irratti agarsiisi"</item>
+<item>"Gochoota ergaa iskiriinii gara agarsiisa sirriitti yoo nanneffame qofa agrsiisi"</item>
+<item>"Gochoota ergaa bakka mataa gubbaatti kaa’ameen alatti hin agarsiisi"</item>
+</string-array>
+<string-array name="prefEntries_snapHeader">
+<item>"Yeroo mara agarsiisi"</item>
+<item>"Hamma sirrii qofaan agarsiisi"</item>
+<item>"Hin agarsiisi"</item>
+</string-array>
+<string name="clear_history_title">"Seenaa barbaaduu haquu"</string>
+<string name="search_history_cleared">"Seenaa barbaaduu haqaameera."</string>
+<string name="clear_history_dialog_title">"Seenaa barbaachaa ni balleessitaa?"</string>
+<string name="clear_history_dialog_message">"Barbaachi kanaan dura goote hundi ni balleeffamu."</string>
+<string name="manage_accounts_menu_item">"Toorawwan ittiin beekamaa hooggani"</string>
+<string name="general_preferences_title">"Yoomeessawwaan waliigalaa"</string>
+<string name="activity_preferences">"Seetiinhiiwwan"</string>
+<string name="overflow_description">"Carraawwaan hedduu"</string>
+<string name="security_hold_required_text">"Foyyeessi eegumsaa ni barbaachisa <xliff:g id="email_address">%1$s</xliff:g>"</string>
+<string name="update_security_text">"Amma foyyeessi"</string>
+<string name="forms_are_disabled">"Unkawwan  Gmail keessatti cufamaniiru"</string>
+<string name="add_contacts_too_much">"Lakkoofsi olaanaa fudhattootaa 50."</string>
+<string name="account_delete_dlg_title">"Herreega haqi"</string>
+<string name="account_delete_waiting">"Balleessaa jira, maaloo eegi..."</string>
+<string name="filter_all">"Hunda"</string>
+<string name="filter_receiver">"fudhataa"</string>
+<string name="filter_sender">"Nama ergaa"</string>
+<string name="filter_subject">"Dhimma"</string>
+<string name="filter_content">"Qabbiiyee"</string>
+<string name="search_on_server">"Sarvarii irra barbaadi"</string>
+<string name="download_confirm_msg">"neetoorkiin WLAN miti, akkasumas miiltoon guddaadha, maaloo akka itti fuftuuf itti hin fufne mirkaneessi"</string>
+<string name="download_deny_malware">"Tarii kan hin madaalledha. Fe’uu hin dandeenye."</string>
+<string name="download_deny_wifionly">"Yeroo  WLAN qofa fe’amuu danda’a."</string>
+<string name="download_deny_nointent">"Appilikeeshiinii isa banuu danda’u hin jiru. Fe’uu hin dandeenye."</string>
+<string name="download_deny_nosideload">"Appilikeeshiinoota madda hin beekamne irraa galchuu erga eeyyamtee booddee irra deebiin yaali."</string>
+<string name="download_deny_apkinstall">"Appilikeeshini kamiiyyuu itti galchuu hin dandeenye. Fe’uu hin dandeenye."</string>
+<string name="download_deny_policy">"Akka imammata toora ittiin beekamaatti fe’uu hin dandeenye."</string>
+<string name="download_att_external">"Fe’uu irraa gara fe’uu"</string>
+<string name="save_to_where">"Miiltoon &#160; tti milkaa\'inaan olkaa\'ameera"</string>
+<string name="missing_required_permission">"Ati eyyaama barbaadame dalaga ala gooteeta."</string>
+<string name="permission_change">"Eeyyamoonni hanga jijjiiramanii, maaloo galmee irra deebiin filadhu."</string>
+<string name="permission_change_redo">"Eeyyamoonni hanga jijjiiramanii, maaloo irra deebiin hojjedhu."</string>
+<string name="preference_default_signature_title">"Mallattoo"</string>
+<string name="signature_default">"Bilbila koo irra kan ergame"</string>
+<string name="set_priority_high">"Dursa ilaanaa taasisi"</string>
+<string name="set_priority_normal">"Duras giddu galeessa taasisi"</string>
+<string name="set_priority_low">"Durasa gadi aanaa taasisi"</string>
+<string name="file_not_exist">"Miiltoon naannoo hin jiru, maaloo irra deebiin fe’i!"</string>
+<string name="body_input_more">"Nan gadda,  amaloota %1$s qofatti galchuu dandeessa"</string>
+<string name="attachment_rename_to_legal">"Maqaan duraanii seera qabeessa waan hintaaneef miiltoon maqaa haaraan baheeraaf"</string>
+<string name="account_changed_load_account_inbox">"Galmeen foolderii walsimuu jijjirameera, isa sanduuqa keessaa jijjiri"</string>
+<string name="no_available_storage">"Kuusaan hinjiru"</string>
+<string name="attachment">"miiltoo"</string>
+<string name="confirm_compress_tittle">"Gara itti garagala"</string>
+<string name="confirm_compress_msg">"Guddini suurichaa <xliff:g id="size">%s</xliff:g>, olieenyummaaha, walittiqabuu haayaalu?"</string>
+<string name="compressed_failed">"Suura harmaan gadii <xliff:g id="size">%s</xliff:g>"</string>
+<string name="save_draft_msg">"Ibsa olkaa\'i"</string>
+<string name="menu_sorting_method">"Mala ramadduu"</string>
+<string name="oarder_by_timestamp_asc">"Guyyaa (Kan durse)"</string>
+<string name="oarder_by_timestamp_desc">"Guyyaa (kan dhiyoo)"</string>
+<string name="oarder_by_sender_asc">"Ergituu (A hanga Z)"</string>
+<string name="oarder_by_sender_desc">"Ergituu (Z hanga A)"</string>
+<string name="oarder_by_recipient_asc">"Simataa (A hanga Z)"</string>
+<string name="oarder_by_recipient_desc">"Simataa(Z hanga A)"</string>
+<string name="oarder_by_subject_asc">"Dhimma (A hanga Z)"</string>
+<string name="oarder_by_subject_desc">"Dhimma (Z hanga A)"</string>
+<string name="select_all">"Hunda filii"</string>
+<string name="cancel_all">"Hunda balleesi"</string>
+<string name="preference_snippetShowLines_to_title">"Ilaalcha duraa qabiyyee"</string>
+<string-array name="prefEntries_snippetShowLines">
+<item>"Homaa"</item>
+<item>"Sarara 1"</item>
+<item>"Sarara 2"</item>
+<item>"Sarara 3"</item>
+</string-array>
+<string name="contacts_tab_tittle">"Qunnamtoota"</string>
+<string name="favorite_tab_tittle">"Jaalatamaa"</string>
+<string name="checked_contacts_exceeds_max">"Hanga <xliff:g id="count">%s</xliff:g> Qunnamtoonni filamuu danda\'u."</string>
+<string name="vip">"Foolderii VIP"</string>
+<string name="vip_settings">"Seetiingiiwwan VIP"</string>
+<string name="vip_members">"Qunnamtoota VIP"</string>
+<string name="vip_members_count">"Qunnamtoota VIP (<xliff:g example="2">%1$d</xliff:g>)"</string>
+<string name="vip_members_list_empty">"Miseensi VIP hinjiru"</string>
+<string name="vip_remove_title">"VIP keessaa baasi"</string>
+<string name="vip_add">"ara VIP tti dabali"</string>
+<string name="vip_add_from_contacts">"Maqaa namootaa irraa idaa\'i"</string>
+<string name="vip_add_from_input">"Teessoo harkaan dabali"</string>
+<string name="vip_choose_contact">"ara VIP tti dabali"</string>
+<string name="vip_remove_prompt">"<xliff:g example="2">%1$s</xliff:g> miseensa VIP irraa baafama."</string>
+<string name="not_add_duplicate_vip">"Qunnamtiin cimdiin tarree VIP tti hindabalamu"</string>
+<string name="can_not_add_vip_over">"Miseensa VIP tin olii dabalu hindanda\'u <xliff:g id="count">%s</xliff:g>"</string>
+<string name="message_compose_error_invalid_email">"Teessoon imeelii sirrii miti"</string>
+<string name="duplicate_address_removed_msg">"Teessoon cimdiin gara tarree teessootti hindabalamu"</string>
+<string name="gallery_not_found">"alariin hinargammne"</string>
+<string name="sound_recorder_not_found">"Waraabduun sagalee hinargamne"</string>
+<string name="attachment_documents_label">"Tu\'annoo galmee"</string>
+<string name="create_image_file_failed">"Suura uumuu hindanda\'amne, maaloo kaameraa fayyadamuun dura haala kuusaa sakatta\'i"</string>
+<string name="cancel_attachment">"Downlod gochuu dhaabi"</string>
+</resources>

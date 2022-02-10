@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"භාරගන්නා ලදී: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">"ප්‍රතික්ෂේප කරන ලදී: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">"තාවකාලික <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">"අවලංගු කරන ලදී: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">"යාවත්කාලීන කරන ලදී: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">"කවදාද: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_where">"කොතැනකද: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_recurring">"කවදාද: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (පුනරාවර්තී)"</string>
+<string name="meeting_allday">"කවදාද: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (මුළු දිනයම)"</string>
+<string name="meeting_allday_recurring">"කවදාද: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (මුළු දිනයම, පුනරාවර්තී)"</string>
+<string name="app_name">"හුවමාරු සේවා"</string>
+<string name="exception_cancel">"මෙම සිද්ධිය අවලංගු කර ඇත සඳහා: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="exception_updated">"මෙම සිද්ධියේ විස්තර වෙනස් කර ඇත: <xliff:g id="date">%s</xliff:g> "</string>
+<string name="policy_dont_allow_storage_cards">"ගබඩා කාඩ්පත් සඳහා අවසර නොදෙන්න"</string>
+<string name="policy_dont_allow_unsigned_apps">"අත්සන් නොකරන ලද යෙදුම් සඳහා අවසර නොදෙන්න"</string>
+<string name="policy_dont_allow_unsigned_installers">"අත්සන් නොකරන ලද යෙදුම් ස්ථාපනය කරන්නන්ට අවසර නොදෙන්න"</string>
+<string name="policy_dont_allow_wifi">"Wi-Fi සඳහා අවසර නොදෙන්න"</string>
+<string name="policy_dont_allow_text_messaging">"පණිවුඩ යැවීමට අවසර නොදෙන්න"</string>
+<string name="policy_dont_allow_pop_imap">"POP3 හෝ IMAP ගිණුම් සඳහා අවසර නොදෙන්න"</string>
+<string name="policy_dont_allow_irda">"අධෝරක්ත සම්බන්ධතා සඳහා අවසර නොදෙන්න"</string>
+<string name="policy_dont_allow_html">"HTML ඊමේල් සඳහා අවසර නොදෙන්න"</string>
+<string name="policy_dont_allow_browser">"බ්‍රවුසර සඳහා අවසර නොදෙන්න"</string>
+<string name="policy_dont_allow_consumer_email">"පාරිභෝගික ඊමේල් සඳහා අවසර නොදෙන්න"</string>
+<string name="policy_dont_allow_internet_sharing">"ඉන්ටර්නෙට් හුවමාරුව සඳහා අවසර නොදෙන්න"</string>
+<string name="policy_require_smime">"SMIME පණිවුඩ අවශ්‍ය වන්න"</string>
+<string name="policy_bluetooth_restricted">"බ්ලුටූත් භාවිතය සීමා කරන්න"</string>
+<string name="policy_app_blacklist">"විශේෂිත කරන ලද යෙදුම් සඳහා අවසර දීම නවත්වන"</string>
+<string name="policy_app_whitelist">"විශේෂිත යෙදුම් සඳහා පමණක් අවසර දෙන්න"</string>
+<string name="policy_text_truncation">"පේළි ඊමේල් ප්‍රමාණය සීමා කරන්න"</string>
+<string name="policy_html_truncation">"HTML ඊමේල් ප්‍රමාණය සීමා කරන්න"</string>
+<string name="policy_require_sd_encryption">"SD කාඩ්පත් ගුප්ත කේතනය අවශ්‍ය කිරීම"</string>
+<string name="policy_dont_allow_attachments">"ඇමුණුම් සඳහා අවසර නොදෙන්න"</string>
+<string name="policy_max_attachment_size">"ඇමුණුම් ප්‍රමාණය සීමා කිරීම"</string>
+<string name="policy_require_manual_sync_roaming">"සැරුම් අවස්තාවේදී හස්තීය සම්මුහුර්තකරණය සඳහා පමණක් අවසර දෙන්න"</string>
+<string name="policy_require_encryption">"උපාංග ගුප්ත කේතනය අවශ්‍ය කිරීම"</string>
+<string name="account_setup_options_mail_window_auto">"ස්වයංක්‍රිය"</string>
+<string name="account_setup_options_mail_window_1day">"එක් දිනක්"</string>
+<string name="account_setup_options_mail_window_3days">"දින තුනක්"</string>
+<string name="account_setup_options_mail_window_1week">"සති එකක්"</string>
+<string name="account_setup_options_mail_window_2weeks">"සති දෙකක්"</string>
+<string name="account_setup_options_mail_window_1month">"මාස එකක්"</string>
+<string name="account_setup_options_mail_window_all">"සියලු"</string>
+<string name="auth_error_notification_title">"සත්‍යාපන දෝෂ"</string>
+<string name="auth_error_notification_text">"<xliff:g id="account">%s</xliff:g> සඳහා ගිණුම් පසුතල සැකසීමට ස්පර්ශ කරන්න" </string>
+<string name="email_settings_not_available">"සැකසුම් පෙන්වීමට ඊමේල් යෙදුම නැවත සක්‍රීය කරන්න."</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/contacts_search_bar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider_color" />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:divider="@color/divider_color"
+            android:fastScrollEnabled="true"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp" />
+    </LinearLayout>
+
+    <include layout="@layout/contacts_picker_empty_view" />
+
+</FrameLayout>

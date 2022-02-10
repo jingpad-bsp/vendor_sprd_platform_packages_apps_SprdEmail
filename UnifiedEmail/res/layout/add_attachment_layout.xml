@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/addatchemt_tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/add_attachment_tittle_size"
+        android:layout_marginStart="@dimen/add_attachment_tittle_margin_start"
+        android:layout_marginTop="@dimen/add_attachment_tittle_margin_start"
+        android:text="@string/attachment" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/add_attachment_table_margin_top"
+        android:layout_marginBottom="@dimen/add_attachment_table_margin_bottom"
+        android:layout_below="@id/addatchemt_tittle" >
+        <TableLayout
+            android:id="@+id/addatchment_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addatchemt_tittle"
+            android:stretchColumns="*" />
+    </ScrollView>
+</RelativeLayout>

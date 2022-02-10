@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="drm_protected_file">"* DRM संरक्षत फाइल *"</string>
+<string name="not_add_drm_file">"drmफाइलां शामल नेईं करी सकदा"</string>
+<string name="not_support_open_drm">"एह् फाइल खोलने लेई समर्थत नेईं ऐ, किरपा करियै मकामी च सहेजो जित्थुआं तुस इसी खोली सकदे ओ"</string>
+</resources>

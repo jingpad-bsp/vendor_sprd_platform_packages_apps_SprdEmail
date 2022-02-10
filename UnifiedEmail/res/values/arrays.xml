@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_approach_labels">
+        <item>@string/filter_all</item>
+        <item>@string/filter_receiver</item>
+        <item>@string/filter_sender</item>
+        <item>@string/filter_subject</item>
+        <item>@string/filter_content</item>
+    </string-array>
+
+    <integer-array name="search_approachs">
+        <item>15</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </integer-array>
+
+    <string-array name="sort_order_array_inbox">
+        <item>@string/oarder_by_timestamp_desc</item>
+        <item>@string/oarder_by_timestamp_asc</item>
+        <item>@string/oarder_by_sender_desc</item>
+        <item>@string/oarder_by_sender_asc</item>
+        <item>@string/oarder_by_subject_desc</item>
+        <item>@string/oarder_by_subject_asc</item>
+    </string-array>
+    <string-array name="sort_order_array_outbox">
+        <item>@string/oarder_by_timestamp_desc</item>
+        <item>@string/oarder_by_timestamp_asc</item>
+        <item>@string/oarder_by_recipient_desc</item>
+        <item>@string/oarder_by_recipient_asc</item>
+        <item>@string/oarder_by_subject_desc</item>
+        <item>@string/oarder_by_subject_asc</item>
+    </string-array>
+
+    <!-- The auto-advance mode values -->
+    <string-array translatable="false" name="prefValues_snippetShowLines">
+        <item>none</item>
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+
+</resources>

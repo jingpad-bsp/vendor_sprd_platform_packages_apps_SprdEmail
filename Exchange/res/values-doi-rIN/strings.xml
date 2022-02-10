@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="meeting_accepted">"मंजूरशुदा: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_declined">"नां-मंजूर: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_tentative">"संभावत: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_canceled">"रद्द: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_updated">"अपडेटड: <xliff:g id="subject">%s</xliff:g> "</string>
+<string name="meeting_when">"कदूं: <xliff:g id="when">%s</xliff:g> "</string>
+<string name="meeting_where">"कु\'त्थै: <xliff:g id="where">%s</xliff:g> "</string>
+<string name="meeting_recurring">"कदूं: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (बार-बार औने आह्​ला) "</string>
+<string name="meeting_allday">"कदूं: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (पूरे ध्याड़े) "</string>
+<string name="meeting_allday_recurring">"कदूं: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (पूरे ध्याड़े, बार-बार औने आह्​ला) "</string>
+<string name="app_name">"एक्सचेंज सेवा"</string>
+<string name="exception_cancel">"<xliff:g id="date">%s</xliff:g> : लेई एह् इवेंट रद्द कीता गेआ ऐ"</string>
+<string name="exception_updated">"<xliff:g id="date">%s</xliff:g> : लेई इस इवेंट दे ब्यौरे बदले गे न। "</string>
+<string name="policy_dont_allow_storage_cards">"स्टोरज कार्ड गी मंजूरी नेईं देओ"</string>
+<string name="policy_dont_allow_unsigned_apps">"गैर-दस्खती ऐपें गी मंजूरी नेईं देओ"</string>
+<string name="policy_dont_allow_unsigned_installers">"गैर-दस्खती ऐप इंस्टालरें गी मंजूरी नेईं देओ"</string>
+<string name="policy_dont_allow_wifi">"Wi-Fi गी मंजूरी नेईं देओ"</string>
+<string name="policy_dont_allow_text_messaging">"लिखत सनेहें गी मंजूरी नेईं देओ"</string>
+<string name="policy_dont_allow_pop_imap">"POP3 जां IMAP खातें गी गी मंजूरी नेईं देओ"</string>
+<string name="policy_dont_allow_irda">""अवरक्त संचार गी मंजूरी नेईं देओ"</string>
+<string name="policy_dont_allow_html">"HTML ईमेल गी मंजूरी नेईं देओ"</string>
+<string name="policy_dont_allow_browser">"ब्राउज़र गी मंजूरी नेईं देओ"</string>
+<string name="policy_dont_allow_consumer_email">"ग्राहक ईमेल गी मंजूरी नेईं देओ"</string>
+<string name="policy_dont_allow_internet_sharing">"इंटनेट सांझ गी मंजूरी नेईं देओ"</string>
+<string name="policy_require_smime">"SMIME सनेहे लोड़चदे"</string>
+<string name="policy_bluetooth_restricted">"ब्लूटुथ बरतून गी सीमत करो"</string>
+<string name="policy_app_blacklist">"निर्धारत ऐपें गी मंजूरी नेईं देओ"</string>
+<string name="policy_app_whitelist">"सिर्फ निर्धारत ऐपें गी मंजूरी देओ"</string>
+<string name="policy_text_truncation">"लिखत ईमेल साइज सीमत करो"</string>
+<string name="policy_html_truncation">"HTML ईमेल साइज सीमत करो"</string>
+<string name="policy_require_sd_encryption">"SD कार्ड एन्क्रिप्शन लोड़चदा"</string>
+<string name="policy_dont_allow_attachments">"अटैचमेंटें गी मंजूरी नेईं देओ"</string>
+<string name="policy_max_attachment_size">"अटैचमेंट साइज सीमत करो"</string>
+<string name="policy_require_manual_sync_roaming">"रोमिंग बेल्लै सिर्फ दस्ती सिंक मंजूर करो"</string>
+<string name="policy_require_encryption">"डिवाइस एन्क्रिप्शन लोड़चदा"</string>
+<string name="account_setup_options_mail_window_auto">"आटोमेटिक"</string>
+<string name="account_setup_options_mail_window_1day">"इक दिन"</string>
+<string name="account_setup_options_mail_window_3days">"त्रै दिन"</string>
+<string name="account_setup_options_mail_window_1week">"इक हफ्ता"</string>
+<string name="account_setup_options_mail_window_2weeks">"दो हफ्ते"</string>
+<string name="account_setup_options_mail_window_1month">"इक म्हीना"</string>
+<string name="account_setup_options_mail_window_all">"सब्भै"</string>
+<string name="auth_error_notification_title">"प्रमाणीकरण त्रुटि"</string>
+<string name="auth_error_notification_text">"<xliff:g id="account">%s</xliff:g> लेई खाता सेटिंग्स संपादत करने लेई टच करो"</string>
+<string name="email_settings_not_available">"सेटिंग दिक्खने लेई ईमेल ऐपलीकेशन मुड़: समर्थ करो।"</string>
+</resources>

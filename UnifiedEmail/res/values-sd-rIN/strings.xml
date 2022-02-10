@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="from">" وٽان"</string>
+<string name="to">" ڏانهن"</string>
+<string name="cc">"سي سي"</string>
+<string name="bcc">"بي سي سي"</string>
+<string name="subject_hint">"عنوان"</string>
+<string name="body_hint">"ايميل تحرير ڪريو"</string>
+<string name="add_file_attachment">فائل منسلڪ ڪريو"</string>
+<string name="add_photo_attachment">"تصوير منسلڪ ڪريو"</string>
+<string name="save_draft">"مسَوِدو محفوظ ڪريو"</string>
+<string name="discard">" رد ڪريو"</string>
+<string name="compose">" تحرير ڪريو"</string>
+<string name="compose_title">" تحرير ڪريو"</string>
+<string-array name="compose_modes">
+<item>" جواب ڏيو"</item>
+<item>"سڀني کي جواب ڏيو"</item>
+<item>" اڳتي ڪريو"</item>
+</string-array>
+<string name="reply_attribution">"<xliff:g id="date">%s</xliff:g> تي، <xliff:g id="person">%s</xliff:g> لکيو:"</string>
+<string name="forward_attribution_no_headers">"---------- اڳتي موڪليل پيغام ----------"</string>
+<string name="select_attachment_type">"منسلڪي جي قسم جي چونڊ ڪريو"</string>
+<string name="too_large_to_attach_single">"<xliff:g id="maxSize">%1$s</xliff:g> کان مٿي فائل منسلڪ نه ٿي ٿي سگهي."</string>
+<string name="too_large_to_attach_multiple">هڪ يا ان کان وڌيڪ فائلون منسلڪ نه ٿي سگهيون. حد <xliff:g id="maxSize">%1$s</xliff:g> آهي."</string>
+<string name="too_large_to_attach_additional">"فائل منسلڪ نه ٿي. <xliff:g id="maxSize">%1$s</xliff:g> حد اچي چڪي آهي."</string>
+<string name="generic_attachment_problem">"فائل کي منسلڪ نه ڪري سگهيو."</string>
+<string name="attachment_permission_denied">"منسلڪ ڪرڻ لاءِ اجازت کان انڪار ٿي ويو."</string>
+<string name="recipient_needed">"گهٽ ۾ گهٽ هڪ وصول ڪندڙ شامل ڪريو"</string>
+<string name="confirm_send_message_with_no_subject">"پيغام جي عنوان ۾ ڪو به متن ڪونهي."</string>
+<string name="confirm_send_message_with_no_body">"پيغام جي باڊي ۾ ڪو به متن ڪونهي."</string>
+<string name="confirm_send_message">"هن پيغام کي موڪلڻ ٿا چاهيو؟"</string>
+<string name="message_discarded">" پيغام رد ٿي ويو."</string>
+<string name="signature">"\n\n<xliff:g id="signature">%s</xliff:g>"</string>
+<string name="custom_from_account_label">"ميل طور موڪليو:"</string>
+<string name="send">" موڪليو"</string>
+<string name="mark_read">"پڙهيل جي نشاني لڳايو"</string>
+<string name="mark_unread">"غير پڙهيل جي نشاني لڳايو"</string>
+<string name="toggle_read_unread">"پڙهيل بنا پڙهيل تي ٽپي وڃو"</string>
+<string name="mute">" خاموش ڪريو"</string>
+<string name="add_star">"تاري جو نشان لڳايو"</string>
+<string name="remove_star">"تاري جي نشان کي هٽايو"</string>
+<string name="remove_folder">"<xliff:g id="folderName">%1$s</xliff:g> مان هٽايو"</string>
+<string name="archive">محافظ خانو"</string>
+<string name="report_spam">"غير قانوني رپورٽ ڪريو"</string>
+<string name="mark_not_spam">"قانوني رپورٽ ڪريو"</string>
+<string name="report_phishing">دوکيبازي رپورٽ ڪريو"</string>
+<string name="delete">" مٽايو"</string>
+<string name="discard_drafts">" مسودن کي رد ڪريو"</string>
+<string name="discard_failed">" رد ڪرڻ ناڪام ٿي ويو"</string>
+<string name="refresh">" تازو ڪريو"</string>
+<string name="reply">" جواب ڏيو"</string>
+<string name="reply_all">"سڀني کي جواب ڏيو"</string>
+<string name="resume_draft">" تدوين ڪريو"</string>
+<string name="forward">" اڳتي ڪريو"</string>
+<string name="menu_compose">" تحرير ڪريو"</string>
+<string name="menu_change_folders">"فولڊرن کي تبديل ڪريو"</string>
+<string name="menu_move_to">"ڏانهن موڪليو"</string>
+<string name="menu_move_to_inbox">"ان باڪس ڏانهن موڪليو"</string>
+<string name="menu_manage_folders">"فولڊر جون ترتيبون"</string>
+<string name="menu_show_original">"خودڪار-سائزنگ کي ابتو ڪريو"</string>
+<string name="menu_settings">" ترتيبون"</string>
+<string name="menu_search">" ڳوليو"</string>
+<string name="menu_toggle_drawer">"خاني تي ٽپي وڃو"</string>
+<string name="drawer_title">"طرفبندي"</string>
+<string name="mark_important">"اهم جي نشاني ڏيو"</string>
+<string name="mark_not_important">"غير اهم جي نشاني ڏيو"</string>
+<string name="add_cc_label">"سي سي/بي سي سي شامل ڪريو"</string>
+<string name="add_bcc_label">"بي سي سي شامل ڪريو"</string>
+<string name="quoted_text">"حوالو ڏنل متن کي شامل ڪريو"</string>
+<string name="quoted_text_label">"متن حوالي ۾ رکو"</string>
+<string name="respond_inline">"ترتيبوار جواب ڏيو"</string>
+<string name="attachment_image">" تصوير"</string>
+<string name="attachment_video">" ويڊيو"</string>
+<string name="attachment_audio">" آڊيو"</string>
+<string name="attachment_text">" متن لکو"</string>
+<string name="attachment_application_msword">"دستاويز"</string>
+<string name="attachment_application_vnd_ms_powerpoint">"پيشڪش"</string>
+<string name="attachment_application_vnd_ms_excel">"اسپريڊ شيٽ"</string>
+<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> فائل"</string>
+<string name="preview_attachment">" پيشگي نظارو"</string>
+<string name="save_attachment">" محفوظ ڪريو"</string>
+<string name="download_again">"وري ڊائون لوڊ ڪريو"</string>
+<string name="remove_attachment_desc">"منسلڪي کي هٽايو <xliff:g id="attachmentName">%s</xliff:g>"</string>
+<string name="more_info_attachment">"معلومات"</string>
+<string name="no_application_found">"ڪو به اطلاق منسلڪي کي ڏسڻ لاءِ کولي نه ٿو سگهي."</string>
+<string name="fetching_attachment">"منسلڪو پيارجي رهيو آهي"</string>
+<string name="please_wait">" مهرباني ڪري انتظار فرمائيندا..."</string>
+<string name="download_failed">"ڊائون لوڊ نه ٿي سگهيو. ٻيهر ڪوشش لاءِ ٽچ ڪريو"</string>
+<string name="menu_photo_save_all">"سمورا محفوظ ڪريو"</string>
+<string name="menu_photo_share">" شريڪ ڪريو"</string>
+<string name="menu_photo_share_all">"سمورا شراڪت ڪريو"</string>
+<string name="menu_photo_print">" پرنٽ ڪريو"</string>
+<string name="choosertitle_sharevia">" جي ذريعي شراڪت ڪريو"</string>
+<string name="contextmenu_openlink">"برائوزر ۾ کوليو"</string>
+<string name="contextmenu_copy">"نقل ڪريو"</string>
+<string name="contextmenu_copylink">" لنڪ جي يوآرايل جو نقل ڪريو"</string>
+<string name="contextmenu_view_image">" تصوير کي ڏسو"</string>
+<string name="contextmenu_dial_dot">" ڊائل ڪريو..."</string>
+<string name="contextmenu_sms_dot">"ايس ايم ايس..."</string>
+<string name="contextmenu_add_contact">" رابطو شامل ڪريو"</string>
+<string name="contextmenu_send_mail">" ايميل موڪليو"</string>
+<string name="contextmenu_map">" نقشو"</string>
+<string name="contextmenu_sharelink">" لنڪ جي شراڪت ڪريو"</string>
+<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> بابت <xliff:g id="subject">%3$s</xliff:g>، <xliff:g id="snippet">%4$s</xliff:g> تي <xliff:g id="date">%5$s</xliff:g>، <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> بابت <xliff:g id="subject">%3$s</xliff:g>، <xliff:g id="snippet">%4$s</xliff:g> تي <xliff:g id="time">%5$s</xliff:g>، <xliff:g id="readstate">%6$s</xliff:g>"</string>
+<string name="content_description_with_folders">" <xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> بابت <xliff:g id="subject">%3$s</xliff:g>، <xliff:g id="snippet">%4$s</xliff:g> تي <xliff:g id="date">%5$s</xliff:g>، <xliff:g id="readstate">%6$s</xliff:g>، ليبل: <xliff:g id="folders">%7$s</xliff:g>"</string>
+<string name="content_description_today_with_folders">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> بابت <xliff:g id="subject">%3$s</xliff:g>، <xliff:g id="snippet">%4$s</xliff:g> تي <xliff:g id="time">%5$s</xliff:g>، <xliff:g id="readstate">%6$s</xliff:g>، ليبل: <xliff:g id="folders">%7$s</xliff:g> "</string>
+<string name="read_string">"پڙهيل گفتگو"</string>
+<string name="unread_string">"بنا پڙهيل گفتگو"</string>
+<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="badge_and_subject">"<xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g>"</string>
+<plurals name="draft">
+<item quantity="one">"مسودو"</item>
+<item quantity="other">" مسودا"</item>
+</plurals>
+<string name="sending">" موڪلي رهيو آهي..."</string>
+<string name="message_retrying">"ٻيهر ڪوشش ٿي رهي آهي..."</string>
+<string name="message_failed">" ناڪام ٿي ويو"</string>
+<string name="send_failed">"پيغام ڪونه موڪليو هئو."</string>
+<string name="me_object_pronoun">"مان"</string>
+<string name="me_subject_pronoun">"مان"</string>
+<plurals name="confirm_delete_conversation">
+<item quantity="one">"هن گفتگو کي مٽائڻ ٿا چاهيو؟"</item>
+<item quantity="other">"انهن <xliff:g id="count">%1$d</xliff:g> گفتگوئن کي مٽائڻ ٿا چاهيو؟"</item>
+</plurals>
+<plurals name="confirm_archive_conversation">
+<item quantity="one">"هن گفتگو کي محفوظ ٿا ڪرڻ گهرو؟"</item>
+<item quantity="other">"انهن <xliff:g id="count">%1$d</xliff:g>  گفتگوئن کي محفوظ ٿا ڪرڻ چاهيو؟"</item>
+</plurals>
+<plurals name="confirm_discard_drafts_conversation">
+<item quantity="one">"ڇا هن پيغام کي رد ٿا ڪرڻ چاهيو؟"</item>
+<item quantity="other">" انهن <xliff:g id="count">%1$d</xliff:g> پيغامات کي رد ڪرڻ ٿا چاهيو؟"</item>
+</plurals>
+<string name="confirm_discard_text">"ڇا هن پيغام کي رد ٿا ڪرڻ چاهيو؟"</string>
+<string name="loading_conversations">" لوڊ ٿي رهيو آهي..."</string>
+<string name="empty_inbox">"توهان سڀ مڪمل ڪري ڇڏيو! مهرباني ڪري پنهنجي ڏينهن مان لطف اندوز ٿيو."</string>
+<string name="empty_search">اف! اسان کي \"<xliff:g id="search_query">%1$s</xliff:g>\" لاءِ ڪجهه به نه مليو."</string>
+<string name="empty_spam_folder">"آها! هتي ڪو به غير قانوني پيغام ڪونهي!"</string>
+<string name="empty_trash_folder">"هتي ڪا ردي ڪانهي. مهرباني مٽائڻ جي!"</string>
+<string name="empty_folder">"هتي ڪا به ميل ڪانهي."</string>
+<string name="getting_messages">"توهان جي پيغامات جي تحصيل ٿي رهي آهي"</string>
+<string name="undo">" منسوخ ڪريو"</string>
+<plurals name="conversation_unstarred">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> گفتگو تان تاري جا نشان هٽي رهيا آهن"  </item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> گفتگوئن تان تاري جا نشان هٽي رهيا آهن"  </item>
+</plurals>
+<string name="deleted">" مٽجي ويو"</string>
+<string name="archived">"محفوظ ڪيا ويا"</string>
+<string name="folder_removed">"<xliff:g id="folderName">%1$s</xliff:g> مان هٽايو ويو"</string>
+<plurals name="conversation_folder_changed">
+<item quantity="one">"تبديل ڪيل فولڊر"</item>
+<item quantity="other">"تبديل ڪيل فولڊرس"</item>
+</plurals>
+<string name="conversation_folder_moved">"<xliff:g id="folderName">%1$s</xliff:g> تي موڪليو ويو"</string>
+<string name="search_results_header">"نتيجا"</string>
+<string name="search_unsupported">هن اڪائونٽ تي ڳولا جي سهولت ڪانهي."</string>
+<string name="search_suggestion_desc">تجويز: <xliff:g id="suggestion">%s</xliff:g>"</string>
+<string name="add_label">" فولڊر شامل ڪريو"</string>
+<plurals name="new_incoming_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g>  نئون پيغام"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g>  نوان پيغامات"</item>
+</plurals>
+<string name="hide_details">"تفصيلات لڪايو"</string>
+<string name="to_message_header">"ڏانهن  <xliff:g id="recipients">%1$s</xliff:g>"</string>
+<string name="bcc_header_for_recipient_summary">"بي سي سي:"</string>
+<string name="contact_info_string">"<xliff:g id="name">%1$s</xliff:g> لاءِ رابطي جي معلومات ڏيکاريو"</string>
+<string name="contact_info_string_default">"رابطي جي معلومات ڏيکاريو"</string>
+<plurals name="show_messages_read">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> پراڻن پيغامات کي ڦهلايو"</item>
+</plurals>
+<plurals name="super_collapsed_block_accessibility_announcement">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> پراڻن پيغامات کي ڦهلايو ويو"</item>
+</plurals>
+<string name="from_heading">" پاران:"</string>
+<string name="replyto_heading">"کي-جواب ڏيو:"</string>
+<string name="to_heading">"ڏانهن:"</string>
+<string name="to_heading_no_space">" ڏانهن:"</string>
+<string name="cc_heading">"سي سي:"</string>
+<string name="bcc_heading">"بي سي سي:"</string>
+<string name="date_heading">" تاريخ:"</string>
+<string name="show_images">"تصويرون ڏيکاريو"</string>
+<string name="always_show_images">"هن موڪليندڙ وٽان تصويرن کي سدائين ڏيکاريو"</string>
+<string name="always_show_images_toast">هن موڪليندڙ وٽان تصويرون پاڻمرادو ڏيکاربيون."</string>
+<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> جي وسيلي <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+<string name="message_saved">" پيغام مسودي طور محفوظ ٿي ويو."</string>
+<string name="sending_message">"پيغام موڪلجي رهيو آهي..."</string>
+<string name="invalid_recipient">"<xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> ايڊريس غير موزون آهي."</string>
+<string name="show_elided">"حوالو ڏنل متن کي ڏيکاريو"</string>
+<string name="hide_elided">"▼حوالو ڏنل متن لڪايو"</string>
+<string name="message_invite_title">"ڪئلينڊر جي دعوت ڏيو"</string>
+<string name="message_invite_calendar_view">"ڪئلينڊر ۾ ڏسو"</string>
+<string name="message_invite_label_attending">"وڃي رهيو آهي؟"</string>
+<string name="message_invite_accept">" هاءُ"</string>
+<string name="message_invite_tentative">" ٿي سگهي ٿو"</string>
+<string name="message_invite_decline">"نه"</string>
+<string name="enumeration_comma">",\u0020"</string>
+<string name="send_anyway">"ڪنهن به نموني موڪليو"</string>
+<string name="ok">"ٺيڪ آهي"</string>
+<string name="done">" ٿي ويو"</string>
+<string name="cancel">" رد ڪريو"</string>
+<string name="clear">" صاف ڪريو"</string>
+<string name="next">" ايندڙ"</string>
+<string name="previous">" گذريل"</string>
+<string-array name="sync_status">
+<item>"ڪامياب ٿي ويو"</item>
+<item>" ڪنيڪشن نه آهي"</item>
+<item>" سائن ان نه ٿي سگهيو"</item>
+<item>"دفاعي خرابي آهي"</item>
+<item>"سلهاڙي نه سگهيو"</item>
+<item>"اندروني خرابي"</item>
+<item>"سرور جي خرابي"</item>
+</string-array>
+<string name="tap_to_configure">"ترڪيب لاءِ ٽچ ڪريو"</string>
+<string name="non_synced_folder_description">"گفتگوئن کي ڏسڻ لاءِ، هن فولڊر کي سلهاڙيو."</string>
+<string name="tap_to_configure_folder_sync">"فولڊر کي سلهاڙيو"</string>
+<string name="large_unseen_count">"<xliff:g id="count" example="99">%d</xliff:g>+نئون"</string>
+<string name="unseen_count">"<xliff:g id="count" example="4">%d</xliff:g> نئون"</string>
+<plurals name="actionbar_unread_messages">
+<item quantity="other">"<xliff:g id="count" example="4">%1$d</xliff:g> بنا پڙهيل"</item>
+</plurals>
+<string name="view_more_conversations">" وڌيڪ مڪالما ڏسو"</string>
+<string name="loading_conversation">" لوڊ ٿي رهيو آهي..."</string>
+<string name="activity_mailbox_selection">" اڪائونٽ چونڊيو"</string>
+<string name="activity_folder_selection">"فولڊر چونڊيو"</string>
+<string name="folder_shortcut_widget_label">"ايميل فولڊر"</string>
+<string name="change_folders_selection_dialog_title">"فولڊرن کي تبديل ڪريو"</string>
+<string name="move_to_selection_dialog_title">"ڏانهن موڪليو"</string>
+<string name="search_hint">" ڳوليو"</string>
+<string name="voice_search_not_supported">هن ڊيوائس تي آوازي ڳولا جي سهولت ڪانهي."</string>
+<string name="search_back_desc">"ڳولا کي بند ڪريو"</string>
+<string name="search_voice_desc">" آوازي ڳولا شروع ڪريو"</string>
+<string name="search_clear_desc">"ڳولا جي متن کي صاف ڪريو"</string>
+<string name="network_error">" ڪنيڪشن نه آهي"</string>
+<string name="retry">"ٻيهر ڪوشش ڪريو"</string>
+<string name="load_more">"وڌيڪ لوڊ ڪريو"</string>
+<string name="shortcut_name_title">"فولڊر جي شارٽ ڪٽ جو نالو ڏيو"</string>
+<string name="wait_for_sync_title">"سلهاڙ لاءِ منتظر آهي"</string>
+<string name="not_synced_title">"اڪائونٽ سلهاڙيل ڪونهي"</string>
+<string name="wait_for_manual_sync_body">"هي اڪائونٽ پاڻمرادو سلهاڙجڻ تي ترڪيب ڪيل ڪونهي. \n ميل کي هڪ ڀيرو سلهاڙڻ لاءِ <b>هاڻي سلهاڙيو</b> ، يا هن اڪائونٽ تي ميل جي پاڻمرادو سلهاڙ کي ترڪيب ڪرڻ لاءِ <b>سلهاڙجڻ جي ترتيبن کي تبديل ڪريو</b> کي ٽچ ڪريو."</string>
+<string name="manual_sync">"هينئر سلهاڙيو"</string>
+<string name="change_sync_settings">"سلهاڙجڻ جي ترتيبن کي تبديل ڪريو"</string>
+<string name="photo_load_failed">" تصوير کي لوڊ نه ٿو ڪري سگهي"</string>
+<string name="cant_move_or_change_labels">"موڪلي نه ٿو سگهي ڇاڪاڻ ته چونڊ ڪيترن ئي اڪائونٽن تي مشتمل آهي."</string>
+<string name="multiple_new_message_notification_item">"<b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="ignore_spam_warning">"خاطر ۾ نه آڻيو، مونکي هن پيغام تي اعتبار آهي"</string>
+<string name="via_domain">"<xliff:g id="viaDomain">%1$s</xliff:g> جي وسيلي"</string>
+<string name="signin">"سائن-ان ٿيو"</string>
+<string name="info">"معلومات"</string>
+<string name="report">" رپورٽ ڪريو"</string>
+<string name="show">"ڏيکاريو"</string>
+<string name="sync_error">"سلهاڙجي نه سگهيو."</string>
+<string name="sync_error_message">"توهان جي ڊيوائس ۾ سلهاڙجڻ لاءِ جاءِ ناڪافي آهي."</string>
+<string name="storage">"ذخيره گاه"</string>
+<string name="senders_split_token">",\u00A0"</string>
+<string name="draft_count_format">"\u00A0(<xliff:g id="count">%1$s</xliff:g>)"</string>
+<string name="all_folders_heading">"سمورا فولڊر"</string>
+<string name="recent_folders_heading">"تازا فولڊر"</string>
+<string name="message_details_title">" پيغام جا تفصيلات"</string>
+<string name="preference_advance_to_title">"پاڻمرادو-اڳتي ٿيو"</string>
+<string-array name="prefEntries_autoAdvance">
+<item>"وڌيڪ نئون" </item>
+<item>" پراڻو"</item>
+<item>"گفتگو جي فهرست"</item>
+</string-array>
+<string-array name="prefSummaries_autoAdvance">
+<item>"توهان جي مٽائڻ کان پوءِ وڌيڪ نئيون گفتگوئون ڏيکاريو"</item>
+<item>"توهان جي مٽائڻ کان پوءِ وڌيڪ پراڻيون گفتگوئون ڏيکاريو"</item>
+<item>"توهان جي مٽائڻ کان پوءِ گفتگوئن جي فهرست ڏيکاريو"</item>
+</string-array>
+<string name="prefDialogTitle_autoAdvance">"ڏانهن هلو"</string>
+<string name="clear_display_images_whitelist_title">"تصويرن جي منظوري کي صاف ڪريو"</string>
+<string name="clear_display_images_whitelist_dialog_title">"تصويرن جي منظوري کي صاف ٿا ڪرڻ چاهيو؟"</string>
+<string name="clear_display_images_whitelist_dialog_message">"ماضي ۾ اجازت ڏنل موڪليندڙ جي تصويرن کي ترتيبوارظاهر ڪرڻ بند ڪريو."</string>
+<string name="sender_whitelist_cleared">"تصويرون پاڻمرادو نه ڏيکاربيون."</string>
+<string name="preferences_signature_title">"دستخط"</string>
+<string name="preferences_signature_dialog_title">"دستخط"</string>
+<string name="preferences_signature_summary_not_set">" مرتب ٿيل ڪونهي"</string>
+<string name="notification_action_reply">" جواب ڏيو"</string>
+<string name="notification_action_reply_all">"سڀني کي جواب ڏيو"</string>
+<string name="notification_action_archive">محافظ خانو"</string>
+<string name="notification_action_remove_label">"ليبل کي هٽايو"</string>
+<string name="notification_action_delete">" مٽايو"</string>
+<string name="notification_action_undo_archive">"محفوظ ڪيا ويا"</string>
+<string name="notification_action_undo_remove_label">"ليبل هٽي ويو"</string>
+<string name="notification_action_undo_delete">" مٽجي ويو"</string>
+<string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+<plurals name="new_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g>  نئون پيغام"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g>  نوان پيغامات"</item>
+</plurals>
+<string name="single_new_message_notification_title">"<xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g>"</string>
+<string name="silent_ringtone">" خاموش"</string>
+<string name="preference_removal_action_title">"مُرَوِجّه عمل"</string>
+<string-array name="prefEntries_removal_action">
+<item>محافظ خانو"</item>
+<item>" مٽايو"</item>
+</string-array>
+<string-array name="prefSummaries_removal_action_summary">
+<item>محافظ خانو"</item>
+<item>" مٽايو"</item>
+</string-array>
+<string name="prefDialogTitle_removal_action">"مُرَوِجّه عمل"</string>
+<string name="preferences_default_reply_all_title">"سڀني کي جواب ڏيو"</string>
+<string name="preferences_default_reply_all_summary_impl">"پيغامات جي جوابات لاءِ مُرَوِجّه طور استعمال ڪريو"</string>
+<string name="preference_swipe_title">"عملن کي سرڪايو"</string>
+<string name="preference_swipe_description">"گفتگو جي فهرست ۾"</string>
+<string name="preference_sender_image_title">"موڪليندڙ جي تصوير"</string>
+<string name="preference_sender_image_description">"گفتگو جي ڀر ۾ نالي کي ڏيکاريو"</string>
+<string name="empty_trash">"ردي کي خالي ڪريو"</string>
+<string name="empty_spam">"غير قانوني کي خالي ڪريو"</string>
+<string name="empty_trash_dialog_title">"ردي کي خالي ٿا ڪرڻ چاهيو؟"</string>
+<string name="empty_spam_dialog_title">"غير قانوني کي خالي ٿا ڪرڻ چاهيو؟"</string>
+<plurals name="empty_folder_dialog_message">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> پيغام مستقل طور مٽجي ويندو."</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> پيغامات مستقل طور مٽجي ويندا."</item>
+</plurals>
+<string name="drawer_open">"طرفبندي جي خاني کي کوليو"</string>
+<string name="drawer_close">"طرفبندي جي خاني کي بند ڪريو"</string>
+<string name="conversation_photo_welcome_text">"انهي گفتگو کي چونڊڻ لاءِ موڪلڻ واري جي تصوير تي ٽچ ڪريو."</string>
+<string name="folder_icon_desc">"فولڊر جو آئڪن"</string>
+<string name="add_account">" اڪائونٽ شامل ڪريو"</string>
+<string name="dismiss_tip_hover_text">"اشاري کي موقوف ڪريو"</string>
+<string name="auto_sync_off">"پاڻمرادو سلهاڙ بند پيل آهي. کولڻ لاءِ ٽچ ڪريو."</string>
+<string name="unsent_messages_in_outbox">"<xliff:g id="outbox">%2$s</xliff:g>۾ <xliff:g id="number">%1$s</xliff:g> بنا موڪليل آهن"</string>
+<string name="turn_auto_sync_on_dialog_title">"پاڻمرادو سلهاڙجڻ کي کولڻ ٿا چاهيو؟"</string>
+<string name="turn_auto_sync_on_dialog_body">"سمورن اطلاقات ۽ اڪائونٽن، نه صرف Gmail جيڪي توهان تبديليون ڪيو ٿا سي ويب، توهان جن ٻين ڊيوائسن، ۽ توهان جي <xliff:g id="phone_or_tablet">%1$s</xliff:g> جي درميان سلهاڙجي وينديون." </string>
+<string name="phone">" فون"</string>
+<string name="tablet">" ٽيبليٽ"</string>
+<string name="turn_auto_sync_on_dialog_confirm_btn">" کوليو"</string>
+<string name="show_n_more_folders">"<xliff:g id="number">%1$s</xliff:g> فولڊرن کي ڏيکاريو"</string>
+<string name="hide_folders">"فولڊرن کي لڪايو"</string>
+<string name="print">" پرنٽ ڪريو"</string>
+<string name="print_all">"سمورا پرنٽ ڪريو"</string>
+<plurals name="num_messages">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> پيغام"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> پيغامات"</item>
+</plurals>
+<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> تي <xliff:g id="time">%2$s</xliff:g>"</string>
+<string name="draft_to_heading">"ڏانهن مسودو:"</string>
+<string name="draft_heading">"مسودو"</string>
+<string name="quoted_text_hidden_print">"حوالو ڏنل متن لڪل آهي"</string>
+<plurals name="num_attachments">
+<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> منسلڪو"</item>
+<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> منسلڪات"</item>
+</plurals>
+<string name="no_subject">"(بنا عنوان)"</string>
+<string name="vacation_responder">"موڪل جو جواب ڏيندڙ"</string>
+<string name="preferences_vacation_responder_title">"موڪل جو جواب ڏيندڙ"</string>
+<string name="vacation_responder_body_hint_text">"پيغام"</string>
+<string name="send_to_contacts_text">"صرف منهنجي رابطن کي موڪليو"</string>
+<string name="send_to_domain_text">"صرف <xliff:g id="domain">%1$s</xliff:g> کي موڪليو"</string>
+<string name="pick_start_date_title">"شروع ٿئي ٿو"</string>
+<string name="pick_end_date_title">"ختم ٿئي ٿو (اختياري)"</string>
+<string name="date_not_set">" مرتب ٿيل ڪونهي"</string>
+<string name="set_end_date_dialog_title">"خاتمي جي تاريخ (اختياري)"</string>
+<string name="custom_date">" تبديل ڪريو"</string>
+<string name="date_none">" ڪو به نه"</string>
+<string name="discard_changes">"تبديلن کي برطرف ڪرڻ ٿا چاهيو؟"</string>
+<string name="vacation_responder_changes_saved">"موڪل جو جواب ڏيندڙ تبديليون محفوظ ٿي ويون آهن"</string>
+<string name="vacation_responder_changes_discarded">" موڪل جو جواب ڏيندڙ تبديليون رد ٿي ويون آهن"</string>
+<string name="vacation_responder_off">"بند ڪريو"</string>
+<string name="vacation_responder_on">"تي، کان <xliff:g id="date">%1$s</xliff:g>"</string>
+<string name="vacation_responder_on_with_end_date">"تي، کان وٺي <xliff:g id="start-date">%1$s</xliff:g> کان <xliff:g id="end-date">%2$s</xliff:g>"</string>
+<string name="vacation_responder_empty_subject_and_body_warning">"ڪنهن عنوان يا پيغام کي شامل ڪريو"</string>
+<string name="view_entire_message">"مڪمل پيغام کي ڏسو"</string>
+<string name="eml_loader_error_toast">"هن فائل نه ٿو کولي سگهي"</string>
+<string name="help_and_info">" مدد"</string>
+<string name="feedback">"آراء موڪليو"</string>
+<string name="version">"<xliff:g id="app_name" example="Email">%1$s</xliff:g> ورشن <xliff:g id="version" example="2.2.1">%2$s</xliff:g>"</string>
+<string name="print_dialog">"پرنٽ ٿي رهيو آهي...</string>
+<string name="copyright_information">"تحريري حق جي معلومات"</string>
+<string name="privacy_policy">"پوشيدگي جي پاليسي"</string>
+<string name="open_source_licenses">" کلي ذريعي جون سنَدون"</string>
+<string name="reply_choice_yes">" هاءُ"</string>
+<string name="reply_choice_no">"نه"</string>
+<string name="reply_choice_ok">"ٺيڪ آهي"</string>
+<string name="reply_choice_hehe">"هي هي"</string>
+<string name="reply_choice_thanks">"مهرباني"</string>
+<string name="reply_choice_i_agree">"آئون سهمت آهيان"</string>
+<string name="reply_choice_nice">"عمدو"</string>
+<string name="reply_on_my_way">"منهنجي رستي تي"</string>
+<string name="reply_choice_later">"ٺيڪ آهي، مون کي توهان ڏي واپس اچڻ ڏيو"</string>
+<string name="preference_header_action_confirmations">"عمل جون خاطريون"</string>
+<string name="preference_confirm_before_delete_title">"مٽائڻ کان اڳ ۾ خاطري ڪريو"</string>
+<string name="preference_confirm_before_archive_title">"محفوظ ڪرڻ کان اڳ ۾ خاطري ڪريو"</string>
+<string name="preference_confirm_before_send_title">"موڪلڻ کان اڳ ۾ خاطري ڪريو"</string>
+<string name="preferences_conversation_mode_title">"پاڻمرادو ٺهڪندڙ پيغامات"</string>
+<string name="preferences_conversation_mode_summary">"پيغامات کي اسڪرين تي ٺهڪي بيهڻ کاءِ سڪيڙيو"</string>
+<string name="preferences_disable_snap_headers_title">"پيغام جا عمل"</string>
+<string-array name="prefSummaries_snapHeader">
+<item>"سدائين پيغام جا عمل اسڪرين جي چوٽي ڏيکاريو"</item>
+<item>"صرف جڏهن اسڪرين اڀي رخ ۾ گهمائجي ته پيغام جا عمل اسڪرين جي چوٽي ڏيکاريو"</item>
+<item>"پيغام جي هئيڊر کان ٻاهر پيغام جي عملن کي نه ڏيکاريو"</item>
+</string-array>
+<string-array name="prefEntries_snapHeader">
+<item>" سدائين ڏيکاريو"</item>
+<item>"صرف اڀي رخ ۾ ڏيکاريو"</item>
+<item>"نه ڏيکاريو"</item>
+</string-array>
+<string name="clear_history_title">" ڳولا جي اتهاس کي صاف ڪريو"</string>
+<string name="search_history_cleared">ڳولا جي اتهاس صاف ٿي وئي."</string>
+<string name="clear_history_dialog_title">"ڳولا جي اتهاس کي صاف ٿا ڪرڻ چاهيو؟"</string>
+<string name="clear_history_dialog_message">"توهان جون گذريل سرانجام ڏنل سموريون ڳولائون هٽي وينديون."</string>
+<string name="manage_accounts_menu_item">"اڪائونٽن جي نگراني ڪريو"</string>
+<string name="general_preferences_title">" عام ترتيبون"</string>
+<string name="activity_preferences">" ترتيبون"</string>
+<string name="overflow_description">"وڌيڪ اختيارات"</string>
+<string name="security_hold_required_text">"<xliff:g id="email_address">%1$s</xliff:g> لاءِ دفاع جي تجديد گهربل آهي"</string>
+<string name="update_security_text">" هاڻي تجديد ڪريو"</string>
+<string name="forms_are_disabled">"Gmail ۾ فارم غير فعال ڪيل آهن"</string>
+<string name="add_contacts_too_much">"وصول ڪندڙن جي وڌ کان وڌ تعداد 50 آهي."</string>
+<string name="account_delete_dlg_title">"اڪائونٽ هٽايو"</string>
+<string name="account_delete_waiting">" هٽائي رهيو آهي، مهرباني ڪري انتظار فرمائيندا..."</string>
+<string name="filter_all">" سمورا"</string>
+<string name="filter_receiver">"وصول ڪندڙ"</string>
+<string name="filter_sender">"موڪليندڙ"</string>
+<string name="filter_subject">"عنوان"</string>
+<string name="filter_content">" مواد"</string>
+<string name="search_on_server">"سرور تي ڳولا ڪريو"</string>
+<string name="download_confirm_msg">"نيٽورڪ WLAN ناهي، ۽ منسلڪو وڏو آهي، مهرباني ڪري جاري رهڻ جي تسلي ڪريو"</string>
+<string name="download_deny_malware">"لڳي ٿو ته ڪو ميلويئر آهي، ڊائونلوڊ نه ٿي سگهيو."</string>
+<string name="download_deny_wifionly">صرف WLAN جي دروان ئي ڊائونلوڊ ٿي سگهي ٿو."</string>
+<string name="download_deny_nointent">"ڪوبه اطلاق هن کي کولي نه ٿو سگهي، ڊائونلوڊ نه ٿي سگهيو."</string>
+<string name="download_deny_nosideload">"اڻڄاتل ذريعن وٽان اطلاقات نصب ڪريو جي اجازت کان پوءِ ٻيهر ڪوشش ڪريو."</string>
+<string name="download_deny_apkinstall">"ڪنهن به apk کي نصب ڪرڻ جي قابل ڪونهي. ڊائونلوڊ نه ٿي سگهيو."</string>
+<string name="download_deny_policy">"اڪائونٽ جي پاليسي طور ڊائونلوڊ نه ڪري سگهيو."</string>
+<string name="download_att_external">"ڊائونلوڊ کان ڊائونلوڊ ڏي"</string>
+<string name="missing_required_permission">"توهان گهربل اجازت کي غير فعال ڪري ڇڏيو آهي."</string>
+<string name="permission_change">جيئن ته اجازتون تبديل ڪيل آهن، مهرباني ڪري فائل جي چونڊ ڪريو."</string>
+<string name="permission_change_redo">"جيئن ته اجازتون تبديل ڪيل آهن، مهرباني ڪري وري ڪريو."</string>
+<string name="preference_default_signature_title">"دستخط"</string>
+<string name="signature_default">"منهنجي فون تان موڪليل"</string>
+<string name="set_priority_high">"اعليٰ ترجيح تي مرتب ڪريو"</string>
+<string name="set_priority_normal">"عام ترجيح تي مرتب ڪريو"</string>
+<string name="set_priority_low">"گهٽ ترجيح تي مرتب ڪريو"</string>
+<string name="file_not_exist">"مڪاني منسلڪو موجود ڪونهي، مهرباني ڪري وري ڊائونلوڊ ڪريو!"</string>
+<string name="body_input_more">"افسوس، صرف %1$s حرف ان پٽ ڪري سگهو ٿا"</string>
+<string name="attachment_rename_to_legal">"جيئن ته اصلي نالو غيرقانوني آهي، منسلڪي کي ٻيهر نالو ڏنو ويو آهي"</string>
+<string name="account_changed_load_account_inbox">"فولڊر جو مطابقت رکندڙ اڪائونٽ تبديل ڪيو ويو آهي، ان باڪس کي تبديل ڪريو."</string>
+</resources>
